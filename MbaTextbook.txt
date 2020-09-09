@@ -66,9 +66,9 @@ Cette différenciation entre charges fixes et charges variables est notamment ut
 La marge sur coût variable est souvent utilisée pour évaluer la contribution d'un produit ou d'un service. Elle se calcule de la manière suivante : 
 *marge sur coût variable unitaire = prix de vente unitaire - coût variable unitaire*
 Elle peut être calculée de manière unitaire ou au total pour l'ensemble des unités :
-*marge sur coût variable totale 
-= chiffre d'affaires - coût variable total 
-= quantités vendues x (prix de vente unitaire - coût variable unitaire)*
+*marge sur coût variable totale*
+*= chiffre d'affaires - coût variable total*
+*= quantités vendues x (prix de vente unitaire - coût variable unitaire)*
 Dans la méthode du coût variable, les charges fixes ne sont donc pas imputées au coût des produits. Cette méthode a été introduite dans le cadre d'une mise sous tension des cadres opérationnels. Ainsi, « dans les années 1950, le modèle de décentralisation par le contrôle de gestion se développant aux États-Unis, le coût complet fut jugé peu opérationnel, car il ne permettait pas de juger les responsables sur leurs performances, ces derniers n'étant pas maîtres de leurs coûts fixes[fn:2] ».
 Le tableau d'analyse des coûts en marge sur coût variable simple se présente de la manière suivante :
 
@@ -493,74 +493,21 @@ Cette approche, qui renonce à analyser les coûts fixes, n'est /a priori/ perti
   :PROPERTIES:
   :CUSTOM_ID: budget
   :END:
-
-** Définition
+  
+** La planification budgétaire
    :PROPERTIES:
    :CUSTOM_ID: définition
    :END:
+Le budget est la traduction comptable des plans d'action retenus pour l'année à venir. Il devrait aussi être la déclinaison annuelle des stratégies. Il articule ainsi le court terme (le mensuel et l'annuel) et le moyen terme (l'annuel et
+le pluriannuel). C'est d'abord un outil de prévision. 
+Il permet ensuite un contrôle budgétaire grâce au calcul des écarts entre ce qui se produit et ce qui avait été prévu (le réel). Chaque écart peut être affecté à un service, permettant ainsi d'identifier les sources des inefficiences. Il peut donc être utilisé pour évaluer la performance des managers. 
+Dans la pratique, un budget est défini pour chaque fonction de l'entreprise. Il est nécessaire de commencer la construction des budgets par les contraintes les plus fortes. Dans une économie de l'offre (par exemple, aujourd'hui dans quelques entreprises proposant des innovations technologiques ayant un succès tel qu'elles n'arrivent pas à répondre à la demande), la principale contrainte vient des capacités de production puisque les entreprises n'arrivent pas à satisfaire la demande. Dans ce cas, il faut construire en premier lieu le budget de production. Dans une entreprise familiale, qui a des problèmes de financement, la trésorerie constitue la principale contrainte : c'est par ce budget qu'il faudra débuter. Dans une économie de la demande, la marche de l'entreprise est essentiellement contrainte par la demande du marché. Dans ce cas, il faut commencer par établir le budget des ventes. C'est le cas le plus courant, et c'est celui que nous développerons par la suite.
 
-« Dans la conception classique du contrôle de gestion, le budget est (ou
-devrait être) l'expression comptable et financière des plans d'action
-retenus pour que les objectifs visés et les moyens disponibles sur le
-court terme (l'année en général) convergent vers la réalisation de plans
-opérationnels[fn:8]. »
+XXX
 
-Le budget est la déclinaison annuelle des stratégies. Il articule ainsi
-le court terme (le mensuel et l'annuel) et le moyen terme (l'annuel et
-le pluriannuel). C'est donc un outil de prévision. Il permet ensuite un
-contrôle budgétaire grâce au calcul des écarts entre ce qui se produit
-et ce qui avait été prévu (le réel). Chaque écart peut être affecté à un
-service, permettant ainsi d'identifier les sources des inefficiences.
-Enfin, il peut être utilisé pour évaluer la performance des managers.
-Pour ces différentes raisons, le budget est l'outil central du contrôle
-de gestion.
-
-Dans la pratique, un budget est défini pour chaque fonction de
-l'entreprise. Il est nécessaire de commencer la construction des budgets
-par les contraintes les plus fortes. Dans une économie de l'offre (par
-exemple, aujourd'hui dans quelques entreprises proposant des innovations
-technologiques ayant un succès tel qu'elles n'arrivent pas à répondre à
-la demande), la principale contrainte vient des capacités de production
-puisque les entreprises n'arrivent pas à satisfaire la demande. Dans ce
-cas, il faut construire en premier lieu le budget de production. Dans
-une entreprise familiale, qui a des problèmes de financement, la
-trésorerie constitue la principale contrainte : c'est par ce budget
-qu'il faudra débuter. Dans une économie de la demande, la marche de
-l'entreprise est essentiellement contrainte par la demande du marché.
-Dans ce cas, il faut commencer par établir le budget des ventes. C'est
-le cas le plus courant, et c'est celui que nous développerons par la
-suite.
-
-<< insérer graphique>>
-
-Le schéma ci-dessus synthétise les différentes étapes du processus
-budgétaire dans le cas classique d'abondance de l'offre. Le premier
-budget qui doit être réalisé est le budget des ventes (étape 1).
-Ensuite, le programme de production, aussi appelé plan d'activité, qui
-permet de définir les quantités à produire et les modalités de
-production doit être établi (étape 2). Sur la base de programme de
-production, il est possible de construire le budget des coûts de
-production et des coûts d'approvisionnement (étape 3). Le budget des
-investissements et le budget des frais généraux (frais de siège par
-exemple) sont des budgets discrétionnaires. Ils ne dépendent pas
-directement du niveau d'activité mais doivent permettre de la soutenir.
-Le niveau de dépense dans ces domaines doit donc être défini en fonction
-de la stratégie de l'entreprise et du niveau de rentabilité attendu
-(étape 4).
-
-Ces différents budgets sont ensuite rassemblés pour construire le budget
-de trésorerie (étape 5) ainsi que le compte de résultat et le bilan
-prévisionnel (étape 6).
-
-Si le budget de trésorerie (ou budget de caisse) fait apparaître des
-besoins de financement auxquels l'entreprise ne peut pas faire face ou
-si le compte de résultat prévisionnel fait apparaître une rentabilité
-trop faible, le niveau des ventes doit, dans la mesure de ce qui peut
-être vendu sur le marché par l'entreprise, être modifié. Le budget est
-donc un outil fondamental en phase de prévision puisqu'il permet de
-tester la faisabilité de la stratégie en ce qui concerne les besoins de
-trésorerie sur le court terme et d'évaluer l'impact de cette stratégie
-sur le résultat et la rentabilité économique de l'activité.
+Le schéma ci-dessus synthétise les différentes étapes du processus budgétaire dans le cas classique d'abondance de l'offre. Le premier budget qui doit être réalisé est le budget des ventes (étape 1), qui dépend notamment de la stratégie et du plan (étape 0), mais qui doit être ajusté en fonction des évolutions récentes du marché. Ensuite, le programme de production, aussi appelé plan d'activité, qui permet de définir les quantités à produire et les modalités de production doit être établi (étape 2). Sur la base de programme de production, il est possible de construire le budget des coûts de production et des coûts d'approvisionnement (étape 3). Le budget des investissements et le budget des frais généraux (frais de la direction générale, par exemple) sont des budgets discrétionnaires (étape 4). Ils ne dépendent pas directement du niveau d'activité mais doivent permettre de la soutenir. Le niveau de dépense dans ces domaines doit donc être défini en fonction de l'orientation stratégique de l'entreprise et du niveau de rentabilité attendu.
+Ces différents budgets sont ensuite rassemblés pour construire le budget de trésorerie (étape 5) ainsi que le compte de résultat et le bilan prévisionnel (étape 6).
+Si le budget de trésorerie (ou budget de caisse) fait apparaître des besoins de financement auxquels l'entreprise ne peut pas faire face ou si le compte de résultat prévisionnel fait apparaître une rentabilité trop faible, le niveau des ventes doit, dans la mesure de ce qui peut être vendu sur le marché par l'entreprise, être modifié. Le budget est donc un outil fondamental en phase de prévision puisqu'il permet de tester la faisabilité de la stratégie en ce qui concerne les besoins de trésorerie sur le court terme et d'évaluer l'impact de cette stratégie sur le résultat et la rentabilité économique de l'activité.
 
 La démarche budgétaire est initiée par les contrôleurs de gestion qui
 sont les garants de la procédure. Mais la construction budgétaire va
@@ -573,7 +520,7 @@ ils vont organiser les réunions budgétaires permettant la confrontation
 des points de vue. Les managers fournissent les données, challengent les
 hypothèses budgétaires et arbitrent sur les grands choix à réaliser.
 
-** L'élaboration des budgets
+** Les budgets fonctionnels
    :PROPERTIES:
    :CUSTOM_ID: lélaboration-des-budgets
    :END:
