@@ -1,0 +1,1886 @@
+#+Title: Prévoir, décider et piloter à l'aide des informations comptables
+#+Author:Samuel Sponem - HEC Montréal
+#+Date: Mise à jour {{{time(%Y-%m-%d)}}}
+#+OPTIONS: num:nil toc:nil \n:true tags:nil ':t
+
+* Introduction
+Les états financiers donnent aux parties prenantes externes une image comptable et financière de l'entreprise. L'état des résultats représente la performance de l'organisation sur une année et l'état de la situation financière donne une image du patrimoine à la fin de l'exercice comptable.
+
+Cette image comptable et financière (ce que l'on appelle la comptabilité financière) est cependant insuffisante pour permettre la gestion d'une organisation. Les managers ont besoin d'informations complémentaires pour planifier les activités de l'organisation, les contrôler et prendre les bonnes décisions. 
+
+La comptabilité de management a pour objectif d'organiser et d'analyser les informations de la comptabilité financière, ainsi que des information non financières, afin d'aider les gestionnaires dans leurs activités de management. Si le comptable est responsable des calculs, c'est le gestionnaire qui doit utiliser ces calculs pour prendre des décisions et contrôler. La comptabilité de management accompagne ainsi le gestionnaire au cours des différentes étapes du processus de management : planifier (/Plan/), réaliser (/Do/), contrôler et vérifier (/Check/); et agir et ajuster (/Act/).
+
+file:fig1.jpg
+XXX
+
+Pour planifier, il est nécessaire de calculer et analyser les coûts permettant de faire les choix pertinents qui se matérialisent dans les plans stratégiques et de connaître les coûts à inscrire dans les budget. Le contrôle budgétaire et les tableaux de bord permettent de suivre les réalisation. Les mesures de performance permettent d'analyser les résultats, d'évaluer et de faire les ajustements nécessaires au bon fonctionnement de l'organisation.
+
+Contrairement à la comptabilité financière, la comptabilité de management n'est pas normalisée. Le vocabulaire, les méthodes et les outils peuvent ainsi varier selon les entreprises. La plus grande difficulté est donc qu'il n'y a pas de méthode universelle qui serait applicable partout: il n'y a pas de coûts justes ou exacts, il n'y a que des coûts pertinents pour une décision donnée. Ainsi, on utilise des calculs de coût différents pour prendre des décisions à court terme ou à long terme. De la même manière, le choix des chiffres à inscrire dans le budget dépend de l'utilisation que l'on va faire de l'outil et les mesures de performances doivent être choisies en pensant aux impacts qu'elles vont avoir sur les comportements. 
+
+En résumé, les chiffres produits par la comptabilité de gestion reposent sur des hypothèses qui sont souvent discutables. Il n'a de valeur que parce qu'il permet :
+- d'améliorer la prise de décision;
+- de mieux contrôler l'organisation.
+
+La comptabilité de gestion ne peut donc s'envisager comme quelque chose de purement technique. Elle fait partie du processus de management. C'est toute sa difficulté : il faut connaître les outils mais ne pas s'y limiter.
+
+Ce document vient en complément des diapositives utilisées en cours. Il présente les pratiques communément acceptées en comptabilité de management, de manière simplifiée et à destination des gestionnaire, afin de vous permettre de :
+- de discuter avec un comptable de management (maîtriser son vocabulaire et comprendre ses méthodes) ;
+- d'utiliser l’information produite par le comptable de management et d'exercer un regard critique sur les outils et procédures qu’il utilise ;
+- de maîtriser les techniques de base de calcul des coûts, de construction des budgets ;
+- comprendre les enjeux de la mesure de la performance.
+
+* Calcul des coûts
+  :PROPERTIES:
+  :CUSTOM_ID: coûts
+  :END:
+** Les rôles du calcul de coût
+Le coût traduit une consommation de ressources. Un coût est ainsi une somme de charges, il se différencie d'un prix que l'on peut trouver sur un marché.
+
+On considère « qu'il n'y a pas qu'une pratique correcte en matière de calcul de coûts, car celles-ci découlent de besoins variés, de situations et de problèmes différents »[fn:1]. Le calcul du coût peut en effet remplir différentes fonctions :
+- s’interroger sur le prix de vente ;
+- abandonner / développer un produit (ou un client) ;
+- faire l’examen des composantes du coût (comprendre la performance d’un département) ;
+- savoir s’il est plus rentable de faire / faire faire
+- prévoir les dépenses à inscrire au budget ;
+- mettre une valeur sur les stocks et produits en cours[fn:25].
+
+Dans de nombreuses situations, la connaissance des coûts est donc un élément de base de la prise de décision, même si la connaissance du coût n'est pas un élément suffisant. Elle vient en complément de l'analyse du marché, de l'analyse du processus de production et de l'analyse des risques encourus par l'entreprise. 
+
+Selon les décisions à prendre, divers types de calcul des coûts sont envisageables. Par exemple, pour les décisions à court terme on se limitera généralement au calcul de coûts partiels (c'est-à-dire qui ne prennent en compte qu'une partie des coûts) alors que sur le long terme on appuiera les décisions sur des calculs des coûts complets (qui prennent en compte l'ensemble des coûts). Aucune méthode n'est adaptée à toutes les situations ; la méthode retenue doit être pertinente compte tenu de la décision à prendre. Avant de se lancer dans un calcul de coûts, il faut donc se demander quel est l'objectif de ce calcul et bien choisir son /objet de coût/ (élément pour lequel une mesure séparée du coût est nécessaire). Un objet de coût peut être un produit, un service, un client, une ligne de produit, une fonction, une activité, etc.
+
+** Comportement des coûts, calcul des coûts et prise de décision sur le court terme
+   :PROPERTIES:
+   :CUSTOM_ID: coûtspartiels
+   :END:
+*** La distinction entre coût variables et coûts fixes
+    :PROPERTIES:
+    :CUSTOM_ID: cvcf
+    :END:
+La plupart des calculs en coûts partiels partent de la distinction entre les charges fixes et les charges variables.
+Un coût est dit variable si son montant global varie proportionnellement aux variations du niveau d'activité. Un coût est dit fixe s'il n'est pas affecté par les variations d'activité (on parle aussi de coût de capacité). Cela s'entend pour un horizon de temps donné. 
+Cette différenciation entre charges fixes et charges variables est notamment utile pour les prévisions et les calculs de seuil de rentabilité.
+*** Marge sur coût variable et marge nette
+    :PROPERTIES:
+    :CUSTOM_ID: mcv
+    :END:
+La marge sur coût variable est souvent utilisée pour évaluer la contribution d'un produit ou d'un service. Elle se calcule de la manière suivante : 
+*marge sur coût variable unitaire = prix de vente unitaire - coût variable unitaire*
+Elle peut être calculée de manière unitaire ou au total pour l'ensemble des unités :
+*marge sur coût variable totale 
+= chiffre d'affaires - coût variable total 
+= quantités vendues x (prix de vente unitaire - coût variable unitaire)*
+Dans la méthode du coût variable, les charges fixes ne sont donc pas imputées au coût des produits. Cette méthode a été introduite dans le cadre d'une mise sous tension des cadres opérationnels. Ainsi, « dans les années 1950, le modèle de décentralisation par le contrôle de gestion se développant aux États-Unis, le coût complet fut jugé peu opérationnel, car il ne permettait pas de juger les responsables sur leurs performances, ces derniers n'étant pas maîtres de leurs coûts fixes[fn:2] ».
+Le tableau d'analyse des coûts en marge sur coût variable simple se présente de la manière suivante :
+
+|                           | Produit A  | Produit B  | Total           |
+|---------------------------+------------+------------+-----------------|
+| Chiffre d'affaires        | CA de A    | CA de B    |                 |
+| Coûts variables           | - CV de A  | - CV de B  |                 |
+| Marge sur coût variable | = MCV de A | = MCV de B | = MCV de A et B |
+|                           |            |            | - Charges fixes |
+|                           |            |            | = Résultat      |
+/Tableau - Le compte de résultat en marge sur coûts variable (MCV)/ (avec CA = chiffre d'affaires ; CV = charges variables ; MCV : marge sur coût variable)
+
+Le calcul de la marge sur coût variable est très utile pour comparer deux propositions qui n'ont pas d'impact sur les coûts fixes. Ce calcul étant très simple, il doit être privilégié lorsque les coûts fixes sont stables. 
+
+La marge nette (aussi appelé méthode des coûts spécifiques) peut être apprécié dans une première analyse comme une évaluation des marges apportées par les produits ou services. Le besoin de dépasser la marge sur coûts variable simple est venu de l'importance croissante des charges fixes. La maîtrise de ces dernières sera donc cruciale.
+
+Parmi les coûts fixes, on peut distinguer ceux qui sont spécifiques - que l'on nomme aussi directs parce qu'ils sont facilement attribuables à un objet de coût (par exemple, une machine qui n'est utilisée que par un produit) - de ceux qui sont communs - que l'on nomme aussi indirects car ils ne peuvent être attribués directement aux différents produits et services (par exemple, le système informatique qui est utilisé pour les différents produits ou services de l'entreprise).
+
+Pour calculer les marge nette, on ne prend en compte que les coûts variables et la part des coûts fixes spécifiques aux produits ou services. L'ensemble des coûts fait ainsi l'objet d'une double segmentation : charges fixes et charges variables, d'une part, et charges directes et charges indirectes, d'autre part.
+
+Le tableau d'analyse des coûts est donc le suivant :
+
+|                                                      | Produit A                           | Produit B       | Produit C       |
+|------------------------------------------------------+-------------------------------------+-----------------+-----------------|
+| <30>                                                 | <12>                                | <12>            | <12>            |
+| Chiffre d'affaires                                   | CA (A)                              | CA (B)          |                 |
+| Coûts variables                                      | -- CV (A)                           | -- CV (B)       |                 |
+| Marge sur coût variable                            | MCV(A)                              | MCV(B)          |                 |
+| Charges fixes directes ou spécifiques                | CFS (A)                             | CFS (B)         |                 |
+| Marges sur coûts spécifiques  | Marge nette (A)                     | Marge nette (B) | Marge nette totale  |
+| Charges fixes indirectes ou communes                 |  |                 |          - Charges fixes indirectes                |
+|                                                      |                          |                 | = Résultat                 |
+/Compte de résultat en marge nette/ (avec CA = chiffre d'affaires ; CV = charges variables ; MCV = marge sur coût variable ; CFS = coûts fixes spécifiques)
+
+Avec cette méthode, le diagnostic de profitabilité des produits sera plus fin, puisque seule une fraction des charges fixes (les charges fixes communes) échappera à l'analyse par produit. Ainsi, les décisions d'abandon ou de maintien d'une activité seront plus aisées qu'en se limitant à la marge sur coût variable.
+Ces calculs permettent d'éviter la répartition arbitraire des charges indirectes (nous y reviendrons quand nous parlerons des coûts complets). En revanche, ils ne donnent qu'une image partielle du coût d'un produit ou d'un service et de la marge qu'il génère.
+
+*** Analyse coûts / volumes / profits : le calcul du seuil de rentabilité
+    :PROPERTIES:
+    :CUSTOM_ID: cvp
+    :END:
+L'une des application courantes de la distinction entre coûts variables et coûts fixes est le calcul du seuil de rentabilité (ou point mort). Ce calcul est à la fois assez simple et très utile puisqu'il permet de déterminer le volume minimum de vente pour atteindre un résultat nul. Le seuil de rentabilité peut s'exprimer en quantités ou en unités monétaires. 
+
+La marge de sécurité est la différence (exprimée en unités ou en unités monétaires) entre le niveau d'activité prévu et le niveau d'activité au point mort.
+
+Comme déjà indiqué, il existe deux catégories de coûts : les coûts fixes indépendants du niveau d'activité et les coûts variables qui évoluent en fonction du volume. Sur le court terme, on considère que les charges fixes ne peuvent être modifiées. On peut donc considérer que le coût total se calcule de la manière suivante :
+*Coût total = Coût variable unitaire x Quantités + Coûts fixes*
+Cette équation montre la relation entre le volume et les coûts. Elle est appelée fonction de coûts.
+Par définition, le seuil de rentabilité est atteint lorsque le résultat est égal à 0, ce qui signifie que le chiffre d'affaires et équivalent aux coûts :
+*Chiffre d'affaires = Coût variable unitaire x Quantités + Coûts fixes*
+file:fig2.jpg
+XXX
+À partir de cette équation, on peut déterminer le seuil de rentatiblité en quantités (que l'on notera Q*) :
+<--> /Q* x Prix de vente unitaire = Coût variable unitaire x Q* + Coûts fixes/
+<--> /Q* x (Prix de vente unitaire - Coût variable unitaire) =  Coûts fixes/
+<--> /Q* x (Marge sur coût variables unitaire) =  Coûts fixes/
+<--> /Q* =  =  Coûts fixes ÷ (Marge sur coût variables unitaire)/
+file:fig3.jpg
+XXX
+***** Exemple
+      :PROPERTIES:
+      :CUSTOM_ID: nouveaumod
+      :END:
+#+BEGIN_EXAMPLE 
+Mr Bertrand chef d'entreprise se demande s'il doit ou non développer le nouveau produit NOUVEAUMOD que son directeur commercial lui présente comme révolutionnaire. Il se tourne vers vous pour savoir s'il doit écouter son directeur commercial, et lancer ce nouveau produit. Pour vous aider dans votre analyse, il vous fait parvenir les données suivantes.
+
+Selon le directeur commercial, l'exploitation de NOUVEAUMOD se ferait aux conditions suivantes
+
+Matières premières : 10 $ (par produit)
+Amortissement de la machine pour la transformation de NOUVEAUMOD : 150 000 $ (par an)
+Salaire du personnel : 500 000 $ (par an)
+Charges de distribution : 5 $ (par produit)
+Prix de vente : 25 $ (par produit)
+
+*Questions*
+Classez les différentes charges du produit NOUVEAUMOD selon qu'elles vous semblent variables ou fixes.
+Calculez le seuil de rentabilité en quantité.
+Proposez une représentation graphique de ce seuil de rentabilité.
+En fait, il semble que les ventes devraient être de 100000 produits pour NOUVEAUMOD. Calculez le résultat attendu grâce au produit NOUVEAUMOD.
+Le directeur Marketing pense qu'en améliorant la qualité du produit, celui-ci pourrait se vendre 30 $. Ceci nécessiterait l'embauche de 5 personnes en plus pour un coût de 700 000 $ par an (les autres coûts demeurant inchangés). Quelle quantité de ce produit faudrait-il vendre pour que cette solution soit plus intéressante que celle proposée par le directeur commercial ?
+
+*Corrigé*
+1/ Charges variables : matières premières et charges de distribution.
+Charges fixes : amortissement et salaire
+2/ MCV unitaire = 10 $
+Seuil de rentabilité en quantités = 65 000
+4/ 100 000 x 10 - 650 000 = 350 000
+5/ nouvelle MCV unitaire= 15 $
+15 x Q - 1 350 000 > 350 000
+Q* > 1133333
+#+END_EXAMPLE
+
+De la même manière, on peut déterminer le seuil de rentabilité en chiffre d'affaires (que l'on notera CA*) de la manière suivante :
+<--> / Marge sur coût variables totale =  Coûts fixes/
+<--> /CA* x (Marge sur coût variables totale) ÷ CA* =  Coûts fixes/
+<--> /CA* x (Marge sur coût variables totale) ÷ CA* =  Coûts fixes/
+On pose (Marge sur coût variables totale) ÷ CA = Taux de marge sur coût variable
+<--> /CA*= Coûts fixes / Taux de marge sur coût variable/
+
+*** Choix d'activité à court terme :noexport:
+    :PROPERTIES:
+    :CUSTOM_ID: choix-dactivité-à-court-terme
+    :END:
+Lorsque les ventes possibles excèdent les capacités de production de
+l'entreprise et qu'il n'est pas possible de modifier ces capacités de
+production (c'est notamment le cas sur le court terme, car
+l'investissement demande du temps), il est nécessaire de faire un choix
+concernant le type de produits qui seront vendus. Si ce choix est fait
+dans le but de maximiser le résultat, il faudra alors chercher à
+optimiser ce résultat sous contrainte de production. De manière
+générale, l'optimisation sous contrainte peut être résolue par une
+programmation linéaire grâce à l'algorithme du simplexe. Lorsqu'il n'y a
+qu'une contrainte de production, il est possible de simplifier la
+démarche en cherchant à optimiser l'utilisation du facteur rare.
+
+Dans le cas particulier où l'on constate qu'il y a un facteur rare,
+c'est-à-dire un seul facteur qui limite la production, il suffit de
+maximiser la marge variable par unité de facteur rare. Ceci implique de
+produire en en priorité les produits procurant les marges les plus
+fortes par unités de facteurs rares utilisées.
+
+La méthode peut donc se résumer en deux temps : 1/ repérer le facteur
+rare 2/ maximiser la marge par unité de facteur rare.
+
+***** Exemple
+      :PROPERTIES:
+      :CUSTOM_ID: exemple-1
+      :END:
+
+|                                        | *A*   | *B*   | *C*  |
+| Prévisions de vente                    | 15400 | 13200 | 8800 |
+| Temps pour un produit dans l'atelier 1 | 1     | 3     | 2    |
+| Temps pour un produit dans l'atelier 2 | 1     | 2     | 5    |
+| MCV                                    | 330   | 704   | 880  |
+
+Capacité disponible (en mn) :
+Atelier 1 : 79200
+Atelier 2 : 74844
+
+*Question*
+
+Quelle quantité de A, B et C doit produire l'entreprise ?
+
+***** Corrigé
+      :PROPERTIES:
+      :CUSTOM_ID: corrigé
+      :END:
+
+La première étape consiste à vérifier s'il est possible de produire tous
+les produits qui pourront être vendus. Si c'est le cas, il n'y a aucune
+difficulté. Ici, on calcule donc le temps nécessaire dans les ateliers 1
+et 2 pour produire ce que l'on pourrait vendre.
+
+| Temps nécessaire (en mn) |  Atelier 1 | Atelier 2  |
+| pour X                   | 15400(1)   | 15400      |
+| pour Y                   | 39600 (2)  | 26400      |
+| pour Z                   | 17600      | 44000      |
+| *Total*                  | *72600*    | *85800*    |
+
+(1) 15400 x 1
+
+(2) 13200 x 3
+
+Les quantités nécessaires dans l'atelier 2 sont donc supérieures aux
+quantités disponibles. La ressource rare est donc l'atelier 2. Il faut
+maximiser la marge sur coût variable pour une minute d'atelier 2.
+
+|                                                                               | X      | Y   | Z   |
+| Temps pour 1 produit dans l'atelier 2                                         | 1      | 2   | 5   |
+| Marge sur coût variable                                                       | 330    | 704 | 880 |
+| Marge sur coût variable générée par l'utilisation d'une minute de l'atelier 2 | 330(1) | 352 | 176 |
+| Ordre de production                                                           | 2      | 1   | 3   |
+
+(1) 330 / 1
+
+Le produit A génère 352$ de marge sur coût variable par minute
+d'atelier 2 utilisée. C'est le produit qui génère le plus de marge sur
+coût variable par minute utilisée de l'atelier 2. Il faut donc produire
+en totalité ce qu'il est possible de vendre sur le marché pour ce
+produit, puis le produit B et enfin le produit C.
+
+** Gestion des coûts et prise de décision sur le long terme
+   :PROPERTIES:
+   :CUSTOM_ID: coûtscomplets
+   :END:
+*** Le concept de coût complet
+Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges considérées comme incorporables (qu'elles soient variables, fixes, directes ou indirectes) pour les imputer aux objets de coûts. Les méthodes présentées par la suite s'appliquent à tout « objet de coût » (un produit, un service, un client, etc.), mais simplifier la formulation on parlera par la suite de « produit ». 
+Établir le coût complet d'un produit consiste à chercher à valoriser l'ensemble des ressources consommées par ce produit. Un coût complet se calcule donc de la manière suivante :
+Coût complet = ∑ des charges directes + quote part des charges indirectes.
+Les charges indirectes sont les charges que l'on ne peut affecter sans ambiguïté à un produit. Par exemple, les coûts d'une machine utilisée par plusieurs produits, des frais de la direction générale, des coûts de transports communs à plusieurs produits sont des charges indirectes. Toute la difficulté vient de la nécessité, pour calculer un coût complet, de rattacher ces charges à un produit.
+*** Les étapes de calcul du coût de revient complet
+    :PROPERTIES:
+    :CUSTOM_ID: coûtcompletétapes
+    :END:
+Une fois qu'un objet de coût est défini, on peut synthétiser le calcul du coût complet en 6 étapes :
+- Étape 1. Classement des charges en charges directes et indirectes.
+L'ensemble des charges de la comptabilité financière doit être pris en compte à l'exception des charges qui ne reflètent pas les conditions normales d'une exploitation régulière de l'entreprise (par exemple, les charges ou pertes exceptionnelles, les amortissements dérogatoires, etc.). Le total des charges incorporables est classé en charges directes (affectables sans ambiguïté à un produit) et charges indirectes.
+-  Étape 2. Affectation des charges indirectes aux centres de regroupement
+À cette étape, il est nécessaire d'affecter l'ensemble des charges indirectes à ce que l'on appelle des centres de regroupement, qui sont des entités comptables dans lesquelles on regroupes les charges indirectes qui se ressemblent. On distingue deux types de centres de regroupements : les centres principaux (qui assument une fonction directement opérationnelle) et les centres de support (qui travaillent pour d'autres centres, par exemple le service d'entretien ou le service comptable). 
+Un centre de regroupement est un « compartiment comptable » regroupant des activités homogènes technologiquement distinctes des activités des autres centres. Dans la pratique, les centres de regroupement correspondent souvent aux différents services, départements ou ateliers mais si l'on y effectue des tâches technologiquement distinctes, il est nécessaire de définir plusieurs centres pour s'assurer de l'homogénéité des charges regroupées au sein du centre. Les coûts du centre sont dits homogènes s'ils forment un ensemble stable et solidaire, c'est-à-dire si chaque fois que l'activité est déclenchée, les tâches élémentaires qu'elle comporte sont toutes effectuées et si chacune de ses tâches est exécutée de manière stable. Autrement dit, quel que soit le produit, celui-ci doit consommer toutes les tâches dans les mêmes proportions[fn:3].
+Quelques principes doivent être pris en compte lors de la définition des centres : 1/ la liste des centres doit être exhaustive ; 2/ les centres doivent s'exclure mutuellement ; 3/ Il doit être possible d'attribuer à chaque centre de regroupement ses charges. On remarquera que plus le nombre de centres est élevé, plus le coût de saisie et de traitement est élevé, mais plus les centres ont des chances de présenter une activité homogène mesurable.
+- Étape 3. Répartition des centres de support dans les centres principaux (répartition secondaire).
+Il est nécessaire de répartir les ressources consommées par les centres de support dans les centres principaux en fonction de leur consommation. Cela implique de trouver une base d'imputation qui permet d'affecter ces centres dans les centres principaux. Par exemple, les coûts du service de ressources humaines peuvent être refacturés aux autres centres sur la base du nombre de salariés dans chacun de ces centres (ou de leur masse salariale). Autre exemple, les coûts du service de maintenance informatique sont répartis aux autres centres en fonction du nombre de poste informatique au sein de chacun de ces centres.
+- Étape 4. Regroupement en fonction des bases d’imputation et calcul des taux d’imputation
+Une fois les coûts des centres supports répartis dans les centres principaux, on cherche à répartir le coût des centres principaux dans les produits. Pour pouvoir le faire, il est nécessaire de calculer un taux d'imputation. Pour simplifier, il est possible de regrouper les centres ayant des bases d'imputation identiques, avant de calculer les taux d'imputation.
+La base d'imputation est l'unité de mesure de l'activité d'un centre, elle modélise les coûts de ce centre. Elle doit être choisie de manière à être la plus représentative possible du travail effectué par le centre et à traduire les variations de son activité. Souvent elle correspond au principal facteur de production utilisé par le centre (la main d'oeuvre, l'heure machine, le nombres de lots, etc.).
+Le choix de la base d'imputation est déterminant car les bases d'imputation permettent d'opérer les transferts de coûts vers les objets de coût. Une bonne base d'imputation est celle pour laquelle une corrélation satisfaisante est observée avec le coût du centre. 
+Le taux d'imputation est obtenu en divisant les totaux issus de la répartition secondaire par le volume de la base d'imputation.
+#+BEGIN_EXAMPLE 
+Remarque : Les étapes 2, 3 et 4 doivent être menées en réalisant un tableau de répartition des charges indirectes.
+Celui-ci se présente de la manière suivante :
+XXX
+#+END_EXAMPLE
+
+- Étape 5. Affectation des charges directes et indirectes aux objets de coût.
+Les charges directes concernent souvent (mais pas seulement et pas toujours) des charges de main-d'œuvre et les charges de matière première. Elles peuvent être directement et sans calcul affectées aux produits.
+L'affectation des charges indirectes aux objets de coût se fait par l'intermédiaire des taux d'imputation de la manière suivante :
+
+Cela permet de calculer le coût complet et le résultat en coût complet pour chaque produit.
+
+#+BEGIN_EXAMPLE 
+Remarque : L'étape 5 doit être menées à l'aide d'un tableau.
+
+Ce tableau prend la forme suivante :
+XXX
+#+END_EXAMPLE
+
+La méthode des coûts complets peut être utilisée pour calculer le coût de produits ou de services. 
+
+#+BEGIN_EXAMPLE
+*Exercice : Calcul du coût des clients dans un cabinet comptable*
+
+Un cabinet comptable de taille moyenne possède un portefeuille d'une centaine de clients, répartis dans 3 secteurs d'activité :
+- viticulteurs : 60 (secteur « V »),
+- restaurateurs : 30 (secteur « R »),
+- garagistes : 10 (secteur « G »).
+
+Apparemment, tous les clients sont de taille semblable, exigent à peu près le même volume d'écritures et génèrent des honoraires d'importance comparable.
+
+Toutes les données comptables qui suivent sont en dollars. Pour la période N, les honoraires payés par les clients se répartissent ainsi :
+- secteur V : 180 000
+- secteur R : 90 000
+- secteur G : 30 000
+
+Les charges comprennent essentiellement des frais de personnel (en particulier concernant les collaborateurs), pour un montant total de 210 000, et d'autres charges diverses pour 40 000.
+
+Une partie des charges de personnel est considérée comme « directe », et correspond aux heures des collaborateurs passées en clientèle. La répartition est la suivante :
+- secteur V : 66 000
+- secteur R : 34 000
+- secteur G : 10 000
+
+Le reste des charges de personnel concerne deux centres principaux : l'administration générale pour 50 000 et l'informatique pour 50 000 également.
+
+Les autres charges diverses concernent l'administration générale pour 10 000 et l'informatique pour 30 000.
+
+*Travail à faire*
+Calculer les résultats par secteur de clientèle, en supposant que les charges indirectes sont imputées d'une manière très simple en fonction du nombre de dossiers.
+
+*Corrigé*
+Ce calcul passe par la construction de deux tableaux : le tableau de répartition des charges indirectes et le tableau de calcul des résultats.
+
+/Tableau de répartition des charges indirectes/
+| Éléments                                                                                         | Administration générale\\ | Informatique           |
+|                                                                                                  | du cabinet                |                        |
+| Charges de personnel indirectes                                                                  | 50 000                    | 50 000                 |
+| Autres charges indirectes                                                                        | 10 000                    | 30 000                 |
+| Total primaire et secondaire (les deux se confondent ici car il n'y a pas de centres de support) | 60 000                    | 80 000                 |
+| Base d'imputation (1)                                                                            | nombre de dossiers (*)    | nombre de dossiers (*) |
+| Volume de la base d'imputation (2)                                                               | 100                       | 100                    |
+| Taux d'imputation (1) / (2)                                                                      | 600                       | 800                    |
+
+(*) ici les deux centres ont les mêmes bases d'imputation, dans le cas général, les bases d'imputation des différents centres pourront être différentes.
+
+Calcul des résultats
+
+| Éléments                                                      | Total   | Secteur V  | Secteur R | Secteur G |
+| Charges de personnel directes                                 | 110 000 | 66 000     | 34 000    | 10 000    |
+| Charges indirectes                                            |         |            |           |           |
+| -- administration                                             |         | 36 000 (1) | 18 000    | 6 000     |
+| -- informatique                                               |         | 48 000 (2) | 24 000    | 8 000     |
+| Coût de revient                                               |         | 150 000    | 76 000    | 24 000    |
+| Chiffre d'affaires                                            | 300 000 | 180 000    | 90 000    | 30 000    |
+| Résultats                                                     | +50 000 | +30 000    | +14 000   | +6 000    |
+| Pourcentage par rapport au chiffre d'affaires (taux de marge) |         | 16,6 %     | 15,5 %    | 20 %      |
+
+(1) 60 x 600 ; (2) 60 x 800
+
+Le secteur G est le plus rentable
+#+END_EXAMPLE
+
+*** Conditions de validité de la méthode : Homogénéité des centres de regroupement et choix des bases d'imputation
+    :PROPERTIES:
+    :CUSTOM_ID: coûtcompletvalid
+    :END:
+
+La méthode de calcul du coût complet repose sur une technique de calcul. Cependant, préalablement à la mise en œuvre de cette technique, il faut faire deux choix : le découpage en centres de regroupement et le choix des bases d'imputation. Le choix des centres et des bases d'imputation détermine la qualité du calcul du coût réalisé. Si ces choix sont mal faits, c'est toute la pertinence de la répartition des charges indirectes, et donc du calcul des coûts, qui est remise en cause. Il est donc indispensable de choisir des centres qui sont homogènes et des bases d'imputation qui reflètent le niveau d'activité du centre sous peine de calculer des coûts qui n'ont pas de sens.
+
+**** Le découpage en centres de regroupement
+     :PROPERTIES:
+     :CUSTOM_ID: le-découpage-en-centres-de-regroupement
+     :END:
+
+Un centre de regroupement est un « compartiment comptable » regroupant des activités homogènes technologiquement distinctes des activités des autres centres[fn:4]. Dans la pratique, les centres de regroupement correspondent souvent aux différents services ou ateliers mais si on effectue des tâches technologiquement distinctes, il est nécessaire de définir plusieurs centres ou sections pour s'assurer de l'homogénéité des coûts qui composent le centre.
+
+Les coûts du centre sont dits homogènes s'ils forment un ensemble stable et solidaire c'est-à-dire si chaque fois que l'activité est déclenchée, les tâches élémentaires qu'elle comporte sont toutes effectuées et si chacune de ses tâches est exécutée de manière stable[fn:5]. Autrement dit, quel que soit le produit, celui-ci doit consommer toutes les tâches dans les mêmes proportions.
+
+#+BEGIN_EXAMPLE 
+*Exemple - Découpage des centres de regroupement et homogénéité*
+  
+On décide de regrouper au sein d'un même centre de regroupement deux tâches : une tache de fabrication et une tâche de montage. Il existe deux produits dans l'entreprise P1 et P2.
+
+|                        | P1 | P2 |
+|------------------------+----+----|
+| Minutes de fabrication | 1  | 5  |
+| Minutes de montage     | 2  | 10 |
+
+Dans ce cas, il y a bien homogénéité des coûts regroupés au sein du centre car P1 et P2 consomment les deux activités et car P2 consomme 5 fois plus de minutes que P1 pour les deux tâches regroupées dans le
+centre de regroupement. Le regroupement de ces deux tâches dans un même centre de regroupement est donc pertinent.
+
+En revanche dans le cas suivant, il n'y a pas homogénéité, puisque P2 consomme deux fois moins de minutes de fabrication que P1 et 5 fois plus de minutes de montage que P1.
+
+|                        | P1 | P2 |
+|------------------------+----+----|
+| Minutes de fabrication | 2  | 1  |
+| Minutes de montage     | 2  | 10 |
+
+Le regroupement de ces deux tâches dans un même centre de regroupement n'est pas pertinent.
+#+END_EXAMPLE 
+
+Dans la pratique, un dilemme se pose entre la tentation de multiplier les centres de regroupement (pour s'assurer de l'homogénéité des coûts au sein du centre) et le coût de la collecte et du traitement de
+l'information (qui augmente avec le nombre de centres de regroupement).
+Il faudra donc limiter le nombre de centres de regroupement à ce qui est réellement nécessaire.
+
+***** Le choix des bases d'imputation
+      :PROPERTIES:
+      :CUSTOM_ID: coûtcompletbase
+      :END:
+
+La base d'imputation doit permettre de répartir les charges indirectes entre les produits qui la consomment : elle représente et modélise l'activité d'un centre de regroupement. Une bonne base d'imputation est celle pour laquelle une corrélation satisfaisante est observée entre le coût du centre et le volume de la base d'imputation. C'est-à-dire que, sur le long terme, le volume de la base d'imputation et les coûts du centre de regroupement doivent évoluer de manière proportionnelle.
+
+#+BEGIN_EXAMPLE
+*Exemple : Choix des bases d'imputation*
+
+|                                 | N   | N+1 | N+2 | N+3 |
+|---------------------------------+-----+-----+-----+-----|
+| Volume de base d'imputation     | 10  | 11  | 13  | 13  |
+| Coûts du centre de regroupement | 200 | 220 | 260 | 260 |
+
+On voit ici que le volume de la base d'imputation et les coûts du centre évoluent à peu près de manière proportionnelle : la base d'imputation est bien choisie.
+
+En revanche, dans le cas ci-dessous il faudrait trouver une autre base d'imputation :
+
+|                             | N   | N+1 | N+2 | N+3 |
+|-----------------------------+-----+-----+-----+-----|
+| Volume de base d'imputation | 10  | 11  | 13  | 13  |
+| Taux d'imputation           | 250 | 220 | 190 | 400 |
+#+END_EXAMPLE 
+
+Selon les choix faits des résultats très différents pourront être trouvés. Des produits ou des clients pourront apparaître comme bénéficiaires avec une méthode alors qu'ils sont déficitaires avec une autre méthode. Il est donc nécessaire de faire ces choix avec circonspection.
+
+
+*** Critiques de la démarche de calcul du coût complet
+    :PROPERTIES:
+    :CUSTOM_ID: coûtcompletcritique
+    :END:
+Différentes critiques peuvent être faites aux démarches de calcul de coûts complets :
+- Les comportements de coûts n'apparaissent pas clairement en ne permettant pas la distinction entre les charges fixes et les charges variables. En particulier pour ces dernières, cette méthode ne permet pas de connaître leur mode de variation (linéaire, exponentiel, etc.) et les causes de celui-ci (par rapport à quelle(s) base(s) d'imputation elles varient).
+- La distinction entre charges directes et indirectes est peu aisée. Tout au plus peut-on dire : « Les charges directes sont celles que l'on peut affecter en totalité, sans calcul préalable, à un produit ou une activité déterminée selon le critère d'analyse choisi. Les autres charges, communes à plusieurs produits ou activités, sont dites indirectes[fn:6] ».
+- Les coûts de revient obtenus peuvent sembler être le reflet de choix « administratifs et comptables » et donc un peu artificiels.
+- La collecte et le traitement des informations nécessaires au calcul des coûts peuvent entraîner des opérations longues et coûteuses.
+
+** Calcul du coût des produits et prise de décision
+   :PROPERTIES:
+   :CUSTOM_ID: calcul-du-coût-des-produits-et-prise-de-décision
+   :END:
+
+Les différentes méthodes de calcul de coût ne permettent pas de prendre les mêmes types de décision[fn:7].
+
+*Le calcul du coût complet* de ce que consomme un produit, directement ou indirectement, en raison des capacités qu'il exige de mobiliser est un élément fondamental de la prise de décision sur le long terme. Celui-ci associe à un produit ses coûts de capacité et ses coûts variables, directs et indirects. On peut alors déterminer le résultat comptable de ce produit, bénéfice ou perte. Un tel calcul est par nature essentiel lors des décisions de lancement ou de retrait d'une production. Il peut être utile également lors de la fixation du prix de vente d'un produit (si le marché est offreur). Il faudra cependant rester prudent en cas d'arrêt d'un produit dont le résultat en coût complet est négatif : cela peut conduire à une détérioration du résultat de l'entreprise s'il n'est pas possible de couvrir les coût fixes autrement.
+
+#+BEGIN_EXAMPLE
+/Dans quel cas faut-il arrêter un produit ?/
+Prendre la décision d'arrêter un produit dont la marge sur coût complet est négative peut conduire à une détérioration du résultat global de l'entreprise. En effet, les charges indirectes imputées au produit déficitaire ne disparaissent pas lorsque l'on supprime le produit.
+
+Par exemple, une entreprise vend 3 produits.
+
+|                                 |  P1 |  P2 | P3 | Total |
+|---------------------------------+-----+-----+----+-------|
+| CA                              | 100 |  50 | 90 |       |
+| Charges directes                |  50 |  30 | 50 |       |
+| Charges indirectes (total = 90) |  30 |  30 | 30 |       |
+| Résultat                        |  20 | -10 | 10 |  20   |
+
+P2 a une marge sur coûts complets négative. L'entreprise décide donc d'en arrêter la production et la vente.
+
+Après suppression de P2, le résultat est diminué de 20 à 0 et P3 est devenu déficitaire.
+
+|                                 |  P1 | P3 | Total |
+|---------------------------------+-----+----+-------|
+| CA                              | 100 | 90 |       |
+| Charges directes                |  50 | 50 |       |
+| Charges indirectes (total = 90) |  45 | 45 |       |
+| Résultat                        |   5 | -5 |    0  |
+
+Les charges indirectes n'ont pas été supprimées avec la disparition de P2. Elles ont été réparties sur les autres produits ce qui a conduit à diminuer leurs marges et donc à diminuer le résultat de l'entreprise.
+
+Lorsque l'on supprime un produit déficitaire, on ne supprime pas les charges indirectes qui lui sont associées. Il est même parfois difficile de supprimer les charges fixes directes (aussi appelées coûts spécifiques) qui lui sont associées.
+
+En revanche, lorsque la marge sur coût variable d'un produit est négative. Alors, il est évident qu'en arrêtant la production du produit le résultat de l'entreprise s'améliore.
+
+Avant d'arrêter un produit, à partir de critères financiers, il faut alors s'assurer que les coûts fixes spécifiques de ce produit pourront être supprimés et que les charges fixes indirectes pourront être absorbées par les autres produits.
+#+END_EXAMPLE
+
+Le calcul récurrent (tous les mois, par exemple) du coût complet est la plupart du temps irréaliste (son calcul est complexe) et de peu d'intérêt si aucun choix décisif n'est en jeu.
+
+Par opposition, *les calculs de coûts partiels* ne cherchent à associer à un produit (ou à tout autre objet de calcul de coût) que certains des coûts qui lui reviennent, parce que l'analyse effectuée focalise sur un aspect particulier. Ainsi, la méthode du coût variable impute à un produit ses seuls coûts variables. On détermine donc pour le produit une marge sur coût variable et non plus un résultat. La somme de ces marges doit couvrir les coûts de capacité pour dégager un bénéfice.
+Cette approche, qui renonce à analyser les coûts fixes, n'est /a priori/ pertinente que pour les décisions qui les laissent inchangés. Elle a l'avantage d'éviter les répartitions arbitraires de charges indirectes.
+
+/*Au final, la méthode de calcul des coûts retenue doit être pertinente. La pertinence des calculs de coûts dépend d'abord de l'identification des décisions auxquelles on destine les chiffres : il n'y a pas de calcul de coût indépendamment d'une utilisation donnée du résultat de ce calcul.*/
+
+* Planification et animation budgétaire
+  :PROPERTIES:
+  :CUSTOM_ID: budget
+  :END:
+
+** Définition
+   :PROPERTIES:
+   :CUSTOM_ID: définition
+   :END:
+
+« Dans la conception classique du contrôle de gestion, le budget est (ou
+devrait être) l'expression comptable et financière des plans d'action
+retenus pour que les objectifs visés et les moyens disponibles sur le
+court terme (l'année en général) convergent vers la réalisation de plans
+opérationnels[fn:8]. »
+
+Le budget est la déclinaison annuelle des stratégies. Il articule ainsi
+le court terme (le mensuel et l'annuel) et le moyen terme (l'annuel et
+le pluriannuel). C'est donc un outil de prévision. Il permet ensuite un
+contrôle budgétaire grâce au calcul des écarts entre ce qui se produit
+et ce qui avait été prévu (le réel). Chaque écart peut être affecté à un
+service, permettant ainsi d'identifier les sources des inefficiences.
+Enfin, il peut être utilisé pour évaluer la performance des managers.
+Pour ces différentes raisons, le budget est l'outil central du contrôle
+de gestion.
+
+Dans la pratique, un budget est défini pour chaque fonction de
+l'entreprise. Il est nécessaire de commencer la construction des budgets
+par les contraintes les plus fortes. Dans une économie de l'offre (par
+exemple, aujourd'hui dans quelques entreprises proposant des innovations
+technologiques ayant un succès tel qu'elles n'arrivent pas à répondre à
+la demande), la principale contrainte vient des capacités de production
+puisque les entreprises n'arrivent pas à satisfaire la demande. Dans ce
+cas, il faut construire en premier lieu le budget de production. Dans
+une entreprise familiale, qui a des problèmes de financement, la
+trésorerie constitue la principale contrainte : c'est par ce budget
+qu'il faudra débuter. Dans une économie de la demande, la marche de
+l'entreprise est essentiellement contrainte par la demande du marché.
+Dans ce cas, il faut commencer par établir le budget des ventes. C'est
+le cas le plus courant, et c'est celui que nous développerons par la
+suite.
+
+<< insérer graphique>>
+
+Le schéma ci-dessus synthétise les différentes étapes du processus
+budgétaire dans le cas classique d'abondance de l'offre. Le premier
+budget qui doit être réalisé est le budget des ventes (étape 1).
+Ensuite, le programme de production, aussi appelé plan d'activité, qui
+permet de définir les quantités à produire et les modalités de
+production doit être établi (étape 2). Sur la base de programme de
+production, il est possible de construire le budget des coûts de
+production et des coûts d'approvisionnement (étape 3). Le budget des
+investissements et le budget des frais généraux (frais de siège par
+exemple) sont des budgets discrétionnaires. Ils ne dépendent pas
+directement du niveau d'activité mais doivent permettre de la soutenir.
+Le niveau de dépense dans ces domaines doit donc être défini en fonction
+de la stratégie de l'entreprise et du niveau de rentabilité attendu
+(étape 4).
+
+Ces différents budgets sont ensuite rassemblés pour construire le budget
+de trésorerie (étape 5) ainsi que le compte de résultat et le bilan
+prévisionnel (étape 6).
+
+Si le budget de trésorerie (ou budget de caisse) fait apparaître des
+besoins de financement auxquels l'entreprise ne peut pas faire face ou
+si le compte de résultat prévisionnel fait apparaître une rentabilité
+trop faible, le niveau des ventes doit, dans la mesure de ce qui peut
+être vendu sur le marché par l'entreprise, être modifié. Le budget est
+donc un outil fondamental en phase de prévision puisqu'il permet de
+tester la faisabilité de la stratégie en ce qui concerne les besoins de
+trésorerie sur le court terme et d'évaluer l'impact de cette stratégie
+sur le résultat et la rentabilité économique de l'activité.
+
+La démarche budgétaire est initiée par les contrôleurs de gestion qui
+sont les garants de la procédure. Mais la construction budgétaire va
+impliquer le plus souvent les managers. Ceux-ci seront les garants que
+le budget intègre les préoccupations stratégiques de l'entreprise, que
+le budget est en phase avec les réalités opérationnelles de
+l'entreprise. Les contrôleurs fournissent le cadre budgétaire permettant
+de collecter les données, ils vont collecter les données primaires et
+ils vont organiser les réunions budgétaires permettant la confrontation
+des points de vue. Les managers fournissent les données, challengent les
+hypothèses budgétaires et arbitrent sur les grands choix à réaliser.
+
+** L'élaboration des budgets
+   :PROPERTIES:
+   :CUSTOM_ID: lélaboration-des-budgets
+   :END:
+
+La construction du budget implique le recueil de données endogènes
+(capacités de production, coûts, chiffre d'affaires prévisionnel) et
+exogènes (conjoncture économique et évolution du marché). Ceci en fait
+une démarche longue et qui implique, bien souvent, de nombreux acteurs
+dans l'entreprise, au-delà des contrôleurs de gestion.
+
+Les différentes étapes de la construction des budgets opérationnels sont
+développées dans la suite de cette section.
+
+*** Le budget des ventes et des coûts commerciaux
+    :PROPERTIES:
+    :CUSTOM_ID: le-budget-des-ventes-et-des-coûts-commerciaux
+    :END:
+
+Le budget des ventes est en général le premier budget qui doit être
+construit. Sa construction implique de faire des choix sur les quantités
+vendues pour chaque produit ainsi que sur les prix de vente. Si
+l'entreprise réalise des ventes à l'international, cette prévision
+suppose de faire aussi des hypothèses sur le taux de change. Ceci
+implique de prendre en compte les facteurs macroéconomiques, l'évolution
+de la réglementation, le comportement des concurrents et l'évolution de
+la demande des consommateurs.
+
+Lors de cette étape, la place des vendeurs, marketeurs et chefs de
+produits est évidemment déterminante. Ce sont d'abord eux qui
+connaissent les produits et les marchés et qui ont la capacité de
+proposer des prévisions fiables. Ils s'appuient dans certains cas sur
+des études de conjoncture et des études sectorielles pour faire ces
+prévisions. Lorsque le marché est en croissance constante, il est
+possible de faire appel à des techniques statistiques et de réaliser une
+extrapolation linéaire à partir des années précédentes.
+
+Bien souvent, l'estimation des ventes se fait en reconduisant les
+réalisations de l'années N+1 plus ou moins un pourcentage qui correspond
+à la tendance générale du marché. C'est une méthode rapide, mais qui
+semble peu adéquate pour faire des prévisions sérieuses.
+
+Pour les entreprises qui ont une activité avec peu de clients (par
+exemple : les entreprises de la construction, un artisan plombier, un
+constructeur d'avions, une entreprise de gardiennage) la prévision peut
+se faire à partir du portefeuille de commandes et en évaluant le nombre
+de clients gagnés et perdus.
+
+A partir de ce budget des ventes, il est possible de faire le budget des
+coûts commerciaux. Le budget des coûts commerciaux peut être divisé par
+type d'activités : administration de la vente (gestion des clients,
+facturation), marketing (études commerciales, publicité, promotion),
+vente (salaires et coût des représentants), livraisons (emballages,
+expéditions), service après-vente.
+
+*** Le budget des coûts de production
+    :PROPERTIES:
+    :CUSTOM_ID: le-budget-des-coûts-de-production
+    :END:
+
+Cette étape peut se décomposer en quatre temps :
+
+1. définition du niveau de production ;
+
+2. calcul de l'utilisation prévisionnelle des moyens ;
+
+3. calcul des capacités de production disponible pour chaque facteur et
+   comparaison avec l'utilisation prévisionnelle des moyens ;
+
+4. la valorisation du programme de production retenu.
+
+Dans un premier temps, il est donc nécessaire de définir le niveau de
+production nécessaire compte tenu du niveau des ventes espérées et du
+niveau de stock désiré. La production doit permettre de couvrir les
+ventes prévues et le stock final désiré, compte tenu du stock initial.
+
+Production = ventes + stock final desiré -- stock initial
+
+Lorsque le niveau des ventes n'est pas uniforme toute l'année, il est
+nécessaire d'établir le niveau de production nécessaire sur une période
+plus courte (le trimestre, le mois, le jour, ou toute autre période de
+temps adaptée aux variations de l'activité). Selon la politique retenue
+par l'entreprise, le niveau des stocks ou le niveau de la production
+(notamment si l'entreprise a une politique de production en juste à
+temps) devront varier en fonction du niveau des ventes.
+
+Une fois le niveau de production choisi, il est possible de préciser
+l'utilisation prévisionnelle des moyens concernant :
+
+- les consommations prévisionnelles de matières
+
+- la main d'œuvre productive nécessaire
+
+- le degré d'utilisation des équipements
+
+Les frais généraux de production sont inscrits dans les budgets en
+fonction de la base d'imputation retenue (critère utilisé pour répartir
+les frais généraux, par exemple le nombre de produit, le volume de
+travail, etc.) et du taux d'imputation calculé (= somme des frais
+généraux de production / volume de la base d'imputation).
+
+Cette utilisation prévisionnelle des moyens doit prendre en compte les
+rebuts, les défauts de qualité et les temps impayés.
+
+Pour chaque facteur de production, il est évidemment nécessaire de
+vérifier que les capacités de production sont supérieures ou égales aux
+besoins de production. Lorsque cela n'est pas le cas, deux décisions
+sont possibles : accroître les capacités de production en faisant des
+investissements ou limiter les ventes en optimisant l'utilisation du
+facteur rare. Dans le court terme, seule la seconde solution est bien
+souvent envisageable.
+
+Le budget de production est la valorisation du programme de production.
+Cette valorisation repose sur les calculs de coût complet effectués à
+l'aide des méthodes de comptabilité de management. Elle suppose la prise
+en compte des coûts variables (matières premières, fournitures,
+énergies, etc.) et fixes (amortissement des machines, main d'œuvre,
+etc.) qu'ils soient directs ou indirects. Ceci permet de calculer le
+budget de production. Le budget de production nécessite de connaître le
+montant des achats, il doit donc être fait parallèlement au budget des
+approvisionnements.
+
+*** Le budget des approvisionnements
+    :PROPERTIES:
+    :CUSTOM_ID: le-budget-des-approvisionnements
+    :END:
+
+Le programme d'approvisionnement résulte du programme de production. Ce
+programme d'approvisionnement définit les quantités qui devront être
+commandées et les dates de commande. Plusieurs paramètres déterminent
+les choix réalisés en la matière :
+
+- le coût de passation de commande (coût de lancement et coûts de
+  gestion des commandes : personnels affectés à la gestion des
+  commandes, à la réception, au magasinage, à la manutention, etc). :
+  plus ce coût est élevé et plus il semble intéressant de faire des
+  commandes en grande quantité pour limiter le nombre de commandes
+  réalisées ;
+
+- les coûts de stockage (coût de financement du stock, primes
+  d'assurance, coûts des moyens de stockage -- coût des entrepôts, du
+  matériel de manutention --, coût de la dépréciation du stock, etc.) :
+  plus ce coût est élevé et moins le stock doit être élevé, ce qui
+  signifie qu'il est nécessaire de passer de nombreuses petites
+  commandes ;
+
+- le coût de la rupture de stock : plus ce coût est élevé et plus il
+  faut être prudent en matière de gestion des stocks et limiter les
+  ruptures possibles (ce qui implique d'avoir un niveau de stock élevé).
+
+Diverses méthodes permettent alors d'optimiser ce coût
+d'approvisionnement.
+
+Le programme d'approvisionnement comprend quatre lignes : les commandes,
+les livraisons, les consommations et le stock (fin de mois).
+
+Le budget des coûts d'approvisionnement comprend :
+
+- les coûts d'achat qui dépendent souvent des quantités achetées et
+  doivent inclure les frais liés aux achats (notamment le transport) ;
+
+- les coûts d'approvisionnement (de passation de commande) et de
+  stockage.
+
+*** Les budgets des centres de coûts discrétionnaires et des centres
+d'investissement
+    :PROPERTIES:
+    :CUSTOM_ID: les-budgets-des-centres-de-coûts-discrétionnaires-et-des-centres-dinvestissement
+    :END:
+
+On parle de centre de coût discrétionnaire pour les centres de
+responsabilité dont le niveau de dépense n'a pas de rapport direct avec
+le niveau d'activité. Ceci concerne essentiellement l'administration
+(siège, direction générale, direction financière, service des ressources
+humaines, etc.) et la recherche et développement.
+
+Du fait de l'absence de lien explicite entre le montant de ces dépenses
+et le niveau d'activité, les budgets sont souvent définis par
+reconduction des budgets de l'année précédente. L'analyse de la valeur
+et des coûts cachés ou la méthode des budgets base zéro permettent de
+s'interroger sur la pertinence de cette reconduction systématique.
+
+Dans le cas des budgets d'investissement, le niveau optimal de dépense
+pourra être défini à l'aide des méthodes de choix d'investissement.
+
+*** Le budget de trésorerie (encaisse)
+    :PROPERTIES:
+    :CUSTOM_ID: le-budget-de-trésorerie-encaisse
+    :END:
+
+Le budget de trésorerie recense les encaissements et les décaissements
+relatifs à l'exploitation et aux investissements. Il est ainsi
+nécessaire de connaître les délais et dates de paiement pour les divers
+produits et charges pour l'établir.
+
+Les encaissements dépendent des délais accordés aux clients (il faudra
+penser à insérer dans le budget des encaissements ce que les clients
+doivent de l'exercice précédent et qui se situe dans le bilan). Les
+décaissements dépendent des délais accordés par les fournisseurs,
+l'Etat, les salariés.
+
+Le flux de trésorerie permet de calculer le niveau de trésorerie de
+l'entreprise de la manière suivante :
+
+Trésorerie initiale + flux de trésorerie = trésorerie finale
+
+Si la trésorerie finale est négative, il faut prendre en compte les
+charges financières liées au découvert (en fonction des conditions de
+découvert obtenues auprès de la banque pour la marge de crédit).
+
+Lorsqu'il y a des décalages entre le flux budgétaire et le flux de
+trésorerie, il est nécessaire de construire un tableau en mettant en
+ligne les flux budgétaires et en colonne les flux de trésorerie.
+
+*** Le compte de résultat et le bilan prévisionnel
+    :PROPERTIES:
+    :CUSTOM_ID: le-compte-de-résultat-et-le-bilan-prévisionnel
+    :END:
+
+Les différents budgets réalisés permettent de construire un bilan et un
+compte de résultat prévisionnel. Le compte de résultat est la synthèse
+des produits et des charges mis en évidence dans les différents budgets.
+Il permet de mesurer la performance de l'entreprise sur une année
+donnée. Le bilan est une représentation du patrimoine à une date donnée.
+Le bilan prévisionnel peut être construit à partir du bilan de l'année
+précédente, en y ajoutant les produits, charges et décalages de
+trésorerie mis en évidence dans les différents budgets et en évaluant le
+niveau des stocks.
+
+** Participation et étapes du processus budgétaire
+   :PROPERTIES:
+   :CUSTOM_ID: participation-et-étapes-du-processus-budgétaire
+   :END:
+
+Au point de vue organisationnel, divers modes de construction des
+prévisions budgétaires sont envisageables. En effet, celui-ci peut être
+construit essentiellement par la direction générale de manière plutôt
+descendante /(top-down)/ ou peut impliquer toute la ligne hiérarchique
+et les différentes fonctions opérationnelles (production, marketing,
+etc.) dans un processus participatif de collecte d'information
+/(bottom-up)/. Les deux solutions ont des avantages différents.
+
+| Avantages du budget /top-down/ (peu de participation des opérationnels) :                                                                   |
+|                                                                                                                                             |
+| Rapidité de construction (pas besoin de multiples discussions entre les différents niveaux hiérarchiques pour se mettre d'accord).          |
+|                                                                                                                                             |
+| Cohérence avec les attentes des actionnaires puisque le budget est défini par la direction pour respecter les contraintes de rentabilité.   |
+|                                                                                                                                             |
+| Vue d'ensemble des dirigeants qui facilite la coordination.                                                                                 |
+|                                                                                                                                             |
+| Avantages du budget /bottom-up/ (forte participation des opérationnels) :                                                                   |
+|                                                                                                                                             |
+| Information recueillie au plus proche du terrain (meilleure qualité, plus grande rapidité...).                                              |
+|                                                                                                                                             |
+| Meilleure compréhension des objectifs budgétaires par les opérationnels (puisqu'ils participent à la définition des objectifs budgétaires). |
+|                                                                                                                                             |
+| Implication et motivation (participer à la définition de l'objectif budgétaire induit une plus forte implication).                          |
+
+Dans les faits, lors de la construction du budget se suivent des étapes
+/top-down/ et des étapes /bottom-up/. De ce fait, bien souvent ce
+processus budgétaire est un processus long. Par exemple, pour une
+entreprise dont l'annualité budgétaire est calée sur l'année civile, le
+processus budgétaire peut commencer début mi-juillet ou septembre. Le
+tableau ci-dessous permet de donner un exemple du calendrier et des
+différentes étapes possibles.
+
+*\\
+*
+
+Les étapes du processus budgétaire[fn:9]
+
+| Étapes       | Diffusion des instructions budgétaires de la hiérarchie\\                                                 | Construction du budget par les services\\                                                                    | Consolidation des budgets\\                                                            | Discussions et approbation\\                                                    | Mensualisation et actualisation\\                                      |
+|              | (septembre)                                                                                               | (octobre)                                                                                                    | (novembre)                                                                             | (novembre)                                                                      | (décembre)                                                             |
+| Description  | Rappel des attentes de la direction (objectifs financiers et opérationnels dans la lettre de cadrage).    | Plan d'action des services, hypothèses prix/volumes, et variantes possibles.                                 | Remontée et discussions tout au long de la ligne hiérarchique.                         | Comparaison du budget des services avec les objectifs de la direction générale. | Prise en compte des variations saisonnières pour le découpage mensuel. |
+|              |                                                                                                           |                                                                                                              |                                                                                        |                                                                                 |                                                                        |
+|              | Définition des hypothèses économiques.                                                                    | Chiffrage.                                                                                                   | Consolidation pour avoir une vue d'ensemble de l'entreprise.                           | Arbitrages de la direction, itérations et approbation des budgets.              | Réajustement des budgets.                                              |
+|              |                                                                                                           |                                                                                                              |                                                                                        |                                                                                 |                                                                        |
+|              | Procédure à suivre (qui fait quoi, concepts et définitions, modèle de budget à respecter, calendriers).   | Articulation des budgets de vente, d'approvisionnement, de personnel, de production (budget d'exploitation). | Vérification de la cohérence interne (prix de cessions internes notamment).            |                                                                                 |                                                                        |
+|              |                                                                                                           |                                                                                                              |                                                                                        |                                                                                 |                                                                        |
+|              | Construction d'un prébudget au niveau central (parfois).                                                  | Budgets d'investissements et budgets discrétionnaires                                                        | Appréciation du degré de réalisme des hypothèses et de leur sensibilité aux variables. |                                                                                 |                                                                        |
+|              |                                                                                                           |                                                                                                              |                                                                                        |                                                                                 |                                                                        |
+|              | nota bene                                                                                                 | Synthèse : résultat et trésorerie pour chaque unité.                                                         |                                                                                        |                                                                                 |                                                                        |
+|              |                                                                                                           |                                                                                                              |                                                                                        |                                                                                 |                                                                        |
+|              | Au préalable, besoin de définir les règles générales d'organisation et de définition des responsabilités. |                                                                                                              |                                                                                        |                                                                                 |                                                                        |
+| Intervenants | Direction générale.                                                                                       | Contrôle de gestion opérationnel.                                                                            | Contrôle de gestion central.                                                           | Contrôle de gestion central.                                                    | Contrôle de gestion central.                                           |
+|              |                                                                                                           |                                                                                                              |                                                                                        |                                                                                 |                                                                        |
+|              | Contrôle de gestion groupe.                                                                               | Directions opérationnelles.                                                                                  | Directions opérationnelles.                                                            | Directions opérationnelles.                                                     |                                                                        |
+|              |                                                                                                           |                                                                                                              |                                                                                        |                                                                                 |                                                                        |
+|              |                                                                                                           |                                                                                                              |                                                                                        | Direction générale.                                                             |                                                                        |
+
+** Le budget : des rôles divers
+   :PROPERTIES:
+   :CUSTOM_ID: le-budget-des-rôles-divers
+   :END:
+
+Divers rôles sont attribués au budget. Anthony résume les finalités du
+budget et du processus de préparation budgétaire en cinq points[fn:10] :
+
+« (1) Motiver les managers à dresser des plans, (2) informer les
+managers de ce qui est attendu d'eux, (3) obtenir un engagement des
+managers, (4) coordonner les différentes activités d'une
+organisation, (5) fournir un standard pour juger la performance
+réelle ».
+
+Les rôles le plus souvent mis en avant s'articulent autour de quatre
+pôles : coordination/communication, gestion prévisionnelle,
+délégation/motivation et apprentissage au management[fn:11]. Ainsi, le
+processus budgétaire est l'occasion pour les divers services de se
+coordonner, par exemple de s'assurer que ce qui va être vendu par le
+service commercial aura bien été produit par les usines. Le budget doit
+permettre de prévoir les difficultés à venir et de choisir les
+programmes d'activité : il est donc un outil de gestion prévisionnelle.
+Le budget peut aussi être utilisé comme un contrat passé entre un
+responsable et sa hiérarchie sur les résultats à atteindre et/ou les
+moyens à mettre en œuvre. Enfin, le budget est une occasion privilégiée
+pour introduire la dimension économique et financière dans les choix
+opérationnels qui sont faits. Il est à ce titre un outil d'apprentissage
+au management.
+
+Comme l'ont souligné Barrett et Fraser[fn:12], certains rôles sont
+incompatibles et l'utilisation du budget pour des rôles différents peut
+entraîner des effets pervers. Ils mettent notamment en évidence un
+conflit majeur entre les fonctions de prévision, de coordination et de
+communication d'une part et la fonction de délégation et d'évaluation
+d'autre part. En effet, les budgets utilisés pour la planification et la
+prévision doivent être fixés à un niveau réaliste pour permettre
+l'allocation des ressources et la coordination alors que s'ils sont
+utilisés pour motiver, ils doivent être fixés de façon à être difficiles
+à atteindre. Il y a donc contradiction entre la volonté de prévoir
+l'avenir le mieux possible et celle d'amener des managers à s'engager
+sur des objectifs ambitieux.
+
+De plus, on peut penser que les intérêts des supérieurs et des
+subordonnés diffèrent selon le rôle qui est accordé au budget. Ainsi, si
+le budget est d'abord utilisé dans un but de planification, les
+contrôlés ont intérêt à ce qu'on leur fixe des objectifs budgétaires
+plus importants pour disposer de plus de ressources. Si le budget est
+utilisé dans un but de motivation, les contrôlés vont chercher à
+minimiser leurs objectifs budgétaires pour accroître leurs chances de
+les atteindre. C'est ce qu'on appelle le /slack ou matelas budgétaire/.
+
+Pour réconcilier les divers objectifs du budget, plusieurs solutions
+peuvent être mises en œuvre. Ainsi, lors du processus de consolidation
+budgétaire, il est possible pour le responsable de se constituer des
+matelas budgétaires afin de fixer des objectifs assez difficiles à
+atteindre à ses subordonnés tout en donnant à ses supérieurs des
+objectifs budgétaires qui sont des prévisions réalistes. Une autre
+solution est de dissocier le système qui permet de fixer des objectifs
+du processus de prévision budgétaire.
+
+À vouloir faire remplir des rôles trop divers au budget, il n'en
+remplirait plus aucun. En dépit de son rôle central dans le processus de
+contrôle de gestion, le budget a ainsi fait l'objet de nombreuses
+critiques et ce depuis longtemps.
+
+** Le budget et ses critiques
+   :PROPERTIES:
+   :CUSTOM_ID: le-budget-et-ses-critiques
+   :END:
+
+Depuis l'étude d'Argyris au début des années 1950[fn:13], le budget fait
+l'objet de critiques importantes. L'école des relations humaines en
+contrôle de gestion s'est ainsi développée sur l'étude de ses effets
+négatifs sur la motivation. Argyris souligne notamment que les budgets
+ne permettent pas de comprendre la performance, s'intéressent à la
+performance passée, sont rigides et parfois irréalistes. Ils sont de
+plus un moyen de pression qui crée de la tension, détruit la coopération
+et produit du stress. La solution proposée par l'école des relations
+humaines est alors de promouvoir la participation des opérationnels au
+budget pour favoriser leur implication.
+
+Au début des années 1990, la critique du budget reprend de la vigueur.
+Deux remèdes ont ainsi été proposés, celui des partisans d'une
+amélioration du budget grâce à l'/Activity Based Budgeting/ (ABB) et
+celui des adeptes de sa suppression dans le cadre du /Beyond Budgeting/
+(BB)[fn:14]. Le tableau ci-dessous rassemble les principales critiques
+de ces deux courants.
+
+***** Principales critiques énoncées par les courants /Activity Based
+Budgeting/ et /Beyond Budgeting/
+      :PROPERTIES:
+      :CUSTOM_ID: principales-critiques-énoncées-par-les-courants-activity-based-budgeting-et-beyond-budgeting
+      :END:
+
+| Activity Based Budgeting | -- Le budget occupe une bonne part de l'année et implique plusieurs centaines d'opérationnels et de fonctionnels.          |
+|                          |                                                                                                                            |
+|                          | -- Les managers sont plus préoccupés par la mécanique budgétaire que par la stratégie lorsqu'ils font leur budget.         |
+|                          |                                                                                                                            |
+|                          | -- Les coûts sont reportés et augmentés d'une année sur l'autre sans qu'il n'y ait remise en cause.                        |
+|                          |                                                                                                                            |
+|                          | -- Les budgets ne collent pas à l'évolution de la structure et des responsabilités.                                        |
+|                          |                                                                                                                            |
+|                          | -- Les budgets ne sont pas crédibles.                                                                                      |
+|--------------------------+----------------------------------------------------------------------------------------------------------------------------|
+| Beyond Budgeting         | -- Le budget renforce une culture de contrôle au détriment de la liberté et l'autonomie.                                   |
+|                          |                                                                                                                            |
+|                          | -- Le cycle annuel n'est pas adapté aux entreprises dont l'environnement évolue rapidement.                                |
+|                          |                                                                                                                            |
+|                          | -- Le budget encourage la réflexion incrémentale au détriment des changements radicaux.                                    |
+|                          |                                                                                                                            |
+|                          | -- Les budgets ignorent des éléments importants pour la création de valeur actionnariale (savoir et capital intellectuel). |
+|                          |                                                                                                                            |
+|                          | -- Les budgets ne fournissent pas des chiffres dans lesquels on peut avoir confiance.                                      |
+|                          |                                                                                                                            |
+|                          | -- Les budgets découragent la coopération.                                                                                 |
+|                          |                                                                                                                            |
+|                          | -- Les budgets prennent trop de temps aux managers.                                                                        |
+|                          |                                                                                                                            |
+|                          | -- Les budgets ont une valeur ajoutée trop faible.                                                                         |
+
+En résumé, on reproche principalement au budget de faire prévaloir le
+court terme sur le long terme, de rigidifier l'entreprise, de négliger
+la gestion de la valeur, d'inciter au marchandage pour obtenir des
+/bonis/, de provoquer de l'individualisme et du stress, d'être
+bureaucratique et de faire oublier la concurrence.
+
+Les critiques émises semblent relever de trois catégories : une critique
+du contrôle de gestion comme mode de direction par objectifs, une
+critique des effets pervers du budget et une critique du budget comme un
+des éléments du système de planification stratégique.
+
+Le budget est critiqué car il va souvent de pair avec un mode de
+management contractuel de type délégation/évaluation/rémunération qui ne
+permet pas toujours d'exploiter au mieux les compétences des salariés.
+On retrouve ici plus ou moins la critique du behaviorisme qui prônait
+dans les années 1970 le « management participatif » et dans les années
+1990 « l'empowerment ». Le courant « Beyond Budgeting » en fait le cœur
+de sa critique[fn:15] :
+
+« Les entreprises ont investi des sommes considérables dans les
+technologies de l'information en réseau, le reengineering des processus
+et une palette d'outils de management tels que l'EVA, le balanced
+scorecard et la comptabilité d'activité. Mais elles n'ont pas été
+capables d'établir un “nouvel ordre” parce que le budget et la culture
+de type “diriger et contrôler” restent prédominants. »
+
+Ce mode de management a, de plus, un certain nombre d'effets pervers,
+qui correspondent de manière générale aux reproches que l'on peut faire
+au contrôle de gestion (cloisonnement, vision à court terme, ne permet
+de gérer que le financier, empêche l'innovation...). Plus généralement,
+comme tout système formalisé, il peut être à l'origine des cercles
+vicieux bureaucratiques tels qu'ils ont été identifiés par les
+sociologues des organisations américains depuis les années 1950. Pour
+Hope et Fraser, le contrat budgétaire est à l'origine de nombreux
+comportements opportunistes :
+
+« Essayer de négocier au plus bas les objectifs, obtenir son bonus à
+tout prix, faire passer le client après les objectifs, ne pas partager
+le savoir, dépenser le budget intégralement, pouvoir expliquer les
+écarts, ne pas fournir des prévisions justes, atteindre le budget mais
+ne pas le dépasser et ne pas prendre de risques ».
+
+Ils ajoutent même qu'il serait l'origine des grandes faillites et
+fraudes nord-américaines :
+
+« Dans des cas extrêmes, l'utilisation du budget pour forcer
+l'amélioration des performances peut conduire à des failles dans
+l'éthique des entreprises. Les personnes qui travaillaient à WorldCom,
+aujourd'hui en faillite [...] disent que les demandes rigides du
+président, Bernard Ebbers, étaient incontournables dans la vie dans
+l'entreprise. “Vous aviez un budget et il vous demandait de faire 2 % de
+moins que le budget”, a dit une personne travaillant à WorldCom [...]
+“rien d'autre n'était accepté”. WorldCom, Enron, Barings Bank et les
+autres entreprises qui ont chuté avaient des processus de contrôle
+budgétaire serrés qui n'orientaient l'information que vers ceux qui
+“doivent savoir”. »
+
+Jensen, pourtant ardent partisan d'une vision contractuelle de
+l'entreprise (dans le cadre de la théorie de l'agence), n'est pas moins
+véhément lorsqu'il affirme[fn:16] :
+
+« Le budget est une blague, et tout le monde le sait. Il prend beaucoup
+de temps aux managers, les forçant à tenir des réunions répétées et sans
+fin et à s'investir dans des négociations tendues. Il encourage les
+managers à mentir et à tricher, à minimiser les objectifs et à gonfler
+les résultats et il les pénalise lorsqu'ils disent la vérité. Il
+transforme les décisions en un jeu et monte les collègues les uns contre
+les autres, créant de la méfiance et de la rancune. Il produit des
+distorsions dans les incitations en motivant les gens à agir dans un
+sens qui va contre l'intérêt de leur entreprise. »
+
+Ce sont les effets pervers induits par un système de contrôle financier
+strict, tel le contrôle budgétaire, qui semblent être au centre de ces
+critiques.
+
+Une troisième catégorie de critiques a trait à la capacité des budgets à
+faire passer la « bonne stratégie ». Au-delà du budget, c'est la
+faillite de la planification stratégique préconisée par l'école de
+Harvard ou par Ansoff de la fin des années 1960 aux années 1970 qui est
+critiquée ici. Il semblerait que le budget traduise généralement assez
+mal la stratégie telle qu'elle est proposée dans les plans stratégiques.
+Gérer avec des plans à long terme conduirait également à rigidifier
+l'entreprise en ne lui permettant pas de s'adapter aux opportunités qui
+se présentent en cours d'année. Cela interdirait aussi l'émergence
+d'idées stratégiques émanant de la base.
+
+** Les propositions alternatives au budget
+   :PROPERTIES:
+   :CUSTOM_ID: les-propositions-alternatives-au-budget
+   :END:
+
+Reprenant le modèle de coût développé dans le cadre de l'/Activity Based
+Costing/, la proposition centrale du courant /ABB/ est de construire le
+budget en se référant à un modèle d'organisation qui repose sur les
+activités. Cette approche propose de faire précéder l'élaboration du
+budget d'une phase opérationnelle[fn:17] au cours de laquelle un plan
+opérationnel est construit grâce à une modélisation de l'organisation au
+travers de ses activités /(boucle opérationnelle)/. Il est considéré que
+la demande conduit à consommer des activités (dont le niveau est
+déterminé par le taux de consommation des activités) qui elles-mêmes
+consomment des ressources (qui sont déterminées par le taux de
+consommation de ressources). La /boucle financière/ permet ensuite de
+déduire un plan financier du plan opérationnel : le coût des ressources
+permet de déterminer le coût des activités pour obtenir le coût des
+produits/services. Ceci rend possible le calcul des résultats financiers
+(qui peuvent être partiellement ajustés en jouant sur les prix, le coût
+des ressources, le taux de consommation d'activités et de ressources).
+
+Cette manière de procéder permettrait d'éviter les budgets
+irréalisables, de repérer les inefficiences (par la modélisation des
+consommations), d'améliorer la communication avec les opérationnels
+(grâce à la traduction du budget financier en termes opérationnels) et
+l'évaluation de la performance et de favoriser une approche horizontale
+de l'organisation. La prévision et l'allocation de ressources en
+seraient améliorées, l'organisation rendue transparente et les jeux
+politiques limités.
+
+L'approche /BB/ reprend largement les propositions de l'/ABB/ mais elle
+va plus loin en affirmant qu'il faut supprimer le budget. Son objectif
+premier est d'éviter le /piège de la performance annuelle/[fn:18]. Le
+contrat budgétaire serait en effet à l'origine de nombreux comportements
+opportunistes qui pourraient être évités en transformant le « contrat
+fixe de performance », tel que le préconise le contrôle budgétaire
+traditionnel, en un « contrat d'amélioration relative ».
+
+***** Budget traditionnel VS /Beyond Budgeting/
+      :PROPERTIES:
+      :CUSTOM_ID: budget-traditionnel-vs-beyond-budgeting
+      :END:
+
+|              | Contrat fixe de performance (budget traditionnel)                                     | Contrat d'amélioration relative                                                                                                                                |
+|              |                                                                                       |                                                                                                                                                                |
+|              |                                                                                       | (Beyond Budgeting)                                                                                                                                             |
+|--------------+---------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Objectifs    | Atteindre les chiffres.                                                               | Indicateurs clés de performance qui ne servent pas à évaluer ou à récompenser.                                                                                 |
+| Récompenses  | Récompenses liées aux objectifs.                                                      | Récompenses basées sur l'évaluation du groupe (par benchmark, par les pairs et les années précédentes).                                                        |
+| Plans        | Pas de lien entre plan et stratégie.                                                  | Les /business units/ sont responsables de la stratégie. Elles ne doivent pas « atteindre le budget » mais agir pour maximiser la valeur pour les actionnaires. |
+| Ressources   | Ressources allouées à l'avance par un modèle soviétique de planification centralisée. | Ressources disponibles rapidement sur demande.                                                                                                                 |
+| Coordination | Coordination centrale par les budgets sans cohérence avec la stratégie.               | Coordination des plans par des accords entre services.                                                                                                         |
+| Contrôle     | Mesure de la performance grâce au budget.                                             | Tout le monde a accès à l'information. Comparaison à des benchmarks et aux années précédentes.                                                                 |
+
+L'objectif central du /Beyond Budgeting/ est donc de supprimer le budget
+comme référence intangible de l'évaluation de la performance et de
+l'attribution de sanctions/récompenses.
+
+Il faut tout d'abord souligner que l'écho de ces propositions dans les
+pratiques d'entreprise est resté faible. Les différentes enquêtes
+réalisées montrent en effet que la quasi-totalité des entreprises et des
+organisations réalisent des budgets. Certes, elles ne l'utilisent pas
+toutes de la même manière : certaines en font la référence
+incontournable de l'évaluation des responsables, d'autres n'y accordent
+que peu d'importance, mais le budget est une quasi-obligation pour
+discuter avec des banques ou des apporteurs de capitaux, donc toutes les
+entreprises ou presque font un budget. On constate aussi qu'hormis
+quelques exemples toujours cités, très peu d'entreprises sont passées au
+/Beyond Budgeting/ ou ont mis en place un budget basé sur les activités.
+
+Le message des courants ABB et BB semble pourtant de bon sens et pas
+forcément nouveau. Rétablir un lien entre les plans d'actions et les
+budgets, comme le préconisent les partisans de l'/ABB,/ ne semble qu'un
+simple rappel à l'ordre des principes de la planification stratégique
+classique. Pourquoi les entreprises ne s'y conforment-elles pas[fn:19] ?
+Peut-être parce que construire le plan d'action avant le budget implique
+de savoir exactement ce dont chacun a besoin, ce qui vide de son sens la
+décentralisation et témoigne d'une vue mécaniste de l'organisation. De
+même, ne pas prendre le budget comme référence immuable dans un
+environnement mouvant, comme le souhaitent les partisans du /BB,/ semble
+aussi -- de prime abord -- emprunt d'une certaine logique ; mais c'est
+oublier le rôle de réduction de l'ambiguïté que peut jouer un budget
+fixe dans un environnement où tout bouge. On retrouve ici un paradoxe
+classique : il est d'autant plus important mais d'autant plus difficile
+de faire des prévisions que l'environnement est mouvant. Finalement, ces
+différentes évolutions ne conduiraient-elles pas à bureaucratiser un peu
+plus encore les grandes organisations ?
+
+La planification et le budget sont des outils au cœur du fonctionnement
+des grandes organisations aujourd'hui. Ils servent à savoir où
+l'entreprise va et à s'assurer du déploiement des choix stratégiques
+dans l'entreprise. Ces plans sont parfois utilisés pour discuter avec
+des apporteurs de capitaux (banquier, actionnaires potentiels),
+notamment dans le cas des entreprises en phase de croissance (start-up).
+La prévision est alors appelée /« Business Plan »/
+
+* Mesure de la performance financière
+  :PROPERTIES:
+  :CUSTOM_ID: performance
+  :END:
+
+** La mesure de la rentabilité : le ROI
+   :PROPERTIES:
+   :CUSTOM_ID: la-mesure-de-la-rentabilité-le-roi
+   :END:
+
+*** Le ROI : historique et définition
+    :PROPERTIES:
+    :CUSTOM_ID: le-roi-historique-et-définition
+    :END:
+
+L'innovation organisationnelle majeure de General Motors dans les années
+1920 fut de contrôler les divisions grâce l'utilisation du ROI (/Return
+On Investment/ -- retour sur investissement/)/, que Sloan (le directeur
+général de General Motors à cette époque) appelait le « mètre étalon de
+la performance ». Cette mesure de la performance est uniquement
+financière mais elle permet, grâce à sa décomposition pyramidale,
+d'évaluer de nombreux aspects de la gestion d'une division. Elle
+présente l'avantage, contrairement à un simple résultat comptable, de
+permettre de comparer des entités de taille différente. De plus, elle
+peut être calculée directement à partir du bilan comptable, elle est
+donc simple à calculer et à comprendre.
+
+Le ROI (/Return on Investment/) est un ratio de rentabilité économique
+qui mesure un retour un investissement. Ce ratio est parfois appelé ROCE
+(/Return on Capital Employed/) ou ROA (/Return on Assets/).
+
+*** Le calcul du ROI
+    :PROPERTIES:
+    :CUSTOM_ID: le-calcul-du-roi
+    :END:
+
+Plusieurs formulations du ROI sont possibles mais elles prennent toute
+la forme d'un ratio du type : ROI = Bénéfice / Actif
+
+Deux questions se posent alors : quel type de bénéfice retenir ? quels
+actifs prendre en compte ?
+
+La formulation suivante sera retenue car elle permet de prendre en
+compte ce qui est réellement investi dans l'activité (et neutralise les
+effets des charges financières) :
+
+ROI = Bénéfice d'exploitation après impôts (1) / Actifs investis (2)
+
+Avec :
+
+(1) = Bénéfice net + intérêts financiers = Bénéfice d'exploitation -
+impôts
+
+(2) = Besoin en fonds de roulement + Immobilisations
+
+D'autres formulations peuvent être envisagées en fonction des
+entreprises et cela afin de mettre en évidence au mieux les
+responsabilités des managers évalués et la performance des entités.
+
+exercice : le calcul du ROI
+
+Énoncé
+
+Pour l'année N, vous disposez des éléments suivants :
+
+| en K €                           | Division A | Division B | Division C |
+| Chiffre d'affaires               | 94 500     | 108 000    | 216 000    |
+| Charges d'exploitation et impôts | 56 700     | 97 200     | 205 200    |
+| Résultat d'exploitation après IS | 37 800     | 10 800     | 10 800     |
+|                                  |            |            |            |
+| Immobilisations brutes           | 243 000    | 108 000    | 270 000    |
+| -- Dépréciations                 | 27 000     | 54 000     | 162 000    |
+| = Immobilisations nettes         | 216 000    | 54 000     | 108 000    |
+| Actif circulant                  | 162 000    | 54 000     | 27 000     |
+| Total actif                      | 378 000    | 108 000    | 135 000    |
+|                                  |            |            |            |
+| Dettes d'exploitation            | 0          | 0          | 0          |
+|                                  |            |            |            |
+
+***** Travail à faire
+      :PROPERTIES:
+      :CUSTOM_ID: travail-à-faire-1
+      :END:
+
+Pour chacune des trois entités, calculer le retour sur investissement
+(ROI).
+
+***** Corrigé
+      :PROPERTIES:
+      :CUSTOM_ID: corrigé-2
+      :END:
+
+| en K €                               | Division A  | Division B | Division C |
+| (1) Résultat d'exploitation après IS | 37 800      | 10 800     | 10 800     |
+| (2) Total de l'actif investi         | 378 000 (1) | 108 000    | 135 000    |
+| (1)/(2)=ROI                          | 10 %        | 10 %       | 8 %        |
+
+(1) = 162 000 -- 0 + 216 000
+
+*** La pyramide du ROI
+    :PROPERTIES:
+    :CUSTOM_ID: la-pyramide-du-roi
+    :END:
+
+La pyramide du ROI permet d'expliquer la formation du retour sur
+investissement en considérant que le ROI s'explique par le taux de marge
+(la marge générée par le chiffre d'affaires) et par la rotation des
+actifs (c'est-à-dire le chiffre d'affaires généré par un euro investi).
+
+***** La pyramide du ROI
+      :PROPERTIES:
+      :CUSTOM_ID: la-pyramide-du-roi-1
+      :END:
+
+<< insérer graphique>>
+
+Deux entreprises peuvent ainsi avoir un même ROI mais en l'obtenant de
+manière très différente. Par exemple, les activités de luxe ou de
+construction exigent de forts investissements (faible rotation des
+actifs) mais permettent de forts taux de marge. Inversement, les
+activités de distribution vont avoir un fort taux de rotation des actifs
+(puisqu'elles payent leurs fournisseurs avec d'importants délais alors
+que leurs clients payent au comptant) et un taux de marge peu élevé.
+
+Exercice : La décomposition du ROI
+
+Énoncé
+
+Décomposer le ROI pour les trois divisions. Commenter
+
+Corrigé
+
+La décomposition du ROI pour les trois divisions donne les calculs
+suivants :
+
+| En K €                                    | Division A | Division B | Division C |
+| (1) Chiffre d'affaires                    | 94 500     | 108 000    | 216 000    |
+| (2) Résultat d'exploitation après IS      | 37 800     | 10 800     | 10 800     |
+| (3) Total de l'actif investi              | 378 000    | 108 000    | 135 000    |
+| (2)/(1)=Taux de marge                     | 0,4        | 0,1        | 0,05       |
+| (1)/(3)=Rotation des actifs               | 0,25       | 1          | 1,6        |
+| ROI = taux de marge x rotation des actifs | 10 %       | 10 %       | 8 %        |
+
+Deux des trois entités ont le même retour sur investissement mais elles
+l'obtiennent de manière très différente. La division A a un très fort
+taux de marge (40 %) mais demande des investissements importants, d'où
+un faible taux de rotation des actifs. Inversement, la division B a un
+taux de marge moyen (10 %) mais un taux de rotation des actifs plus
+importants, ce qui lui permet au final d'avoir un ROI équivalent à la
+division A.
+
+La division C a un très faible taux de marge (5 %). Mais elle semble
+nécessiter des investissements assez faibles. Au final, sa rentabilité
+économique est tout de même plus faible que celle des autres divisions.
+
+La décomposition de la pyramide peut être poursuivie pour faire
+apparaître un grand nombre de composantes de la performance de
+l'entreprise ainsi que les leviers d'action envisageables pour améliorer
+la rentabilité.
+
+***** Les leviers d'action mis en évidence par le ROI
+      :PROPERTIES:
+      :CUSTOM_ID: les-leviers-daction-mis-en-évidence-par-le-roi
+      :END:
+
+<< insérer graphique>>
+
+Au final, le « ROI conduit à synthétiser la performance financière des
+managers ayant la charge de faire face au marché, et maîtrisant pour
+cela les paramètres qui déterminent les ventes, les coûts et l'actif du
+bilan »[fn:20]. Il permet aussi de transformer l'entreprise en un vaste
+marché financier interne permettant à la direction d'allouer des
+ressources aux projets dont les ambitions et la logique financière leur
+convient ; il permet aux dirigeants de garder le contrôle par la logique
+financière. Il est, en outre, un langage commun assez compréhensible
+pour l'ensemble de la hiérarchie.
+
+Il peut, de plus, être relié directement aux attentes des actionnaires
+et à la rentabilité financière (que l'on nomme en général ROE : /Return
+on Equity/).
+
+** De la mesure économique à la mesure financière de la performance : le
+ROE
+   :PROPERTIES:
+   :CUSTOM_ID: de-la-mesure-économique-à-la-mesure-financière-de-la-performance-le-roe
+   :END:
+
+Le ROE se mesure en général de la manière suivante :
+
+ROE = Résultat net (ce qui revient aux actionnaires) / Capitaux Propres
+(capitaux apportés par les actionnaires)
+
+Il est possible de montrer que la rentabilité financière (ROE) dépend de
+la rentabilité économique (ROI). Ces deux formes de rentabilité sont, en
+effet, liées par la formule de l'effet de levier qui met en évidence
+l'effet de la structure financière sur la performance financière de
+l'entreprise.
+
+***** Le lien entre ROE et ROI : démonstration
+      :PROPERTIES:
+      :CUSTOM_ID: le-lien-entre-roe-et-roi-démonstration
+      :END:
+
+ROE = Bénéfice net / Capitaux propres (CP)
+
+ROI = Résultat d'exploitation / Actif (par simplification, nous retenons
+ici la formule de base du ROI)
+
+Or, Résultat net
+
+= Résultat d'exploitation -- frais financiers
+
+= ROI x Actif -- i x D (avec i le taux d'intérêt après impôts de la
+dette et D la dette)
+
+= ROI x (CP + D) -- iD
+
+D'où, en remplaçant le résultat net dans la formule de rentabilité
+financière, on obtient :
+
+ROE = (ROI x (CP + D) -- iD) / CP
+
+= ROI + (ROI -- i) x D / CP
+
+Cette formule de l'effet de levier montre que la rentabilité financière
+est différente de la rentabilité économique du fait de l'endettement. En
+effet, tant que le ROI est supérieur au taux d'intérêt de la dette, il y
+a un effet de levier positif. Il devient négatif quand le ROI est
+inférieur au taux d'intérêt de la dette.
+
+La puissance du ROI vient du fait qu'il permet, à partir d'éléments
+comptables, de refléter de nombreux éléments de la performance
+d'exploitation tout en pouvant être relié à la performance financière.
+Il souffre cependant d'un certain nombre de limites.
+
+** Les limites du ROI
+   :PROPERTIES:
+   :CUSTOM_ID: les-limites-du-roi
+   :END:
+
+Il est calculé à partir de données comptables qui sont le résultat de
+choix et de conventions comptables et fiscales. Ainsi, l'évaluation des
+stocks ou des provisions a une incidence sur le bénéfice et sur le
+montant des actifs et donc sur le ROI. La principale difficulté vient
+ainsi de l'évaluation des actifs. En effet, si ces actifs sont évalués à
+la valeur comptable, il est possible d'améliorer mécaniquement le ROI
+par la simple dépréciation comptable des actifs due aux amortissements.
+
+Il peut conduire à limiter les investissements et cela se fait au
+détriment du long terme. En effet, pour améliorer le ROI, deux tactiques
+sont possibles : soit améliorer le bénéfice, soit diminuer les actifs.
+L'amélioration des bénéfices n'est pas forcément aisée. Il semble
+finalement plus simple de diminuer les actifs. Un arrêt des
+investissements aura mécaniquement un effet sur le montant des actifs.
+L'impact du vieillissement des actifs n'aura pas forcément de
+conséquences sur le court terme, il permettra d'améliorer le ROI, mais
+sur le long terme, un outil de production vieillissant conduira
+certainement à une détérioration du résultat.
+
+Enfin, comme nous le verrons dans la section suivante, un directeur
+d'entité pourrait être incité, pour améliorer son ROI, à accepter des
+investissements qui pourtant détruisent de la valeur et à refuser des
+investissements qui pourraient en créer.
+
+L'emploi d'un ratio amplifie les effets pervers mis en évidence
+ci-dessus puisque cela permet de jouer sur le numérateur et le
+dénominateur. L'évaluation du bénéfice résiduel permet, en partie, de
+résoudre ces problèmes.
+
+** Bénéfice résiduel et EVA
+   :PROPERTIES:
+   :CUSTOM_ID: bénéfice-résiduel-et-eva
+   :END:
+
+Le bénéfice résiduel est un indicateur de performance mesurant la
+création de valeur d'une entreprise ou d'une partie d'une entreprise
+après rémunération des capitaux investis au coût moyen pondéré du
+capital.
+
+On peut calculer le bénéfice résiduel de la manière suivante :
+
+Bénéfice résiduel
+
+= résultat d'exploitation après impôts -- coût des capitaux investis
+
+Avec :
+
+Coût des capitaux investis = capitaux investis x coût moyen pondéré du
+capital
+
+Les capitaux investis sont constitués des capitaux propres et de
+l'endettement.
+
+Le coût moyen pondéré du capital (CMPC) correspond à la moyenne pondérée
+du coût de la dette et du coût des capitaux propres.
+
+CMPC
+
+= coût de la dette × Dettes / (dette + capitaux propres)
+
++
+
+coût des capitaux propres × capitaux propres / (dette + capitaux
+propres)
+
+coût de la dette = taux d'intérêt × (1- taux d'IS)
+
+coût des capitaux propres =
+
+R/_{i}/ : taux exigible par les actionnaires
+
+R/_{f}/ : taux de rendement des investissements sans risque
+
+β/_{i}/ : volatilité des rendements des entreprises du secteur (niveau
+de risque)
+
+R/_{M}/ : taux de rentabilité du marché[fn:21]
+
+Le bénéfice résiduel permet de calculer un bénéfice net après
+rémunération des actionnaires (on sait que les dividendes versés aux
+actionnaires ne correspondent pas à une charge, ils n'apparaissent donc
+pas dans le bénéfice comptable). Le niveau de rémunération attendu par
+les actionnaires dépend du niveau de risque de l'activité de
+l'entreprise. Ceci est pris en compte au niveau du calcul du β de
+l'entreprise. En effet, le β est évalué grâce au MEDAF (modèle
+d'évaluation des actifs financiers) et est d'autant plus élevé que
+l'entreprise est considérée comme risquée par les actionnaires. Plus une
+entreprise est risquée et plus le coût de la rémunération des capitaux
+investis sera donc élevé.
+
+On dit qu'il y a création de valeur lorsque le bénéfice résiduel est
+positif (il y a destruction de valeur dans le cas contraire). Une
+entreprise crée de la valeur si elle parvient à dégager un résultat
+supérieur à la rémunération minimale attendue par les apporteurs de
+fonds.
+
+*** Bénéfice résiduel et ROI
+    :PROPERTIES:
+    :CUSTOM_ID: bénéfice-résiduel-et-roi
+    :END:
+
+Si l'on repart de la définition du bénéfice résiduel, on peut constater
+que celui-ci est égal à la différence entre le ROI et le coût moyen
+pondéré du capital multiplié par les actifs investis.
+
+Bénéfice résiduel = Résultat d'exploitation après impôts -- coût des
+capitaux investis
+
+= ROI x actif -- CMPC x actif
+
+= actif x (ROI -- CMPC)
+
+Cette formulation montre qu'un ROI élevé ne signifie pas qu'une entité
+crée de la valeur : tout dépend du coût moyen pondéré du capital. Ainsi,
+il ne sert à rien de comparer le niveau de ROI de diverses entités :
+tout dépend de leur coût moyen pondéré du capital.
+
+***** Exercice (suite) : Le calcul du bénéfice résiduel
+      :PROPERTIES:
+      :CUSTOM_ID: exercice-suite-le-calcul-du-bénéfice-résiduel
+      :END:
+
+On connaît le résultat d'exploitation après IS et le total de l'actif
+investi pour les divisions A, B et C.
+
+| En K €                           | Division A | Division B | Division C |
+| Résultat d'exploitation après IS | 37 800     | 10 800     | 10 800     |
+| Total de l'actif investi         | 378 000    | 108 000    | 135 000    |
+
+Compte tenu de leurs niveaux de risque différents, le coût moyen pondéré
+du capital pour les trois divisions A, B et C est le suivant : Division
+A : 9 % ; Division B : 10 % ; Division C : 10 %
+
+|  |  |
+
+***** Travail à faire
+      :PROPERTIES:
+      :CUSTOM_ID: travail-à-faire-2
+      :END:
+
+Calculer le bénéfice résiduel des trois entités. Comparer aux résultats
+obtenus avec le ROI. Commenter.
+
+***** Corrigé
+      :PROPERTIES:
+      :CUSTOM_ID: corrigé-3
+      :END:
+
+| en K €                           | Division A | Division B | Division C |
+| Résultat d'exploitation après IS | 37 800     | 10 800     | 10 800     |
+| Total de l'actif investi         | 378 000    | 108 000    | 135 000    |
+| ROI (rappel)                     | 10 %       | 10 %       | 8 %        |
+| Coût moyen pondéré des capitaux  | 9 %        | 10 %       | 10 %       |
+| Bénéfice résiduel                | 3 780      | 0          | --2 700    |
+
+D'après le calcul du bénéfice résiduel, seule la division A crée de la
+valeur. On constate d'ailleurs que pour qu'il y ait création de valeur,
+il faut que le ROI soit supérieur au coût du capital.
+
+Nous avons souligné ci-dessus que ROI peut poser des problèmes de sous
+optimisation. En effet, pour améliorer son ROI une division peut
+accepter un investissement qui détruit de la valeur pour l'entreprise.
+Inversement, pour maintenir son ROI à un taux élevé, une division peut
+refuser un investissement qui créé de la valeur. Le bénéfice résiduel
+résout ces problèmes : toutes les décisions d'investissement seront
+réalisées si et seulement si elles créent de la valeur.
+
+***** Exercice (suite) : Investissement et mesure de la performance
+      :PROPERTIES:
+      :CUSTOM_ID: exercice-suite-investissement-et-mesure-de-la-performance
+      :END:
+
+La société X va dorénavant évaluer ses divisions sur la base de leur
+ROI. Les managers des divisions recevront des primes basées sur le ROI.
+Les trois divisions envisagent un investissement dont le ROI est estimé
+à 9,5 %. Pour chacune des divisions, le niveau de risque du projet
+d'investissement est identique au niveau de risque de la division.
+
+***** Travail à faire
+      :PROPERTIES:
+      :CUSTOM_ID: travail-à-faire-3
+      :END:
+
+Quelles décisions vont prendre les trois responsables de division ? Si
+leur performance avait été évaluée sur les bénéfices résiduels les
+décisions des trois responsables auraient-elles été identiques ?
+Commenter.
+
+***** Corrigé
+      :PROPERTIES:
+      :CUSTOM_ID: corrigé-4
+      :END:
+
+Si la performance des entités est évaluée sur le ROI, les entités A et B
+vont refuser l'investissement car celui-ci ferait baisser leur ROI,
+l'entité C va l'accepter puisque cela augmente son ROI.
+
+Si leur performance est évaluée sur le bénéfice résiduel :
+
+- Puisque le ROI de l'investissement est supérieur à son CMPC, la
+  division A va accepter l'investissement (l'investissement va augmenter
+  son bénéfice résiduel) ;
+
+- Puisque le ROI de l'investissement est inférieur à leur CMPC, les
+  divisions B et C vont refuser l'investissement.
+
+Le ROI et le bénéfice résiduel conduisent à des décisions
+d'investissement différentes :
+
+|                   | Division A  | Division B | Division C  |
+| ROI               | Refus       | Refus      | Acceptation |
+| Bénéfice résiduel | Acceptation | Refus      | Refus       |
+
+Les deux critères conduisent dans deux cas sur trois à des décisions
+différentes. Le critère du ROI pousse donc la division A à refuser un
+investissement qui pourtant créerait de la valeur. Inversement, la
+division C va accepter l'investissement alors qu'il va détruire de la
+valeur.
+
+Le bénéfice résiduel de vérifier qu'un investissement ou une entité crée
+de la valeur pour les actionnaires.
+
+Cependant, le calcul du bénéfice résiduel pose des difficultés de mise
+en œuvre.
+
+Il suppose, en effet, de pouvoir calculer le coût du capital investi, et
+donc de disposer du coût moyen pondéré du capital. Or celui-ci se
+calcule en faisant la moyenne pondérée du coût de la dette et de la
+rentabilité attendue par les actionnaires. Cette rentabilité attendue
+par les actionnaires dépend du niveau de risque et n'est pas la même
+pour toutes les divisions de l'entreprise. De plus, elle ne peut être
+calculée qu'à partir du MEDAF (modèle d'évaluation des actifs
+financiers) et de l'évaluation du β de l'activité (ceci n'est possible
+que si la société ou une société ayant le même type d'activité est
+cotée). Ainsi calculer un bénéfice résiduel repose sur une hypothèse
+d'efficience des marchés financiers.
+
+On peut aussi noter que le bénéfice résiduel ne permet pas de comparer
+des activités de tailles différentes.
+
+*** EVA
+    :PROPERTIES:
+    :CUSTOM_ID: eva
+    :END:
+
+Le bénéfice résiduel a été utilisé par la General Electric dès les
+années 1950. Au cours des années 1990, Stern et Steward ont développé
+l'*Economic Value Added* (EVA) qui est une forme de bénéfice résiduel.
+Celui-ci est retraité afin de s'affranchir des limites (présumées par
+les financiers) de l'information comptable.
+
+**** Le calcul de l'EVA
+     :PROPERTIES:
+     :CUSTOM_ID: le-calcul-de-leva
+     :END:
+
+EVA = Bénéfice net d'exploitation réajusté -- Coûts d'utilisation des
+actifs réajustés
+
+Stern et Stewart ont proposé une liste de retraitements du bénéfice net
+et des actifs (notamment pour que ces derniers reflètent la valeur
+économique et non la valeur comptable de l'entreprise). Cela permet
+d'éviter les problèmes d'évaluation comptable des actifs et de donner
+une appréciation plus juste de la performance économique sur le plan
+financier.
+
+**** Conséquences de l'emploi de l'EVA
+     :PROPERTIES:
+     :CUSTOM_ID: conséquences-de-lemploi-de-leva
+     :END:
+
+Le problème qui se pose est que l'EVA implique de multiples
+retraitements. Cela suppose de disposer d'autres données que les seules
+données comptables. De plus, le calcul de l'EVA souffre du même problème
+que le bénéfice résiduel : comment évaluer la rémunération attendue par
+les actionnaires ? Pour le faire, il est nécessaire de connaître le
+niveau de risque de l'entreprise ou de l'activité à laquelle l'EVA est
+appliquée. Très souvent, le calcul de ce niveau de risque sera fait de
+manière très approximative, faute des données nécessaires, diminuant
+ainsi la pertinence du calcul de l'EVA.
+
+Plus fondamentalement, le fait de demander une EVA systématiquement
+positive pose des problèmes de soutenabilité. En effet, le coût moyen
+pondéré du capital représente la rentabilité attendue sur le long terme
+par les différents apporteurs de capitaux et il n'est pas possible sur
+le long terme, par construction, d'être à un niveau plus élevé de
+rentabilité, sauf à prendre plus de risque ou à manipuler les comptes.
+L'EVA mesure en fait un surprofit par rapport aux attentes des
+actionnaires. À ce titre, la diffusion de ce type de mesure pour évaluer
+la performance des managers n'est certainement pas totalement étrangère
+aux récents scandales et manipulations comptables constatés.
+
+** Vers une mesure boursière de la performance financière ?
+   :PROPERTIES:
+   :CUSTOM_ID: vers-une-mesure-boursière-de-la-performance-financière
+   :END:
+
+Pour éviter les effets pervers des indicateurs comptables dus au fait
+que la comptabilité ne représenterait pas la valeur réelle de
+l'entreprise, des indicateurs de nature boursière ou basés sur les /cash
+flows/ ont été développés : TSR (/total shareholder return/), CFROI
+(/Cash Flow ROI/), MVA...
+
+*** La MVA
+    :PROPERTIES:
+    :CUSTOM_ID: la-mva
+    :END:
+
+La /Market Value Added/ (MVA) est un prolongement de l'EVA. Elle
+représente l'excédent de l'évaluation de l'entreprise sur le marché par
+rapport au montant des capitaux qu'elle a empruntés. Autrement dit, elle
+est la capitalisation des augmentations de valeur de l'entreprise pour
+l'actionnaire. En théorie, on pourrait définir la MVA comme la somme
+actualisée des EVA futures selon l'anticipation que les marchés en font.
+
+MVA = Valeur de marché -- Capital employé
+
+= Valeur de l'action × Nombre d'actions -- Actif net comptable corrigé.
+
+La MVA permet de rapprocher l'évaluation de l'entreprise d'une valeur de
+marché et ainsi de limiter l'impact des choix comptables. Elle s'inscrit
+dans le cadre des nombreuses mesures boursières de la performance qui
+ont été développées ces dernières années.
+
+Le graphique ci-après positionne l'apparition chronologique des
+indicateurs de création de valeur selon un double critère : leur
+caractère manipulable et l'influence des marchés financiers qu'ils
+subissent.
+
+*** Typologie des indicateurs de mesure de la création de valeur[fn:22]
+    :PROPERTIES:
+    :CUSTOM_ID: typologie-des-indicateurs-de-mesure-de-la-création-de-valeur
+    :END:
+
+***** Les trois types d'indicateurs de mesure financière de la
+performance (Source : www.verminen.net)
+      :PROPERTIES:
+      :CUSTOM_ID: les-trois-types-dindicateurs-de-mesure-financière-de-la-performance-source-www.verminen.net
+      :END:
+
+Les indicateurs de profit : jusqu'au milieu des années 1980,
+l'entreprise communiquait essentiellement sur le résultat net ou le
+bénéfice par action (BPA), paramètre éminent de la comptabilité mais
+aussi éminemment sujet à /window dressing/ : éléments exceptionnels,
+provisions, L'accent progressivement mis sur le résultat d'exploitation
+ou l'excédent brut d'exploitation représente un progrès en réduisant
+très fortement l'impact de l'exceptionnel ou des charges calculées.
+
+Les indicateurs de rentabilité : la seconde étape est le raisonnement en
+termes de rentabilité, c'est-à-dire d'efficacité, qui rapporte les
+résultats dégagés aux capitaux mobilisés pour les atteindre. On parle
+alors de rentabilité des capitaux propres, critère soumis néanmoins à
+l'effet de levier : une hausse judicieuse de l'endettement accroît le
+plus souvent cet indicateur sans que la valeur n'en soit pour autant
+augmentée, l'accroissement du risque annihilant celle de la rentabilité.
+La rentabilité de l'actif économique (ou des capitaux investis ou
+employés, ou encore /return on capital employed/, ROCE) évite ce biais,
+ce qui explique que mis à part certains secteurs où elle n'a pas de sens
+(banque, assurance, ...), elle tend à s'imposer comme indicateur de
+performance économique.
+
+Les indicateurs de création de valeur : (...) la rentabilité dégagée
+est, en tant que telle, un critère insuffisant en matière de valeur
+puisqu'elle ne prend pas en compte la notion de risque. Elle reste à
+comparer au coût des capitaux employés, c'est-à-dire au coût moyen
+pondéré du capital (ou coût du capital, le WACC des anglo-saxons) pour
+mesurer si de la valeur a été créée (rentabilité de l'actif économique
+supérieure au coût des capitaux employés) ou détruite (l'inverse). (...)
+Cette mesure de la création de valeur a été popularisée sous le nom
+d'EVA (/Economic Value Added/) par le cabinet Stern Stewart & Co. Bien
+que, la marge entre rentabilité économique et coût du capital d'une part
+et l'EVA d'autre part soient de nature économique, elles subissent en
+partie l'influence des marchés financiers qui déterminent le coût du
+capital. La /Market Value Added/ (MVA pour les intimes) et le /Total
+Shareholder Return/ (TSR) sont eux fortement influencés par la
+conjoncture boursière. La MVA correspond à l'écart entre la valeur des
+capitaux propres et de l'endettement net, et leur montant comptable ;
+elle s'exprime en unités monétaires. Le TSR s'exprime en pourcentage et
+correspond à l'addition du taux de rendement de l'action (dividende /
+valeur de l'action) et du taux de plus-value (plus-value sur la période
+/ valeur initiale de l'action). C'est le taux de rentabilité pour
+l'actionnaire qui achète son action en début de période et la revend en
+fin de période. Dès lors, et c'est là leur principale faiblesse, ces
+deux indicateurs peuvent faire apparaître une destruction de valeur (qui
+résulte de la baisse des anticipations de profits futurs) alors même que
+l'entreprise a dégagé sur son actif économique une rentabilité
+supérieure au coût du capital. (...) À l'inverse, en cas d'euphorie
+boursière, une société aux performances économiques médiocres peut
+afficher des TSR et une MVA flatteurs.
+
+Des indicateurs financiers reflétant (du moins en apparence) les
+attentes des actionnaires ont ainsi été développés dans les entreprises
+depuis le début des années 1980. Ces indicateurs de performance basés
+sur les marchés financiers ne sont pourtant pas sans risques car la
+volatilité des marchés n'en fait pas toujours de bons indicateurs de
+performance mais aussi car ils reposent sur des anticipations qui
+s'avèrent souvent fausses. De plus, ils supposent que l'entreprise soit
+cotée en bourse et peuvent pousser les dirigeants à des stratégies de
+court terme visant à manipuler les marchés financiers.
+
+* Footnotes
+
+[fn:25]  Cette valorisation va ensuite être utilisée par la comptabilité financière. Ainsi, même si la comptabilité de management n'est pas directement normalisée, les données qu'elle produit pour valoriser le coût des stocks et produits en cours sont tout de même encadrées par les normes comptables.
+
+[fn:1] J. Maurice Clark/, Studies in the Economics of Overhead Costs/
+       (University of Chicago Press, 1923), p. 175. Cité par H. Thomas
+       Johnson et Robert S. Kaplan, dans /Relevance lost, the Rise and
+       Fall of Management Accounting,/ Harvard Business School Press,
+       p. 155.
+
+[fn:2] Patrick Boisselier, /Contrôle de gestion :/ /cours et
+       application,/ Vuibert.
+
+[fn:3] Bouquin, H (2011), La comptabilité de gestion, Economica, 10^{ème} édition.
+
+[fn:4] Leclère, D. (2004), /L'essentiel de la comptabilité analytique/,
+       éditions d'organisation.
+
+[fn:5] Bouquin, H (2000), /Comptabilité de gestion/, éditions économica.
+
+[fn:6] Burlaud A. et Simon C. (2003), /Comptabilité de gestion,/ Vuibert
+       Gestion, p. 15.
+
+[fn:7] Bouquin H. (2011), La comptabilité de gestion, PUF, « Que
+       sais-je ? », 6ème édition.
+
+[fn:8] Bouquin, H. (2006), /Le contrôle de gestion/, Paris, PUF.
+
+[fn:9] Adapté de Bouquin, H. (2006), /Le contrôle de gestion/, Paris,
+       PUF.
+
+[fn:10] Anthony, R.N. (1988), /The management control function/, The
+        Harvard Business School Press, Boston (Trad. /La fonction
+        contrôle de gestion/), Paris, Publi-Union, 1993.
+
+[fn:11] Bouquin, H. (2006), /Le contrôle de gestion/, Paris, PUF.
+
+[fn:12] Barrett, M.E. & Fraser, L.B. (1977), « Conflicting Roles in
+        Budgeting for Operations », /Harvard Business Review/,
+        juillet-août, p. 136-147.
+
+[fn:13] Argyris C. (1953), « Human problems with budgets », /Harvard
+        Business Review/, vol. 31, n° 1, p. 97-110.
+
+[fn:14] Hansen, S.C., Otley, D. & Van der Stede, W.A. (2003), « Practice
+        developments in budgeting : an overview and research
+        perspective », /Journal of Management Accounting Research/, vol.
+        15, p. 95-116.
+
+[fn:15] Hope, J. & Fraser, R. (2003), « Who needs budget ? », /Harvard
+        Business Review/, février, p. 108-115.
+
+[fn:16] Jensen, M.C. (2001), « Corporate Budgeting Is Broken -- Let's
+        Fix It », /Harvard Business Review/, vol. 79, n° 11, novembre,
+        p. 94-101.
+
+[fn:17] Hansen S.C., Otley, D. & Van der Stede, W.A. (2003), « Practice
+        developments in budgeting : an overview and research
+        perspective », /Journal of Management Accounting Research/, vol.
+        15, p. 95-116.
+
+[fn:18] Hope, J. & Fraser, R. (2003), « Who needs budget ? », /Harvard
+        Business Review/, février, p. 108-115.
+
+[fn:19] Une enquête montre ainsi que, dans 60 % des cas, les entreprises
+        ne font pas de plans d'action avant de réaliser leur budget
+        (Sponem, S. (2004), /Diversité des pratiques budgétaires :
+        proposition d'une typologie et étude des déterminants/, thèse de
+        doctorat ès sciences de gestion, Université Paris Dauphine).
+
+[fn:20] Bouquin, H (2008), Le contrôle de gestion, PUF, 8^{e} édition.
+
+[fn:21] Le β est calculé à partir du modèle d'évaluation des actifs
+        financiers, MEDAF, voir UE 2 du DSCG.
+
+[fn:22] Source : www.verminen.net, 2002
+
+[fn:23]  
