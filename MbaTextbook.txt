@@ -7,8 +7,6 @@
 #+LATEX_CLASS:samassign
 #+SETUPFILE:  https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 
-* Introduction
-
 Les états financiers donnent aux parties prenantes externes une image comptable et financière de l'entreprise. L'état des résultats représente la performance de l'organisation sur une année et l'état de la situation financière donne une image du patrimoine à la fin de l'exercice comptable.
 
 Cette image comptable et financière (ce que l'on appelle la comptabilité financière) est cependant insuffisante pour permettre la gestion d'une organisation. Les managers ont besoin d'informations complémentaires pour planifier les activités de l'organisation, les contrôler et prendre les bonnes décisions.
@@ -17,14 +15,14 @@ La comptabilité de gestion a pour objectif d'organiser et d'analyser les inform
 
 #+caption: Comptabilité financière et comptabilité de gestion
 #+name: comptafi
-[[file:./img/comptafi.jpeg]]
+[[./img/comptafi.jpeg]]
 
-En organisation, la comptabilité peut ainsi rempnlir divers rôles[fn:2] :
+En organisation, la comptabilité peut ainsi remplir divers rôles[fn:2] :
 - Aider à la résolution des problèmes et à la prise de décision /(problem-solving)/
 - Orienter l’attention et organiser la vigilance /(attention-directing)/
 - Permettre un constat et évaluer la performance /(scorekeeping)/
 
-Le comptable est généralement responsable de la production de ces différents calculs. C'est cependant le gestionnaire qui doit utiliser ces informations calculs pour prendre des décisions et contrôler. La comptabilité de gestion accompagne ainsi le gestionnaire au cours des différentes étapes du processus de management : planifier (/Plan/), réaliser (/Do/), contrôler et vérifier (/Check/); et agir et ajuster (/Act/).
+Le comptable est généralement responsable de la production de ces différents calculs. C'est cependant le gestionnaire qui doit utiliser ces calculs pour prendre des décisions et contrôler. La comptabilité de gestion accompagne ainsi le gestionnaire au cours des différentes étapes du processus de management : planifier (/Plan/), réaliser (/Do/), contrôler et vérifier (/Check/); et agir et ajuster (/Act/).
 
 #+caption: Utiliser la comptabilité de gestion pour planifier, contrôler et ajuster
 #+name: pdca
@@ -40,9 +38,9 @@ Les chiffres produits par la comptabilité de gestion reposent sur des hypothès
 - d'améliorer la prise de décision ;
 - de mieux contrôler l'organisation.
 
-La comptabilité de gestion n'est donc pas purement technique. Elle fait partie du processus de management. C'est toute sa difficulté : il faut connaître les outils mais ne pas s'y limiter.
+La comptabilité de gestion n'est donc pas purement technique. Elle fait partie du processus de management. C'est toute sa difficulté : il faut connaître les outils, mais ne pas s'y limiter.
 
-Ce document vient en complément des diapositives utilisées pour le cours. Il présente les pratiques communément acceptées en comptabilité de gestion, de manière simplifiée et à destination des gestionnaires, afin de vous permettre de :
+Ce document vient en complément des diapositives utilisées pour le cours. Il présente les pratiques communément acceptées en comptabilité de gestion, de manière simplifiée et à destination des gestionnaires, afin de vous permettre :
 - de discuter avec un comptable en organisation (maîtriser son vocabulaire et comprendre ses méthodes) ;
 - d'utiliser l’information produite par le comptable et d'exercer un regard critique sur les outils et procédures qu’il utilise ;
 - de maîtriser les techniques de base de calcul des coûts, de construction des budgets ;
@@ -50,8 +48,9 @@ Ce document vient en complément des diapositives utilisées pour le cours. Il p
 
 
 #+begin_quote
-Pour chaque section, vous pouvez vérifier vos connaissances à l'aide de quiz disponibles à l'adresse suivante : https://www.wooclap.com/COMP50900 
-Ces quiz sont optionnels et non évalués. Les quiz obligatoires sont disponibles sur ZoneCours.
+Pour chaque section, vous pouvez faire les exercices sur ZoneCours et vérifier vos connaissances à l'aide de quiz d’entrainement disponibles à l'adresse suivante : https://www.wooclap.com/COMP50900 
+Ces quiz sont optionnels et non évalués. 
+Les quiz obligatoires sont disponibles sur ZoneCours.
 #+end_quote
 
 * Calcul des coûts et prise de décision
@@ -71,11 +70,11 @@ On considère "qu'il n'y a pas qu'une pratique correcte en matière de calcul de
 
 Dans de nombreuses situations, la connaissance des coûts est donc un élément de base de la prise de décision, même si la connaissance du coût n'est pas un élément suffisant. Elle vient en complément de l'analyse du marché, de l'analyse du processus de production et de l'analyse des risques encourus par l'entreprise. 
 
-Selon les décisions à prendre, divers types de calcul des coûts sont envisageables. Par exemple, pour les décisions à court terme on se limitera généralement au calcul de coûts partiels (c'est-à-dire qui ne prennent en compte qu'une partie des coûts) alors que sur le long terme on appuiera les décisions sur des calculs des coûts complets (qui prennent en compte l'ensemble des coûts). Aucune méthode n'est adaptée à toutes les situations ; la méthode retenue doit être pertinente compte-tenu de la décision à prendre. 
+Selon les décisions à prendre, divers types de calcul des coûts sont envisageables. Par exemple, pour les décisions à court terme on se limitera généralement au calcul de coûts partiels (c'est-à-dire, qui ne prennent en compte qu'une partie des coûts) alors que sur le long terme on appuiera les décisions sur des calculs des coûts complets (qui prennent en compte l'ensemble des coûts). Aucune méthode n'est adaptée à toutes les situations ; la méthode retenue doit être pertinente compte tenu de la décision à prendre. 
 #+begin_warning
 Avant de se lancer dans un calcul de coûts, il faut donc se demander quel est l'objectif de ce calcul et bien choisir son /objet de coût/ (élément pour lequel une mesure séparée du coût est nécessaire). 
 #+end_warning
-Un objet de coût peut être un produit, un service, un client, une ligne de produit, une fonction, une activité, etc.
+Un objet de coût peut être un produit, un service, un client, une ligne de produits, une fonction, une activité, etc.
 
 Selon les décisions à prendre, il peut être utile de calculer le coût total ou le coût unitaire :
 - le coût total est le coût d'un ensemble de produits fabriqués
@@ -83,9 +82,9 @@ Selon les décisions à prendre, il peut être utile de calculer le coût total 
 
 ** Comportement des coûts, calcul des coûts et prise de décision sur le court terme
    :PROPERTIES:
-   :CUSTOM_ID: coûtspartiels
+   :CUSTOM_ID: coutspartiels
    :END:
-*** La distinction entre coût variables et coûts fixes
+*** La distinction entre coûts variables et coûts fixes
     :PROPERTIES:
     :CUSTOM_ID: cvcf
     :END:
@@ -136,7 +135,7 @@ La marge nette (aussi appelé méthode des coûts spécifiques) traduit la contr
 
 Parmi les coûts fixes, on peut distinguer ceux qui sont spécifiques – que l'on nomme aussi directs parce qu'ils sont facilement attribuables à un objet de coût (par exemple, une machine qui n'est utilisée que par un produit) – de ceux qui sont communs – que l'on nomme aussi indirects car ils ne peuvent être attribués directement aux différents produits et services (par exemple, le système informatique qui est utilisé pour les différents produits ou services de l'entreprise).
 
-Pour calculer les marge nette, on ne prend en compte que les coûts variables et la part des coûts fixes spécifiques aux produits ou services. L'ensemble des coûts fait ainsi l'objet d'une double segmentation : charges fixes et charges variables, d'une part, et charges directes et charges indirectes, d'autre part.
+Pour calculer les marges nettes, on ne prend en compte que les coûts variables et la part des coûts fixes spécifiques aux produits ou services. L'ensemble des coûts fait ainsi l'objet d'une double segmentation : charges fixes et charges variables, d'une part, et charges directes et charges indirectes, d'autre part.
 
 Le tableau d'analyse des coûts est donc le suivant :
 
@@ -161,7 +160,7 @@ Pour une synthèse, concernant la notion de marge nette, voir : https://youtu.b
 #+begin_quote
 Les coûts partiels permettent de prendre de nombreuses décisions. Ils sont notamment utiles pour :
 - s'interroger sur le prix optimal (voir /Établir le prix de vente en fonction des coûts/ plus particulièrement de 0 à 1 min 30 : https://youtu.be/gpKK4zIgfLc)
-- prendre des décisions lorsque le coût fixe ne change pas. (voir /Les opportunités d'affaire et la notion de pertinence/ : https://youtu.be/tLqI2vId1Sg
+- prendre des décisions lorsque le coût fixe ne change pas. (voir /Les opportunités d'affaires et la notion de pertinence/ : https://youtu.be/tLqI2vId1Sg
 - prendre en compte les coûts d'opportunité, que l'on appelle aussi coût de renonciation (voir /Le coût de renonciation/ : https://youtu.be/1qVlwgbQAcM)
 #+end_quote
 
@@ -172,7 +171,7 @@ Ces calculs permettent d'éviter la répartition arbitraire des charges indirect
     :CUSTOM_ID: cvp
     :END:
 L'une des applications courantes de la distinction entre coûts variables et coûts fixes est le calcul du seuil de rentabilité (ou point mort). 
-Par définition, le seuil de rentabilité est atteint lorsque le résultat est égal à 0, ce qui signifie que le chiffre d'affaires et équivalent aux coûts :
+Par définition, le seuil de rentabilité est atteint lorsque le résultat est égal à 0, ce qui signifie que le chiffre d'affaires est équivalent aux coûts :
 #+begin_center
 *Chiffre d'affaires = Coût variable unitaire x Quantités + Coûts fixes*
 #+end_center
@@ -222,7 +221,7 @@ Prix de vente : 25 $ (par produit)
 - Calculez le seuil de rentabilité en quantité.
 - Proposez une représentation graphique de ce seuil de rentabilité.
 - Il semble que les ventes devraient être de 100000 produits pour BertMod. Calculez le résultat attendu grâce au produit BertMod.
-- Le directeur Marketing pense qu'en améliorant la qualité du produit, celui-ci pourrait se vendre 30 $. Ceci nécessiterait l'embauche de 5 personnes en plus pour un coût de 700 000 $ par an (les autres coûts demeurant inchangés). Calculer la quantité qu'il faudrait vendre pour que cette solution soit plus intéressante que celle proposée par le directeur commercial ?
+- Le directeur marketing pense qu'en améliorant la qualité du produit, celui-ci pourrait se vendre 30 $. Ceci nécessiterait l'embauche de 5 personnes en plus pour un coût de 700 000 $ par an (les autres coûts demeurant inchangés). Calculer la quantité qu'il faudrait vendre pour que cette solution soit plus intéressante que celle proposée par le directeur commercial ?
 *Corrigé*
 1) 
 Charges variables : matières premières et charges de distribution.
@@ -241,9 +240,9 @@ Q* > 1133333
 
 #+begin_verse
 *IsoGreen*
-L'entreprise IsoGreen s’interroge sur l’opportunité de produire des contenants isothermes recyclables. Les études de marché suggèrent que 500 000 contenant pourraient être vendus annuellement. 
+L'entreprise IsoGreen s’interroge sur l’opportunité de produire des contenants isothermes recyclables. Les études de marché suggèrent que 500 000 contenants pourraient être vendus annuellement. 
 
-Il est attendu que ces contenants aient la structure de coût suivante, pour un volume de vente de 500 000 unités :
+Il est prévu que ces contenants aient la structure de coût suivante, pour un volume de vente de 500 000 unités :
 #+end_verse
 
 #+caption: Prix coûts attendus pour les isothermes recyclables
@@ -262,7 +261,7 @@ Il est attendu que ces contenants aient la structure de coût suivante, pour un 
 2. Calculer le résultat si 500 000 unités sont vendues.
 3. Un investissement de productivité qui se traduirait par des coûts fixes annuels supplémentaires de production de 810 000 $ est envisagé. Celui-ci permettrait d’automatiser la production et de supprimer les coûts variables de main d’œuvre. Si cet investissement est réalisé, quel serait le nouveau seuil de rentabilité (a) en unités et (b) en chiffre d’affaires ?
 4. Calculer le nombre d’unités qui doivent être vendues annuellement pour que les solutions avec investissement de productivité et sans l’investissement de productivité soient équivalentes. Donner le détail des calculs.
-5. Recommanderiez-vous l’investissement de productivité supplémentaire ? Justifiez votre réponse	
+5. Recommanderiez-vous l’investissement de productivité supplémentaire ? Justifiez votre réponse.	
 
 *Corrigé*
 1) 
@@ -274,7 +273,7 @@ Seuil de rentabilité en chiffre d'affaires = 3 600 000 / 0,3 = 12 000 000 (c'es
 2) 
 Résultat = 500 000 x 9 - 3 600 000 = 900 000
 3) 
-Nouvelle marge sur coût variable unitaire = 9 + 1,5 = 10,5 (on supprime les coûts variable de main d'oeuvre)
+Nouvelle marge sur coût variable unitaire = 9 + 1,5 = 10,5 (on supprime les coûts variables de main d'oeuvre)
 Nouveaux coûts fixes totaux = 3 600 000 + 810 000 = 4 410 000
 Seuil de rentabilité en quantité = 4 410 000 / 10,5 = 420 000
 Taux de marge sur coût variable = 10,5 / 30 = 0,35
@@ -286,7 +285,7 @@ Le niveau de vente pour lequel les deux solutions sont égales est atteint lorsq
 9 X - 3 600 000 = 10,5 X - 4 410 000
 <--> 810 000 = 1,5 X
 <--> 810 000 / 1,5 = 540 000
-5/ 
+5)
 Au-dessus de 540 000 ventes, l'investissement est rentable
 On pense faire 500 000 ventes, il n'est donc pas intéressant de faire l'investissement
 #+end_verse
@@ -294,12 +293,12 @@ On pense faire 500 000 ventes, il n'est donc pas intéressant de faire l'investi
 Le seuil de rentabilité est ainsi extrêmement utile pour faire un calcul simple visant à s'interroger sur la pertinence d'un investissement. Des notions de finance plus élaborées peuvent cependant être utilisées, comme la valeur actuelle nette.
 
 #+begin_quote
-Pour vous exercer sur cette section, voir les exercices sur zonecours et le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f6897932655921192ee504c
+Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f6897932655921192ee504c
 #+end_quote
 
 ** Gestion des coûts et prise de décision sur le long terme
    :PROPERTIES:
-   :CUSTOM_ID: coûtscomplets
+   :CUSTOM_ID: coutscomplets
    :END:
 *** Le concept de coût complet
 Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges considérées comme incorporables (qu'elles soient variables, fixes, directes ou indirectes) pour les imputer aux objets de coûts. Les méthodes présentées par la suite s'appliquent à tout "objet de coût" (un produit, un service, un client, etc.), mais simplifier la formulation on parlera par la suite de "produit". 
@@ -310,17 +309,17 @@ Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges c
 Les charges indirectes sont les charges que l'on ne peut affecter sans ambiguïté à un produit. Par exemple, les coûts d'une machine utilisée par plusieurs produits, des frais de la direction générale, des coûts de transports communs à plusieurs produits sont des charges indirectes. Toute la difficulté vient de la nécessité, pour calculer un coût complet, de rattacher ces charges à un produit.
 *** Les étapes de calcul du coût de revient complet
     :PROPERTIES:
-    :CUSTOM_ID: coûtcompletétapes
+    :CUSTOM_ID: ccetapes
     :END:
 Une fois qu'un objet de coût est défini, on peut synthétiser le calcul du coût complet en 4 étapes :
 **** Étape 1. Classement des charges en charges directes et indirectes
-L'ensemble des charges de la comptabilité financière doit être pris en compte à l'exception des charges qui ne reflètent pas les conditions normales d'une exploitation régulière de l'entreprise (par exemple, les charges ou pertes exceptionnelles, les amortissements dérogatoires, etc.). Le total des charges incorporables est classé en charges directes (affectables sans ambiguïté à un produit) et charges indirectes
+L'ensemble des charges de la comptabilité financière doit être pris en compte à l'exception des charges qui ne reflètent pas les conditions normales d'une exploitation régulière de l'entreprise (par exemple, les charges ou pertes exceptionnelles, les amortissements dérogatoires, etc.). Le total des charges incorporables est classé en charges directes (affectables sans ambiguïté à un produit) et charges indirectes.
 **** Étape 2. Affectation des charges indirectes aux centres de regroupement
 À cette étape, il est nécessaire d'affecter l'ensemble des charges indirectes à ce que l'on appelle des centres de regroupement, qui sont des entités comptables dans lesquelles on regroupe les charges indirectes qui se ressemblent[fn:5].
 Un centre de regroupement est un "compartiment comptable" incluant des activités homogènes technologiquement distinctes des activités des autres centres. Dans la pratique, les centres de regroupement correspondent souvent aux différents services, départements ou ateliers mais si l'on y effectue des tâches technologiquement distinctes, il est nécessaire de définir plusieurs centres pour s'assurer de l'homogénéité des charges regroupées au sein du centre. Les coûts du centre sont dits homogènes s'ils forment un ensemble stable et solidaire, c'est-à-dire si chaque fois que l'activité est déclenchée, les tâches élémentaires qu'elle comporte sont toutes effectuées et si chacune de ses tâches est exécutée de manière stable. Autrement dit, quel que soit le produit, celui-ci doit consommer toutes les tâches dans les mêmes proportions.
 Quelques principes doivent être pris en compte lors de la définition des centres : 1/ la liste des centres doit être exhaustive ; 2/ les centres doivent s'exclure mutuellement ; 3/ Il doit être possible d'attribuer à chaque centre de regroupement ses charges. On remarquera que plus le nombre de centres est élevé, plus le coût de saisie et de traitement est élevé, mais plus les centres ont des chances de présenter une activité homogène mesurable.
 **** Étape 3. Regroupement en fonction des bases d’imputation et calcul des taux d’imputation
-Une fois les coûts des centres supports répartis dans les centres principaux, on cherche à répartir le coût des centres principaux dans les produits. Pour pouvoir le faire, il est nécessaire de calculer un taux d'imputation. Pour simplifier, il est possible de regrouper les centres ayant des bases d'imputation identiques, avant de calculer les taux d'imputation.
+Lorsque les centres de regroupement sont déterminés, on cherche à répartir le coût des centres dans les produits. Pour pouvoir le faire, il est nécessaire de calculer un taux d'imputation. Pour simplifier, il est possible de regrouper les centres ayant des bases d'imputation identiques, avant de calculer les taux d'imputation.
 La base d'imputation est l'unité de mesure de l'activité d'un centre, elle modélise les coûts de ce centre. Elle doit être choisie de manière à être la plus représentative possible du travail effectué par le centre et à traduire les variations de son activité. Souvent elle correspond au principal facteur de production utilisé par le centre (la main d'œuvre, l'heure machine, le nombre de lots, etc.).
 Le choix de la base d'imputation est déterminant, car les bases d'imputation permettent d'opérer les transferts de coûts vers les objets de coût. Une bonne base d'imputation est celle pour laquelle une corrélation satisfaisante est observée avec le coût du centre. 
 Le taux d'imputation est obtenu en divisant les totaux issus de la répartition secondaire par le volume de la base d'imputation.
@@ -334,10 +333,10 @@ Les étapes 2 et 3 doivent être menées en réalisant un tableau de répartitio
 | Base d'imputation en volume                 | Calcul du volume de la base d'imputation. Par exemple, si on choisit les heures machines, on calcule le total des heures machines pour tous les produits | (2)       | ... |
 | Taux d'imputation                           | Le taux d'imputation est obtenu en divisant les ressources consommées par la base d'imputation                                                           | (1) / (2) | ... |
 
-Le tableau comprend autant de colonne que le nombre de centres de regroupement. 
+Le tableau comprend autant de colonnes que le nombre de centres de regroupement. 
 
 #+begin_warning
-Le tableau de répartition des charges indirectes est une étape *indispensable* du calcul du coût complet. Dans les situations simples, on peut être tenté de se passer de cette étape en affectant directement les charges indirectes, sans passer par cette étape intermédiaire. Cependant, en faisant cela, on multiplie les possibilités d'erreur. De plus, on ne rend pas disponible une information importante sur ce que nous coûtent chacune des opérations en termes de charges indirectes.
+Le tableau de répartition des charges indirectes est une étape *indispensable* du calcul du coût complet. Dans les situations simples, on peut être tenté de se passer de cette étape en affectant directement les charges indirectes, sans passer par cette étape intermédiaire. Cependant, en faisant cela, on multiplie les possibilités d'erreur. De plus, on ne rend pas disponible une information importante sur ce que nous coûte chacune des opérations en termes de charges indirectes.
 #+end_warning
 
 **** Étape 4. Imputation des charges directes et indirectes aux objets de coût
@@ -349,10 +348,10 @@ L'étape 4, qui permet le calcul du coût complet et du résultat en coût compl
 | <10>               | <20>                                                                                                                                                                                                                                                   | <10>                                      | <5> |
 |--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+-----|
 | Charges directes   | Une ligne pour chaque type de charge indirecte. Par exemple, la main d'oeuvre directe, les matières premières, etc.                                                                                                                                    | quantités x coût unitaire = [1]           | ... |
-| Charges indirectes | Une ligne pour chaque centre. Par exemple, centre de regroupement assemblage, livraison, etc. Pour affecter les charges indirectes on multiplie la base d'imputation (en l'adaptant aux quantités consommées par le produit) par le taux d'imputation. | Volumme d'imputation pour le produit x taux d'imputation = [2] | ... |
+| Charges indirectes | Une ligne pour chaque centre. Par exemple, centre de regroupement assemblage, livraison, etc. Pour affecter les charges indirectes, on multiplie la base d'imputation (en l'adaptant aux quantités consommées par le produit) par le taux d'imputation. | Volumme d'imputation pour le produit x taux d'imputation = [2] | ... |
 | Coût complet       |                                                                                                                                                                                                                                                        | '= [1] + [2]                              | ... |
 Il doit y avoir une colonne pour chaque produit. 
-Le volume d'imputation correspond à ce qui est consommé par le produit. Par exemple, si la base d'imputation est l'heure machine, qu'un produit donnée consomme 2 heures machines et qu'on produit 100 unités de ce produit. Le volume d'imputation est de 100 x 2. Autre exemple, si la base d'imputation est le nombre de lots mis en production et que pour un produit donné, il y a 50 lots mis en production, le volume d'imputation est de 50.
+Le volume d'imputation correspond à ce qui est consommé par le produit. Par exemple, si la base d'imputation est l'heure machine, qu'un produit donné consomme 2 heures machines et qu'on produit 100 unités de ce produit. Le volume d'imputation est de 100 x 2. Autre exemple, si la base d'imputation est le nombre de lots mis en production et que pour un produit donné, il y a 50 lots mis en production, le volume d'imputation est de 50.
 
 La méthode des coûts complets peut être utilisée pour calculer le coût de produits ou de services, comme le montre l'exemple ci-dessous :
 
@@ -411,14 +410,14 @@ Le secteur G est celui qui a le meilleur taux marge.
 
 *** Conditions de validité de la méthode : Homogénéité des centres de regroupement et choix des bases d'imputation
     :PROPERTIES:
-    :CUSTOM_ID: coûtcompletvalid
+    :CUSTOM_ID: ccvalid
     :END:
 
 La méthode de calcul du coût complet repose sur une technique de calcul. Cependant, préalablement à la mise en œuvre de cette technique, il faut faire deux choix : le découpage en centres de regroupement et le choix des bases d'imputation. Le choix des centres et des bases d'imputation détermine la qualité du calcul du coût réalisé. Si ces choix sont mal faits, c'est toute la pertinence de la répartition des charges indirectes, et donc du calcul des coûts, qui est remise en cause. Il est donc indispensable de choisir des centres qui sont homogènes et des bases d'imputation qui reflètent le niveau d'activité du centre sous peine de calculer des coûts qui n'ont pas de sens.
 
 **** Le découpage en centres de regroupement
      :PROPERTIES:
-     :CUSTOM_ID: le-découpage-en-centres-de-regroupement
+     :CUSTOM_ID: centrereg
      :END:
 
 Un centre de regroupement est un "compartiment comptable" regroupant des activités homogènes technologiquement distinctes des activités des autres centres. Dans la pratique, les centres de regroupement correspondent souvent aux différents services ou ateliers mais si on effectue des tâches technologiquement distinctes, il est nécessaire de définir plusieurs centres ou sections pour s'assurer de l'homogénéité des coûts qui composent le centre.
@@ -454,7 +453,7 @@ Il faudra donc limiter le nombre de centres de regroupement à ce qui est réell
 
 **** Le choix des bases d'imputation
       :PROPERTIES:
-      :CUSTOM_ID: coûtcompletbase
+      :CUSTOM_ID: ccbase
       :END:
 
 La base d'imputation doit permettre de répartir les charges indirectes entre les produits qui la consomment : elle représente et modélise l'activité d'un centre de regroupement. Une bonne base d'imputation est celle pour laquelle une corrélation satisfaisante est observée entre le coût du centre et le volume de la base d'imputation. C'est-à-dire que, sur le long terme, le volume de la base d'imputation et les coûts du centre de regroupement doivent évoluer de manière proportionnelle.
@@ -477,21 +476,21 @@ En revanche, dans le cas ci-dessous il faudrait trouver une autre base d'imputat
 | Taux d'imputation           | 250 | 220 | 190 | 400 |
 #+end_verse
 
-Selon les choix faits des résultats très différents pourront être trouvés. Des produits ou des clients pourront apparaître comme bénéficiaires avec une méthode alors qu'ils sont déficitaires avec une autre méthode. Il est donc nécessaire de faire ces choix avec circonspection.
+Selon les choix faits, des résultats très différents pourront être trouvés. Des produits ou des clients pourront apparaître comme bénéficiaires avec une méthode alors qu'ils sont déficitaires avec une autre méthode. Il est donc nécessaire de faire ces choix avec circonspection.
 
 #+begin_quote
-Traditionnellement, la comptabilité a apporté une grande importance aux activités volumiques, c'est-à-dire qui sont liés aux quantités produites et vendues (par ex, les charges indirectes de production liées aux heures de machine ou de main d’œuvre directe). Il est cependant important de prendre aussi en compte les activités non volumiques, c'est-à-dire qui ne sont pas directement reliées aux quantités produites et vendues (ex: contrôle qualité, manutention, conception des produits qui dépendent du nombre de lots ou du nombre de modèle).
+Traditionnellement, la comptabilité a apporté une grande importance aux activités volumiques, c'est-à-dire qui sont liés aux quantités produites et vendues (par ex, les charges indirectes de production liées aux heures de machine ou de main d’œuvre directe). Il est cependant important de prendre aussi en compte les activités non volumiques, c'est-à-dire qui ne sont pas directement reliées aux quantités produites et vendues (ex: contrôle qualité, manutention, conception des produits qui dépendent du nombre de lots ou du nombre de modèles).
 Ainsi, les bases d’imputation ne doivent pas être uniquement volumiques si les coût indirects non reliés aux volumes représentent un part importante des charges indirectes.
 #+end_quote
 
 *** Du calcul du coût à la gestion des coûts : la méthode par activité
     :PROPERTIES:
-    :CUSTOM_ID: coûtcompletcritique
+    :CUSTOM_ID: cccritique
     :END:
 Différentes critiques peuvent être faites aux démarches de calcul de coûts complets :
 - Les comportements de coûts n'apparaissent pas clairement en ne permettant pas la distinction entre les charges fixes et les charges variables. En particulier pour ces dernières, cette méthode ne permet pas de connaître leur mode de variation (linéaire, exponentiel, etc.) et les causes de celui-ci (par rapport à quelle(s) base(s) d'imputation elles varient).
 - La distinction entre charges directes et indirectes est peu aisée. Tout au plus, on peut dire que "Les charges directes sont celles que l'on peut affecter en totalité, sans calcul préalable, à un produit ou une activité déterminée selon le critère d'analyse choisi. Les autres charges, communes à plusieurs produits ou activités, sont dites indirectes"[fn:7].
-- La collecte et le traitement des informations nécessaires au calcul des coûts peuvent entraîner des opérations longues et coûteuses.
+- La collecte et le traitement des informations nécessaires au calcul des coûts peuvent entrainer des opérations longues et coûteuses.
 - Les coûts de revient obtenus peuvent sembler être le reflet de choix "administratifs et comptables" et donc artificiels.
 
 En effet, dans de nombreuses entreprises, les centres de regroupement retenus sont essentiellement le reflet de l'organisation hiérarchique de l'entreprise. Cette façon de faire a été critiquée, notamment par Johnson et Kaplan[fn:8], parce que les charges directes (particulièrement la main d'oeuvre directe) décroissent, pendant que les charges indirectes prennent une part de plus en plus importante des coûts de production dans les usines (mais aussi dans les industries de services, avec les coûts des systèmes TI, par exemple). Dans ce contexte, la répartition des charges indirectes doit refléter de manière correcte la consommation des ressources par les différents produits, sinon le calcul des coûts donne une mauvaise représentation de la performance des différents produits.
@@ -501,7 +500,7 @@ Pour bien prendre en compte la consommation des ressources, il faudrait donc s'a
 #+caption: La chaîne de valeur (Porter, 1985)
 [[./img/chaine.jpeg]]
 
-La mise en oeuvre des calcul de coût par activité n'est pas fondamentalement différente de la méthode classique des calculs de coût complet examinée plus haut. Elle repose cependant, une logique différente, un vocabulaire spécifique (activités à la place de centres de regroupement, inducteurs à la place de base d'imputation) et une représentation processuelle de l’entreprise plutôt que hiérarchique.
+La mise en oeuvre des calculs de coût par activité n'est pas fondamentalement différente de la méthode classique des calculs de coût complet examinée plus haut. Elle repose cependant, une logique différente, un vocabulaire spécifique (activités à la place de centres de regroupement, inducteurs à la place de base d'imputation) et une représentation processuelle de l’entreprise plutôt que hiérarchique.
 
 Dans la méthode des coûts par activités, on considère que les produits déclenchent des activités, qui elles-mêmes consomment des ressources. 
 
@@ -531,21 +530,21 @@ Techniquement, il faut respecter les mêmes étapes que dans la méthode classiq
 Le principal intérêt de cette méthode est de rappeler que calculer des coûts ce n’est pas forcément gérer les coûts. Pour gérer les coûts, il faut :
 - optimiser les activités
 - identifier les activités qui génèrent de la valeur et faire l’inventaire des activités sans valeur ajoutée
-- identifier les gaspillages (activité fragmenté, désordonnée, ou coûteuse)
+- identifier les gaspillages (activité fragmentée, désordonnée, ou coûteuse)
 - identifier les inducteurs d’activité (ce qui déclenche les activités) et limiter les déclenchements d’activité.
 
 On peut ainsi gérer un coût, sans le connaître précisément, si on a une bonne représentation des inducteurs d'activité.
 
 #+begin_quote
-Pour vous exercer sur cette section, voir les exercices sur zonecours et le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f6898aee60d387141539337
+Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f6898aee60d387141539337
 #+end_quote
 
-** Calcul du coût des produits et prise de décision
+** Quel coût pour quelle décision ?
    :PROPERTIES:
-   :CUSTOM_ID: calcul-du-coût-des-produits-et-prise-de-décision
+   :CUSTOM_ID: coutdec
    :END:
 
-Les différentes méthodes de calcul de coût ne permettent pas de prendre les mêmes types de décision.
+Les différentes méthodes de calcul de coût ne permettent pas de prendre les mêmes types de décisions.
 
 *Le calcul du coût complet* de ce que consomme un produit, directement ou indirectement, en raison des capacités qu'il exige de mobiliser est un élément fondamental de la prise de décision sur le long terme. Celui-ci associe à un produit ses coûts de capacité et ses coûts variables, directs et indirects. On peut alors déterminer le résultat comptable de ce produit, bénéfice ou perte. Un tel calcul est essentiel lors des décisions de lancement ou de retrait d'une production. Il peut être utile également lors de la fixation du prix de vente d'un produit (si le marché est offreur). Il faudra cependant rester prudent en cas d'arrêt d'un produit dont le résultat en coût complet est négatif : cela peut conduire à une détérioration du résultat de l'entreprise s'il n'est pas possible de couvrir les coûts fixes autrement.
 
