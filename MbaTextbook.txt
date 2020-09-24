@@ -868,10 +868,10 @@ Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz
 
 * Mesure de la performance financière
   :PROPERTIES:
-  :CUSTOM_ID: performancefinancière
+  :CUSTOM_ID: perffi
   :END:
 Au-delà de l'aide à la décision, les données comptables peuvent être utilisées pour le contrôle des gestionnaires. Dans le cadre de ce cours, on se limitera aux mesures financières de la performance. Nous verrons quelles mesures financières peuvent être utilisées pour faciliter le contrôle de gestionnaires, mais aussi quels sont les risques liés à l'utilisation de ces mesures.
-** Mesure de performance et gestion par les résultat
+** Mesure de performance et gestion par les résultats
 *** Gestion par les résultats et pilotage
 La mesure de la performance permet de « gérer par les résultats »[fn:18] en mettant en œuvre un contrôle a posteriori. Elle prend alors la forme d’un contrôle cybernétique permettant à la direction de s’assurer que les objectifs fixés vont être réalisés[fn:19]. Elle facilite ainsi le pilotage et la convergence des buts dans l’organisation.
 
@@ -884,14 +884,14 @@ Les résultats obtenus font ensuite l’objet d’une mesure qui est comparée a
 Si un écart significatif entre la norme et le résultat réel est constaté, des actions correctives sont alors engagées (étape 4). Celles-ci peuvent conduire à modifier le processus de transformation et/ou les ressources mises en œuvre dans ce processus. Dans le même temps, l’atteinte (ou non) des normes de résultats définies a priori conduit à attribuer des primes (monétaires ou autres) aux responsables ou à les sanctionner.
 *** Les avantages de la gestion par les résultats
 La gestion par les résultats offre de nombreux avantages qui expliquent son rôle dans le développement des grandes organisations nord-américaines au début du XXᵉ siècle[fn:20]. Parmi eux, trois raisons majeures sont le plus souvent avancées :
-- La gestion par les résultats s’appuie sur des données comptables et financières. Elle permet par conséquent d’appliquer un langage commun à l’ensemble de l’organisation, quelle que soit la diversité des produits et des services proposés et la variété des activités réalisées. Elle facilite, de ce fait, la gestion à distance dans les grandes organisations diversifiées en permettant à la fois la déclinaison des informations centrales et la synthèse des informations locales ;
+- La gestion par les résultats s’appuie sur des données comptables et financières. Elle permet par conséquent d’appliquer un langage commun à l’ensemble de l’organisation, quelles que soient la diversité des produits et des services proposés et la variété des activités réalisées. Elle facilite, de ce fait, la gestion à distance dans les grandes organisations diversifiées en permettant à la fois la déclinaison des informations centrales et la synthèse des informations locales ;
 - La gestion par les résultats permet de décentraliser la prise de décision en échange du contrôle des résultats. De nombreuses décisions peuvent ainsi être prises par les responsables sur le terrain, au plus proche des opérations, ce qui favorise une meilleure qualité de l’information et permet une réactivité accrue dans la prise de décision. En outre, cette décentralisation de la prise de décision permet à la direction de se limiter à un contrôle par exception - c’est-à-dire restreint aux déviations notables par rapport aux objectifs – et ainsi de se consacrer aux décisions importantes, plus stratégiques qu’opérationnelles ;
 - La gestion par les résultats doit permettre de responsabiliser, d’évaluer et donc de motiver des salariés à partir des objectifs qui leur ont été fixés. À ce titre, c’est un outil de gouvernement des hommes qui peut être utilisé à tous les niveaux de l’organisation pour s’assurer que chacun fait des efforts dans l’intérêt de l’organisation.
 Au-delà de ses avantages en termes d’efficacité et d’efficience, ce système est présenté parfois comme une avancée démocratique. En substituant « la pratique d’un contrôle gestionnaire autonome à celle qui reposait sur la domination » la gestion par les résultats permettrait, en effet, d’atteindre un « idéal » démocratique dans lequel la responsabilité de chaque individu est mesurée dans le cadre d’un contrat passé préalablement à l’action entre des individus libres et égaux[fn:21]. 
 *** Gérer par les résultats : hypothèses sur le processus contrôlé et la motivation des individus
 La gestion par les résultats permet de piloter un processus de transformation d’inputs (ressources) en outputs (produits) en assignant à chaque responsable des objectifs et en lui offrant, en contrepartie, la maîtrise de moyens et une certaine liberté de mise en œuvre pour atteindre ses objectifs. De son côté, celui qui contrôle va pouvoir le faire par exception, c’est-à-dire en s’impliquant uniquement en cas de déviation significative par rapport aux objectifs. Cependant, ce modèle de gestion repose sur des hypothèses concernant le processus à contrôler et la manière dont les individus sont motivés.
 
-*Une première hypothèse porte sur le processus contrôlé.* Mettre en œuvre une gestion par les résultats suppose de pouvoir définir des normes, de savoir les mesurer, d’être capable de quantifier les résultats attendus et de les décliner dans le temps et dans l’espace. Il est, en effet, nécessaire de définir des objectifs au niveau des différents processus de l’organisation et mesurer l’atteinte ou non de ces objectifs (étapes 1 et 3). Pourtant, il est parfois difficile d’expliciter les objectifs d’une organisation ou d’une entité, notamment parce qu’il n’y a pas toujours accord sur l’objectif entre les différents acteurs ou parce que l’objectif n’a pas été défini explicitement (il résulte des habitudes prises par chacun dans l’organisation). Ce phénomène est particulièrement important dans les organisations publiques mais il touche aussi les entreprises.
+*Une première hypothèse porte sur le processus contrôlé.* Mettre en œuvre une gestion par les résultats suppose de pouvoir définir des normes, de savoir les mesurer, d’être capable de quantifier les résultats attendus et de les décliner dans le temps et dans l’espace. Il est, en effet, nécessaire de définir des objectifs au niveau des différents processus de l’organisation et mesurer l’atteinte ou non de ces objectifs (étapes 1 et 3). Pourtant, il est parfois difficile d’expliciter les objectifs d’une organisation ou d’une entité, notamment parce qu’il n’y a pas toujours accord sur l’objectif entre les différents acteurs ou parce que l’objectif n’a pas été défini explicitement (il résulte des habitudes prises par chacun dans l’organisation). Ce phénomène est particulièrement important dans les organisations publiques, mais il touche aussi les entreprises.
 La mise en place d’un contrôle par les résultats suppose, une fois les objectifs définis, de les mesurer. Or, même lorsqu’il est possible de se mettre d’accord sur les objectifs, ces derniers peuvent être difficilement mesurables ou quantifiables. Ainsi, parce qu’il s’appuie d’abord sur des données financières, le contrôle par les résultats a du mal à évaluer l’impact des politiques de qualité ou d’innovation. Il est aussi difficile de le mettre en place dans les organisations publiques (institutions d’enseignement, hôpitaux, aide sociale) ou des entités qui doivent innover du fait de la difficulté à mesurer les résultats de ce type d’organisations et à lier avec certitude les inputs et les outputs. Dans ce cas, les effets d’un contrôle par les résultats sont cependant ambigus. Afin de mettre en œuvre des actions correctives (étape 4), il est en outre nécessaire d’avoir un modèle prédictif du processus contrôlé. Autrement dit, il faut être capable de savoir quelles sont les actions correctives qui doivent être mises en œuvre afin d’atteindre l’objectif préalablement fixé, c’est-à-dire être capable de modéliser les relations causes-effets. Dans le cas du thermostat, le modèle prédictif est simple : lorsque la température est trop faible, il suffit de mettre en marche le chauffage. Dans le cas de la gestion d’une organisation, ce modèle prédictif est plus rarement connu et il n’existe alors pas de méthode simple et automatique pour mettre fin aux écarts entre la norme et les résultats.
 En résumé, faire du contrôle par les résultats suppose de pouvoir définir un objectif, de pouvoir le mesurer et de modéliser les relations entre les causes et les effets pour définir des actions correctives
 
@@ -899,10 +899,10 @@ En résumé, faire du contrôle par les résultats suppose de pouvoir définir u
 D’une part, il suppose que le manager ou le contrôleur est capable de fixer des objectifs pertinents pour la performance de l’organisation, ce qui sous-entend qu'il est parfaitement rationnel et d’une loyauté sans faille vis-à-vis de l’organisation et que ses propres objectifs sont cohérents avec ceux de son organisation. Cela est loin d’être évident. 
 D’autre part, il présume que la personne contrôlée est potentiellement opportuniste. Il suppose donc qu’elle cherche à minimiser ses efforts et qu’il faut, par conséquent, la contraindre à travailler, en mettant en œuvre des systèmes d’incitation extrinsèques qui vont orienter ses efforts afin de la faire participer aux objectifs de l’organisation. C’est l’individu décrit par ce que McGregor a décrit comme la théorie X du management[fn:22] : celui qui, réfractaire au travail, ne fournit d’effort que sous la contrainte, qui n’aime pas les responsabilités et préfère être dirigé, qui désire la sécurité et ne déploie son intelligence que pour contourner les règlements.
 Dans cette perspective, les motivations extrinsèques (guidée par des raisons externes à l’individu, par exemple des objectifs liés à une rémunération) jouent un rôle déterminant dans la motivation. 
-Il faut cependant tenir compte des attentes réelles des salariés, le salaire et les primes n’étant qu’une des composantes de la satisfaction, en concurrence avec la sécurité de l’emploi, certains avantages acquis, certaines marques de reconnaissance, (etc.)[fn:23]. Les individus ne sont de plus pas uniquement motivés par des facteurs extrinsèques. Il existe des facteurs intrinsèques de motivation. Dans sa version "direction participative par objectifs",  le management par objectifs s’appuie sur le postulat inspiré des travaux de l’école des relations humaines selon lequel la participation et la responsabilisation des salariés favoriseraient leur implication et permettraient donc la réalisation des objectifs de l’organisation. On est alors plus proche de ce que McGregor a appelé la théorie Y qui postule que si une activité apporte des satisfactions à un salarié alors son engagement envers l'organisation s'améliore, que chaque individu est capable de se réaliser si on l'associe aux buts de l'organisation et que, mis dans de bonnes conditions, il accepte et recherche les responsabilités.
+Il faut cependant tenir compte des attentes réelles des salariés, le salaire et les primes n’étant qu’une des composantes de la satisfaction, en concurrence avec la sécurité de l’emploi, certains avantages acquis, certaines marques de reconnaissance, etc.[fn:23]. Les individus ne sont de plus pas uniquement motivés par des facteurs extrinsèques. Il existe des facteurs intrinsèques de motivation. Dans sa version "direction participative par objectifs",  le management par objectifs s’appuie sur le postulat inspiré des travaux de l’école des relations humaines selon lequel la participation et la responsabilisation des salariés favoriseraient leur implication et permettraient donc la réalisation des objectifs de l’organisation. On est alors plus proche de ce que McGregor a appelé la théorie Y, qui postule que si une activité apporte des satisfactions à un salarié alors son engagement envers l'organisation s'améliore, que chaque individu est capable de se réaliser si on l'associe aux buts de l'organisation et que, mis dans de bonnes conditions, il accepte et recherche les responsabilités.
 
 #+begin_quote
-On notera que le niveau auquel doit être fixée la norme n’a rien d’évident. Faut-il se référer à une prévision qui se contenterait de reproduire la tendance observée ou fixer des objectifs ambitieux ? Des objectifs trop lâches, pas assez ambitieux, motivent peu, car les responsables peuvent céder à la facilité : on dit que l’organisation n’est alors pas « mise sous tension ». En augmentant la difficulté des objectifs, on peut dynamiser les équipes qui ont ainsi un défi à relever. Mais au-delà d’un certain seuil, au lieu de renforcer la motivation, des objectifs trop ambitieux découragent, « démobilisent » les responsables qui peuvent avoir le sentiment qu’on leur demande trop, et que, comme quels que soient leurs efforts ils ne pourront pas atteindre l’objectif, ce n’est pas la peine d’essayer. Les relations complexes entre objectif, motivation, récompense et performance ont été modélisées par la théorie de l’expectance[fn:24]. Cette théorie repose sur l’idée que la motivation d’un individu à faire des efforts dépend de la conjonction de trois facteurs : la probabilité perçue par cet individu que son effort le mènera au succès (expectance), la probabilité que ce succès entraînera effectivement une récompense (une promotion ou une hausse de salaire par exemple), et la valeur que cet individu attache au type de récompense prévisible. Ainsi, les objectifs doivent paraître à la fois ambitieux et accessibles pour jouer pleinement leur rôle incitatif[fn:25]. 
+On notera que le niveau auquel doit être fixée la norme n’a rien d’évident. Faut-il se référer à une prévision qui se contenterait de reproduire la tendance observée ou fixer des objectifs ambitieux ? Des objectifs trop lâches, pas assez ambitieux, motivent peu, car les responsables peuvent céder à la facilité : on dit que l’organisation n’est alors pas « mise sous tension ». En augmentant la difficulté des objectifs, on peut dynamiser les équipes qui ont ainsi un défi à relever. Mais au-delà d’un certain seuil, au lieu de renforcer la motivation, des objectifs trop ambitieux découragent, « démobilisent » les responsables qui peuvent avoir le sentiment qu’on leur demande trop, et que, quels que soient leurs efforts ils ne pourront pas atteindre l’objectif, ce n’est pas la peine d’essayer. Les relations complexes entre objectif, motivation, récompense et performance ont été modélisées par la théorie de l’expectance[fn:24]. Cette théorie repose sur l’idée que la motivation d’un individu à faire des efforts dépend de la conjonction de trois facteurs : la probabilité perçue par cet individu que son effort le mène au succès (expectance), la probabilité que ce succès entraîne effectivement une récompense (une promotion ou une hausse de salaire par exemple), et la valeur que cet individu attache au type de récompense prévisible. Ainsi, les objectifs doivent paraître à la fois ambitieux et accessibles pour jouer pleinement leur rôle incitatif[fn:25]. 
 #+end_quote
 
 Au-delà des hypothèses sur les objectifs et les motivations, la gestion par les résultats repose sur une troisième hypothèse : il est possible de découper l'organisation en plusieurs entités (que l'on appelle centres de responsabilité) dont on peut mesurer la performance.
@@ -911,7 +911,7 @@ Au-delà des hypothèses sur les objectifs et les motivations, la gestion par le
 Pour contrôler par les résultats, il faut aussi découper l’organisation en centres de responsabilité et s’assurer de la convergence des buts. 
 Un centre de responsabilité est une subdivision de l’entreprise à la tête de laquelle est placé un responsable auquel sont fixés des objectifs et alloués un budget et des moyens. Le découpage de l’entreprise en centres de responsabilité est indispensable pour mettre en place un pilotage par les résultats, c’est-à-dire pour fixer des objectifs, assigner des responsabilités et clarifier l’autorité de chacun des acteurs impliqués. Divers types de centres de responsabilité existent : 
 - les centres de coût, qui rendent compte de leurs coûts, par exemple : une usine ;
-- les centre de revenus, qui sont responsables de leur chiffre d’affaires, par exemple : un agent commercial ;
+- les centres de revenus, qui sont responsables de leur chiffre d’affaires, par exemple : un agent commercial ;
 - les centres de profit, qui sont responsables à la fois de leurs coûts et de leur chiffre d’affaires et pour lesquels il est, par conséquent, possible de déterminer un résultat ;
 - les centres d’investissement, qui sont responsables de leur marge et de leurs investissements.
 Dans les organisations, ces divers types de centres de responsabilité s’emboîtent les uns dans les autres, réalisent des transactions réciproques, et peuvent parfois influencer leurs résultats. 
@@ -959,28 +959,28 @@ Les avantages du contrôle budgétaire sont les suivants :
 
 Les écarts peuvent ainsi expliquer les variations du résultat de l’entreprise par rapport aux prévisions. Ils sont particulièrement adaptés pour évaluer la performance des centres de coûts, mais ils peuvent aussi être utilisés pour évaluer la performance des centres de revenu. 
 
-La méthode a cependant un certain nombre de limites. D’abord, elle ne permet de vérifier que ce qui est fait par l’entreprise est bien ce qui avait été prévu. Pourtant, si l’environnement évolue, il peut être nécessaire et efficace de ne pas faire ce qui avait été prévu. De plus, elle permet d’expliquer le passé mais n’aide pas à anticiper l’avenir. Il faut aussi noter que la mécanique du contrôle budgétaire est lourde ; elle implique d’avoir recours à de nombreux comptables et coûte cher. Enfin, le contrôle budgétaire limite à l’appréciation de la performance aux prix et aux quantités ; rien n’est dit sur d’autres dimensions fondamentales de la performance (la qualité, la flexibilité, etc.).
+La méthode a cependant un certain nombre de limites. D’abord, elle ne permet de vérifier que ce qui est fait par l’entreprise est bien ce qui avait été prévu. Pourtant, si l’environnement évolue, il peut être nécessaire et efficace de ne pas faire ce qui avait été prévu. De plus, elle permet d’expliquer le passé, mais n’aide pas à anticiper l’avenir. Il faut aussi noter que la mécanique du contrôle budgétaire est lourde ; elle implique d’avoir recours à de nombreux comptables et coûte cher. Enfin, le contrôle budgétaire limite à l’appréciation de la performance aux prix et aux quantités ; rien n’est dit sur d’autres dimensions fondamentales de la performance (la qualité, la flexibilité, etc.).
 
 #+begin_warning
 Il existe de multiples modalités pour calculer les écarts. La mise en œuvre de la méthode dépend de calculs réalisés par les comptables et dépasse le cadre de ce cours.
 #+end_warning
 *** Le calul et l'analyse du ROI
     :PROPERTIES:
-    :CUSTOM_ID: le-roi-historique-et-définition
+    :CUSTOM_ID: roi
     :END:
 Pour les centres d'investissement (qui sont responsables à la fois de leurs revenus, de leurs coûts et de leurs investissements), il est logique d'évaluer la performance financière par la rentabilité. 
-Le ROI (/Return on Investment/) est un ratio de rentabilité économique qui mesure un retour un investissement. Cette mesure est très largement utilisées dans les entreprises [fn:27]. Ce ratio est assez proche du ROCE (/Return on Capital Employed/) et du ROA (/Return on Assets/), qui sont aussi largement utilisés dans les organisations. Cette mesure de la performance est uniquement financière mais elle permet, grâce à sa décomposition pyramidale, d'évaluer de nombreux aspects de la gestion d'une division. Elle présente l'avantage, contrairement à un simple résultat comptable, de permettre de comparer des entités de taille différente. De plus, elle peut être calculée directement à partir du bilan comptable, elle est donc simple à calculer et à comprendre.
-Plusieurs formulations du ROI sont possibles mais elles prennent toute la forme d'un ratio du type : 
+Le ROI (/Return on Investment/) est un ratio de rentabilité économique qui mesure un retour un investissement. Cette mesure est très largement utilisées dans les entreprises [fn:27]. Ce ratio est assez proche du ROCE (/Return on Capital Employed/) et du ROA (/Return on Assets/), qui sont aussi largement utilisés dans les organisations. Cette mesure de la performance est uniquement financière, mais elle permet, grâce à sa décomposition pyramidale, d'évaluer de nombreux aspects de la gestion d'une division. Elle présente l'avantage, contrairement à un simple résultat comptable, de permettre de comparer des entités de taille différente. De plus, elle peut être calculée directement à partir du bilan comptable, elle est donc simple à calculer et à comprendre.
+Plusieurs formulations du ROI sont possibles, mais elles prennent toute la forme d'un ratio du type : 
 #+begin_center
 *ROI = Bénéfice / Actif*
 #+end_center
 Deux questions se posent alors : quel type de bénéfice retenir ? quels actifs prendre en compte ? 
-La formulation suivante sera retenue car elle permet de prendre en compte ce qui est réellement investi dans l'activité (et neutralise les effets des charges financières) :
+La formulation suivante sera retenue, car elle permet de prendre en compte ce qui est réellement investi dans l'activité (et neutralise les effets des charges financières) :
 #+begin_center
 *ROI = Bénéfice d'exploitation après impôts (1) / Actifs investis (2)*
 /Avec : (1) = Bénéfice net + intérêts financiers = Bénéfice d'exploitation - impôts (2) = Besoin en fonds de roulement + Immobilisations/
 #+end_center
-D'autres formulations peuvent être envisagées en fonction des entreprises et cela afin de mettre en évidence au mieux les responsabilités des managers évalués et la performance des entités.
+D'autres formulations peuvent être envisagées en fonction des entreprises, et cela afin de mettre en évidence au mieux les responsabilités des managers évalués et la performance des entités.
 #+begin_verse
 *Le calcul du ROI"
 Pour l'année N, vous disposez des éléments suivants :
@@ -1012,10 +1012,10 @@ La pyramide du ROI permet d'expliquer la formation du retour sur investissement 
 #+caption: La pyramide du ROI
 [[./img/roi.jpeg]]
 
-Deux entreprises peuvent ainsi avoir un même ROI mais en l'obtenant de manière très différente. Par exemple, les activités de luxe ou de construction exigent de forts investissements (faible rotation des actifs) mais permettent de forts taux de marge. Inversement, les activités de distribution vont avoir un fort taux de rotation des actifs (puisqu'elles payent leurs fournisseurs avec d'importants délais alors que leurs clients payent au comptant) et un taux de marge peu élevé. 
+Deux entreprises peuvent ainsi avoir un même ROI, mais en l'obtenant de manière très différente. Par exemple, les activités de luxe ou de construction exigent de forts investissements (faible rotation des actifs), mais permettent de forts taux de marge. Inversement, les activités de distribution vont avoir un fort taux de rotation des actifs (puisqu'elles payent leurs fournisseurs avec d'importants délais alors que leurs clients payent au comptant) et un taux de marge peu élevé. 
 Exercice (suite) : La décomposition du ROI
 *Travail à faire*
-Décomposer le ROI pour les trois divisions. Commenter
+Décomposer le ROI pour les trois divisions. Commenter.
 *Corrigé*
 La décomposition du ROI pour les trois divisions donne les calculs suivants :
 | En K $                                    | Division A | Division B | Division C |
@@ -1025,13 +1025,13 @@ La décomposition du ROI pour les trois divisions donne les calculs suivants :
 | (2)/(1)=Taux de marge                     | 0,4        | 0,1        | 0,05       |
 | (1)/(3)=Rotation des actifs               | 0,25       | 1          | 1,6        |
 | ROI = taux de marge x rotation des actifs | 10 %       | 10 %       | 8 %        |
-Deux des trois entités ont le même retour sur investissement mais elles l'obtiennent de manière très différente. La division A a un très fort taux de marge (40 %) mais demande des investissements importants, d'où un faible taux de rotation des actifs. Inversement, la division B a un taux de marge moyen (10 %) mais un taux de rotation des actifs plus importants, ce qui lui permet d'avoir un ROI équivalent à la division A.
+Deux des trois entités ont le même retour sur investissement, mais elles l'obtiennent de manière très différente. La division A a un très fort taux de marge (40 %), mais demande des investissements importants, d'où un faible taux de rotation des actifs. Inversement, la division B a un taux de marge moyen (10 %), mais un taux de rotation des actifs plus importants, ce qui lui permet d'avoir un ROI équivalent à la division A.
 La division C a un très faible taux de marge (5 %). Mais elle semble nécessiter des investissements assez faibles. Sa rentabilité économique est donc tout de même plus faible que celle des autres divisions. 
 La décomposition de la pyramide peut être poursuivie pour faire apparaître un grand nombre de composantes de la performance de l'entreprise ainsi que les leviers d'action envisageables pour améliorer la rentabilité. 
 #+caption: La décomposition du ROI
 [[./img/roidetail.jpeg]]
 
-En résumé, le "ROI conduit à synthétiser la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"[fn:28]. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur convient ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.
+En résumé, le "ROI conduit à synthétiser la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"[fn:28]. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.
 
 Il peut, de plus, être relié directement aux attentes des actionnaires et à la rentabilité financière (que l'on nomme en général ROE : /Return on Equity/), par l'intermédiaire de l'effet de levier, notion que vous verrez dans le cours de finance.
 *** Les limites du ROI
@@ -1046,7 +1046,7 @@ En dépit de son intérêt, le ROI a un certain nombre de limites qui devraient 
 L'emploi d'un ratio amplifie les effets pervers mis en évidence ci-dessus puisque cela permet de jouer sur le numérateur et le dénominateur. L'évaluation du bénéfice résiduel permet, en partie, de résoudre ces problèmes. 
 *** Bénéfice résiduel
     :PROPERTIES:
-    :CUSTOM_ID: bénéfice-résiduel-et-eva
+    :CUSTOM_ID: benefres
     :END:
 Le bénéfice résiduel est un indicateur de performance mesurant la création de valeur d'une entreprise ou d'une partie d'une entreprise après rémunération des capitaux investis au coût moyen pondéré du capital[fn:29]. 
 
@@ -1063,7 +1063,7 @@ du coût de la dette et du coût des capitaux propres.
 #+begin_center
 *Coût moyen pondéré du capital* 
 *=  coût de la dette × Dettes / (dette + capitaux propres)* 
-*+ coût des capitaux propres × capitaux propres / (dette + capitaux propres*
+*+ coût des capitaux propres × capitaux propres / (dette + capitaux propres)*
 #+end_center
 
 Le bénéfice résiduel permet de calculer un bénéfice net après rémunération des actionnaires (on sait que les dividendes versés aux actionnaires ne correspondent pas à une charge, ils n'apparaissent donc pas dans le bénéfice comptable). Le niveau de rémunération attendu par les actionnaires dépend du niveau de risque de l'activité de l'entreprise. Plus une entreprise est risquée et plus le coût de la rémunération des capitaux investis sera donc élevé.
@@ -1072,7 +1072,7 @@ On dit qu'il y a création de valeur lorsque le bénéfice résiduel est positif
 
 *** Bénéfice résiduel et ROI
     :PROPERTIES:
-    :CUSTOM_ID: bénéficerésiduelroi
+    :CUSTOM_ID: benefresroi
     :END:
 Si l'on repart de la définition du bénéfice résiduel, on peut constater que celui-ci est égal à la différence entre le ROI et le coût moyen pondéré du capital multiplié par les actifs investis. 
 #+begin_center
@@ -1115,7 +1115,7 @@ La société X va dorénavant évaluer ses divisions sur la base de leur ROI. Le
 *Travail à faire*
 Quelles décisions vont prendre les trois responsables de division ? Si leur performance avait été évaluée sur les bénéfices résiduels les décisions des trois responsables auraient-elles été identiques ? Commenter. 
 *Corrigé*
-Si la performance des entités est évaluée sur le ROI, les entités A et B vont refuser l'investissement car celui-ci ferait baisser leur ROI, l'entité C va l'accepter puisque cela augmente son ROI. 
+Si la performance des entités est évaluée sur le ROI, les entités A et B vont refuser l'investissement, car celui-ci ferait baisser leur ROI, l'entité C va l'accepter puisque cela augmente son ROI. 
 Si leur performance est évaluée sur le bénéfice résiduel :
 - Puisque le ROI de l'investissement est supérieur à son CMPC, la division A va accepter l'investissement (l'investissement va augmenter son bénéfice résiduel) ;
 - Puisque le ROI de l'investissement est inférieur à leur CMPC, les divisions B et C vont refuser l'investissement.
@@ -1137,7 +1137,7 @@ Sur un plan plus théorique, le fait de demander un bénéfice résiduel systém
 Un centre de responsabilité peut recevoir tout ou partie de son approvisionnement en provenance de centres de responsabilités situés en amont, et céder tout ou partie de sa production à d’autres centres situés en aval. Les prix de cession interne sont les prix définis par une organisation pour valoriser les transactions internes entre différents centres de responsabilité. 
 #+caption: Les prix de cession interne
 [[./img/pci.jpeg]]
-Ces prix sont fictifs car ils ne correspondent pas à un échange sur un marché ni à une transaction enregistrée en comptabilité financière. On parle aussi de prix de transfert, notamment lorsque les cessions sont réalisées entre des entités juridiques distinctes appartenant à un même groupe[fn:30].
+Ces prix sont fictifs, car ils ne correspondent pas à un échange sur un marché ni à une transaction enregistrée en comptabilité financière. On parle aussi de prix de transfert, notamment lorsque les cessions sont réalisées entre des entités juridiques distinctes appartenant à un même groupe[fn:30].
 La détermination du profit au niveau de chaque centre suppose une valorisation des cessions internes, d’où l’utilisation de prix de cession interne entre centres "fournisseurs" et centres "clients".
 #+caption: Les prix de cession interne
 [[./img/pciresult.jpeg]]
@@ -1157,7 +1157,7 @@ Résultat du département des ventes
 Chaque responsable sera incité à faire des économies, en évitant les gaspillages, en faisant des gains de productivité. Si, par exemple, le centre production réussit à améliorer le rendement en faisant chuter ses frais de 50 à 48, toutes choses égales par ailleurs, son résultat passera à 7, et le résultat global à 12. 
 #+end_verse
 
-Les prix de cession doivent permettre de juger de façon objective le résultat de la gestion des centres de profit, en tenant compte de toutes les ressources consommées (y compris celles engagées par un autre centre mais ayant fait l’objet d’une prestation) et toute la valeur créée (non seulement celle des produits ou des services vendus à des "vrais" clients extérieurs, et se traduisant par des recettes en trésorerie, mais également celle des produits ou services cédés en interne). Sans prix de cession, les consommations internes seraient « gratuites », et certains centres s’approprieraient le résultat créé par d’autres. On peut ainsi mieux mettre en lumière les bons et les mauvais résultats, et donc les bons et les mauvais gestionnaires. On attend du système une meilleure motivation des responsables.
+Les prix de cession doivent permettre de juger de façon objective le résultat de la gestion des centres de profit, en tenant compte de toutes les ressources consommées (y compris celles engagées par un autre centre, mais ayant fait l’objet d’une prestation) et toute la valeur créée (non seulement celle des produits ou des services vendus à des "vrais" clients extérieurs, et se traduisant par des recettes en trésorerie, mais également celle des produits ou services cédés en interne). Sans prix de cession, les consommations internes seraient « gratuites », et certains centres s’approprieraient le résultat créé par d’autres. On peut ainsi mieux mettre en lumière les bons et les mauvais résultats, et donc les bons et les mauvais gestionnaires. On attend du système une meilleure motivation des responsables.
 
 Les prix de cession interne ont donc pour objectif de motiver les responsables, et de faire converger leurs objectifs personnels avec les objectifs globaux de l’entreprise. Dans certains cas, le responsable d’un centre de profit peut prendre une décision rationnelle du point de vue de son propre optimum, mais défavorable au plan global : les prix de cession interne n’assurent pas obligatoirement la convergence.
 
