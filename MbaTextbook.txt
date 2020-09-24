@@ -7,6 +7,7 @@
 #+LATEX_CLASS:samassign
 #+SETUPFILE:  https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 
+* Introduction
 Les états financiers donnent aux parties prenantes externes une image comptable et financière de l'entreprise. L'état des résultats représente la performance de l'organisation sur une année et l'état de la situation financière donne une image du patrimoine à la fin de l'exercice comptable.
 
 Cette image comptable et financière (ce que l'on appelle la comptabilité financière) est cependant insuffisante pour permettre la gestion d'une organisation. Les managers ont besoin d'informations complémentaires pour planifier les activités de l'organisation, les contrôler et prendre les bonnes décisions.
@@ -1332,9 +1333,9 @@ Dans certains secteurs d’activité, la conformité à des normes de résultats
 Différents critères doivent donc présider au choix des modes de contrôle à mettre en œuvre et notamment le niveau désiré d’innovation : un opérateur fortement encadré par des procédures et directement contrôlé par sa hiérarchie aura peu de capacité d’innovation. En indiquant aux agents ce qu’ils doivent faire et en s’assurant qu’ils le font, on limite leur capacité d’action et d’innovation. Éviter l’innovation permet souvent d’améliorer l’efficience, mais aussi de s’assurer de la qualité du produit ou du service et de la vitesse d’exécution des opérations. C’est pourquoi on laissera peu de capacité d’innovation à un employé de la restauration rapide ou à un ouvrier à la chaîne. On fait alors l’hypothèse que la hiérarchie a une meilleure connaissance de la bonne façon d’agir que les subordonnés. Pourtant, dans des environnements incertains ou en évolution constante, il faut savoir laisser une certaine capacité d’innovation et d’expérimentation aux subordonnés. Dans ce cas, il est préférable de favoriser un contrôle par les résultats à un contrôle des procédures en laissant les subordonnés libres d’envisager des manières de faire ou des produits qui n’avaient pas été pensés par la direction. Ils peuvent ainsi s’adapter à leurs marchés et à leurs clients. Des objectifs difficiles peuvent cependant rendre impossible toute recherche d’autres solutions et par la même toute innovation.
 #+end_verse
 
-Parce qu'ils tentent de mettre sous pression les individus dans les organisations, les systèmes de contrôle interactifs et diagnostiques peuvent de plus conduire à des comportements déviants (manipulations comptables, fraudes, concurrence interne entre les responsables, etc.). Pour limiter ces risques, des contrôles administratifs ou culturels peuvent être mis en place. En résumé, quatre leviers de contrôle peuvent être utilisés dans les organisations. Ils permettent chacun de gérer une variable clé (les facteurs clés de succès, les facteurs stratégiques de risque, les valeurs ou les risques à éviter). Chacun de ces leviers de contrôle a des objectifs différents et permet de contrôler un élément particulier de la stratégie.
+Parce qu'ils tentent de mettre sous pression les individus dans les organisations, les systèmes de contrôle interactifs et diagnostiques peuvent de plus conduire à des comportements déviants (manipulations comptables, fraudes, concurrence interne entre les responsables, etc.). Pour limiter ces risques, des contrôles administratifs ou culturels peuvent être mis en place. En résumé, quatre leviers de contrôle peuvent être utilisés dans les organisations. Ils permettent chacun de gérer une variable clé (les facteurs clés de succès, les facteurs stratégiques de risque, les valeurs ou les risques à éviter). Chacun de ces leviers de contrôle a des objectifs différents et permet de contrôler un élément particulier de la stratégie[fn:46].
 
-#+caption: Les divers leviers de contrôle [fn:46] 
+#+caption: Les divers leviers de contrôle
 [[./img/levers.jpeg]]
 
 Les entreprises performantes sont celles qui arrivent à articuler, en fonction de leur stratégie et des contraintes de leur environnement, les divers leviers de contrôle afin de compenser les effets pervers des uns et des autres.
@@ -1342,8 +1343,6 @@ Les entreprises performantes sont celles qui arrivent à articuler, en fonction 
 Cela nécessite d'avoir une bonne compréhension des différents outils qui peuvent être utilisés. Ce cours a donné un aperçu des différents outils de calcul des coûts, de prévision et de mesure de la performance financière. 
 
 La comptabilité est un langage prédominant du domaine des affaires. Elle donne un grand pouvoir à ceux qui la maîtrisent. Cependant, il ne faut pas forcément chercher à tout mesurer. Les effets pervers potentiels sont nombreux. De plus, la production de données comptables à un coût. On retiendra que le coût d’un calcul (de coût ou d'une mesure de performance) doit être inférieur à son utilité.
-
-
 
 * Footnotes
 
@@ -1438,5 +1437,3 @@ La comptabilité est un langage prédominant du domaine des affaires. Elle donne
 [fn:45] Merchant, K. A., & Van der Stede, W. A. (2017). Management control systems : Performance measurement, evaluation and incentives.
 
 [fn:46] Simons, R. (2000), Performance measurement and control systems for implementing strategy - Text and cases, Prentice Hall.
-
-[fn:47] Otley D.T., Behavioral aspects of budgeting, Accountant’s digest, n°49, 1977.
