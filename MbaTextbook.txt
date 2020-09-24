@@ -608,7 +608,7 @@ Dans une entreprise familiale, qui a des problèmes de financement, la trésorer
 #+caption: 
 [[./img/budget.jpeg]]
 
-Le schéma ci-dessus synthétise les différentes étapes du processus budgétaire dans le cas classique d'abondance de l'offre. Le premier budget qui doit être réalisé est le budget des ventes (étape 1), qui dépend notamment de la stratégie et du plan (étape 0), mais qui doit être ajusté en fonction des évolutions récentes du marché. Ensuite, le programme de production, aussi appelé plan d'activité, qui permet de définir les quantités à produire et les modalités de production doit être établi (étape 2). Sur la base de programme de production, il est possible de construire le budget des coûts de production et des coûts d'approvisionnement (étape 3). Le budget des investissements et le budget des frais généraux (frais de la direction générale, par exemple) sont des budgets discrétionnaires (étape 4). Ils ne dépendent pas directement du niveau d'activité mais doivent permettre de la soutenir. Le niveau de dépense dans ces domaines doit donc être défini en fonction de l'orientation stratégique de l'entreprise et du niveau de rentabilité attendu.
+Le schéma ci-dessus synthétise les différentes étapes du processus budgétaire dans le cas classique d'abondance de l'offre. Le premier budget qui doit être réalisé est le budget des ventes (étape 1), qui dépend notamment de la stratégie et du plan (étape 0), mais qui doit être ajusté en fonction des évolutions récentes du marché. Ensuite, le programme de production, aussi appelé plan d'activité, qui permet de définir les quantités à produire et les modalités de production doit être établi (étape 2). Sur la base de programme de production, il est possible de construire le budget des coûts de production et des coûts d'approvisionnement (étape 3). Le budget des investissements et le budget des frais généraux (frais de la direction générale, par exemple) sont des budgets discrétionnaires (étape 4). Ils ne dépendent pas directement du niveau d'activité, mais doivent permettre de la soutenir. Le niveau de dépense dans ces domaines doit donc être défini en fonction de l'orientation stratégique de l'entreprise et du niveau de rentabilité attendu.
 Ces différents budgets sont ensuite rassemblés pour construire le budget de trésorerie (étape 5) ainsi que le compte de résultat et le bilan prévisionnel (étape 6).
 
 #+begin_quote
@@ -632,7 +632,7 @@ Les différentes fonctions rencontrent des enjeux différents dans la constructi
     :CUSTOM_ID: ventes
     :END:
 Le budget des ventes est en général le premier budget qui doit être construit. Sa construction implique de faire des choix sur les quantités vendues pour chaque produit ainsi que sur les prix de vente. Si l'entreprise réalise des ventes à l'international, cette prévision suppose de faire aussi des hypothèses sur le taux de change. Ceci implique de prendre en compte les facteurs macro-économiques, l'évolution de la réglementation, le comportement des concurrents et l'évolution de la demande des consommateurs.
-Lors de cette étape, la place des vendeurs, des experts en marketing et chefs de produits est évidemment déterminante. Ce sont d'abord eux qui connaissent les produits et les marchés et qui ont la capacité de proposer des prévisions fiables. Ils s'appuient dans certains cas sur des études de conjoncture et des études sectorielles pour faire ces prévisions. Lorsque le marché est en croissance constante, il est possible de faire appel à des techniques statistiques et de réaliser une extrapolation linéaire à partir des années précédentes.
+Lors de cette étape, la participation des vendeurs, des experts en marketing et chefs de produits est évidemment déterminante. Ce sont d'abord eux qui connaissent les produits et les marchés et qui ont la capacité de proposer des prévisions fiables. Ils s'appuient dans certains cas sur des études de conjoncture et des études sectorielles pour faire ces prévisions. Lorsque le marché est en croissance constante, il est possible de faire appel à des techniques statistiques et de réaliser une extrapolation linéaire à partir des années précédentes.
 Bien souvent, l'estimation des ventes se fait en reconduisant les réalisations de l'année N+1 plus ou moins un pourcentage qui correspond à la tendance générale du marché. C'est une méthode rapide, mais qui semble peu adéquate pour faire des prévisions sérieuses. 
 Pour les entreprises qui ont une activité avec peu de clients (par exemple : les entreprises de la construction, un artisan plombier, un constructeur d'avions, une entreprise de gardiennage) la prévision peut se faire à partir du portefeuille de commandes et en évaluant le nombre de clients gagnés et perdus.
 À partir de ce budget des ventes, il est possible de faire le budget des coûts commerciaux. Le budget des coûts commerciaux peut être divisé par type d'activités : administration de la vente (gestion des clients, facturation), marketing (études commerciales, publicité, promotion), vente (salaires et coût des représentants), livraisons (emballages, expéditions), service après-vente.
@@ -649,7 +649,7 @@ Dans un premier temps, il est nécessaire de définir le programme de production
 #+begin_center
 *Production = ventes + stock final désiré - stock initial*
 #+end_center
-Lorsque le niveau des ventes n'est pas uniforme toute l'année, il est nécessaire d'établir le niveau de production nécessaire sur une période plus courte (le trimestre, le mois, le jour, ou toute autre période de temps adaptée aux variations de l'activité). Selon la politique retenue par l'entreprise, le niveau des stocks ou le niveau de la production (notamment si l'entreprise a une politique de production en juste à temps) devront varier en fonction du niveau des ventes. 
+Lorsque le niveau des ventes n'est pas uniforme toute l'année, il est nécessaire d'établir le niveau de production nécessaire sur une période plus courte (le trimestre, le mois, le jour, ou toute autre période adaptée aux variations de l'activité). Selon la politique retenue par l'entreprise, le niveau des stocks ou le niveau de la production (notamment si l'entreprise a une politique de production en juste à temps) devront varier en fonction du niveau des ventes. 
 Une fois le niveau de production choisi, il est possible de préciser l'utilisation prévisionnelle des moyens concernant : les consommations prévisionnelles de matières, la main d'œuvre productive nécessaire et le degré d'utilisation des équipements. Cette utilisation prévisionnelle des moyens doit prendre en compte les rebuts, les défauts de qualité et les temps impayés. 
 Pour chaque facteur de production, il est nécessaire de vérifier que les capacités de production sont supérieures ou égales aux besoins de production. Lorsque cela n'est pas le cas, deux décisions sont possibles : accroître les capacités de production en faisant des investissements ou limiter les ventes en optimisant l'utilisation du facteur rare (c'est-à-dire en utilisant au mieux le facteur de production qui limite le niveau de production). Dans le court terme, seule la seconde solution est bien souvent envisageable. 
 Le budget de production est la valorisation du programme de production. Cette valorisation repose sur les calculs de coût complet effectués à l'aide des méthodes de comptabilité de gestion. Elle suppose la prise en compte des coûts variables (matières premières, fournitures, énergies, etc.) et fixes (amortissement des machines, main d'œuvre, etc.) qu'ils soient directs ou indirects. Les frais indirects de production sont inscrits dans les budgets en fonction de la base d'imputation retenue (critère utilisé pour répartir les frais généraux, par exemple le nombre de produits, le volume de travail, etc.) et du taux d'imputation calculé (= charges indirectes de production ÷ volume de la base d'imputation). 
@@ -659,29 +659,29 @@ Ceci permet de calculer le budget des coûts de production. Le budget de product
     :CUSTOM_ID: approvisionnements
     :END:
 Le programme d'approvisionnement résulte du programme de production. Ce programme d'approvisionnement définit les quantités qui devront être commandées et les dates de commande. Plusieurs paramètres déterminent les choix réalisés en la matière :
-- le coût de passation de commande (coût de lancement et coûts de gestion des commandes : personnels affectés à la gestion des commandes, à la réception, au magasinage, à la manutention, etc). : plus ce coût est élevé et plus il semble intéressant de faire des commandes en grande quantité pour limiter le nombre de commandes réalisées ; 
+- le coût de passation de commande (coût de lancement et coûts de gestion des commandes : personnels affectés à la gestion des commandes, à la réception, au magasinage, à la manutention, etc.). : plus ce coût est élevé et plus il semble intéressant de faire des commandes en grande quantité pour limiter le nombre de commandes réalisées ; 
 - les coûts de stockage (coût de financement du stock, primes d'assurance, coûts des moyens de stockage - coût des entrepôts, du matériel de manutention -, coût de la dépréciation du stock, etc.) : plus ce coût est élevé et moins le stock doit être élevé, ce qui signifie qu'il est nécessaire de passer de nombreuses petites commandes ;
 - le coût de la rupture de stock : plus ce coût est élevé et plus il faut être prudent en matière de gestion des stocks et limiter les ruptures possibles (ce qui implique d'avoir un niveau de stock élevé).
 Diverses méthodes permettent alors d'optimiser ce coût d'approvisionnement[fn:10].
-Le programme d'approvisionnement comprend met en évidence 4 éléments : les commandes, les livraisons, les consommations et le stock (fin de mois).
+Le programme d'approvisionnement comprend évidence 4 éléments : les commandes, les livraisons, les consommations et le stock (fin de mois).
 Le budget des coûts d'approvisionnement comprend :
 - les coûts d'achat, qui dépendent souvent des quantités achetées et doivent inclure les frais liés aux achats (notamment le transport) ; 
 - les coûts d'approvisionnement (de passation de commande) et de stockage. 
 *** Les budgets des centres de coûts discrétionnaires et des centres d'investissement
     :PROPERTIES:
-    :CUSTOM_ID: budgetsdiscrétionnaires
+    :CUSTOM_ID: budgetdisc
     :END:
 On parle de centre de coût discrétionnaire pour les centres de responsabilité dont le niveau de dépense n'a pas de rapport direct avec le niveau d'activité. Ceci concerne essentiellement l'administration (siège, direction générale, direction financière, service des ressources humaines, etc.) et la recherche et développement. 
 Du fait de l'absence de lien explicite entre le montant de ces dépenses et le niveau d'activité, les budgets sont souvent définis par reconduction des budgets de l'année précédente. L'analyse de la valeur et des coûts cachés ou la méthode des budgets base zéro permettent de s'interroger sur la pertinence de cette reconduction systématique. 
 Dans le cas des budgets d'investissement, le niveau optimal de dépense pourra être défini à l'aide des méthodes de choix d'investissement.
 - Délais de récupération (Payback) : période nécessaire pour récupérer l'investissement initial
-- Valeur actualisée nette (VAN) : somme des flux monétaires découlant d’un projet d’investissement actualisés au taux de rendement exigé
+- Valeur actualisée nette (VAN) : somme des flux monétaires découlant d’un projet d’investissement, actualisées au taux de rendement exigé
 - Taux de rendement interne (IRR) : taux d’actualisation  pour lequel la valeur actuelle du flux de trésorerie est exactement égale l'investissement initial  (VAN  = 0)
 
 Le délais de récupération est fréquemment utilisé. Il est particulièrement simple à calculer.
 
 #+begin_verse
-Exemple de calcul du délais de récupération
+Exemple de calcul du délai de récupération
 Investissement : $379,100
 Durée de vie prévue : 5  ans
 Flux de trésorerie annuel généré par le projet : $100,000
@@ -739,7 +739,7 @@ Le budget général final est le résultat de plusieurs itérations. L’entrepr
 - le budget unitaire des coûts de production
 - le budget des coûts de production des produits vendus
 
-Un modèle excel est disponible pour vous guider : https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z
+Un modèle Excel est disponible pour vous guider : https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z
 
 Les prévisions de vente et de stock de produits finis sont les suivantes :
 |                                   | Pièce normale | Pièce haute performance |
@@ -759,7 +759,7 @@ La direction de la production prévoit pour chaque pièce les consommations suiv
 | Alliage 112                       | 6 kg          | 8 kg                    |
 | Main-d'œuvre directe              | 4 heures      | 6 heures                |
 
-Toutes les charges directes de production sont proportionnelles aux quantités produites. La direction des approvisionnement et la direction des ressources ont déterminé les chiffres prévisionnels concernant le coût des matières premières et des ressources humaines pour l'année à venir :
+Toutes les charges directes de production sont proportionnelles aux quantités produites. La direction des approvisionnements et la direction des ressources ont déterminé les chiffres prévisionnels concernant le coût des matières premières et des ressources humaines pour l'année à venir :
 | Alliage 111          | 7 $ par kg     |
 | Alliage 112          | 10 $ par kg    |
 | Main-d’œuvre directe | 20 $ par heure |
@@ -773,7 +773,7 @@ La direction des approvisionnements a aussi déterminé les objectifs de stock d
 
 Les stocks de matières premières et de produits finis sont évalués par la méthode du premier entré, premier sorti.
 
-Les charges indirectes variables de production sont proportionnelles aux heures de main-d’œuvre directe et les charges indirectes fixes de production sont imputées au prorata des heures de main-d’œuvre directe. Compte-tenu du niveau de production prévu, la direction de la production estime que les charges indirectes de production sont les suivantes :
+Les charges indirectes variables de production sont proportionnelles aux heures de main-d’œuvre directe et les charges indirectes fixes de production sont imputées au prorata des heures de main-d’œuvre directe. Compte tenu du niveau de production prévu, la direction de la production estime que les charges indirectes de production sont les suivantes :
 - Variables : 26 $ par heure de main-d’œuvre directe
 - Fixes : 420 000 $
 
@@ -793,13 +793,13 @@ Toutes les charges hors production sont indirectes :
 | *Total des charges indirectes hors production*           | 870 000 $   |
 Les charges indirectes variables hors production sont proportionnelles au chiffre d’affaires. Les charges indirectes fixes hors production sont imputées au prorata du chiffre d’affaires.
 
-/Lorsque vous avez complété le tableau excel indiqué ci-dessus, vous pouvez aller voir le corrigé et les explications ici :/ https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h
+/Lorsque vous avez complété le tableau Excel indiqué ci-dessus, vous pouvez aller voir le corrigé et les explications ici :/ https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h
 
 *** Le compte de résultat et le bilan prévisionnel
     :PROPERTIES:
-    :CUSTOM_ID: le-compte-de-résultat-et-le-bilan-prévisionnel
+    :CUSTOM_ID: crbilanprev
     :END:
-Les différents budgets réalisés permettent de construire un état de la situation financière (aussi appelé bilan) et un état des résultats (aussi appelé compte de résultat) prévisionnels. Le compte de résultat est la synthèse des produits et des charges mis en évidence dans les différents budgets. Il est nécessaire d'ajuster le budget de production pour n'inclure dans le compte de résultat que le coût de production des produits qui sont effectivement vendus. En effet, la production stockée n'est pas une charge, elle ne va pas dans l'état des résultats mais dans l'état de la situation financière.
+Les différents budgets réalisés permettent de construire un état de la situation financière (aussi appelé bilan) et un état des résultats (aussi appelé compte de résultat) prévisionnels. Le compte de résultat est la synthèse des produits et des charges mis en évidence dans les différents budgets. Il est nécessaire d'ajuster le budget de production pour n'inclure dans le compte de résultat que le coût de production des produits qui sont effectivement vendus. En effet, la production stockée n'est pas une charge, elle ne va pas dans l'état des résultats, mais dans l'état de la situation financière.
 Le compte de résultat permet de mesurer la performance de l'entreprise sur une année donnée. Le bilan est une représentation du patrimoine à une date donnée. Le bilan prévisionnel peut être construit à partir du bilan de l'année précédente, en y ajoutant les produits, charges et décalages de trésorerie mis en évidence dans les différents budgets et en évaluant le niveau des stocks. 
 #+begin_quote
 La vidéo suivante détaille les différentes étapes d'un budget pour une entreprise de service.
@@ -807,7 +807,7 @@ https://youtu.be/xtvSWeLm13s
 #+end_quote
 ** Participation et processus budgétaire
    :PROPERTIES:
-   :CUSTOM_ID: participation-et-étapes-du-processus-budgétaire
+   :CUSTOM_ID: partbudg
    :END:
 Au point de vue organisationnel, divers modes de construction des prévisions budgétaires sont envisageables. En effet, celui-ci peut être construit essentiellement par la direction générale de manière plutôt descendante /(top-down)/ ou peut impliquer toute la ligne hiérarchique et les différentes fonctions opérationnelles (production, marketing, etc.) dans un processus participatif de collecte d'information /(bottom-up)/. Les deux solutions ont des avantages différents. 
 #+begin_quote
@@ -825,7 +825,7 @@ Dans les faits, lors de la construction du budget se suivent des étapes /top-do
 [[./img/budgetcal.jpeg]]
 ** Le budget : des rôles divers
    :PROPERTIES:
-   :CUSTOM_ID: le-budget-des-rôles-divers
+   :CUSTOM_ID: rolebudg
    :END:
 Divers rôles sont attribués au budget. Anthony résume les finalités du budget et du processus de préparation budgétaire en cinq points[fn:11] : "(1) Motiver les managers à dresser des plans, (2) informer les managers de ce qui est attendu d'eux, (3) obtenir un engagement des managers, (4) coordonner les différentes activités d'une organisation, (5) fournir un standard pour juger la performance réelle". 
 Les rôles le plus souvent mis en avant s'articulent autour de quatre pôles : coordination/communication, gestion prévisionnelle, délégation/motivation et apprentissage au management. Ainsi, le processus budgétaire est l'occasion pour les divers services de se coordonner, par exemple de s'assurer que ce qui va être vendu par le service commercial aura bien été produit par les usines. Le budget doit permettre de prévoir les difficultés à venir et de choisir les programmes d'activité : il est donc un outil de gestion prévisionnelle. Le budget peut aussi être utilisé comme un contrat passé entre un responsable et sa hiérarchie sur les résultats à atteindre et/ou les moyens à mettre en œuvre. Enfin, le budget est une occasion privilégiée pour introduire la dimension économique et financière dans les choix opérationnels qui sont faits. Il est à ce titre un outil d'apprentissage au management.
@@ -840,7 +840,7 @@ Pour réconcilier les divers objectifs du budget, plusieurs solutions peuvent ê
 
 ** Le budget et ses critiques
    :PROPERTIES:
-   :CUSTOM_ID: le-budget-et-ses-critiques
+   :CUSTOM_ID: budgcrit
    :END:
 Depuis l'étude d'Argyris au début des années 1950[fn:13], le budget fait l'objet de critiques importantes. L'école des relations humaines en contrôle de gestion s'est ainsi développée sur l'étude de ses effets négatifs sur la motivation. Argyris souligne notamment que les budgets ne permettent pas de comprendre la performance, s'intéressent à la performance passée, sont rigides et parfois irréalistes. Ils sont de plus un moyen de pression qui crée de la tension, détruit la coopération et produit du stress. La solution proposée par l'école des relations humaines est alors de promouvoir la participation des opérationnels au budget pour favoriser leur implication.
 
@@ -850,7 +850,7 @@ Les critiques émises semblent relever de trois catégories : une critique du c
 Le budget est critiqué car il va souvent de pair avec un mode de management contractuel de type délégation/évaluation/rémunération qui ne permet pas toujours d'exploiter au mieux les compétences des salariés. On retrouve ici plus ou moins la critique du behaviorisme qui prônait dans les années 1970 le "management participatif" et dans les années 1990 "l'empowerment". Le courant "Beyond Budgeting" en fait le cœur de sa critique[fn:15] : 
 ~"Les entreprises ont investi des sommes considérables dans les technologies de l'information en réseau, le /reengineering/ des processus et une palette d'outils de management tels que l'EVA, le /balanced scorecard/ et la comptabilité d'activité. Mais elles n'ont pas été capables d'établir un “nouvel ordre” parce que le budget et la culture de type “diriger et contrôler” restent prédominants."~
 Ce mode de management a, de plus, un certain nombre d'effets pervers, qui correspondent de manière générale aux reproches que l'on peut faire au contrôle de gestion (cloisonnement, vision à court terme, ne permet de gérer que le financier, empêche l'innovation...). Plus généralement, comme tout système formalisé, il peut être à l'origine des cercles vicieux bureaucratiques tels qu'ils ont été identifiés par les sociologues des organisations américains depuis les années 1950. Pour Hope et Fraser, le contrat budgétaire est à l'origine de nombreux comportements opportunistes : 
-~"Essayer de négocier au plus bas les objectifs, obtenir son bonus à tout prix, faire passer le client après les objectifs, ne pas partager le savoir, dépenser le budget intégralement, pouvoir expliquer les écarts, ne pas fournir des prévisions justes, atteindre le budget mais ne pas le dépasser et ne pas prendre de risques".~
+~"Essayer de négocier au plus bas les objectifs, obtenir son bonus à tout prix, faire passer le client après les objectifs, ne pas partager le savoir, dépenser le budget intégralement, pouvoir expliquer les écarts, ne pas fournir des prévisions justes, atteindre le budget, mais ne pas le dépasser et ne pas prendre de risques".~
 Ils ajoutent même qu'il serait l'origine des grandes faillites et fraudes nord-américaines : 
 ~"Dans des cas extrêmes, l'utilisation du budget pour forcer l'amélioration des performances peut conduire à des failles dans l'éthique des entreprises. Les personnes qui travaillaient à WorldCom, aujourd'hui en faillite [...] disent que les demandes rigides du président, Bernard Ebbers, étaient incontournables dans la vie dans l'entreprise. “Vous aviez un budget et il vous demandait de faire 2 % de moins que le budget”, a dit une personne travaillant à WorldCom [...] “rien d'autre n'était accepté”. WorldCom, Enron, Barings Bank et les autres entreprises qui ont chuté avaient des processus de contrôle budgétaire serrés qui n'orientaient l'information que vers ceux qui “doivent savoir”."~
 Jensen, pourtant ardent partisan d'une vision contractuelle de l'entreprise (dans le cadre de la théorie de l'agence), n'est pas moins véhément lorsqu'il affirme[fn:16] : 
@@ -858,12 +858,12 @@ Jensen, pourtant ardent partisan d'une vision contractuelle de l'entreprise (dan
 Ce sont les effets pervers induits par un système de contrôle financier strict, tel le contrôle budgétaire, qui semblent être au centre de ces critiques. 
 Une troisième catégorie de critiques a trait à la capacité des budgets à faire passer la "bonne stratégie". Au-delà du budget, c'est la faillite de la planification stratégique préconisée par l'école de Harvard ou par Ansoff de la fin des années 1960 aux années 1970 qui est critiquée ici. Il semblerait que le budget traduise généralement assez mal la stratégie telle qu'elle est proposée dans les plans stratégiques. Gérer avec des plans à long terme conduirait également à rigidifier l'entreprise en ne lui permettant pas de s'adapter aux opportunités qui se présentent en cours d'année. Cela interdirait aussi l'émergence d'idées stratégiques émanant de la base. 
 
-Malgré les critiques, le budget reste largement utilisé. Les différentes enquêtes réalisées montrent en effet que la quasi-totalité des entreprises et des organisations réalisent des budgets. Certes, elles ne l'utilisent pas toutes de la même manière[fn:17] : certaines en font la référence incontournable de l'évaluation des responsables alors d'autres n'y accordent que peu d'importance, certaines impliquent les gestionnaires dans sa construction alors que d'autres ont une démarche plus participative. On constate ainsi que le budget fait l'objet de critiques lorsqu'il est peu participatif et qu'il est utilisé de manière stricte pour l'évaluation des gestionnaires.
+Malgré les critiques, le budget reste largement utilisé. Les différentes enquêtes réalisées montrent en effet que la quasi-totalité des entreprises et des organisations réalise des budgets. Certes, elles ne l'utilisent pas toutes de la même manière[fn:17] : certaines en font la référence incontournable de l'évaluation des responsables alors d'autres n'y accordent que peu d'importance, certaines impliquent les gestionnaires dans sa construction alors que d'autres ont une démarche plus participative. On constate ainsi que le budget fait l'objet de critiques lorsqu'il est peu participatif et qu'il est utilisé de manière stricte pour l'évaluation des gestionnaires.
 
 La planification et le budget sont des outils au cœur du fonctionnement des grandes organisations aujourd'hui. Ils servent à savoir où l'entreprise va et à s'assurer du déploiement des choix stratégiques dans l'entreprise. Ces plans sont parfois utilisés pour discuter avec des apporteurs de capitaux (banquier, actionnaires potentiels), notamment dans le cas des entreprises en phase de croissance (start-up). Ils sont alors appelés /"Business Plan"/
 
 #+begin_quote
-Pour vous exercer sur cette section, voir les exercices sur zonecours et le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f6898f251af0040aba9284c
+Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f6898f251af0040aba9284c
 #+end_quote
 
 * Mesure de la performance financière
