@@ -1,59 +1,63 @@
-#+Title:Prévoir, décider et piloter à l'aide des informations comptables
-#+subtitle: COMP50900 - Comptabilité financière et comptabilité de gestion
+#+Title:Prévoir, décider et piloter à l'aide des informations comptables - COMP50900
 #+Author:Samuel Sponem - HEC Montréal
 #+Date:Mise à jour {{{time(%Y-%m-%d)}}}
-#+OPTIONS: \n:true ;; tags:nil ':t :with-fixed-width ;; toc:nil num:nil
+#+OPTIONS: \n:true
 #+LANGUAGE:fr
-#+LATEX_CLASS:samassign
-#+SETUPFILE:  https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+LATEX_CLASS:tufte-handout
+#+SETUPFILE:https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 
+@@latex:\clearpage@@
 * Introduction
 Les états financiers donnent aux parties prenantes externes une image comptable et financière de l'entreprise. L'état des résultats représente la performance de l'organisation sur une année et l'état de la situation financière donne une image du patrimoine à la fin de l'exercice comptable.
 
 Cette image comptable et financière (ce que l'on appelle la comptabilité financière) est cependant insuffisante pour permettre la gestion d'une organisation. Les managers ont besoin d'informations complémentaires pour planifier les activités de l'organisation, les contrôler et prendre les bonnes décisions.
 
-La comptabilité de gestion a pour objectif d'organiser et d'analyser les informations de la comptabilité financière, ainsi que des informations non financières, afin de soutenir les gestionnaires dans leurs activités de management en leur donnant des informations sur les coûts, les prévisions et en mesurant la performance interne. Ainsi, elle "mesure et diffuse –essentiellement en interne– des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"[fn:1].
+La comptabilité de gestion a pour objectif d'organiser et d'analyser les informations de la comptabilité financière, ainsi que des informations non financières, afin de soutenir les gestionnaires dans leurs activités de management en leur donnant des informations sur les coûts, les prévisions et en mesurant la performance interne.
 
 #+caption: Comptabilité financière et comptabilité de gestion
 #+name: comptafi
-[[./img/comptafi.jpeg]]
+[[./img/comptafi.pdf]]
+
+Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en interne – des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"[fn:1].
 
 En organisation, la comptabilité peut ainsi remplir divers rôles[fn:2] :
-- Aider à la résolution des problèmes et à la prise de décision /(problem-solving)/
-- Orienter l’attention et organiser la vigilance /(attention-directing)/
-- Permettre un constat et évaluer la performance /(scorekeeping)/
+- Aider à la résolution des problèmes et à la prise de décision /(problem-solving)/ ;
+- Orienter l’attention et organiser la vigilance /(attention-directing)/ ;
+- Permettre un constat et évaluer la performance /(scorekeeping)/.
 
-Le comptable est généralement responsable de la production de ces différents calculs. C'est cependant le gestionnaire qui doit utiliser ces calculs pour prendre des décisions et contrôler. La comptabilité de gestion accompagne ainsi le gestionnaire au cours des différentes étapes du processus de management : planifier (/Plan/), réaliser (/Do/), contrôler et vérifier (/Check/); et agir et ajuster (/Act/).
+Le comptable est généralement responsable de la production de ces différents calculs. C'est cependant le gestionnaire qui doit utiliser ces calculs pour prendre des décisions et contrôler. La comptabilité de gestion accompagne donc le gestionnaire au cours des différentes étapes du processus de management : planifier (/Plan/), réaliser (/Do/), contrôler et vérifier (/Check/); et agir et ajuster (/Act/).
 
 #+caption: Utiliser la comptabilité de gestion pour planifier, contrôler et ajuster
 #+name: pdca
-[[./img/pdca.jpeg]]
+[[./img/pdca.pdf]]
 
 Pour planifier, il est nécessaire de calculer et analyser les coûts permettant de faire les choix pertinents qui se matérialisent dans les plans stratégiques et de connaître les coûts à inscrire dans les budgets. Le contrôle budgétaire et les tableaux de bord permettent de suivre les réalisations. Grâce aux mesures de performance, il est possible d'analyser les résultats et de faire les ajustements nécessaires au bon fonctionnement de l'organisation.
 
 #+begin_quote
-Contrairement à la comptabilité financière, la comptabilité de gestion n'est pas normalisée. Le vocabulaire, les méthodes et les outils peuvent ainsi varier selon les entreprises. La plus grande difficulté est donc qu'il n'y a pas de méthode universelle qui serait applicable partout : il n'y a pas de coûts justes ou exacts, il n'y a que des coûts pertinents pour une décision donnée. Ainsi, on utilise des calculs de coût différents pour prendre des décisions à court terme ou à long terme. De la même manière, le choix des chiffres à inscrire dans le budget dépend de l'utilisation que l'on va faire de l'outil et les mesures de performances doivent être choisies en pensant aux impacts qu'elles vont avoir sur les comportements. 
+Contrairement à la comptabilité financière, la comptabilité de gestion n'est pas normalisée. Le vocabulaire, les méthodes et les outils peuvent ainsi varier selon les entreprises. La plus grande difficulté est donc qu'il n'y a pas de méthode universelle qui serait applicable partout : il n'y a pas de coûts justes ou exacts, il n'y a que des coûts pertinents pour une décision donnée.
+On utilise donc des calculs de coût différents pour prendre des décisions à court terme ou à long terme. De la même manière, le choix des chiffres à inscrire dans le budget dépend de l'utilisation que l'on va faire de l'outil et les mesures de performances doivent être choisies en pensant aux impacts qu'elles vont avoir sur les comportements. 
 #+end_quote
 
 Les chiffres produits par la comptabilité de gestion reposent sur des hypothèses qui sont souvent discutables. Ils n'ont de valeur que parce qu'ils permettent :
 - d'améliorer la prise de décision ;
 - de mieux contrôler l'organisation.
 
-La comptabilité de gestion n'est donc pas purement technique. Elle fait partie du processus de management. C'est toute sa difficulté : il faut connaître les outils, mais ne pas s'y limiter.
+La comptabilité de gestion n'est donc pas purement technique. Elle fait partie du processus de management. C'est toute sa difficulté : il faut connaître les outils, mais ne pas s'y limiter.
 
+
+#+begin_quote
 Ce document vient en complément des diapositives utilisées pour le cours. Il présente les pratiques communément acceptées en comptabilité de gestion, de manière simplifiée et à destination des gestionnaires, afin de vous permettre :
 - de discuter avec un comptable en organisation (maîtriser son vocabulaire et comprendre ses méthodes) ;
 - d'utiliser l’information produite par le comptable et d'exercer un regard critique sur les outils et procédures qu’il utilise ;
 - de maîtriser les techniques de base de calcul des coûts, de construction des budgets ;
 - comprendre les enjeux de la mesure de la performance.
 
-
-#+begin_quote
 Pour chaque section, vous pouvez faire les exercices sur ZoneCours et vérifier vos connaissances à l'aide de quiz d’entrainement disponibles à l'adresse suivante : https://www.wooclap.com/COMP50900 
 Ces quiz sont optionnels et non évalués. 
 Les quiz obligatoires sont disponibles sur ZoneCours.
 #+end_quote
 
+@@latex:\clearpage@@
 * Calcul des coûts et prise de décision
   :PROPERTIES:
   :CUSTOM_ID: coûts
@@ -78,8 +82,8 @@ Avant de se lancer dans un calcul de coûts, il faut donc se demander quel est l
 Un objet de coût peut être un produit, un service, un client, une ligne de produits, une fonction, une activité, etc.
 
 Selon les décisions à prendre, il peut être utile de calculer le coût total ou le coût unitaire :
-- le coût total est le coût d'un ensemble de produits fabriqués
-- le coût unitaire est calculé en divisant le coût total par le nombre d'unités
+- le *coût total* est le coût d'un ensemble de produits fabriqués
+- le *coût unitaire* est calculé en divisant le coût total par le nombre d'unités
 
 ** Comportement des coûts, calcul des coûts et prise de décision sur le court terme
    :PROPERTIES:
@@ -178,13 +182,13 @@ Par définition, le seuil de rentabilité est atteint lorsque le résultat est �
 #+end_center
 Ceci peut se représenter graphiquement de la manière suivante :
 #+caption: Chiffre d'affaires, coût total et seuil de rentabilité
-[[./img/srcact.jpeg]]
+[[./img/srcact.pdf]]
 La marge de sécurité est la différence (exprimée en unités ou en unités monétaires) entre le niveau d'activité prévu et le niveau d'activité au point mort.
 
 On peut aussi dire que le seuil de rentabilité est atteint lorsque la marge sur coût variable totale permet de couvrir les coûts fixes. 
 Ceci peut se représenter graphiquement de la manière suivante :
 #+caption: chiffre d'affaires, coût total et seuil de rentabilité
-[[./img/srmcvcf.jpeg]]
+[[./img/srmcvcf.pdf]]
 
 Le seuil de rentabilité se calcule en quantités ou en chiffre d'affaires de la manière suivante :
 #+begin_center
@@ -499,14 +503,14 @@ En effet, dans de nombreuses entreprises, les centres de regroupement retenus so
 Pour bien prendre en compte la consommation des ressources, il faudrait donc s'appuyer sur une représentation qui part des processus de l'entreprise, afin de donner une représentation plus fidèle de la consommation de ressources que la représentation hiérarchique. La méthode de calcul des coûts par activité s'appuie ainsi sur la chaîne de valeur[fn:9], qui représente l'ensemble des activités (primaires et de soutien) qu'une entreprise doit réaliser afin de satisfaire ses clients.
 
 #+caption: La chaîne de valeur (Porter, 1985)
-[[./img/chaine.jpeg]]
+[[./img/chaine.pdf]]
 
 La mise en oeuvre des calculs de coût par activité n'est pas fondamentalement différente de la méthode classique des calculs de coût complet examinée plus haut. Elle repose cependant, une logique différente, un vocabulaire spécifique (activités à la place de centres de regroupement, inducteurs à la place de base d'imputation) et une représentation processuelle de l’entreprise plutôt que hiérarchique.
 
 Dans la méthode des coûts par activités, on considère que les produits déclenchent des activités, qui elles-mêmes consomment des ressources. 
 
 #+caption: Calcul des coûts complets : méthode traditionnelle vs coût par activité
-[[./img/abc.jpeg]]
+[[./img/abc.pdf]]
 
 Pour pouvoir calculer un coût, il faut donc mettre en évidence :
 - les activités, que l'on peut définir comme un ensemble de travaux, tâches ou opérations à accomplir pour mener à bien le processus ;
@@ -591,6 +595,7 @@ Cette approche, qui renonce à analyser les coûts fixes, n'est /a priori/ perti
 La méthode de calcul des coûts retenue doit être pertinente. La pertinence des calculs de coûts dépend d'abord de l'identification des décisions auxquelles on destine les chiffres : il n'y a pas de calcul de coût indépendamment d'une utilisation donnée du résultat de ce calcul.
 #+end_warning
 
+@@latex:\clearpage@@
 * Planification et animation budgétaire
   :PROPERTIES:
   :CUSTOM_ID: budget
@@ -607,7 +612,7 @@ Dans la pratique, un budget est défini pour chaque fonction de l'entreprise. Il
 Dans une entreprise familiale, qui a des problèmes de financement, la trésorerie constitue la principale contrainte : c'est par ce budget qu'il faudra débuter. Dans une économie de la demande, la marche de l'entreprise est essentiellement contrainte par la demande du marché. Dans ce cas, il faut commencer par établir le budget des ventes. C'est le cas le plus courant, et c'est celui que nous développerons par la suite.
 
 #+caption: 
-[[./img/budget.jpeg]]
+[[./img/budget.pdf]]
 
 Le schéma ci-dessus synthétise les différentes étapes du processus budgétaire dans le cas classique d'abondance de l'offre. Le premier budget qui doit être réalisé est le budget des ventes (étape 1), qui dépend notamment de la stratégie et du plan (étape 0), mais qui doit être ajusté en fonction des évolutions récentes du marché. Ensuite, le programme de production, aussi appelé plan d'activité, qui permet de définir les quantités à produire et les modalités de production doit être établi (étape 2). Sur la base de programme de production, il est possible de construire le budget des coûts de production et des coûts d'approvisionnement (étape 3). Le budget des investissements et le budget des frais généraux (frais de la direction générale, par exemple) sont des budgets discrétionnaires (étape 4). Ils ne dépendent pas directement du niveau d'activité, mais doivent permettre de la soutenir. Le niveau de dépense dans ces domaines doit donc être défini en fonction de l'orientation stratégique de l'entreprise et du niveau de rentabilité attendu.
 Ces différents budgets sont ensuite rassemblés pour construire le budget de trésorerie (étape 5) ainsi que le compte de résultat et le bilan prévisionnel (étape 6).
@@ -823,7 +828,7 @@ Avantages du budget /bottom-up/ (forte participation des opérationnels) :
 #+end_quote
 Dans les faits, lors de la construction du budget se suivent des étapes /top-down/ et des étapes /bottom-up/. De ce fait, bien souvent ce processus budgétaire est un processus long. Par exemple, pour une entreprise dont l'annualité budgétaire est calée sur l'année civile, le processus budgétaire peut commencer début mi-juillet ou septembre. Le graphique ci-dessous permet de donner un exemple du calendrier et des différentes étapes possibles.
 #+caption: Un exemple de calendrier budgétaire
-[[./img/budgetcal.jpeg]]
+[[./img/budgetcal.pdf]]
 ** Le budget : des rôles divers
    :PROPERTIES:
    :CUSTOM_ID: rolebudg
@@ -867,6 +872,7 @@ La planification et le budget sont des outils au cœur du fonctionnement des gra
 Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f6898f251af0040aba9284c
 #+end_quote
 
+@@latex:\clearpage@@
 * Mesure de la performance financière
   :PROPERTIES:
   :CUSTOM_ID: perffi
@@ -878,7 +884,7 @@ La mesure de la performance permet de « gérer par les résultats »[fn:18] en 
 
 Une bonne image de ce mécanisme cybernétique est donnée par l’exemple du thermostat. Celui-ci va déceler une différence entre la température réelle d’une pièce et la température souhaitée et réagir à cette divergence en allumant ou en éteignant le chauffage pour obtenir la température désirée. La « gestion par les résultats » s’apparente également à un processus cybernétique puisqu’elle vise à identifier les différences entre les objectifs et le niveau réel de performance afin de déclencher des mesures d’ajustement lorsque des écarts sont identifiés.
 #+caption: La gestion par les résultats : un processus cybernétique
-[[./img/gestionobj.jpeg]]
+[[./img/gestionobj.pdf]]
 La gestion par les résultats repose, dans un premier temps, sur la fixation d’une norme chiffrée (étape 1). La définition de cette norme n’a bien sûr rien d’évident. Elle peut s’appuyer sur une prévision (effectuée dans le cadre du processus budgétaire, par exemple) ou traduire un objectif volontariste de la direction (infléchissement de tendance). Parfois, la définition de cette norme est réalisée en se comparant aux concurrents (analyse comparative) ou en faisant participer ceux qui sont contrôlés afin d’améliorer la prévision qui est faite (puisqu’on suppose que la personne contrôlée connaît souvent mieux l’activité et son évolution que la personne qui la contrôle) et son appropriation par la personne qui est chargée de la mise en œuvre. On parle alors de direction participative par objectifs. Cette participation à la définition des objectifs pose cependant un problème : lors de la discussion de ses objectifs, la personne contrôlée a intérêt à minimiser la difficulté des objectifs qui lui sont assignés afin de s’assurer qu’elle pourra les atteindre. Dans le cadre du processus budgétaire, ce phénomène est qualifié de /slack/ budgétaire.
  Dans un deuxième temps (étape 2), la personne contrôlée est laissée libre d’organiser la transformation des ressources en produits ou la réalisation de ses activités de la manière la plus efficace et la plus efficiente. 
 Les résultats obtenus font ensuite l’objet d’une mesure qui est comparée aux objectifs préalablement fixés (étape 3). La mesure peut concerner des unités physiques (nombre de produits, temps passé, etc.) les entreprises mettent souvent l’accent sur des mesures de nature comptable et financière, particulièrement lorsque cela concerne des gestionnaires. 
@@ -917,7 +923,7 @@ Un centre de responsabilité est une subdivision de l’entreprise à la tête d
 - les centres d’investissement, qui sont responsables de leur marge et de leurs investissements.
 Dans les organisations, ces divers types de centres de responsabilité s’emboîtent les uns dans les autres, réalisent des transactions réciproques, et peuvent parfois influencer leurs résultats. 
 #+caption: Les types de centres de responsabilité
-[[./img/centres.jpeg]]
+[[./img/centres.pdf]]
 Le découpage de l’organisation en centres de responsabilité qui en découle permet de clarifier l’organisation, d’amoindrir sa complexité, d’attribuer des responsabilités à chacun et donc de décentraliser.
 #+begin_quote
 La décentralisation est le processus par lequel la prise de décision est déléguée aux responsables des unités d'affaires. Ce processus a des avantages majeurs :
@@ -1011,7 +1017,7 @@ Pour chacune des trois entités, calculer le retour sur investissement
 
 La pyramide du ROI permet d'expliquer la formation du retour sur investissement en considérant que le ROI s'explique par le taux de marge (la marge générée par le chiffre d'affaires) et par la rotation des actifs (c'est-à-dire le chiffre d'affaires généré par un dollar investi).
 #+caption: La pyramide du ROI
-[[./img/roi.jpeg]]
+[[./img/roi.pdf]]
 
 Deux entreprises peuvent ainsi avoir un même ROI, mais en l'obtenant de manière très différente. Par exemple, les activités de luxe ou de construction exigent de forts investissements (faible rotation des actifs), mais permettent de forts taux de marge. Inversement, les activités de distribution vont avoir un fort taux de rotation des actifs (puisqu'elles payent leurs fournisseurs avec d'importants délais alors que leurs clients payent au comptant) et un taux de marge peu élevé. 
 Exercice (suite) : La décomposition du ROI
@@ -1030,7 +1036,7 @@ Deux des trois entités ont le même retour sur investissement, mais elles l'obt
 La division C a un très faible taux de marge (5 %). Mais elle semble nécessiter des investissements assez faibles. Sa rentabilité économique est donc tout de même plus faible que celle des autres divisions. 
 La décomposition de la pyramide peut être poursuivie pour faire apparaître un grand nombre de composantes de la performance de l'entreprise ainsi que les leviers d'action envisageables pour améliorer la rentabilité. 
 #+caption: La décomposition du ROI
-[[./img/roidetail.jpeg]]
+[[./img/roidetail.pdf]]
 
 En résumé, le "ROI conduit à synthétiser la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"[fn:28]. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.
 
@@ -1137,11 +1143,11 @@ Sur un plan plus théorique, le fait de demander un bénéfice résiduel systém
 ** Transformer des centres de coûts ou de revenus en centre de profit : le rôle des prix de cession interne
 Un centre de responsabilité peut recevoir tout ou partie de son approvisionnement en provenance de centres de responsabilités situés en amont, et céder tout ou partie de sa production à d’autres centres situés en aval. Les prix de cession interne sont les prix définis par une organisation pour valoriser les transactions internes entre différents centres de responsabilité. 
 #+caption: Les prix de cession interne
-[[./img/pci.jpeg]]
+[[./img/pci.pdf]]
 Ces prix sont fictifs, car ils ne correspondent pas à un échange sur un marché ni à une transaction enregistrée en comptabilité financière. On parle aussi de prix de transfert, notamment lorsque les cessions sont réalisées entre des entités juridiques distinctes appartenant à un même groupe[fn:30].
 La détermination du profit au niveau de chaque centre suppose une valorisation des cessions internes, d’où l’utilisation de prix de cession interne entre centres "fournisseurs" et centres "clients".
 #+caption: Les prix de cession interne
-[[./img/pciresult.jpeg]]
+[[./img/pciresult.pdf]]
 On voit ici que (tant qu’il n’influence pas les décisions d’achat des centres), le niveau du prix de cession interne n’a pas d’incidence sur le résultat total de l’entreprise puisqu’il constitue à la fois un produit et une charge[fn:31].
 
 Les prix de cession interne permettent de faire entrer le marché dans l’organisation en transformant des centres de coût ou de revenu en centres de profit, rendant ainsi possible (du moins en apparence) l’évaluation de leur performance par l’intermédiaire de leur résultat. Ils vont ainsi faciliter la mise sous tension de l’organisation, motiver et dynamiser les responsables, et rendre possible l’évaluation les performances, grâce à la mise en place de centres de profit jugés sur des résultats. 
@@ -1195,6 +1201,7 @@ Inversement, laisser une liberté d’achat et de vente en interne ou en externe
 Pour vous exercer sur cette section, voir le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f689959ca402c5d7fde62cf
 #+end_quote
 
+@@latex:\clearpage@@
 * Conclusion : mesures de la performance, gestion par les résultats et contrôle de l'organisation
 Dans le cadre de ce cours, nous avons centré notre attention sur les modes de calcul des coûts et de prévisions adaptés aux différentes situations de prise de décisions rencontrées par les gestionnaires. Ces mesures sont des instruments utiles pour les gestionnaires. Elles aident le gestionnaire à fonder ses décisions sur des faits plutôt que sur des perceptions. D'ailleurs, ont dit souvent qu' "on ne gère bien que ce que l'on mesure" (/What gets measured gets and rewarded done/[fn:33]), en considérant que ce qui est mesuré compte vraiment et doit être récompensé. 
 
@@ -1271,7 +1278,7 @@ Autrement dit, les systèmes de contrôle interactif vont orienter l'attention d
 La figure ci-dessous permet de représenter graphiquement ces quatre étapes.
 
 #+caption: Le contrôle interactif
-[[./img/inter.jpeg]]
+[[./img/inter.pdf]]
 
 Tous les systèmes de contrôle et de mesure de la performance peuvent être utilisés de manière interactive : les budgets, les tableaux de bord, les indicateurs marketing, les outils de contrôle de gestion des projets, les indicateurs sur les ressources humaines, etc. Ce n'est donc pas l'outil en tant que tel qui compte pour comprendre l'impact du contrôle sur la stratégie, mais la manière de l'utiliser. En revanche, il ne peut y avoir trop de systèmes de contrôle et de mesure de la performance utilisés simultanément de manière interactive. En effet, ce type de contrôle a un coût économique et cognitif (les individus ne peuvent prêter attention à tout, ils ont une rationalité et une attention limitée). Se concentrer sur trop de systèmes de contrôle en même temps risque de conduire à un surplus d'informations, des analyses superficielles et une paralysie.
 
@@ -1336,7 +1343,7 @@ Différents critères doivent donc présider au choix des modes de contrôle à 
 Parce qu'ils tentent de mettre sous pression les individus dans les organisations, les systèmes de contrôle interactifs et diagnostiques peuvent de plus conduire à des comportements déviants (manipulations comptables, fraudes, concurrence interne entre les responsables, etc.). Pour limiter ces risques, des contrôles administratifs ou culturels peuvent être mis en place. En résumé, quatre leviers de contrôle peuvent être utilisés dans les organisations. Ils permettent chacun de gérer une variable clé (les facteurs clés de succès, les facteurs stratégiques de risque, les valeurs ou les risques à éviter). Chacun de ces leviers de contrôle a des objectifs différents et permet de contrôler un élément particulier de la stratégie[fn:46].
 
 #+caption: Les divers leviers de contrôle
-[[./img/levers.jpeg]]
+[[./img/levers.pdf]]
 
 Les entreprises performantes sont celles qui arrivent à articuler, en fonction de leur stratégie et des contraintes de leur environnement, les divers leviers de contrôle afin de compenser les effets pervers des uns et des autres.
 
@@ -1412,7 +1419,7 @@ La comptabilité est un langage prédominant du domaine des affaires. Elle donne
 
 [fn:33] Anthony, R. N., Govindarajan, V., Hartmann, F. G. H., Kraus, K., & Nilson, G. (2014). Management control systems (1st european edition). McGraw Hill Higher Education.
 
-[fn:34] Cette section reprend en partie Sponem, S., & Chatelain-Ponroy, S. (2019). Les comportements face au contrôle. In N. Berland & Y. De Rongé (Éds.), Contrôle de gestion : Perspectives stratégiques et managériales (4 éd., p. 73‑94). Person France.
+[fn:34] Cette section reprend en partie Sponem, S., & Chatelain-Ponroy, S. (2019). Les comportements face au contrôle. In N. Berland & Y. De Rongé (Éds.), Contrôle de gestion : Perspectives stratégiques et managériales (4 éd., p. 73‑94). Pearson.
 
 [fn:35] Les travaux d’Argyris s’inscrivent dans le courant des relations humaines et appliquent au contrôle de gestion les résultats des travaux de cette école. Argyris, C. (1953). Human Problems with Budgets. Harvard Business Review, 31(1), 97‑110.
 
