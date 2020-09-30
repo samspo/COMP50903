@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
 <head>
-<!-- 2020-09-26 Sat 17:50 -->
+<!-- 2020-09-30 Wed 14:50 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Prévoir, décider et piloter à l'aide des informations comptables - COMP50900</title>
@@ -193,6 +193,12 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
 <script type="text/javascript">
 // @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
@@ -223,20 +229,20 @@
 <h2>Table des matières</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgb5f1840">1. Introduction</a></li>
+<li><a href="#org513d7f3">1. Introduction</a></li>
 <li><a href="#coûts">2. Calcul des coûts et prise de décision</a>
 <ul>
-<li><a href="#org07983fe">2.1. Les rôles du calcul de coût</a></li>
+<li><a href="#org914d0a3">2.1. Les rôles du calcul de coût</a></li>
 <li><a href="#coutspartiels">2.2. Comportement des coûts, calcul des coûts et prise de décision sur le court terme</a>
 <ul>
-<li><a href="#cvcf">2.2.1. La distinction entre coûts variables et coûts fixes</a></li>
+<li><a href="#cvcf">2.2.1. Distinguer coûts variables et coûts fixes</a></li>
 <li><a href="#mcv">2.2.2. Marge sur coût variable et marge nette</a></li>
 <li><a href="#cvp">2.2.3. Analyse coûts / volumes / profits : le calcul du seuil de rentabilité</a></li>
 </ul>
 </li>
 <li><a href="#coutscomplets">2.3. Gestion des coûts et prise de décision sur le long terme</a>
 <ul>
-<li><a href="#org03e1fe3">2.3.1. Le concept de coût complet</a></li>
+<li><a href="#org35abcd6">2.3.1. Le concept de coût complet</a></li>
 <li><a href="#ccetapes">2.3.2. Les étapes de calcul du coût de revient complet</a></li>
 <li><a href="#ccvalid">2.3.3. Conditions de validité de la méthode : Homogénéité des centres de regroupement et choix des bases d'imputation</a></li>
 <li><a href="#cccritique">2.3.4. Du calcul du coût à la gestion des coûts : la méthode par activité</a></li>
@@ -255,7 +261,7 @@
 <li><a href="#approvisionnements">3.2.3. Le budget des approvisionnements</a></li>
 <li><a href="#budgetdisc">3.2.4. Les budgets des centres de coûts discrétionnaires et des centres d'investissement</a></li>
 <li><a href="#trésorerie">3.2.5. Le budget de trésorerie (encaisse)</a></li>
-<li><a href="#org455eff2">3.2.6. Application : Mirabel Air</a></li>
+<li><a href="#org231beec">3.2.6. Application : Mirabel Air</a></li>
 <li><a href="#crbilanprev">3.2.7. Le compte de résultat et le bilan prévisionnel</a></li>
 </ul>
 </li>
@@ -266,38 +272,38 @@
 </li>
 <li><a href="#perffi">4. Mesure de la performance financière</a>
 <ul>
-<li><a href="#orgc80c995">4.1. Mesure de performance et gestion par les résultats</a>
+<li><a href="#orge17deab">4.1. Mesure de performance et gestion par les résultats</a>
 <ul>
-<li><a href="#org48394ce">4.1.1. Gestion par les résultats et pilotage</a></li>
-<li><a href="#orgfd9ee2f">4.1.2. Les avantages de la gestion par les résultats</a></li>
-<li><a href="#org734b9b6">4.1.3. Gérer par les résultats : hypothèses sur le processus contrôlé et la motivation des individus</a></li>
+<li><a href="#orgfcaf82b">4.1.1. Gestion par les résultats et pilotage</a></li>
+<li><a href="#org4932193">4.1.2. Les avantages de la gestion par les résultats</a></li>
+<li><a href="#org112b6b4">4.1.3. Gérer par les résultats : hypothèses sur le processus contrôlé et la motivation des individus</a></li>
 </ul>
 </li>
-<li><a href="#org073b20d">4.2. Gestion par les résultats et centres de responsabilité</a></li>
+<li><a href="#orgfd20926">4.2. Gestion par les résultats et centres de responsabilité</a></li>
 <li><a href="#rentabilité">4.3. Mesurer la performance des centres de responsabilité</a>
 <ul>
-<li><a href="#org4d8583a">4.3.1. Le contrôle budgétaire et le calcul des écarts</a></li>
+<li><a href="#org0d1c1eb">4.3.1. Le contrôle budgétaire et le calcul des écarts</a></li>
 <li><a href="#roi">4.3.2. Le calul et l'analyse du ROI</a></li>
 <li><a href="#limitesroi">4.3.3. Les limites du ROI</a></li>
 <li><a href="#benefres">4.3.4. Bénéfice résiduel</a></li>
 <li><a href="#benefresroi">4.3.5. Bénéfice résiduel et ROI</a></li>
 </ul>
 </li>
-<li><a href="#org1e197ce">4.4. Transformer des centres de coûts ou de revenus en centre de profit : le rôle des prix de cession interne</a></li>
+<li><a href="#org80ab199">4.4. Transformer des centres de coûts ou de revenus en centre de profit : le rôle des prix de cession interne</a></li>
 </ul>
 </li>
-<li><a href="#org40f32af">5. Conclusion : mesures de la performance, gestion par les résultats et contrôle de l'organisation</a>
+<li><a href="#org1adee66">5. Conclusion : mesures de la performance, gestion par les résultats et contrôle de l'organisation</a>
 <ul>
-<li><a href="#org33dc73b">5.1. Les effets pervers de la gestion par les résultats</a>
+<li><a href="#org9113747">5.1. Les effets pervers de la gestion par les résultats</a>
 <ul>
-<li><a href="#orgbb3ef7d">5.1.1. Focalisation sur les indicateurs et le déplacement des buts</a></li>
-<li><a href="#org92afee8">5.1.2. Manipulations et jeux comptables</a></li>
+<li><a href="#orgc79349e">5.1.1. Focalisation sur les indicateurs et le déplacement des buts</a></li>
+<li><a href="#orgfad4d3d">5.1.2. Manipulations et jeux comptables</a></li>
 </ul>
 </li>
 <li><a href="#altercontrol">5.2. Les modes de contrôle alternatifs à la gestion par les résultats</a>
 <ul>
 <li><a href="#diversiteusage">5.2.1. La diversité des usages des mesures de performance</a></li>
-<li><a href="#la-diversité-des-modes-de-contrôle">5.2.2. La diversité des modes de contrôle</a></li>
+<li><a href="#diversitecont">5.2.2. La diversité des modes de contrôle</a></li>
 </ul>
 </li>
 </ul>
@@ -308,9 +314,17 @@
 <p>
 <br />
 </p>
-<div id="outline-container-orgb5f1840" class="outline-2">
-<h2 id="orgb5f1840"><span class="section-number-2">1</span> Introduction</h2>
+<div id="outline-container-org513d7f3" class="outline-2">
+<h2 id="org513d7f3"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
+<blockquote>
+<p>
+Ces notes de cours viennent compléter les diapositives du cours COMP50900 pour les séances 8 à 12.<br />
+Idéalement, la section correspondant au cours doit être lue préalablement au cours. Vous trouverez dans ces notes de cours quelques liens vers des vidéos, des exercices et des liens vers des quiz qui vous permettent de vérifier votre compréhension. Pour compléter votre apprentissage, des exercices sont aussi disponibles sur ZoneCours.<br />
+</p>
+</blockquote>
+
+
 <p>
 Les états financiers donnent aux parties prenantes externes une image comptable et financière de l'entreprise. L'état des résultats représente la performance de l'organisation sur une année et l'état de la situation financière donne une image du patrimoine à la fin de l'exercice comptable.<br />
 </p>
@@ -323,9 +337,12 @@ Cette image comptable et financière (ce que l'on appelle la comptabilité finan
 La comptabilité de gestion a pour objectif d'organiser et d'analyser les informations de la comptabilité financière, ainsi que des informations non financières, afin de soutenir les gestionnaires dans leurs activités de management en leur donnant des informations sur les coûts, les prévisions et en mesurant la performance interne.<br />
 </p>
 
-<p>
-<a href="./img/comptafi.pdf">./img/comptafi.pdf</a><br />
+
+<div id="orgf8d442f" class="figure">
+<p><img src="./img/comptafi.jpeg" alt="comptafi.jpeg" /><br />
 </p>
+<p><span class="figure-number">Figure&nbsp;1&nbsp;: </span>Comptabilité financière et comptabilité de gestion</p>
+</div>
 
 <p>
 Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en interne – des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>.<br />
@@ -335,13 +352,13 @@ Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en int
 En organisation, la comptabilité peut ainsi remplir divers rôles<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup> :<br />
 </p>
 <ul class="org-ul">
-<li>Aider à la résolution des problèmes et à la prise de décision /(problem-solving)/ ;<br /></li>
-<li>Orienter l’attention et organiser la vigilance /(attention-directing)/ ;<br /></li>
+<li>Aider à la résolution des problèmes et à la prise de décision <i>(problem-solving)</i> ;<br /></li>
+<li>Orienter l’attention et organiser la vigilance <i>(attention-directing)</i> ;<br /></li>
 <li>Permettre un constat et évaluer la performance <i>(scorekeeping)</i>.<br /></li>
 </ul>
 
 <p>
-Le comptable est généralement responsable de la production de ces différents calculs. C'est cependant le gestionnaire qui doit utiliser ces calculs pour prendre des décisions et contrôler. La comptabilité de gestion accompagne donc le gestionnaire au cours des différentes étapes du processus de management : planifier (<i>Plan</i>), réaliser (<i>Do</i>), contrôler et vérifier (<i>Check</i>); et agir et ajuster (<i>Act</i>).<br />
+Le comptable est généralement responsable de la production de l'information comptable. C'est cependant le gestionnaire qui doit utiliser les calculs du comptable pour prendre des décisions et contrôler. La comptabilité de gestion accompagne donc le gestionnaire au cours des différentes étapes du processus de management : planifier (<i>Plan</i>), réaliser (<i>Do</i>), contrôler et vérifier (<i>Check</i>), et agir et ajuster (<i>Act</i>).<br />
 </p>
 
 <p>
@@ -354,8 +371,7 @@ Pour planifier, il est nécessaire de calculer et analyser les coûts permettant
 
 <blockquote>
 <p>
-Contrairement à la comptabilité financière, la comptabilité de gestion n'est pas normalisée. Le vocabulaire, les méthodes et les outils peuvent ainsi varier selon les entreprises. La plus grande difficulté est donc qu'il n'y a pas de méthode universelle qui serait applicable partout : il n'y a pas de coûts justes ou exacts, il n'y a que des coûts pertinents pour une décision donnée.<br />
-On utilise donc des calculs de coût différents pour prendre des décisions à court terme ou à long terme. De la même manière, le choix des chiffres à inscrire dans le budget dépend de l'utilisation que l'on va faire de l'outil et les mesures de performances doivent être choisies en pensant aux impacts qu'elles vont avoir sur les comportements.<br />
+Contrairement à la comptabilité financière, la comptabilité de gestion n'est pas normalisée. Le vocabulaire, les méthodes et les outils peuvent ainsi varier selon les entreprises. La plus grande difficulté est donc qu'il n'y a pas de méthode universelle qui serait applicable partout. Il n'y a pas de coûts justes ou exacts, il n'y a que des coûts pertinents pour une décision donnée. On utilise donc des calculs de coût différents pour prendre des décisions à court terme ou à long terme. De la même manière, le choix des chiffres à inscrire dans le budget dépend de l'utilisation que l'on va faire de l'outil et les mesures de performances doivent être choisies en pensant aux impacts qu'elles vont avoir sur les comportements.<br />
 </p>
 </blockquote>
 
@@ -382,14 +398,11 @@ Ce document vient en complément des diapositives utilisées pour le cours. Il p
 <li>de maîtriser les techniques de base de calcul des coûts, de construction des budgets ;<br /></li>
 <li>comprendre les enjeux de la mesure de la performance.<br /></li>
 </ul>
-
 <p>
-Pour chaque section, vous pouvez faire les exercices sur ZoneCours et vérifier vos connaissances à l'aide de quiz d’entrainement disponibles à l'adresse suivante : <a href="https://www.wooclap.com/COMP50900">https://www.wooclap.com/COMP50900</a> <br />
-Ces quiz sont optionnels et non évalués.<br />
-Les quiz obligatoires sont disponibles sur ZoneCours.<br />
+<b>Pour chaque section, vous pouvez faire les exercices disponibles sur ZoneCours et vérifier vos connaissances à l'aide de quiz d’entrainement disponibles à l'adresse suivante : <a href="https://www.wooclap.com/COMP50900">https://www.wooclap.com/COMP50900</a> <br />
+Ces quiz sont optionnels et non évalués. Les quiz obligatoires sont disponibles sur ZoneCours.</b><br />
 </p>
 </blockquote>
-
 <p>
 <br />
 </p>
@@ -399,18 +412,17 @@ Les quiz obligatoires sont disponibles sur ZoneCours.<br />
 <h2 id="coûts"><span class="section-number-2">2</span> Calcul des coûts et prise de décision</h2>
 <div class="outline-text-2" id="text-coûts">
 </div>
-<div id="outline-container-org07983fe" class="outline-3">
-<h3 id="org07983fe"><span class="section-number-3">2.1</span> Les rôles du calcul de coût</h3>
+<div id="outline-container-org914d0a3" class="outline-3">
+<h3 id="org914d0a3"><span class="section-number-3">2.1</span> Les rôles du calcul de coût</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
-Le coût traduit une consommation de ressources. Un coût est ainsi une somme de charges, il se différencie d'un prix que l'on peut trouver sur un marché.<br />
-On considère "qu'il n'y a pas qu'une pratique correcte en matière de calcul de coûts, car celles-ci découlent de besoins variés, de situations et de problèmes différents"<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>. Le calcul du coût peut en effet remplir différentes fonctions :<br />
+Un coût est une somme de charges, il se différencie d'un prix que l'on peut trouver sur un marché. Le coût traduit une consommation de ressources. On considère "qu'il n'y a pas qu'une pratique correcte en matière de calcul de coûts, car celles-ci découlent de besoins variés, de situations et de problèmes différents"<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>. Le calcul du coût peut en effet remplir différentes fonctions :<br />
 </p>
 <ul class="org-ul">
 <li>s’interroger sur le prix de vente ;<br /></li>
 <li>abandonner / développer un produit (ou un client) ;<br /></li>
 <li>faire l’examen des composantes du coût (comprendre la performance d’un département) ;<br /></li>
-<li>savoir s’il est plus rentable de faire / faire faire<br /></li>
+<li>savoir s’il est plus rentable de faire ou de faire faire ;<br /></li>
 <li>prévoir les dépenses à inscrire au budget ;<br /></li>
 <li>mettre une valeur sur les stocks et produits en cours<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>.<br /></li>
 </ul>
@@ -422,9 +434,9 @@ Dans de nombreuses situations, la connaissance des coûts est donc un élément 
 <p>
 Selon les décisions à prendre, divers types de calcul des coûts sont envisageables. Par exemple, pour les décisions à court terme on se limitera généralement au calcul de coûts partiels (c'est-à-dire, qui ne prennent en compte qu'une partie des coûts) alors que sur le long terme on appuiera les décisions sur des calculs des coûts complets (qui prennent en compte l'ensemble des coûts). Aucune méthode n'est adaptée à toutes les situations ; la méthode retenue doit être pertinente compte tenu de la décision à prendre.<br />
 </p>
-<div class="warning" id="org070baca">
+<div class="warning" id="org22c16bb">
 <p>
-Avant de se lancer dans un calcul de coûts, il faut donc se demander quel est l'objectif de ce calcul et bien choisir son <i>objet de coût</i> (élément pour lequel une mesure séparée du coût est nécessaire).<br />
+Avant de se lancer dans un calcul de coûts, il faut se demander quel est l'objectif de ce calcul et bien choisir son <i>objet de coût</i> (élément pour lequel une mesure séparée du coût est nécessaire).<br />
 </p>
 
 </div>
@@ -447,7 +459,7 @@ Selon les décisions à prendre, il peut être utile de calculer le coût total 
 <div class="outline-text-3" id="text-coutspartiels">
 </div>
 <div id="outline-container-cvcf" class="outline-4">
-<h4 id="cvcf"><span class="section-number-4">2.2.1</span> La distinction entre coûts variables et coûts fixes</h4>
+<h4 id="cvcf"><span class="section-number-4">2.2.1</span> Distinguer coûts variables et coûts fixes</h4>
 <div class="outline-text-4" id="text-cvcf">
 <p>
 La plupart des calculs en coûts partiels partent de la distinction entre les charges fixes et les charges variables.<br />
@@ -498,7 +510,7 @@ Elle peut être calculée de manière unitaire ou au total pour l'ensemble des u
 Dans la méthode du coût variable, les charges fixes ne sont donc pas imputées au coût des produits. Cette méthode a notamment été introduite afin de mesurer la performance des gestionnaires, qui bien souvent ne peuvent être tenus responsables de coûts fixes qu'ils n'ont pas engagés. Le tableau d'analyse des coûts en marge sur coût variable simple se présente de la manière suivante:<br />
 </p>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 1 :</span> Le compte de résultat en marge sur coût variable (MCV) (avec CA = chiffre d'affaires ; CV = charges variables ; MCV : marge sur coût variable)</caption>
+<caption class="t-above"><span class="table-number">Tableau 1 :</span> Compte de résultat en marge sur coût variable <i>(avec CA = chiffre d'affaires ; CV = charges variables ; MCV : marge sur coût variable)</i></caption>
 
 <colgroup>
 <col  class="org-left" />
@@ -653,29 +665,28 @@ Le tableau d'analyse des coûts est donc le suivant :<br />
 </tbody>
 </table>
 
-<p>
-Avec cette méthode, le diagnostic de profitabilité des produits sera plus fin, puisque seule une fraction des charges fixes (les charges fixes communes) échappera à l'analyse par produit. Ainsi, les décisions d'abandon ou de maintien d'une activité seront plus aisées qu'en se limitant à la marge sur coût variable.<br />
-</p>
-
 <blockquote>
 <p>
+Le calcul de la marge nette permet un meilleur diagnostic de la performance des produits que la seule marge sur coût variable, puisque seule une fraction des charges fixes (les charges fixes communes) échappe à l'analyse par produit. Ainsi, les décisions d'abandon ou de maintien d'une activité à l'aide du calcul de la marge nette seront plus aisées qu'en se limitant à la marge sur coût variable.<br />
 Pour une synthèse, concernant la notion de marge nette, voir : <a href="https://youtu.be/ZLnidu-H6zY">https://youtu.be/ZLnidu-H6zY</a><br />
 </p>
 </blockquote>
 
+<p>
+De manière générale, les calculs en coût partiel permettent d'éviter la répartition arbitraire des charges indirectes (nous y reviendrons quand nous parlerons des coûts complets).<br />
+</p>
 <blockquote>
 <p>
 Les coûts partiels permettent de prendre de nombreuses décisions. Ils sont notamment utiles pour :<br />
 </p>
 <ul class="org-ul">
 <li>s'interroger sur le prix optimal (voir <i>Établir le prix de vente en fonction des coûts</i> plus particulièrement de 0 à 1 min 30 : <a href="https://youtu.be/gpKK4zIgfLc">https://youtu.be/gpKK4zIgfLc</a>)<br /></li>
-<li>prendre des décisions lorsque le coût fixe ne change pas. (voir /Les opportunités d'affaires et la notion de pertinence/ : <a href="https://youtu.be/tLqI2vId1Sg">https://youtu.be/tLqI2vId1Sg</a><br /></li>
+<li>prendre des décisions lorsque le coût fixe ne change pas. (voir /Les opportunités d'affaires et la notion de pertinence/ : <a href="https://youtu.be/tLqI2vId1Sg">https://youtu.be/tLqI2vId1Sg</a>)<br /></li>
 <li>prendre en compte les coûts d'opportunité, que l'on appelle aussi coût de renonciation (voir /Le coût de renonciation/ : <a href="https://youtu.be/1qVlwgbQAcM">https://youtu.be/1qVlwgbQAcM</a>)<br /></li>
 </ul>
 </blockquote>
-
 <p>
-Ces calculs permettent d'éviter la répartition arbitraire des charges indirectes (nous y reviendrons quand nous parlerons des coûts complets). En revanche, ils ne donnent qu'une image partielle du coût d'un produit ou d'un service et de la marge qu'il génère.<br />
+Les coûts partiel donnent cependant une image incomplète du coût d'un produit ou d'un service et de la marge qu'il génère. Parfois, il est nécessaire de calculer un coût complet.<br />
 </p>
 </div>
 </div>
@@ -718,8 +729,9 @@ Le seuil de rentabilité se calcule en quantités ou en chiffre d'affaires de la
 </p>
 </div>
 
-<blockquote>
+<hr />
 <p>
+<b>Démonstration -  Formules de calcul du seuil de rentabilité</b><br />
 On peut déterminer le seuil de rentabilité en quantités (que l'on notera Q*) de la manière suivante :<br />
 &lt;&#x2013;&gt; Q* x Prix de vente unitaire = Coût variable unitaire x Q* + Coûts fixes<br />
 &lt;&#x2013;&gt; Q* x (Prix de vente unitaire - Coût variable unitaire) =  Coûts fixes<br />
@@ -732,14 +744,19 @@ On peut déterminer le seuil de rentabilité en chiffre d'affaires (que l'on not
 On pose (Marge sur coût variable totale) ÷ CA = Taux de marge sur coût variable<br />
 &lt;&#x2013;&gt; CA*= Coûts fixes / Taux de marge sur coût variable<br />
 </p>
-</blockquote>
+<hr />
 
 <p>
 Le calcul du seuil de rentabilité est à la fois assez simple et très utile puisqu'il permet de déterminer le volume minimum de vente pour atteindre un résultat nul.<br />
 </p>
 
-<p class="verse">
-<b>Entreprise Bertrand</b><br />
+<p>
+Les exercices ci-dessous permettent de s'exercer au calcul du seuil de rentabilité et de mieux comprendre comment la modélisation en coûts variables permet de choisir entre plusieurs types d'investissements.<br />
+</p>
+
+<hr />
+<p>
+<b>Exercice - Entreprise Bertrand</b><br />
 Monsieur Bertrand est chef d'entreprise. Il se demande s'il doit ou non développer le nouveau produit BertMod que son directeur commercial lui présente comme révolutionnaire. Il se tourne vers vous pour savoir s'il doit écouter son directeur commercial, et lancer ce nouveau produit. Pour vous aider dans votre analyse, il vous fait parvenir les données suivantes.<br />
 Selon le directeur commercial, l'exploitation de BertMod se ferait aux conditions suivantes :<br />
 Matières premières : 10 $ (par produit)<br />
@@ -747,32 +764,40 @@ Amortissement de la machine pour la transformation de BertMod : 150 000 $ (par a
 Salaire du personnel : 500 000 $ (par an)<br />
 Charges de distribution : 5 $ (par produit)<br />
 Prix de vente : 25 $ (par produit)<br />
+</p>
+
+<p>
 <b>Travail à faire</b><br />
-- Classez les différentes charges du produit BertMod selon qu'elles vous semblent variables ou fixes.<br />
-- Calculez le seuil de rentabilité en quantité.<br />
-- Proposez une représentation graphique de ce seuil de rentabilité.<br />
-- Il semble que les ventes devraient être de 100000 produits pour BertMod. Calculez le résultat attendu grâce au produit BertMod.<br />
-- Le directeur marketing pense qu'en améliorant la qualité du produit, celui-ci pourrait se vendre 30 $. Ceci nécessiterait l'embauche de 5 personnes en plus pour un coût de 700 000 $ par an (les autres coûts demeurant inchangés). Calculer la quantité qu'il faudrait vendre pour que cette solution soit plus intéressante que celle proposée par le directeur commercial ?<br />
+1 - Classez les différentes charges du produit BertMod selon qu'elles vous semblent variables ou fixes.<br />
+2 - Calculez le seuil de rentabilité en quantité.<br />
+3 - Proposez une représentation graphique de ce seuil de rentabilité.<br />
+4 - Il semble que les ventes devraient être de 100000 produits pour BertMod. Calculez le résultat attendu grâce au produit BertMod.<br />
+5 - Le directeur marketing pense qu'en améliorant la qualité du produit, celui-ci pourrait se vendre 30 $. Ceci nécessiterait l'embauche de 5 personnes en plus pour un coût de 700 000 $ par an (les autres coûts demeurant inchangés). Calculer la quantité qu'il faudrait vendre pour que cette solution soit plus intéressante que celle proposée par le directeur commercial ?<br />
+</p>
+
+<p>
 <b>Corrigé</b><br />
-1)<br />
+1 -<br />
 Charges variables : matières premières et charges de distribution.<br />
 Charges fixes : amortissement et salaire<br />
-2)<br />
+2 -<br />
 Marge sur coût variable unitaire = 10 $<br />
 Seuil de rentabilité en quantités = 65 000<br />
-4)<br />
+3 -<br />
 100 000 x 10 - 650 000 = 350 000<br />
-5)<br />
+4 -<br />
 Nouvelle marge sur coût variable unitaire = 15 $<br />
 15 x Q - 1 350 000 &gt; 350 000<br />
 Q* &gt; 1133333<br />
 </p>
-
-
-<p class="verse">
-<b>IsoGreen</b><br />
+<hr />
+<hr />
+<p>
+<b>Exercice - IsoGreen</b><br />
 L'entreprise IsoGreen s’interroge sur l’opportunité de produire des contenants isothermes recyclables. Les études de marché suggèrent que 500 000 contenants pourraient être vendus annuellement.<br />
-<br />
+</p>
+
+<p>
 Il est prévu que ces contenants aient la structure de coût suivante, pour un volume de vente de 500 000 unités :<br />
 </p>
 
@@ -827,40 +852,45 @@ Il est prévu que ces contenants aient la structure de coût suivante, pour un v
 </tbody>
 </table>
 
-<p class="verse">
+<p>
 <b>Travail à faire</b><br />
-1. Calculer le seuil de rentabilité (a) en unités et (b) en chiffre d’affaires.<br />
-2. Calculer le résultat si 500 000 unités sont vendues.<br />
-3. Un investissement de productivité qui se traduirait par des coûts fixes annuels supplémentaires de production de 810 000 $ est envisagé. Celui-ci permettrait d’automatiser la production et de supprimer les coûts variables de main d’œuvre. Si cet investissement est réalisé, quel serait le nouveau seuil de rentabilité (a) en unités et (b) en chiffre d’affaires ?<br />
-4. Calculer le nombre d’unités qui doivent être vendues annuellement pour que les solutions avec investissement de productivité et sans l’investissement de productivité soient équivalentes. Donner le détail des calculs.<br />
-5. Recommanderiez-vous l’investissement de productivité supplémentaire ? Justifiez votre réponse.<br />
-<br />
+</p>
+<ol class="org-ol">
+<li>Calculer le seuil de rentabilité (a) en unités et (b) en chiffre d’affaires.<br /></li>
+<li>Calculer le résultat si 500 000 unités sont vendues.<br /></li>
+<li>Un investissement de productivité qui se traduirait par des coûts fixes annuels supplémentaires de production de 810 000 $ est envisagé. Celui-ci permettrait d’automatiser la production et de supprimer les coûts variables de main d’œuvre. Si cet investissement est réalisé, quel serait le nouveau seuil de rentabilité (a) en unités et (b) en chiffre d’affaires ?<br /></li>
+<li>Calculer le nombre d’unités qui doivent être vendues annuellement pour que les solutions avec investissement de productivité et sans l’investissement de productivité soient équivalentes. Donner le détail des calculs.<br /></li>
+<li>Recommanderiez-vous l’investissement de productivité supplémentaire ? Justifiez votre réponse.<br /></li>
+</ol>
+
+<p>
 <b>Corrigé</b><br />
-1)<br />
+1 -<br />
 Marge sur coût variable unitaire = 30 - 21 = 9<br />
 Coût fixe total = 500 000 x (4 + 1,6 + 1,6) = 3 600 000<br />
 Seuil de rentabilité en quantité = 3 600 000 / 9 = 400 000<br />
 Taux de marge sur coût variable = 9 / 30 = 0,3<br />
 Seuil de rentabilité en chiffre d'affaires = 3 600 000 / 0,3 = 12 000 000 (c'est aussi égal à 400 000 x 30)<br />
-2)<br />
+2 -<br />
 Résultat = 500 000 x 9 - 3 600 000 = 900 000<br />
-3)<br />
+3 -<br />
 Nouvelle marge sur coût variable unitaire = 9 + 1,5 = 10,5 (on supprime les coûts variables de main d'oeuvre)<br />
 Nouveaux coûts fixes totaux = 3 600 000 + 810 000 = 4 410 000<br />
 Seuil de rentabilité en quantité = 4 410 000 / 10,5 = 420 000<br />
 Taux de marge sur coût variable = 10,5 / 30 = 0,35<br />
 Seuil de rentabilité en chiffre d'affaires = 4 410 000 / 0,35 = 12 600 000<br />
-4)<br />
+4 -<br />
 Résultat sans investissement  = 9 X - 3 600 000<br />
 Résultat avec investissement = 10,5 X - 4 410 000<br />
 Le niveau de vente pour lequel les deux solutions sont égales est atteint lorsque<br />
 9 X - 3 600 000 = 10,5 X - 4 410 000<br />
 &lt;&#x2013;&gt; 810 000 = 1,5 X<br />
 &lt;&#x2013;&gt; 810 000 / 1,5 = 540 000<br />
-5)<br />
+5 -<br />
 Au-dessus de 540 000 ventes, l'investissement est rentable<br />
 On pense faire 500 000 ventes, il n'est donc pas intéressant de faire l'investissement<br />
 </p>
+<hr />
 
 <p>
 Le seuil de rentabilité est ainsi extrêmement utile pour faire un calcul simple visant à s'interroger sur la pertinence d'un investissement. Des notions de finance plus élaborées peuvent cependant être utilisées, comme la valeur actuelle nette.<br />
@@ -879,8 +909,8 @@ Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz
 <h3 id="coutscomplets"><span class="section-number-3">2.3</span> Gestion des coûts et prise de décision sur le long terme</h3>
 <div class="outline-text-3" id="text-coutscomplets">
 </div>
-<div id="outline-container-org03e1fe3" class="outline-4">
-<h4 id="org03e1fe3"><span class="section-number-4">2.3.1</span> Le concept de coût complet</h4>
+<div id="outline-container-org35abcd6" class="outline-4">
+<h4 id="org35abcd6"><span class="section-number-4">2.3.1</span> Le concept de coût complet</h4>
 <div class="outline-text-4" id="text-2-3-1">
 <p>
 Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges considérées comme incorporables (qu'elles soient variables, fixes, directes ou indirectes) pour les imputer aux objets de coûts. Les méthodes présentées par la suite s'appliquent à tout "objet de coût" (un produit, un service, un client, etc.), mais simplifier la formulation on parlera par la suite de "produit".<br />
@@ -902,26 +932,23 @@ Les charges indirectes sont les charges que l'on ne peut affecter sans ambiguït
 <p>
 Une fois qu'un objet de coût est défini, on peut synthétiser le calcul du coût complet en 4 étapes :<br />
 </p>
-</div>
-<ol class="org-ol">
-<li><a id="orgb7c5808"></a>Étape 1. Classement des charges en charges directes et indirectes<br />
-<div class="outline-text-5" id="text-2-3-2-1">
+<ul class="org-ul">
+<li>Étape 1. Classement des charges en charges directes et indirectes<br /></li>
+</ul>
 <p>
 L'ensemble des charges de la comptabilité financière doit être pris en compte à l'exception des charges qui ne reflètent pas les conditions normales d'une exploitation régulière de l'entreprise (par exemple, les charges ou pertes exceptionnelles, les amortissements dérogatoires, etc.). Le total des charges incorporables est classé en charges directes (affectables sans ambiguïté à un produit) et charges indirectes.<br />
 </p>
-</div>
-</li>
-<li><a id="org2c19e12"></a>Étape 2. Affectation des charges indirectes aux centres de regroupement<br />
-<div class="outline-text-5" id="text-2-3-2-2">
+<ul class="org-ul">
+<li>Étape 2. Affectation des charges indirectes aux centres de regroupement<br /></li>
+</ul>
 <p>
 À cette étape, il est nécessaire d'affecter l'ensemble des charges indirectes à ce que l'on appelle des centres de regroupement, qui sont des entités comptables dans lesquelles on regroupe les charges indirectes qui se ressemblent<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>.<br />
 Un centre de regroupement est un "compartiment comptable" incluant des activités homogènes technologiquement distinctes des activités des autres centres. Dans la pratique, les centres de regroupement correspondent souvent aux différents services, départements ou ateliers mais si l'on y effectue des tâches technologiquement distinctes, il est nécessaire de définir plusieurs centres pour s'assurer de l'homogénéité des charges regroupées au sein du centre. Les coûts du centre sont dits homogènes s'ils forment un ensemble stable et solidaire, c'est-à-dire si chaque fois que l'activité est déclenchée, les tâches élémentaires qu'elle comporte sont toutes effectuées et si chacune de ses tâches est exécutée de manière stable. Autrement dit, quel que soit le produit, celui-ci doit consommer toutes les tâches dans les mêmes proportions.<br />
 Quelques principes doivent être pris en compte lors de la définition des centres : 1/ la liste des centres doit être exhaustive ; 2/ les centres doivent s'exclure mutuellement ; 3/ Il doit être possible d'attribuer à chaque centre de regroupement ses charges. On remarquera que plus le nombre de centres est élevé, plus le coût de saisie et de traitement est élevé, mais plus les centres ont des chances de présenter une activité homogène mesurable.<br />
 </p>
-</div>
-</li>
-<li><a id="orgae190c1"></a>Étape 3. Regroupement en fonction des bases d’imputation et calcul des taux d’imputation<br />
-<div class="outline-text-5" id="text-2-3-2-3">
+<ul class="org-ul">
+<li>Étape 3. Regroupement en fonction des bases d’imputation et calcul des taux d’imputation<br /></li>
+</ul>
 <p>
 Lorsque les centres de regroupement sont déterminés, on cherche à répartir le coût des centres dans les produits. Pour pouvoir le faire, il est nécessaire de calculer un taux d'imputation. Pour simplifier, il est possible de regrouper les centres ayant des bases d'imputation identiques, avant de calculer les taux d'imputation.<br />
 La base d'imputation est l'unité de mesure de l'activité d'un centre, elle modélise les coûts de ce centre. Elle doit être choisie de manière à être la plus représentative possible du travail effectué par le centre et à traduire les variations de son activité. Souvent elle correspond au principal facteur de production utilisé par le centre (la main d'œuvre, l'heure machine, le nombre de lots, etc.).<br />
@@ -983,18 +1010,15 @@ Les étapes 2 et 3 doivent être menées en réalisant un tableau de répartitio
 <p>
 Le tableau comprend autant de colonnes que le nombre de centres de regroupement.<br />
 </p>
-
-<div class="warning" id="org29cccac">
+<div class="warning" id="org1b78cba">
 <p>
 Le tableau de répartition des charges indirectes est une étape <b>indispensable</b> du calcul du coût complet. Dans les situations simples, on peut être tenté de se passer de cette étape en affectant directement les charges indirectes, sans passer par cette étape intermédiaire. Cependant, en faisant cela, on multiplie les possibilités d'erreur. De plus, on ne rend pas disponible une information importante sur ce que nous coûte chacune des opérations en termes de charges indirectes.<br />
 </p>
 
 </div>
-</div>
-</li>
-
-<li><a id="orgc9e52b1"></a>Étape 4. Imputation des charges directes et indirectes aux objets de coût<br />
-<div class="outline-text-5" id="text-2-3-2-4">
+<ul class="org-ul">
+<li>Étape 4. Imputation des charges directes et indirectes aux objets de coût<br /></li>
+</ul>
 <p>
 Les charges directes concernent souvent (mais pas seulement et pas toujours) des charges de main-d'œuvre et les charges de matière première. Elles peuvent être directement, et sans calcul, affectées aux produits.<br />
 L'affectation des charges indirectes aux objets de coût se fait par l'intermédiaire des taux d'imputation.<br />
@@ -1044,69 +1068,232 @@ L'étape 4, qui permet le calcul du coût complet et du résultat en coût compl
 </tbody>
 </table>
 <p>
-Il doit y avoir une colonne pour chaque produit.<br />
-Le volume d'imputation correspond à ce qui est consommé par le produit. Par exemple, si la base d'imputation est l'heure machine, qu'un produit donné consomme 2 heures machines et qu'on produit 100 unités de ce produit. Le volume d'imputation est de 100 x 2. Autre exemple, si la base d'imputation est le nombre de lots mis en production et que pour un produit donné, il y a 50 lots mis en production, le volume d'imputation est de 50.<br />
+Dans le tableau, il doit y avoir une colonne pour chaque produit. Le volume d'imputation correspond à ce qui est consommé par le produit. Par exemple, si la base d'imputation est l'heure machine, qu'un produit donné consomme 2 heures machines et qu'on produit 100 unités de ce produit. Le volume d'imputation est de 100 x 2. Autre exemple, si la base d'imputation est le nombre de lots mis en production et que pour un produit donné, il y a 50 lots mis en production, le volume d'imputation est de 50.<br />
 </p>
 
 <p>
 La méthode des coûts complets peut être utilisée pour calculer le coût de produits ou de services, comme le montre l'exemple ci-dessous :<br />
 </p>
-
-<p class="verse">
-<b>Calcul du coût des clients dans un cabinet comptable</b><br />
+<hr />
+<p>
+<b>Exercice - Calcul du coût des clients dans un cabinet comptable</b><br />
 Un cabinet comptable de taille moyenne possède un portefeuille d'une centaine de clients, répartis dans 3 secteurs d'activité :<br />
-- coiffeurs : 60 clients (secteur "C"),<br />
-- restaurateurs : 30 clients (secteur "R"),<br />
-- garagistes : 10 clients (secteur "G").<br />
+</p>
+<ul class="org-ul">
+<li>coiffeurs : 60 clients (secteur "C"),<br /></li>
+<li>restaurateurs : 30 clients (secteur "R"),<br /></li>
+<li>garagistes : 10 clients (secteur "G").<br /></li>
+</ul>
+<p>
 Toutes les données comptables qui suivent sont en dollars. Pour la période N, les honoraires payés par les clients se répartissent ainsi :<br />
-- secteur C : 180 000<br />
-- secteur R : 90 000<br />
-- secteur G : 30 000<br />
+</p>
+<ul class="org-ul">
+<li>secteur C : 180 000<br /></li>
+<li>secteur R : 90 000<br /></li>
+<li>secteur G : 30 000<br /></li>
+</ul>
+<p>
 Les charges comprennent essentiellement des frais de personnel, pour un montant total de 210 000. Une partie des charges de personnel est considérée comme "directe", et correspond aux heures des collaborateurs passées en clientèle. La répartition des charges directes est la suivante :<br />
-- secteur C : 66 000<br />
-- secteur R : 34 000<br />
-- secteur G : 10 000<br />
+</p>
+<ul class="org-ul">
+<li>secteur C : 66 000<br /></li>
+<li>secteur R : 34 000<br /></li>
+<li>secteur G : 10 000<br /></li>
+</ul>
+<p>
 Le reste des charges de personnel concerne deux centres : l'administration générale pour 50 000 et l'informatique pour 50 000 également.<br />
 Il existe aussi d'autres charges indirectes diverses pour 50 000. Celles-ci concernent l'administration générale (10 000) et l'informatique (40 000).<br />
 Les bases d'imputation suivantes ont été choisies :<br />
-- nombre de clients pour les charges indirectes d'administration générale du cabinet<br />
-- chiffres d'affaires pour les charges indirectes d'informatique<br />
+</p>
+<ul class="org-ul">
+<li>nombre de clients pour les charges indirectes d'administration générale du cabinet<br /></li>
+<li>chiffres d'affaires pour les charges indirectes d'informatique<br /></li>
+<li></li>
+</ul>
+<p>
 <b>Travail à faire</b><br />
 Calculer les résultats par secteur de clientèle<br />
+</p>
+
+<p>
 <b>Corrigé</b><br />
 Ce calcul passe par la construction de deux tableaux : le tableau de répartition des charges indirectes et le tableau de calcul des résultats.<br />
 <i>Tableau de répartition des charges indirectes</i><br />
-| Éléments                           | Administration générale du cabinet | Informatique           |<br />
-|------------------------------------<del>------------------------------------</del>-------------------&#x2013;&#x2014;|<br />
-| Charges de personnel indirectes    | 50 000                             | 50 000                 |<br />
-| Autres charges indirectes          | 10 000                             | 40 000                 |<br />
-| <b>Total des charges indirectes</b>     | 60 000                             | 90 000                 |<br />
-| Base d'imputation (1)              | nombre de clients (<b>)              | chiffre d'affaires (</b>) |<br />
-| Volume de la base d'imputation (2) | 100                                | 300 000                |<br />
-| <b>Taux d'imputation (1) / (2)</b>      | 600                                | 0,3                    |<br />
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Éléments</th>
+<th scope="col" class="org-left">Administration générale du cabinet</th>
+<th scope="col" class="org-left">Informatique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Charges de personnel indirectes</td>
+<td class="org-left">50 000</td>
+<td class="org-left">50 000</td>
+</tr>
+
+<tr>
+<td class="org-left">Autres charges indirectes</td>
+<td class="org-left">10 000</td>
+<td class="org-left">40 000</td>
+</tr>
+
+<tr>
+<td class="org-left"><b>Total des charges indirectes</b></td>
+<td class="org-left">60 000</td>
+<td class="org-left">90 000</td>
+</tr>
+
+<tr>
+<td class="org-left">Base d'imputation (1)</td>
+<td class="org-left">nombre de clients (*)</td>
+<td class="org-left">chiffre d'affaires (*)</td>
+</tr>
+
+<tr>
+<td class="org-left">Volume de la base d'imputation (2)</td>
+<td class="org-left">100</td>
+<td class="org-left">300 000</td>
+</tr>
+
+<tr>
+<td class="org-left"><b>Taux d'imputation (1) / (2)</b></td>
+<td class="org-left">600</td>
+<td class="org-left">0,3</td>
+</tr>
+</tbody>
+</table>
+<p>
 (*) Ici les deux centres ont les mêmes bases d'imputation, on pourrait les regrouper. Dans le cas général, les bases d'imputation des différents centres pourront être différentes.<br />
-<br />
+</p>
+
+<p>
 <i>Calcul des résultats</i><br />
-<br />
-| Éléments                      | Total   | Secteur C  | Secteur R | Secteur G |<br />
-| &lt;15&gt;                          | &lt;15&gt;    | &lt;15&gt;       | &lt;15&gt;      | &lt;15&gt;      |<br />
-|-------------------------------<del>---------</del>------------<del>-----------</del>------&#x2013;&#x2014;|<br />
-| Chiffre d'affaires (1)        | 300 000 | 180 000    | 90 000    | 30 000    |<br />
-|                               |         |            |           |           |<br />
-| Charges de personnel directes | 110 000 | 66 000     | 34 000    | 10 000    |<br />
-| Charges indirectes            |         |            |           |           |<br />
-| <i>administration</i>              |         | 36 000 (1) | 18 000    | 6 000     |<br />
-| <i>informatique</i>                |         | 54 000 (2) | 27 000    | 9 000     |<br />
-| Coût complet (2)              |         | 156 000    | 79 000    | 25 000    |<br />
-|                               |         |            |           |           |<br />
-| Résultats (1) - (2)           | +40 000 | +24 000    | +11 000   | +5 000    |<br />
-| Taux de marge                 |         | 13,3 %     | 12,2 %    | 16,7 %      |<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Éléments</th>
+<th scope="col" class="org-left">Total</th>
+<th scope="col" class="org-left">Secteur C</th>
+<th scope="col" class="org-left">Secteur R</th>
+<th scope="col" class="org-left">Secteur G</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Chiffre d'affaires (1)</td>
+<td class="org-left">300 000</td>
+<td class="org-left">180 000</td>
+<td class="org-left">90 000</td>
+<td class="org-left">30 000</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Charges de personnel directes</td>
+<td class="org-left">110 000</td>
+<td class="org-left">66 000</td>
+<td class="org-left">34 000</td>
+<td class="org-left">10 000</td>
+</tr>
+
+<tr>
+<td class="org-left">Charges indirectes</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><i>administration</i></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">36 000 (1)</td>
+<td class="org-left">18 000</td>
+<td class="org-left">6 000</td>
+</tr>
+
+<tr>
+<td class="org-left"><i>informatique</i></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">54 000 (2)</td>
+<td class="org-left">27 000</td>
+<td class="org-left">9 000</td>
+</tr>
+
+<tr>
+<td class="org-left">Coût complet (2)</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">156 000</td>
+<td class="org-left">79 000</td>
+<td class="org-left">25 000</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Résultats (1) - (2)</td>
+<td class="org-left">+40 000</td>
+<td class="org-left">+24 000</td>
+<td class="org-left">+11 000</td>
+<td class="org-left">+5 000</td>
+</tr>
+
+<tr>
+<td class="org-left">Taux de marge</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">13,3 %</td>
+<td class="org-left">12,2 %</td>
+<td class="org-left">16,7 %</td>
+</tr>
+</tbody>
+</table>
+<p>
 (1) 60 x 600 ; (2) 180 000 x 0,3<br />
 Le secteur G est celui qui a le meilleur taux marge.<br />
 </p>
+<hr />
 </div>
-</li>
-</ol>
 </div>
 
 <div id="outline-container-ccvalid" class="outline-4">
@@ -1115,11 +1302,11 @@ Le secteur G est celui qui a le meilleur taux marge.<br />
 <p>
 La méthode de calcul du coût complet repose sur une technique de calcul. Cependant, préalablement à la mise en œuvre de cette technique, il faut faire deux choix : le découpage en centres de regroupement et le choix des bases d'imputation. Le choix des centres et des bases d'imputation détermine la qualité du calcul du coût réalisé. Si ces choix sont mal faits, c'est toute la pertinence de la répartition des charges indirectes, et donc du calcul des coûts, qui est remise en cause. Il est donc indispensable de choisir des centres qui sont homogènes et des bases d'imputation qui reflètent le niveau d'activité du centre sous peine de calculer des coûts qui n'ont pas de sens.<br />
 </p>
-</div>
 
-<ol class="org-ol">
-<li><a id="centrereg"></a>Le découpage en centres de regroupement<br />
-<div class="outline-text-5" id="text-centrereg">
+<ul class="org-ul">
+<li>Découpage en centres de regroupement<br /></li>
+</ul>
+
 <p>
 Un centre de regroupement est un "compartiment comptable" regroupant des activités homogènes technologiquement distinctes des activités des autres centres. Dans la pratique, les centres de regroupement correspondent souvent aux différents services ou ateliers mais si on effectue des tâches technologiquement distinctes, il est nécessaire de définir plusieurs centres ou sections pour s'assurer de l'homogénéité des coûts qui composent le centre.<br />
 </p>
@@ -1128,61 +1315,203 @@ Un centre de regroupement est un "compartiment comptable" regroupant des activit
 Les coûts du centre sont dits homogènes s'ils forment un ensemble stable et solidaire c'est-à-dire si chaque fois que l'activité est déclenchée, les tâches élémentaires qu'elle comporte sont toutes effectuées et si chacune de ses tâches est exécutée de manière stable<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>. Autrement dit, quel que soit le produit, celui-ci doit consommer toutes les tâches dans les mêmes proportions.<br />
 </p>
 
-<p class="verse">
-<b>Découpage des centres de regroupement et homogénéité</b><br />
-<br />
+<hr />
+<p>
+<b>Exemple - Découpage des centres de regroupement et homogénéité</b><br />
+</p>
+
+<p>
 On décide de regrouper au sein d'un même centre de regroupement deux tâches : une tache de fabrication et une tâche de montage. Il existe deux produits dans l'entreprise P1 et P2.<br />
-<br />
-|                        | P1 | P2 |<br />
-|------------------------<del>----</del>-&#x2014;|<br />
-| Minutes de fabrication | 1  | 5  |<br />
-| Minutes de montage     | 2  | 10 |<br />
-<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">P1</th>
+<th scope="col" class="org-right">P2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Minutes de fabrication</td>
+<td class="org-right">1</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Minutes de montage</td>
+<td class="org-right">2</td>
+<td class="org-right">10</td>
+</tr>
+</tbody>
+</table>
+
+<p>
 Dans ce cas, il y a bien homogénéité des coûts regroupés au sein du centre car P1 et P2 consomment les deux activités et car P2 consomme 5 fois plus de minutes que P1 pour les deux tâches regroupées dans le<br />
 centre de regroupement. Le regroupement de ces deux tâches dans un même centre de regroupement est donc pertinent.<br />
-<br />
+</p>
+
+<p>
 En revanche dans le cas suivant, il n'y a pas homogénéité, puisque P2 consomme deux fois moins de minutes de fabrication que P1 et 5 fois plus de minutes de montage que P1.<br />
-<br />
-|                        | P1 | P2 |<br />
-|------------------------<del>----</del>-&#x2014;|<br />
-| Minutes de fabrication | 2  | 1  |<br />
-| Minutes de montage     | 2  | 10 |<br />
-<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">P1</th>
+<th scope="col" class="org-right">P2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Minutes de fabrication</td>
+<td class="org-right">2</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Minutes de montage</td>
+<td class="org-right">2</td>
+<td class="org-right">10</td>
+</tr>
+</tbody>
+</table>
+
+<p>
 Le regroupement de ces deux tâches dans un même centre de regroupement n'est pas pertinent.<br />
 </p>
+<hr />
 
 <p>
 Dans la pratique, un dilemme se pose entre la tentation de multiplier les centres de regroupement (pour s'assurer de l'homogénéité des coûts au sein du centre) et le coût de la collecte et du traitement de<br />
 l'information (qui augmente avec le nombre de centres de regroupement).<br />
 Il faudra donc limiter le nombre de centres de regroupement à ce qui est réellement nécessaire.<br />
 </p>
-</div>
-</li>
 
-<li><a id="ccbase"></a>Le choix des bases d'imputation<br />
-<div class="outline-text-5" id="text-ccbase">
+<ul class="org-ul">
+<li>Choix des bases d'imputation<br /></li>
+</ul>
 <p>
 La base d'imputation doit permettre de répartir les charges indirectes entre les produits qui la consomment : elle représente et modélise l'activité d'un centre de regroupement. Une bonne base d'imputation est celle pour laquelle une corrélation satisfaisante est observée entre le coût du centre et le volume de la base d'imputation. C'est-à-dire que, sur le long terme, le volume de la base d'imputation et les coûts du centre de regroupement doivent évoluer de manière proportionnelle.<br />
 </p>
 
-<p class="verse">
-<b>Choix des bases d'imputation</b><br />
-<br />
-|                                 | N   | N+1 | N+2 | N+3 |<br />
-|---------------------------------<del>-----</del>-----<del>-----</del>&#x2013;&#x2014;|<br />
-| Volume de base d'imputation     | 10  | 11  | 13  | 13  |<br />
-| Coûts du centre de regroupement | 200 | 220 | 260 | 260 |<br />
-<br />
-On voit ici que le volume de la base d'imputation et les coûts du centre évoluent à peu près de manière proportionnelle : la base d'imputation est bien choisie.<br />
-<br />
-En revanche, dans le cas ci-dessous il faudrait trouver une autre base d'imputation :<br />
-<br />
-|                             | N   | N+1 | N+2 | N+3 |<br />
-|-----------------------------<del>-----</del>-----<del>-----</del>&#x2013;&#x2014;|<br />
-| Volume de base d'imputation | 10  | 11  | 13  | 13  |<br />
-| Taux d'imputation           | 250 | 220 | 190 | 400 |<br />
+<hr />
+<p>
+<b>Exemple - Choix des bases d'imputation</b><br />
 </p>
 
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">N</th>
+<th scope="col" class="org-right">N+1</th>
+<th scope="col" class="org-right">N+2</th>
+<th scope="col" class="org-right">N+3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Volume de base d'imputation</td>
+<td class="org-right">10</td>
+<td class="org-right">11</td>
+<td class="org-right">13</td>
+<td class="org-right">13</td>
+</tr>
+
+<tr>
+<td class="org-left">Coûts du centre de regroupement</td>
+<td class="org-right">200</td>
+<td class="org-right">220</td>
+<td class="org-right">260</td>
+<td class="org-right">260</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+On voit ici que le volume de la base d'imputation et les coûts du centre évoluent à peu près de manière proportionnelle : la base d'imputation est bien choisie.<br />
+</p>
+
+<p>
+En revanche, dans le cas ci-dessous il faudrait trouver une autre base d'imputation :<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">N</th>
+<th scope="col" class="org-right">N+1</th>
+<th scope="col" class="org-right">N+2</th>
+<th scope="col" class="org-right">N+3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Volume de base d'imputation</td>
+<td class="org-right">10</td>
+<td class="org-right">11</td>
+<td class="org-right">13</td>
+<td class="org-right">13</td>
+</tr>
+
+<tr>
+<td class="org-left">Taux d'imputation</td>
+<td class="org-right">250</td>
+<td class="org-right">220</td>
+<td class="org-right">190</td>
+<td class="org-right">400</td>
+</tr>
+</tbody>
+</table>
+<hr />
 <p>
 Selon les choix faits, des résultats très différents pourront être trouvés. Des produits ou des clients pourront apparaître comme bénéficiaires avec une méthode alors qu'ils sont déficitaires avec une autre méthode. Il est donc nécessaire de faire ces choix avec circonspection.<br />
 </p>
@@ -1194,8 +1523,6 @@ Ainsi, les bases d’imputation ne doivent pas être uniquement volumiques si le
 </p>
 </blockquote>
 </div>
-</li>
-</ol>
 </div>
 
 <div id="outline-container-cccritique" class="outline-4">
@@ -1206,7 +1533,7 @@ Différentes critiques peuvent être faites aux démarches de calcul de coûts c
 </p>
 <ul class="org-ul">
 <li>Les comportements de coûts n'apparaissent pas clairement en ne permettant pas la distinction entre les charges fixes et les charges variables. En particulier pour ces dernières, cette méthode ne permet pas de connaître leur mode de variation (linéaire, exponentiel, etc.) et les causes de celui-ci (par rapport à quelle(s) base(s) d'imputation elles varient).<br /></li>
-<li>La distinction entre charges directes et indirectes est peu aisée. Tout au plus, on peut dire que "Les charges directes sont celles que l'on peut affecter en totalité, sans calcul préalable, à un produit ou une activité déterminée selon le critère d'analyse choisi. Les autres charges, communes à plusieurs produits ou activités, sont dites indirectes"<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>.<br /></li>
+<li>La distinction entre charges directes et indirectes est peu aisée. Tout au plus, on peut dire que "les charges directes sont celles que l'on peut affecter en totalité, sans calcul préalable, à un produit ou une activité déterminée selon le critère d'analyse choisi. Les autres charges, communes à plusieurs produits ou activités, sont dites indirectes"<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>.<br /></li>
 <li>La collecte et le traitement des informations nécessaires au calcul des coûts peuvent entrainer des opérations longues et coûteuses.<br /></li>
 <li>Les coûts de revient obtenus peuvent sembler être le reflet de choix "administratifs et comptables" et donc artificiels.<br /></li>
 </ul>
@@ -1252,7 +1579,7 @@ Exemples d'activités pour des entreprises de fabrication : manipulation des mat
 </blockquote>
 
 <p>
-L'inducteur est ainsi l'unité de mesure qui rend compte du comportement du coût de l’activité. Plutôt qu'une corrélation, comme dans la méthode classique, on recherche une causalité, c'est-à-dire ce qui déclenche les activités et donc les coûts. On fait l'hypothèse qu'il y a un lien de causalité entre le coût d’une activité et sa consommation par un objet de coût.<br />
+L'inducteur d'activit est ainsi l'unité de mesure qui rend compte du comportement du coût de l’activité. Plutôt qu'une corrélation, comme dans la méthode classique, on recherche une causalité, c'est-à-dire ce qui déclenche les activités et donc les coûts. On fait l'hypothèse qu'il y a un lien de causalité entre le coût d’une activité et sa consommation par un objet de coût.<br />
 </p>
 
 <p>
@@ -1302,39 +1629,152 @@ Les différentes méthodes de calcul de coût ne permettent pas de prendre les m
 <p>
 <b>Le calcul du coût complet</b> de ce que consomme un produit, directement ou indirectement, en raison des capacités qu'il exige de mobiliser est un élément fondamental de la prise de décision sur le long terme. Celui-ci associe à un produit ses coûts de capacité et ses coûts variables, directs et indirects. On peut alors déterminer le résultat comptable de ce produit, bénéfice ou perte. Un tel calcul est essentiel lors des décisions de lancement ou de retrait d'une production. Il peut être utile également lors de la fixation du prix de vente d'un produit (si le marché est offreur). Il faudra cependant rester prudent en cas d'arrêt d'un produit dont le résultat en coût complet est négatif : cela peut conduire à une détérioration du résultat de l'entreprise s'il n'est pas possible de couvrir les coûts fixes autrement.<br />
 </p>
-
-<p class="verse">
-<b>Dans quel cas faut-il arrêter un produit ?</b><br />
+<hr />
+<p>
+<b>Exemple - Dans quel cas faut-il arrêter un produit ?</b><br />
 Prendre la décision d'arrêter un produit dont la marge sur coût complet est négative peut conduire à une détérioration du résultat global de l'entreprise. En effet, les charges indirectes imputées au produit déficitaire ne disparaissent pas lorsque l'on supprime le produit.<br />
-<br />
-Par exemple, une entreprise vend 3 produits.<br />
-<br />
-|                                 |  P1 |  P2 | P3 | Total |<br />
-|---------------------------------<del>-----</del>-----<del>----</del>--&#x2013;&#x2014;|<br />
-| CA                              | 100 |  50 | 90 |       |<br />
-| Charges directes                |  50 |  30 | 50 |       |<br />
-| Charges indirectes (total = 90) |  30 |  30 | 30 |       |<br />
-| Résultat                        |  20 | -10 | 10 |  20   |<br />
-<br />
-P2 a une marge sur coûts complets négative. L'entreprise décide donc d'en arrêter la production et la vente.<br />
-<br />
-Après suppression de P2, le résultat est diminué de 20 à 0 et P3 est devenu déficitaire.<br />
-<br />
-|                                 |  P1 | P3 | Total |<br />
-|---------------------------------<del>-----</del>-&#x2014;+--&#x2013;&#x2014;|<br />
-| CA                              | 100 | 90 |       |<br />
-| Charges directes                |  50 | 50 |       |<br />
-| Charges indirectes (total = 90) |  45 | 45 |       |<br />
-| Résultat                        |   5 | -5 |    0  |<br />
-<br />
-Les charges indirectes n'ont pas été supprimées avec la disparition de P2. Elles ont été réparties sur les autres produits ce qui a conduit à diminuer leurs marges et donc à diminuer le résultat de l'entreprise.<br />
-<br />
-Lorsque l'on supprime un produit déficitaire, on ne supprime pas les charges indirectes qui lui sont associées. Il est même parfois difficile de supprimer les charges fixes directes (aussi appelées coûts spécifiques) qui lui sont associées.<br />
-<br />
-En revanche, lorsque la marge sur coût variable d'un produit est négative. Alors, il est évident qu'en arrêtant la production du produit le résultat de l'entreprise s'améliore.<br />
-<br />
-Avant d'arrêter un produit, à partir de critères financiers, il faut alors s'assurer que les coûts fixes spécifiques de ce produit pourront être supprimés et que les charges fixes indirectes pourront être absorbées par les autres produits.<br />
 </p>
+
+<p>
+Par exemple, une entreprise vend 3 produits.<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">P1</th>
+<th scope="col" class="org-right">P2</th>
+<th scope="col" class="org-right">P3</th>
+<th scope="col" class="org-left">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">CA</td>
+<td class="org-right">100</td>
+<td class="org-right">50</td>
+<td class="org-right">90</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Charges directes</td>
+<td class="org-right">50</td>
+<td class="org-right">30</td>
+<td class="org-right">50</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Charges indirectes (total = 90)</td>
+<td class="org-right">30</td>
+<td class="org-right">30</td>
+<td class="org-right">30</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Résultat</td>
+<td class="org-right">20</td>
+<td class="org-right">-10</td>
+<td class="org-right">10</td>
+<td class="org-left">20</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+P2 a une marge sur coûts complets négative. L'entreprise décide donc d'en arrêter la production et la vente.<br />
+</p>
+
+<p>
+Après suppression de P2, le résultat est diminué de 20 à 0 et P3 est devenu déficitaire.<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">P1</th>
+<th scope="col" class="org-right">P3</th>
+<th scope="col" class="org-left">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">CA</td>
+<td class="org-right">100</td>
+<td class="org-right">90</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Charges directes</td>
+<td class="org-right">50</td>
+<td class="org-right">50</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Charges indirectes (total = 90)</td>
+<td class="org-right">45</td>
+<td class="org-right">45</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Résultat</td>
+<td class="org-right">5</td>
+<td class="org-right">-5</td>
+<td class="org-left">0</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Les charges indirectes n'ont pas été supprimées avec la disparition de P2. Elles ont été réparties sur les autres produits ce qui a conduit à diminuer leurs marges et donc à diminuer le résultat de l'entreprise.<br />
+</p>
+<hr />
+
+<p>
+Lorsque l'on supprime un produit déficitaire, on ne supprime pas les charges indirectes qui lui sont associées. Il est même parfois difficile de supprimer les charges fixes directes (aussi appelées coûts spécifiques) qui lui sont associées.<br />
+</p>
+
+<p>
+En revanche, lorsque la marge sur coût variable d'un produit est négative. Alors, il est évident qu'en arrêtant la production du produit le résultat de l'entreprise s'améliore.<br />
+</p>
+
+<div class="warning" id="orge1f05e3">
+<p>
+Avant d'arrêter un produit, à partir de critères financiers, il faut s'assurer que les coûts fixes spécifiques de ce produit pourront être supprimés et que les charges fixes indirectes pourront être absorbées par les autres produits.<br />
+</p>
+
+</div>
 
 <p>
 Le calcul récurrent (tous les mois, par exemple) du coût complet est la plupart du temps irréaliste (son calcul est complexe) et de peu d'intérêt si aucun choix décisif n'est en jeu.<br />
@@ -1345,9 +1785,9 @@ Par opposition, <b>les calculs de coûts partiels</b> ne cherchent à associer �
 Cette approche, qui renonce à analyser les coûts fixes, n'est <i>a priori</i> pertinente que pour les décisions qui les laissent inchangés. Elle a l'avantage d'éviter les répartitions arbitraires de charges indirectes.<br />
 </p>
 
-<div class="warning" id="orgb23261a">
+<div class="warning" id="org11a4793">
 <p>
-La méthode de calcul des coûts retenue doit être pertinente. La pertinence des calculs de coûts dépend d'abord de l'identification des décisions auxquelles on destine les chiffres : il n'y a pas de calcul de coût indépendamment d'une utilisation donnée du résultat de ce calcul.<br />
+La méthode de calcul des coûts retenue doit être pertinente pour la décision à prendre. La pertinence des calculs de coûts dépend d'abord de l'identification des décisions auxquelles on destine les chiffres : il n'y a pas de calcul de coût indépendamment d'une utilisation donnée du résultat de ce calcul.<br />
 </p>
 
 </div>
@@ -1494,8 +1934,9 @@ Dans le cas des budgets d'investissement, le niveau optimal de dépense pourra �
 Le délais de récupération est fréquemment utilisé. Il est particulièrement simple à calculer.<br />
 </p>
 
-<p class="verse">
-Exemple de calcul du délai de récupération<br />
+<hr />
+<p>
+Exemple - Calcul du délai de récupération<br />
 Investissement : $379,100<br />
 Durée de vie prévue : 5  ans<br />
 Flux de trésorerie annuel généré par le projet : $100,000<br />
@@ -1503,6 +1944,7 @@ Délais de récupération = Investissement initial  ÷  Augmentation des flux de
 = $379,100 ÷ $100,000<br />
 = 3.79 ans (46 mois)<br />
 </p>
+<hr />
 
 <p>
 Les autres méthodes seront étudiées dans le cours de finance. Dans le cadre de ce cours, on peut aussi utiliser le seuil de rentabilité afin d'examiner le nombre de produits (ou le chiffre d'affaires) qui sont nécessaires pour que l'investissement atteigne son point mort.<br />
@@ -1642,8 +2084,8 @@ Lorsqu'il y a des décalages entre le flux budgétaire et le flux de trésorerie
 </p>
 </div>
 </div>
-<div id="outline-container-org455eff2" class="outline-4">
-<h4 id="org455eff2"><span class="section-number-4">3.2.6</span> Application : Mirabel Air</h4>
+<div id="outline-container-org231beec" class="outline-4">
+<h4 id="org231beec"><span class="section-number-4">3.2.6</span> Application : Mirabel Air</h4>
 <div class="outline-text-4" id="text-3-2-6">
 <p>
 Mirabel Air est un fabricant de pièces de rechange pour l’aéronautique. Mirabel Air utilise de la main-d’œuvre qualifiée et des alliages métalliques pour fabriquer deux types de pièces de rechange :<br />
@@ -1673,7 +2115,7 @@ Le budget général final est le résultat de plusieurs itérations. L’entrepr
 </ul>
 
 <p>
-Un modèle Excel est disponible pour vous guider : <a href="https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z">https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z</a><br />
+<b>Un modèle Excel est disponible pour vous guider : <a href="https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z">https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z</a></b><br />
 </p>
 
 <p>
@@ -1785,12 +2227,13 @@ Toutes les charges directes de production sont proportionnelles aux quantités p
 
 <col  class="org-left" />
 </colgroup>
-<tbody>
+<thead>
 <tr>
-<td class="org-left">Alliage 111</td>
-<td class="org-left">7 $ par kg</td>
+<th scope="col" class="org-left">Alliage 111</th>
+<th scope="col" class="org-left">7 $ par kg</th>
 </tr>
-
+</thead>
+<tbody>
 <tr>
 <td class="org-left">Alliage 112</td>
 <td class="org-left">10 $ par kg</td>
@@ -1936,7 +2379,7 @@ Les charges indirectes variables hors production sont proportionnelles au chiffr
 </p>
 
 <p>
-<i>Lorsque vous avez complété le tableau Excel indiqué ci-dessus, vous pouvez aller voir le corrigé et les explications ici :</i> <a href="https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h">https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h</a><br />
+<b>Lorsque vous avez complété le tableau Excel indiqué ci-dessus, vous pouvez aller voir le corrigé et les explications ici : <a href="https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h">https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h</a></b><br />
 </p>
 </div>
 </div>
@@ -2027,13 +2470,13 @@ Au début des années 1990, la critique du budget reprend de la vigueur. Deux re
 <p>
 Les critiques émises semblent relever de trois catégories : une critique du contrôle de gestion comme mode de direction par objectifs, une critique des effets pervers du budget et une critique du budget comme un des éléments du système de planification stratégique.<br />
 Le budget est critiqué car il va souvent de pair avec un mode de management contractuel de type délégation/évaluation/rémunération qui ne permet pas toujours d'exploiter au mieux les compétences des salariés. On retrouve ici plus ou moins la critique du behaviorisme qui prônait dans les années 1970 le "management participatif" et dans les années 1990 "l'empowerment". Le courant "Beyond Budgeting" en fait le cœur de sa critique<sup><a id="fnr.15" class="footref" href="#fn.15">15</a></sup> :<br />
-<code>"Les entreprises ont investi des sommes considérables dans les technologies de l'information en réseau, le /reengineering/ des processus et une palette d'outils de management tels que l'EVA, le /balanced scorecard/ et la comptabilité d'activité. Mais elles n'ont pas été capables d'établir un “nouvel ordre” parce que le budget et la culture de type “diriger et contrôler” restent prédominants."</code><br />
+<i>"Les entreprises ont investi des sommes considérables dans les technologies de l'information en réseau, le reengineering des processus et une palette d'outils de management tels que l'EVA, le balanced scorecard et la comptabilité d'activité. Mais elles n'ont pas été capables d'établir un “nouvel ordre” parce que le budget et la culture de type “diriger et contrôler” restent prédominants."</i><br />
 Ce mode de management a, de plus, un certain nombre d'effets pervers, qui correspondent de manière générale aux reproches que l'on peut faire au contrôle de gestion (cloisonnement, vision à court terme, ne permet de gérer que le financier, empêche l'innovation&#x2026;). Plus généralement, comme tout système formalisé, il peut être à l'origine des cercles vicieux bureaucratiques tels qu'ils ont été identifiés par les sociologues des organisations américains depuis les années 1950. Pour Hope et Fraser, le contrat budgétaire est à l'origine de nombreux comportements opportunistes :<br />
-<code>"Essayer de négocier au plus bas les objectifs, obtenir son bonus à tout prix, faire passer le client après les objectifs, ne pas partager le savoir, dépenser le budget intégralement, pouvoir expliquer les écarts, ne pas fournir des prévisions justes, atteindre le budget, mais ne pas le dépasser et ne pas prendre de risques".</code><br />
+<i>"Essayer de négocier au plus bas les objectifs, obtenir son bonus à tout prix, faire passer le client après les objectifs, ne pas partager le savoir, dépenser le budget intégralement, pouvoir expliquer les écarts, ne pas fournir des prévisions justes, atteindre le budget, mais ne pas le dépasser et ne pas prendre de risques".</i><br />
 Ils ajoutent même qu'il serait l'origine des grandes faillites et fraudes nord-américaines :<br />
-<code>"Dans des cas extrêmes, l'utilisation du budget pour forcer l'amélioration des performances peut conduire à des failles dans l'éthique des entreprises. Les personnes qui travaillaient à WorldCom, aujourd'hui en faillite [...] disent que les demandes rigides du président, Bernard Ebbers, étaient incontournables dans la vie dans l'entreprise. “Vous aviez un budget et il vous demandait de faire 2 % de moins que le budget”, a dit une personne travaillant à WorldCom [...] “rien d'autre n'était accepté”. WorldCom, Enron, Barings Bank et les autres entreprises qui ont chuté avaient des processus de contrôle budgétaire serrés qui n'orientaient l'information que vers ceux qui “doivent savoir”."</code><br />
+<i>"Dans des cas extrêmes, l'utilisation du budget pour forcer l'amélioration des performances peut conduire à des failles dans l'éthique des entreprises. Les personnes qui travaillaient à WorldCom, aujourd'hui en faillite [&#x2026;] disent que les demandes rigides du président, Bernard Ebbers, étaient incontournables dans la vie dans l'entreprise. “Vous aviez un budget et il vous demandait de faire 2 % de moins que le budget”, a dit une personne travaillant à WorldCom [&#x2026;] “rien d'autre n'était accepté”. WorldCom, Enron, Barings Bank et les autres entreprises qui ont chuté avaient des processus de contrôle budgétaire serrés qui n'orientaient l'information que vers ceux qui “doivent savoir”."</i><br />
 Jensen, pourtant ardent partisan d'une vision contractuelle de l'entreprise (dans le cadre de la théorie de l'agence), n'est pas moins véhément lorsqu'il affirme<sup><a id="fnr.16" class="footref" href="#fn.16">16</a></sup> :<br />
-<code>"Le budget est une blague, et tout le monde le sait. Il prend beaucoup de temps aux managers, les forçant à tenir des réunions répétées et sans fin et à s'investir dans des négociations tendues. Il encourage les managers à mentir et à tricher, à minimiser les objectifs et à gonfler les résultats et il les pénalise lorsqu'ils disent la vérité. Il transforme les décisions en un jeu et monte les collègues les uns contre les autres, créant de la méfiance et de la rancune. Il produit des distorsions dans les incitations en motivant les gens à agir dans un sens qui va contre l'intérêt de leur entreprise."</code><br />
+<i>"Le budget est une blague, et tout le monde le sait. Il prend beaucoup de temps aux managers, les forçant à tenir des réunions répétées et sans fin et à s'investir dans des négociations tendues. Il encourage les managers à mentir et à tricher, à minimiser les objectifs et à gonfler les résultats et il les pénalise lorsqu'ils disent la vérité. Il transforme les décisions en un jeu et monte les collègues les uns contre les autres, créant de la méfiance et de la rancune. Il produit des distorsions dans les incitations en motivant les gens à agir dans un sens qui va contre l'intérêt de leur entreprise."</i><br />
 Ce sont les effets pervers induits par un système de contrôle financier strict, tel le contrôle budgétaire, qui semblent être au centre de ces critiques.<br />
 Une troisième catégorie de critiques a trait à la capacité des budgets à faire passer la "bonne stratégie". Au-delà du budget, c'est la faillite de la planification stratégique préconisée par l'école de Harvard ou par Ansoff de la fin des années 1960 aux années 1970 qui est critiquée ici. Il semblerait que le budget traduise généralement assez mal la stratégie telle qu'elle est proposée dans les plans stratégiques. Gérer avec des plans à long terme conduirait également à rigidifier l'entreprise en ne lui permettant pas de s'adapter aux opportunités qui se présentent en cours d'année. Cela interdirait aussi l'émergence d'idées stratégiques émanant de la base.<br />
 </p>
@@ -2065,12 +2508,12 @@ Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz
 Au-delà de l'aide à la décision, les données comptables peuvent être utilisées pour le contrôle des gestionnaires. Dans le cadre de ce cours, on se limitera aux mesures financières de la performance. Nous verrons quelles mesures financières peuvent être utilisées pour faciliter le contrôle de gestionnaires, mais aussi quels sont les risques liés à l'utilisation de ces mesures.<br />
 </p>
 </div>
-<div id="outline-container-orgc80c995" class="outline-3">
-<h3 id="orgc80c995"><span class="section-number-3">4.1</span> Mesure de performance et gestion par les résultats</h3>
+<div id="outline-container-orge17deab" class="outline-3">
+<h3 id="orge17deab"><span class="section-number-3">4.1</span> Mesure de performance et gestion par les résultats</h3>
 <div class="outline-text-3" id="text-4-1">
 </div>
-<div id="outline-container-org48394ce" class="outline-4">
-<h4 id="org48394ce"><span class="section-number-4">4.1.1</span> Gestion par les résultats et pilotage</h4>
+<div id="outline-container-orgfcaf82b" class="outline-4">
+<h4 id="orgfcaf82b"><span class="section-number-4">4.1.1</span> Gestion par les résultats et pilotage</h4>
 <div class="outline-text-4" id="text-4-1-1">
 <p>
 La mesure de la performance permet de « gérer par les résultats »<sup><a id="fnr.18" class="footref" href="#fn.18">18</a></sup> en mettant en œuvre un contrôle a posteriori. Elle prend alors la forme d’un contrôle cybernétique permettant à la direction de s’assurer que les objectifs fixés vont être réalisés<sup><a id="fnr.19" class="footref" href="#fn.19">19</a></sup>. Elle facilite ainsi le pilotage et la convergence des buts dans l’organisation.<br />
@@ -2088,8 +2531,8 @@ Si un écart significatif entre la norme et le résultat réel est constaté, de
 </p>
 </div>
 </div>
-<div id="outline-container-orgfd9ee2f" class="outline-4">
-<h4 id="orgfd9ee2f"><span class="section-number-4">4.1.2</span> Les avantages de la gestion par les résultats</h4>
+<div id="outline-container-org4932193" class="outline-4">
+<h4 id="org4932193"><span class="section-number-4">4.1.2</span> Les avantages de la gestion par les résultats</h4>
 <div class="outline-text-4" id="text-4-1-2">
 <p>
 La gestion par les résultats offre de nombreux avantages qui expliquent son rôle dans le développement des grandes organisations nord-américaines au début du XXᵉ siècle<sup><a id="fnr.20" class="footref" href="#fn.20">20</a></sup>. Parmi eux, trois raisons majeures sont le plus souvent avancées :<br />
@@ -2104,15 +2547,16 @@ Au-delà de ses avantages en termes d’efficacité et d’efficience, ce systè
 </p>
 </div>
 </div>
-<div id="outline-container-org734b9b6" class="outline-4">
-<h4 id="org734b9b6"><span class="section-number-4">4.1.3</span> Gérer par les résultats : hypothèses sur le processus contrôlé et la motivation des individus</h4>
+<div id="outline-container-org112b6b4" class="outline-4">
+<h4 id="org112b6b4"><span class="section-number-4">4.1.3</span> Gérer par les résultats : hypothèses sur le processus contrôlé et la motivation des individus</h4>
 <div class="outline-text-4" id="text-4-1-3">
 <p>
 La gestion par les résultats permet de piloter un processus de transformation d’inputs (ressources) en outputs (produits) en assignant à chaque responsable des objectifs et en lui offrant, en contrepartie, la maîtrise de moyens et une certaine liberté de mise en œuvre pour atteindre ses objectifs. De son côté, celui qui contrôle va pouvoir le faire par exception, c’est-à-dire en s’impliquant uniquement en cas de déviation significative par rapport aux objectifs. Cependant, ce modèle de gestion repose sur des hypothèses concernant le processus à contrôler et la manière dont les individus sont motivés.<br />
 </p>
 
 <p>
-<b>Une première hypothèse porte sur le processus contrôlé.</b> Mettre en œuvre une gestion par les résultats suppose de pouvoir définir des normes, de savoir les mesurer, d’être capable de quantifier les résultats attendus et de les décliner dans le temps et dans l’espace. Il est, en effet, nécessaire de définir des objectifs au niveau des différents processus de l’organisation et mesurer l’atteinte ou non de ces objectifs (étapes 1 et 3). Pourtant, il est parfois difficile d’expliciter les objectifs d’une organisation ou d’une entité, notamment parce qu’il n’y a pas toujours accord sur l’objectif entre les différents acteurs ou parce que l’objectif n’a pas été défini explicitement (il résulte des habitudes prises par chacun dans l’organisation). Ce phénomène est particulièrement important dans les organisations publiques, mais il touche aussi les entreprises.<br />
+<b>Une première hypothèse porte sur le processus contrôlé.</b><br />
+Mettre en œuvre une gestion par les résultats suppose de pouvoir définir des normes, de savoir les mesurer, d’être capable de quantifier les résultats attendus et de les décliner dans le temps et dans l’espace. Il est, en effet, nécessaire de définir des objectifs au niveau des différents processus de l’organisation et mesurer l’atteinte ou non de ces objectifs (étapes 1 et 3). Pourtant, il est parfois difficile d’expliciter les objectifs d’une organisation ou d’une entité, notamment parce qu’il n’y a pas toujours accord sur l’objectif entre les différents acteurs ou parce que l’objectif n’a pas été défini explicitement (il résulte des habitudes prises par chacun dans l’organisation). Ce phénomène est particulièrement important dans les organisations publiques, mais il touche aussi les entreprises.<br />
 La mise en place d’un contrôle par les résultats suppose, une fois les objectifs définis, de les mesurer. Or, même lorsqu’il est possible de se mettre d’accord sur les objectifs, ces derniers peuvent être difficilement mesurables ou quantifiables. Ainsi, parce qu’il s’appuie d’abord sur des données financières, le contrôle par les résultats a du mal à évaluer l’impact des politiques de qualité ou d’innovation. Il est aussi difficile de le mettre en place dans les organisations publiques (institutions d’enseignement, hôpitaux, aide sociale) ou des entités qui doivent innover du fait de la difficulté à mesurer les résultats de ce type d’organisations et à lier avec certitude les inputs et les outputs. Dans ce cas, les effets d’un contrôle par les résultats sont cependant ambigus. Afin de mettre en œuvre des actions correctives (étape 4), il est en outre nécessaire d’avoir un modèle prédictif du processus contrôlé. Autrement dit, il faut être capable de savoir quelles sont les actions correctives qui doivent être mises en œuvre afin d’atteindre l’objectif préalablement fixé, c’est-à-dire être capable de modéliser les relations causes-effets. Dans le cas du thermostat, le modèle prédictif est simple : lorsque la température est trop faible, il suffit de mettre en marche le chauffage. Dans le cas de la gestion d’une organisation, ce modèle prédictif est plus rarement connu et il n’existe alors pas de méthode simple et automatique pour mettre fin aux écarts entre la norme et les résultats.<br />
 En résumé, faire du contrôle par les résultats suppose de pouvoir définir un objectif, de pouvoir le mesurer et de modéliser les relations entre les causes et les effets pour définir des actions correctives<br />
 </p>
@@ -2138,8 +2582,8 @@ Au-delà des hypothèses sur les objectifs et les motivations, la gestion par le
 </div>
 </div>
 
-<div id="outline-container-org073b20d" class="outline-3">
-<h3 id="org073b20d"><span class="section-number-3">4.2</span> Gestion par les résultats et centres de responsabilité</h3>
+<div id="outline-container-orgfd20926" class="outline-3">
+<h3 id="orgfd20926"><span class="section-number-3">4.2</span> Gestion par les résultats et centres de responsabilité</h3>
 <div class="outline-text-3" id="text-4-2">
 <p>
 Pour contrôler par les résultats, il faut aussi découper l’organisation en centres de responsabilité et s’assurer de la convergence des buts.<br />
@@ -2157,10 +2601,11 @@ Dans les organisations, ces divers types de centres de responsabilité s’embo�
 <p>
 <a href="./img/centres.pdf">./img/centres.pdf</a><br />
 Le découpage de l’organisation en centres de responsabilité qui en découle permet de clarifier l’organisation, d’amoindrir sa complexité, d’attribuer des responsabilités à chacun et donc de décentraliser.<br />
+La décentralisation est le processus par lequel la prise de décision est déléguée aux responsables des unités d'affaires.<br />
 </p>
 <blockquote>
 <p>
-La décentralisation est le processus par lequel la prise de décision est déléguée aux responsables des unités d'affaires. Ce processus a des avantages majeurs :<br />
+La décentralisation a des avantages majeurs :<br />
 </p>
 <ul class="org-ul">
 <li>Facilite la prise de décision et réduit le temps de réaction, puisque les décideurs sont plus près des problèmes et de l’information<br /></li>
@@ -2180,10 +2625,12 @@ Elle comporte cependant un certain nombre de risques :<br />
 <p>
 La difficulté est donc de trouver les normes qui permettent de faire converger les objectifs d’un centre de responsabilité avec les objectifs du centre de responsabilité du niveau supérieur et qui ne conduisent pas à transférer l’efficience ou l’inefficience d’un centre vers un autre. En d’autres termes les objectifs doivent permettre d’assurer la convergence des intérêts individuels et de l’intérêt collectif.<br />
 </p>
-<p class="verse">
-<b>Optimisation locale et performance globale de l’entreprise</b><br />
+<hr />
+<p>
+<b>Exemple - Optimisation locale et performance globale de l’entreprise</b><br />
 Une entreprise décide de fixer des objectifs de restriction des coûts à tous les services supports. Il est ainsi demandé au service maintenance une diminution de 20%. Le responsable du service maintenance met tout en œuvre pour atteindre ses objectifs : il minimise ses achats de pièces et il décide de ne pas remplacer le personnel en congé en ne faisant pas appel aux intérimaires. L’objectif est atteint. On constate cependant un dérapage des coûts de l’usine. En effet, du fait des déficits de maintenance, les arrêts de la chaine de production ont été plus fréquents. La productivité a baissé. Pour atteindre ses objectifs de production, l’usine a donc dû faire faire des heures supplémentaires à ses employés, ce qui a augmenté ses coûts.<br />
 </p>
+<hr />
 
 <p>
 Si l’on veut que les normes soient incitatives, il est nécessaire de s’assurer que les personnes évaluées ne sont tenues responsables que d’éléments sur lesquels elles peuvent agir. Cela correspond au principe de contrôlabilité selon lequel la responsabilité d’un manager ne peut s’exercer que sur les éléments qu’il contrôle et sur lesquels il dispose de leviers d’action. Autrement dit : on ne peut tenir un manager responsable des éléments « non contrôlables » (par lui-même) qui devraient, par conséquent, être exclus de l’évaluation de ses performances. Il est facile de comprendre les raisons de ce principe. La plus importante tient au fait qu’il serait injuste, et donc démotivant, de demander à un manager de rendre des comptes sur des éléments qui ne dépendent pas de son action<sup><a id="fnr.26" class="footref" href="#fn.26">26</a></sup>.<br />
@@ -2195,8 +2642,8 @@ Les mesures financières de performance de chacun des centres de responsabilité
 <h3 id="rentabilité"><span class="section-number-3">4.3</span> Mesurer la performance des centres de responsabilité</h3>
 <div class="outline-text-3" id="text-rentabilité">
 </div>
-<div id="outline-container-org4d8583a" class="outline-4">
-<h4 id="org4d8583a"><span class="section-number-4">4.3.1</span> Le contrôle budgétaire et le calcul des écarts</h4>
+<div id="outline-container-org0d1c1eb" class="outline-4">
+<h4 id="org0d1c1eb"><span class="section-number-4">4.3.1</span> Le contrôle budgétaire et le calcul des écarts</h4>
 <div class="outline-text-4" id="text-4-3-1">
 <p>
 Le contrôle budgétaire s’appuie sur les prévisions réalisées dans le budget pour comparer l’état réel à l’état prévu. La mise en œuvre de cette méthode suppose donc de disposer des données prévisionnelles et des données réelles pour la même période.<br />
@@ -2205,18 +2652,20 @@ Après avoir été calculés, les écarts sont qualifiés de <b>favorables</b> (
 
 <p>
 Différents écarts peuvent être calculés :<br />
-– Les écarts sur coûts directs (matières premières, main-d’œuvre, etc.) et indirects permettent de s’assurer de la performance du service de production ou de tout centre de coûts.<br />
-– Les écarts sur marge et sur chiffre d’affaires permettent d’évaluer la performance du service vente.<br />
-– Les écarts sur résultat, qui permettent d’évaluer la performance des centres de profit.<br />
 </p>
+<ul class="org-ul">
+<li>Les écarts sur coûts directs (matières premières, main-d’œuvre, etc.) et indirects permettent de s’assurer de la performance du service de production ou de tout centre de coûts.<br /></li>
+<li>Les écarts sur marge et sur chiffre d’affaires permettent d’évaluer la performance du service vente.<br /></li>
+<li>Les écarts sur résultat, qui permettent d’évaluer la performance des centres de profit.<br /></li>
+</ul>
 
 <blockquote>
 <p>
 Les avantages du contrôle budgétaire sont les suivants :<br />
-– Il permet une gestion par exception, ce qui signifie que les managers vont s’attacher aux écarts importants et ne vont pas se préoccuper des activités pour lesquelles un écart faible ou aucun écart n’apparaît.<br />
-– Il permet de trouver les causes (décomposer les écarts pour pouvoir les lier à des responsables) qui expliquent le fait que le résultat n'est pas conforme aux prévisions. Il fait ressortir les responsabilités de chaque activité ou chaque service dans la constitution du résultat global de l’entreprise. Il peut donc être utilisé pour mesurer la performance des différentes entités dans l’organisation.<br />
 </p>
 <ul class="org-ul">
+<li>Il permet une gestion par exception, ce qui signifie que les managers vont s’attacher aux écarts importants et ne vont pas se préoccuper des activités pour lesquelles un écart faible ou aucun écart n’apparaît.<br /></li>
+<li>Il permet de trouver les causes (décomposer les écarts pour pouvoir les lier à des responsables) qui expliquent le fait que le résultat n'est pas conforme aux prévisions. Il fait ressortir les responsabilités de chaque activité ou chaque service dans la constitution du résultat global de l’entreprise. Il peut donc être utilisé pour mesurer la performance des différentes entités dans l’organisation.<br /></li>
 <li>Il incite les gestionnaires à prendre des actions correctives afin de résorber ces écarts (en changeant les moyens mis en œuvre, ou en changeant les objectifs s’il s’avère que les objectifs définis a priori n’étaient pas atteignables). Le contrôle budgétaire est donc un outil indispensable lors de la phase de pilotage du processus de contrôle.<br /></li>
 </ul>
 </blockquote>
@@ -2229,7 +2678,7 @@ Les écarts peuvent ainsi expliquer les variations du résultat de l’entrepris
 La méthode a cependant un certain nombre de limites. D’abord, elle ne permet de vérifier que ce qui est fait par l’entreprise est bien ce qui avait été prévu. Pourtant, si l’environnement évolue, il peut être nécessaire et efficace de ne pas faire ce qui avait été prévu. De plus, elle permet d’expliquer le passé, mais n’aide pas à anticiper l’avenir. Il faut aussi noter que la mécanique du contrôle budgétaire est lourde ; elle implique d’avoir recours à de nombreux comptables et coûte cher. Enfin, le contrôle budgétaire limite à l’appréciation de la performance aux prix et aux quantités ; rien n’est dit sur d’autres dimensions fondamentales de la performance (la qualité, la flexibilité, etc.).<br />
 </p>
 
-<div class="warning" id="org72e2fba">
+<div class="warning" id="orgc1eb622">
 <p>
 Il existe de multiples modalités pour calculer les écarts. La mise en œuvre de la méthode dépend de calculs réalisés par les comptables et dépasse le cadre de ce cours.<br />
 </p>
@@ -2263,32 +2712,166 @@ La formulation suivante sera retenue, car elle permet de prendre en compte ce qu
 <p>
 D'autres formulations peuvent être envisagées en fonction des entreprises, et cela afin de mettre en évidence au mieux les responsabilités des managers évalués et la performance des entités.<br />
 </p>
-<p class="verse">
-*Le calcul du ROI"<br />
+<hr />
+<p>
+<b>Exercice - Le calcul du ROI</b><br />
 Pour l'année N, vous disposez des éléments suivants :<br />
-| en K $                           | Division A | Division B | Division C |<br />
-|----------------------------------<del>------------</del>-------&#x2013;&#x2014;+-------&#x2013;&#x2014;|<br />
-| Chiffre d'affaires               | 94 500     | 108 000    | 216 000    |<br />
-| Charges d'exploitation et impôts | 56 700     | 97 200     | 205 200    |<br />
-| Résultat d'exploitation après IS | 37 800     | 10 800     | 10 800     |<br />
-|                                  |            |            |            |<br />
-| Immobilisations brutes           | 243 000    | 108 000    | 270 000    |<br />
-| &#x2013; Dépréciations                 | 27 000     | 54 000     | 162 000    |<br />
-| = Immobilisations nettes         | 216 000    | 54 000     | 108 000    |<br />
-| Actif circulant                  | 162 000    | 54 000     | 27 000     |<br />
-| Total actif                      | 378 000    | 108 000    | 135 000    |<br />
-|                                  |            |            |            |<br />
-| Dettes d'exploitation            | 0          | 0          | 0          |<br />
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">en K $</th>
+<th scope="col" class="org-left">Division A</th>
+<th scope="col" class="org-left">Division B</th>
+<th scope="col" class="org-left">Division C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Chiffre d'affaires</td>
+<td class="org-left">94 500</td>
+<td class="org-left">108 000</td>
+<td class="org-left">216 000</td>
+</tr>
+
+<tr>
+<td class="org-left">Charges d'exploitation et impôts</td>
+<td class="org-left">56 700</td>
+<td class="org-left">97 200</td>
+<td class="org-left">205 200</td>
+</tr>
+
+<tr>
+<td class="org-left">Résultat d'exploitation après IS</td>
+<td class="org-left">37 800</td>
+<td class="org-left">10 800</td>
+<td class="org-left">10 800</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Immobilisations brutes</td>
+<td class="org-left">243 000</td>
+<td class="org-left">108 000</td>
+<td class="org-left">270 000</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2013; Dépréciations</td>
+<td class="org-left">27 000</td>
+<td class="org-left">54 000</td>
+<td class="org-left">162 000</td>
+</tr>
+
+<tr>
+<td class="org-left">= Immobilisations nettes</td>
+<td class="org-left">216 000</td>
+<td class="org-left">54 000</td>
+<td class="org-left">108 000</td>
+</tr>
+
+<tr>
+<td class="org-left">Actif circulant</td>
+<td class="org-left">162 000</td>
+<td class="org-left">54 000</td>
+<td class="org-left">27 000</td>
+</tr>
+
+<tr>
+<td class="org-left">Total actif</td>
+<td class="org-left">378 000</td>
+<td class="org-left">108 000</td>
+<td class="org-left">135 000</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Dettes d'exploitation</td>
+<td class="org-left">0</td>
+<td class="org-left">0</td>
+<td class="org-left">0</td>
+</tr>
+</tbody>
+</table>
+
+<p>
 <b>Travail à faire</b><br />
 Pour chacune des trois entités, calculer le retour sur investissement<br />
 (ROI).<br />
+</p>
+
+<p>
 <b>Corrigé</b><br />
-| en K $                               | Division A  | Division B | Division C |<br />
-| (1) Résultat d'exploitation après IS | 37 800      | 10 800     | 10 800     |<br />
-| (2) Total de l'actif investi         | 378 000 (1) | 108 000    | 135 000    |<br />
-| (1)/(2)=ROI                          | 10 %        | 10 %       | 8 %        |<br />
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">en K $</td>
+<td class="org-left">Division A</td>
+<td class="org-left">Division B</td>
+<td class="org-left">Division C</td>
+</tr>
+
+<tr>
+<td class="org-left">(1) Résultat d'exploitation après IS</td>
+<td class="org-left">37 800</td>
+<td class="org-left">10 800</td>
+<td class="org-left">10 800</td>
+</tr>
+
+<tr>
+<td class="org-left">(2) Total de l'actif investi</td>
+<td class="org-left">378 000 (1)</td>
+<td class="org-left">108 000</td>
+<td class="org-left">135 000</td>
+</tr>
+
+<tr>
+<td class="org-left">(1)/(2)=ROI</td>
+<td class="org-left">10 %</td>
+<td class="org-left">10 %</td>
+<td class="org-left">8 %</td>
+</tr>
+</tbody>
+</table>
+<p>
 (1) = 162 000 - 0 + 216 000<br />
 </p>
+<hr />
 
 <p>
 La pyramide du ROI permet d'expliquer la formation du retour sur investissement en considérant que le ROI s'explique par le taux de marge (la marge générée par le chiffre d'affaires) et par la rotation des actifs (c'est-à-dire le chiffre d'affaires généré par un dollar investi).<br />
@@ -2299,9 +2882,18 @@ La pyramide du ROI permet d'expliquer la formation du retour sur investissement 
 
 <p>
 Deux entreprises peuvent ainsi avoir un même ROI, mais en l'obtenant de manière très différente. Par exemple, les activités de luxe ou de construction exigent de forts investissements (faible rotation des actifs), mais permettent de forts taux de marge. Inversement, les activités de distribution vont avoir un fort taux de rotation des actifs (puisqu'elles payent leurs fournisseurs avec d'importants délais alors que leurs clients payent au comptant) et un taux de marge peu élevé.<br />
-Exercice (suite) : La décomposition du ROI<br />
+</p>
+<hr />
+<p>
+<b>Exercice (suite) : La décomposition du ROI</b><br />
+</p>
+
+<p>
 <b>Travail à faire</b><br />
 Décomposer le ROI pour les trois divisions. Commenter.<br />
+</p>
+
+<p>
 <b>Corrigé</b><br />
 La décomposition du ROI pour les trois divisions donne les calculs suivants :<br />
 </p>
@@ -2371,14 +2963,17 @@ La décomposition du ROI pour les trois divisions donne les calculs suivants :<
 <p>
 Deux des trois entités ont le même retour sur investissement, mais elles l'obtiennent de manière très différente. La division A a un très fort taux de marge (40 %), mais demande des investissements importants, d'où un faible taux de rotation des actifs. Inversement, la division B a un taux de marge moyen (10 %), mais un taux de rotation des actifs plus importants, ce qui lui permet d'avoir un ROI équivalent à la division A.<br />
 La division C a un très faible taux de marge (5 %). Mais elle semble nécessiter des investissements assez faibles. Sa rentabilité économique est donc tout de même plus faible que celle des autres divisions.<br />
-La décomposition de la pyramide peut être poursuivie pour faire apparaître un grand nombre de composantes de la performance de l'entreprise ainsi que les leviers d'action envisageables pour améliorer la rentabilité.<br />
+</p>
+<hr />
+<p>
+La décomposition de la pyramide peut être poursuivie pour faire apparaître un grand nombre de composantes de la performance de l'entreprise, ainsi que les leviers d'action envisageables pour améliorer la rentabilité.<br />
 </p>
 <p>
 <a href="./img/roidetail.pdf">./img/roidetail.pdf</a><br />
 </p>
 
 <p>
-En résumé, le "ROI conduit à synthétiser la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"<sup><a id="fnr.28" class="footref" href="#fn.28">28</a></sup>. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.<br />
+En résumé, le ROI synthétise "la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"<sup><a id="fnr.28" class="footref" href="#fn.28">28</a></sup>. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.<br />
 </p>
 
 <p>
@@ -2462,51 +3057,191 @@ capitaux investis</b><br />
 Cette formulation montre qu'un ROI élevé ne signifie pas qu'une entité crée de la valeur : tout dépend du coût moyen pondéré du capital. Ainsi, il ne sert à rien de comparer le niveau de ROI de diverses entités : tout dépend de leur coût moyen pondéré du capital.<br />
 </p>
 
-<p class="verse">
-<b>Calcul du ROI et du bénéfice résiduel</b><br />
+<hr />
+<p>
+<b>Exercice -  Calcul du ROI et du bénéfice résiduel</b><br />
 On connaît le résultat d'exploitation après IS et le total de l'actif investi pour les divisions A, B et C.<br />
-| En K $                           | Division A | Division B | Division C |<br />
-|----------------------------------<del>------------</del>-------&#x2013;&#x2014;+-------&#x2013;&#x2014;|<br />
-| Résultat d'exploitation après IS | 37 800     | 10 800     | 10 800     |<br />
-| Total de l'actif investi         | 378 000    | 108 000    | 135 000    |<br />
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">En K $</th>
+<th scope="col" class="org-left">Division A</th>
+<th scope="col" class="org-left">Division B</th>
+<th scope="col" class="org-left">Division C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Résultat d'exploitation après IS</td>
+<td class="org-left">37 800</td>
+<td class="org-left">10 800</td>
+<td class="org-left">10 800</td>
+</tr>
+
+<tr>
+<td class="org-left">Total de l'actif investi</td>
+<td class="org-left">378 000</td>
+<td class="org-left">108 000</td>
+<td class="org-left">135 000</td>
+</tr>
+</tbody>
+</table>
+<p>
 Compte tenu de leurs niveaux de risque différents, le coût moyen pondéré<br />
 du capital pour les trois divisions A, B et C est le suivant : Division<br />
 A : 9 % ; Division B : 10 % ; Division C : 10 %<br />
+</p>
+
+<p>
 <b>Travail à faire</b><br />
 Calculer le bénéfice résiduel des trois entités. Comparer aux résultats<br />
 obtenus avec le ROI. Commenter.<br />
-*Corrigé"<br />
-| en K $                           | Division A | Division B | Division C |<br />
-|----------------------------------<del>------------</del>-------&#x2013;&#x2014;+-------&#x2013;&#x2014;|<br />
-| Résultat d'exploitation après IS | 37 800     | 10 800     | 10 800     |<br />
-| Total de l'actif investi         | 378 000    | 108 000    | 135 000    |<br />
-| ROI (rappel)                     | 10 %       | 10 %       | 8 %        |<br />
-| Coût moyen pondéré des capitaux  | 9 %        | 10 %       | 10 %       |<br />
-| Bénéfice résiduel                | 3 780      | 0          | -2 700     |<br />
+</p>
+
+<p>
+<b>Corrigé</b><br />
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">en K $</th>
+<th scope="col" class="org-left">Division A</th>
+<th scope="col" class="org-left">Division B</th>
+<th scope="col" class="org-left">Division C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Résultat d'exploitation après IS</td>
+<td class="org-left">37 800</td>
+<td class="org-left">10 800</td>
+<td class="org-left">10 800</td>
+</tr>
+
+<tr>
+<td class="org-left">Total de l'actif investi</td>
+<td class="org-left">378 000</td>
+<td class="org-left">108 000</td>
+<td class="org-left">135 000</td>
+</tr>
+
+<tr>
+<td class="org-left">ROI (rappel)</td>
+<td class="org-left">10 %</td>
+<td class="org-left">10 %</td>
+<td class="org-left">8 %</td>
+</tr>
+
+<tr>
+<td class="org-left">Coût moyen pondéré des capitaux</td>
+<td class="org-left">9 %</td>
+<td class="org-left">10 %</td>
+<td class="org-left">10 %</td>
+</tr>
+
+<tr>
+<td class="org-left">Bénéfice résiduel</td>
+<td class="org-left">3 780</td>
+<td class="org-left">0</td>
+<td class="org-left">-2 700</td>
+</tr>
+</tbody>
+</table>
+<p>
 D'après le calcul du bénéfice résiduel, seule la division A crée de la valeur. On constate d'ailleurs que pour qu'il y ait création de valeur, il faut que le ROI soit supérieur au coût du capital.<br />
 </p>
+<hr />
 
 <p>
 Nous avons souligné ci-dessus que ROI peut poser des problèmes de sous optimisation. En effet, pour améliorer son ROI une division peut accepter un investissement qui détruit de la valeur pour l'entreprise. Inversement, pour maintenir son ROI à un taux élevé, une division peut refuser un investissement qui créé de la valeur. Le bénéfice résiduel résout ces problèmes : toutes les décisions d'investissement seront réalisées si et seulement si elles créent de la valeur.<br />
 </p>
 
-<p class="verse">
-<b>Calcul du ROI et du bénéfice résiduel (suite)</b><br />
+<hr />
+<p>
+<b>Exercice - Calcul du ROI et du bénéfice résiduel (suite)</b><br />
 La société X va dorénavant évaluer ses divisions sur la base de leur ROI. Les managers des divisions recevront des primes basées sur le ROI. Les trois divisions envisagent un investissement dont le ROI est estimé à 9,5 %. Pour chacune des divisions, le niveau de risque du projet d'investissement est identique au niveau de risque de la division.<br />
+</p>
+
+<p>
 <b>Travail à faire</b><br />
 Quelles décisions vont prendre les trois responsables de division ? Si leur performance avait été évaluée sur les bénéfices résiduels les décisions des trois responsables auraient-elles été identiques ? Commenter.<br />
+</p>
+
+<p>
 <b>Corrigé</b><br />
 Si la performance des entités est évaluée sur le ROI, les entités A et B vont refuser l'investissement, car celui-ci ferait baisser leur ROI, l'entité C va l'accepter puisque cela augmente son ROI.<br />
 Si leur performance est évaluée sur le bénéfice résiduel :<br />
-- Puisque le ROI de l'investissement est supérieur à son CMPC, la division A va accepter l'investissement (l'investissement va augmenter son bénéfice résiduel) ;<br />
-- Puisque le ROI de l'investissement est inférieur à leur CMPC, les divisions B et C vont refuser l'investissement.<br />
+</p>
+<ul class="org-ul">
+<li>Puisque le ROI de l'investissement est supérieur à son CMPC, la division A va accepter l'investissement (l'investissement va augmenter son bénéfice résiduel) ;<br /></li>
+<li>Puisque le ROI de l'investissement est inférieur à leur CMPC, les divisions B et C vont refuser l'investissement.<br /></li>
+</ul>
+<p>
 Le ROI et le bénéfice résiduel conduisent à des décisions d'investissement différentes :<br />
-|                   | Division A  | Division B | Division C  |<br />
-|-------------------<del>-------------</del>-------&#x2013;&#x2014;+--------&#x2013;&#x2014;|<br />
-| ROI               | Refus       | Refus      | Acceptation |<br />
-| Bénéfice résiduel | Acceptation | Refus      | Refus       |<br />
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Division A</th>
+<th scope="col" class="org-left">Division B</th>
+<th scope="col" class="org-left">Division C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">ROI</td>
+<td class="org-left">Refus</td>
+<td class="org-left">Refus</td>
+<td class="org-left">Acceptation</td>
+</tr>
+
+<tr>
+<td class="org-left">Bénéfice résiduel</td>
+<td class="org-left">Acceptation</td>
+<td class="org-left">Refus</td>
+<td class="org-left">Refus</td>
+</tr>
+</tbody>
+</table>
+<p>
 Les deux critères conduisent dans deux cas sur trois à des décisions différentes. Le critère du ROI pousse donc la division A à refuser un investissement qui pourtant créerait de la valeur. Inversement, la division C va accepter l'investissement alors qu'il va détruire de la valeur.<br />
 </p>
+<hr />
 
 <p>
 Le bénéfice résiduel permet de vérifier qu'un investissement ou une entité crée de la valeur pour les actionnaires.<br />
@@ -2523,8 +3258,8 @@ Sur un plan plus théorique, le fait de demander un bénéfice résiduel systém
 </div>
 </div>
 
-<div id="outline-container-org1e197ce" class="outline-3">
-<h3 id="org1e197ce"><span class="section-number-3">4.4</span> Transformer des centres de coûts ou de revenus en centre de profit : le rôle des prix de cession interne</h3>
+<div id="outline-container-org80ab199" class="outline-3">
+<h3 id="org80ab199"><span class="section-number-3">4.4</span> Transformer des centres de coûts ou de revenus en centre de profit : le rôle des prix de cession interne</h3>
 <div class="outline-text-3" id="text-4-4">
 <p>
 Un centre de responsabilité peut recevoir tout ou partie de son approvisionnement en provenance de centres de responsabilités situés en amont, et céder tout ou partie de sa production à d’autres centres situés en aval. Les prix de cession interne sont les prix définis par une organisation pour valoriser les transactions internes entre différents centres de responsabilité.<br />
@@ -2543,10 +3278,12 @@ On voit ici que (tant qu’il n’influence pas les décisions d’achat des cen
 Les prix de cession interne permettent de faire entrer le marché dans l’organisation en transformant des centres de coût ou de revenu en centres de profit, rendant ainsi possible (du moins en apparence) l’évaluation de leur performance par l’intermédiaire de leur résultat. Ils vont ainsi faciliter la mise sous tension de l’organisation, motiver et dynamiser les responsables, et rendre possible l’évaluation les performances, grâce à la mise en place de centres de profit jugés sur des résultats.<br />
 </p>
 
-<p class="verse">
+<hr />
+<p>
+<b>Exemple - Mise en place de prix de cession</b><br />
 Supposons que dans l’entreprise E, l'usine achète des matières premières pour 100, engage des frais de fabrication de 50, et livre sa production au département des ventes qui revend le tout pour 200, en engageant 40 de frais de commercialisation.<br />
 Le coût de production est : 100 + 50 = 150 ; le coût de complet est : 150 + 40 = 190, et le résultat est : 200 – 190 = 10.<br />
-Si les centres production et distribution sont des centres de coût, et que leur fonctionnement est budgété, chacun des responsables se bornera au mieux à tenir son budget, et il sera très difficile d’améliorer le résultat. Si les deux centres sont érigés en centre de profit, avec par exemple un prix de cession interne de 155 , et que les responsables sont jugés sur les résultats, on obtiendra un partage du résultat global entre les centres :<br />
+Si les centres production et distribution sont des centres de coût, et que leur fonctionnement est budgété, chacun des responsables se bornera au mieux à tenir son budget, et il sera très difficile d’améliorer le résultat. Si les deux centres sont érigés en centre de profit, avec par exemple un prix de cession interne de 155, et que les responsables sont jugés sur les résultats, on obtiendra un partage du résultat global entre les centres :<br />
 Résultat de l'usine<br />
 = Cessions internes - Coûts de production<br />
 = 155 - (100 + 50) = 5<br />
@@ -2554,49 +3291,45 @@ Résultat du département des ventes<br />
 = 200 - (155 + 40)<br />
 Chaque responsable sera incité à faire des économies, en évitant les gaspillages, en faisant des gains de productivité. Si, par exemple, le centre production réussit à améliorer le rendement en faisant chuter ses frais de 50 à 48, toutes choses égales par ailleurs, son résultat passera à 7, et le résultat global à 12.<br />
 </p>
+<hr />
 
 <p>
 Les prix de cession doivent permettre de juger de façon objective le résultat de la gestion des centres de profit, en tenant compte de toutes les ressources consommées (y compris celles engagées par un autre centre, mais ayant fait l’objet d’une prestation) et toute la valeur créée (non seulement celle des produits ou des services vendus à des "vrais" clients extérieurs, et se traduisant par des recettes en trésorerie, mais également celle des produits ou services cédés en interne). Sans prix de cession, les consommations internes seraient « gratuites », et certains centres s’approprieraient le résultat créé par d’autres. On peut ainsi mieux mettre en lumière les bons et les mauvais résultats, et donc les bons et les mauvais gestionnaires. On attend du système une meilleure motivation des responsables.<br />
 </p>
 
 <p>
-Les prix de cession interne ont donc pour objectif de motiver les responsables, et de faire converger leurs objectifs personnels avec les objectifs globaux de l’entreprise. Dans certains cas, le responsable d’un centre de profit peut prendre une décision rationnelle du point de vue de son propre optimum, mais défavorable au plan global : les prix de cession interne n’assurent pas obligatoirement la convergence.<br />
-</p>
-
-<p class="verse">
-Si le prix de cession est jugé excessif par le centre de responsabilité en aval, et que celui-ci est libre de s’approvisionner à l’extérieur, il cherchera à réduire ses achats internes ; le centre fournisseur en amont peut ainsi perdre une partie de ses débouchés, et être obligé de réduire son niveau d’activité, certains coûts fixes ne seront plus couverts, ce qui peut avoir un coût plus important que l'économie réalisée.<br />
+Les prix de cession interne ont donc pour objectif de motiver les responsables, et de faire converger leurs objectifs personnels avec les objectifs globaux de l’entreprise. Dans certains cas, le responsable d’un centre de profit peut prendre une décision rationnelle du point de vue de son propre optimum, mais défavorable au plan global : les prix de cession interne n’assurent pas obligatoirement la convergence. Par exemple, si le prix de cession est jugé excessif par le centre de responsabilité en aval, et que celui-ci est libre de s’approvisionner à l’extérieur, il cherchera à réduire ses achats internes ; le centre fournisseur en amont peut ainsi perdre une partie de ses débouchés, et être obligé de réduire son niveau d’activité, certains coûts fixes ne seront plus couverts, ce qui peut avoir un coût plus important que l'économie réalisée.<br />
 </p>
 
 <p>
 Une politique de prix de cession interne suppose que l’on réponde à deux questions : <i>qui fixe les prix de cession interne ? (ou comment, par quels mécanismes ?) selon quel principe d’évaluation ? (fait-on référence au prix du marché, à un coût calculé, etc. ?)</i><br />
 La fixation des prix de cession interne peut se faire de manière centralisée, ou au contraire décentralisée :<br />
-– la fixation centralisée signifie que c’est la direction générale qui fixe les prix de cession, pour imposer indirectement sa stratégie. Par exemple, si on mène une stratégie d’intégration verticale, il faut inciter l’aval à s’approvisionner en amont ce qui suppose généralement des prix de cession interne « attractifs » à la fois pour le vendeur et pour l’acheteur ;<br />
-– la fixation décentralisée signifie que les différents centres sont libres de négocier entre eux les prix qu’ils veulent, comme sur un « vrai » marché ;<br />
-– il peut y avoir des situations intermédiaires, quand par exemple la direction fixe des grandes règles ou des contraintes. Par exemple : « liberté totale de négociation des prix de cession interne, mais ceux-ci ne doivent pas être supérieurs au prix du marché moins 5 %, avec obligation de s’approvisionner dans le groupe ».<br />
 </p>
+<ul class="org-ul">
+<li>la fixation centralisée signifie que c’est la direction générale qui fixe les prix de cession, pour imposer indirectement sa stratégie. Par exemple, si on mène une stratégie d’intégration verticale, il faut inciter l’aval à s’approvisionner en amont ce qui suppose généralement des prix de cession interne « attractifs » à la fois pour le vendeur et pour l’acheteur ;<br /></li>
+<li>la fixation décentralisée signifie que les différents centres sont libres de négocier entre eux les prix qu’ils veulent, comme sur un « vrai » marché ;<br /></li>
+<li>il peut y avoir des situations intermédiaires, quand par exemple la direction fixe des grandes règles ou des contraintes. Par exemple : « liberté totale de négociation des prix de cession interne, mais ceux-ci ne doivent pas être supérieurs au prix du marché moins 5 %, avec obligation de s’approvisionner dans le groupe ».<br /></li>
+</ul>
 
 <p>
 Deux grandes méthodes d’évaluation sont envisageables : par les prix ou par les coûts.<br />
 </p>
 
 <p>
-Le prix du marché, qui est le plus à même de « simuler » le fonctionnement du marché, dans la mesure où il donne pour chaque centre le résultat qui serait celui d’une entreprise indépendante confrontée aux lois de la concurrence. C’est en général la limite supérieure, car il est très difficile de faire accepter au centre « acheteur » le handicap que représenterait l’obligation d’acheter plus cher à l’extérieur.<br />
+<b>Le prix du marché</b>, qui est le plus à même de « simuler » le fonctionnement du marché, dans la mesure où il donne pour chaque centre le résultat qui serait celui d’une entreprise indépendante confrontée aux lois de la concurrence. C’est en général la limite supérieure, car il est très difficile de faire accepter au centre « acheteur » le handicap que représenterait l’obligation d’acheter plus cher à l’extérieur.<br />
 Le prix de marché, quand il existe, présente l’intérêt de s’imposer objectivement à tous, et donc d’éviter les âpres négociations qui tournent à l’affrontement. Il permet également de dynamiser les centres, en les soumettant aux forces concurrentielles du marché. Mais il peut avoir des effets pervers, en induisant des transferts internes de profit qui n’existent que sur le papier, certains centres « faisant du bénéfice » sur le dos des autres.<br />
 Ce prix de marché permet de mesurer la performance du centre acheteur et du centre vendeur.<br />
 </p>
 
 <p>
-Le coût marginal (en pratique, le coût variable unitaire), constitue, à l’inverse, une limite inférieure, dans la mesure où il sera difficile de demander au centre « vendeur » de travailler en cédant sa production en dessous de son coût marginal : plus son activité serait grande, plus sa perte comptable serait importante. Sur le plan théorique, le coût marginal neutralise les transferts de bénéfice évoqués plus haut : les seuls résultats comptables affichés sont les "vrais" résultats, ceux gagnés grâce aux contrats avec les clients externes. Il ne permet donc pas de mesurer la performance des différents centres.<br />
+<b>Le coût marginal</b> (en pratique, le coût variable unitaire), constitue, à l’inverse, une limite inférieure, dans la mesure où il sera difficile de demander au centre « vendeur » de travailler en cédant sa production en dessous de son coût marginal : plus son activité serait grande, plus sa perte comptable serait importante. Sur le plan théorique, le coût marginal neutralise les transferts de bénéfice évoqués plus haut : les seuls résultats comptables affichés sont les "vrais" résultats, ceux gagnés grâce aux contrats avec les clients externes. Il ne permet donc pas de mesurer la performance des différents centres.<br />
 Le problème avec le coût marginal, c’est qu’il faut le calculer (ce n’est pas une donnée constatée comme le prix de marché), et sa valeur va constituer un enjeu entre les centres vendeurs et acheteurs, dont les résultats dépendent de la valeur retenue. D’où de multiples affrontements en perspective lors des discussions de préparation du budget, quand il faudra se mettre d’accord sur le montant des coûts.<br />
 </p>
 
 <p>
 Entre ces deux valeurs extrêmes, il y a une infinité de coûts intermédiaires possibles : le coût complet, le coût complet + une marge forfaitaire, le prix de marché – une marge forfaitaire, un coût hors frais généraux et hors frais financiers, etc.<br />
-S’il est choisi d’utiliser un coût réel, celui-ci répercutera l’inefficience ou l’efficience du centre vendeur sur le centre acheteur. De plus, le coût réel varie et ne peut de ce fait aider à la prise de décision pour optimiser l’allocation de ressources.<br />
+S’il on choisit un coût réel, celui-ci répercutera l’inefficience ou l’efficience du centre vendeur sur le centre acheteur. De plus, le coût réel varie et ne peut de ce fait aider à la prise de décision pour optimiser l’allocation de ressources. Il faut donc éviter de baser le prix de cession interne sur un coût réel.<br />
 Le coût standard permet dans une certaine mesure d’évaluer la performance des différents centres. La difficulté vient de la possibilité de calculer et de se mettre d’accord sur le standard.<br />
-</p>
-
-<p>
 Les prix de cession interne seront souvent négociés entre ces deux limites (prix de marché et coût marginal). Le niveau de prix de cession interne reflète ainsi le rapport de force entre les différentes entités de l’organisation, chacune essayant d’obtenir un niveau de prix de cession interne lui permettant d’obtenir un bon niveau de résultat. Dans certains cas, les prix de cession interne sont utilisés pour faire apparaître telle ou telle usine comme déficitaire et ainsi justifier a posteriori une décision déjà prise (par exemple, de délocalisation).<br />
 </p>
 
@@ -2618,8 +3351,8 @@ Pour vous exercer sur cette section, voir le quiz d'entrainement : <a href="http
 </div>
 </div>
 </div>
-<div id="outline-container-org40f32af" class="outline-2">
-<h2 id="org40f32af"><span class="section-number-2">5</span> Conclusion : mesures de la performance, gestion par les résultats et contrôle de l'organisation</h2>
+<div id="outline-container-org1adee66" class="outline-2">
+<h2 id="org1adee66"><span class="section-number-2">5</span> Conclusion : mesures de la performance, gestion par les résultats et contrôle de l'organisation</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 Dans le cadre de ce cours, nous avons centré notre attention sur les modes de calcul des coûts et de prévisions adaptés aux différentes situations de prise de décisions rencontrées par les gestionnaires. Ces mesures sont des instruments utiles pour les gestionnaires. Elles aident le gestionnaire à fonder ses décisions sur des faits plutôt que sur des perceptions. D'ailleurs, ont dit souvent qu' "on ne gère bien que ce que l'on mesure" (<i>What gets measured gets and rewarded done</i><sup><a id="fnr.33" class="footref" href="#fn.33">33</a></sup>), en considérant que ce qui est mesuré compte vraiment et doit être récompensé.<br />
@@ -2629,15 +3362,15 @@ Dans le cadre de ce cours, nous avons centré notre attention sur les modes de c
 On a cependant vu que trouver la bonne mesure n'a rien d’évident. La mesure peut ainsi avoir des effets pervers lorsqu'elle est utilisée pour gérer par les résultats. Elle peut, certes, aider au contrôle de l'organisation, mais ce n'est pas l'unique dispositif à destination des gestionnaires<sup><a id="fnr.34" class="footref" href="#fn.34">34</a></sup>.<br />
 </p>
 </div>
-<div id="outline-container-org33dc73b" class="outline-3">
-<h3 id="org33dc73b"><span class="section-number-3">5.1</span> Les effets pervers de la gestion par les résultats</h3>
+<div id="outline-container-org9113747" class="outline-3">
+<h3 id="org9113747"><span class="section-number-3">5.1</span> Les effets pervers de la gestion par les résultats</h3>
 <div class="outline-text-3" id="text-5-1">
 <p>
 Mesurer la performance et gérer par les résultats c’est inciter les individus dans l’organisation à poursuivre un objectif cohérent avec celui de l’entreprise et les responsabiliser. Dans certains cas, ce mode de gestion peut cependant avoir des effets pervers. Ainsi, dès les années 1950, de nombreux auteurs, et notamment Argyris<sup><a id="fnr.35" class="footref" href="#fn.35">35</a></sup>, ont mis en évidence les effets psychologiques dévastateurs d’une « pression » des objectifs financiers sur les gestionnaires et les employés. Les individus ainsi contrôlés peuvent ainsi éprouver des sentiments de frustration, développer des pathologies psychosomatiques ou dépressives ou encore faire preuve d’agressivité dans leurs relations de travail. Outre leurs conséquences individuelles et humaines, ces phénomènes nuiraient à l’efficacité professionnelle des individus. Ce type de gestion peut aussi avoir des conséquences organisationnelles, en focalisant les acteurs sur leurs objectifs de manière parfois excessive et en les poussant à des manipulations et jeux comptables.<br />
 </p>
 </div>
-<div id="outline-container-orgbb3ef7d" class="outline-4">
-<h4 id="orgbb3ef7d"><span class="section-number-4">5.1.1</span> Focalisation sur les indicateurs et le déplacement des buts</h4>
+<div id="outline-container-orgc79349e" class="outline-4">
+<h4 id="orgc79349e"><span class="section-number-4">5.1.1</span> Focalisation sur les indicateurs et le déplacement des buts</h4>
 <div class="outline-text-4" id="text-5-1-1">
 <p>
 Les systèmes de contrôle, parce qu’ils visent à orienter le comportement des acteurs de l’organisation en les responsabilisant et en les motivant, ont une portée sur ces acteurs. En la matière, des effets non désirés peuvent se produire. D’abord, ceci peut conduire à donner une importance excessive aux éléments chiffrés et ainsi à donner une prépondérance aux éléments financiers, le plus souvent de court terme. Ensuite, introduire des mécanismes s’apparentant à ceux de la concurrence peut mettre à mal la nécessaire coopération qui doit exister dans une organisation. Enfin, promouvoir des objectifs et encourager leur réalisation pose des questions relatives aux mécanismes de motivation. En résumé, la gestion par les résultats peut pousser les individus dans l’organisation à se focaliser sur leurs objectifs particuliers sans prendre en compte la performance de l’organisation dans son ensemble : il y a un déplacement des objectifs des individus vers ce qui est pris en compte dans leur évaluation.<br />
@@ -2651,22 +3384,26 @@ Ainsi, faire du contrôle par les résultats, c’est valoriser ce qui est mesur
 De plus, s’il est possible d’évaluer la contribution à la performance financière d’un manager ayant de grosses responsabilités ou d’une entité, il semble très incertain d’évaluer cette contribution pour un salarié de plus bas niveau dans l’organisation. D’autres indicateurs de performance doivent alors être utilisés. La traduction des objectifs financiers en indicateurs opérationnels n’a cependant rien d’évident. Toute erreur en la matière peut conduire à un déplacement des objectifs ou à des comportements opportunistes. Une recherche menée dans une grande entreprise industrielle permet d’illustrer ce phénomène.<br />
 </p>
 
-<p class="verse">
-Les effets pervers du choix de mauvais indicateurs<sup><a id="fnr.36" class="footref" href="#fn.36">36</a></sup><br />
+<hr />
+<p>
+<b>Exemple - Les effets pervers d'un mauvais choix d'indicateurs<sup><a id="fnr.36" class="footref" href="#fn.36">36</a></sup>*</b><br />
 "Lors d’une étude, des chercheurs étudièrent de manière détaillée le processus d’achat de pièces détachées. Celui-ci donna l'apparence d'une gestion aberrante : pour deux pièces semblables, on relevait des écarts de prix d'achat allant du simple au double ; une même pièce pouvait être achetée chez deux fournisseurs avec des écarts de prix allant jusqu'à 30 % […].<br />
 L'analyse montra que les acheteurs se comportaient de manière extrêmement logique, l'explication de ces comportements surprenants se trouvant dans la manière dont ils étaient jugés. En effet, chaque année, des objectifs étaient attribués aux acheteurs, objectifs mesurés en termes de dérive des prix de la famille de pièces dont ils étaient responsables. Pour déterminer ces objectifs de prix, des modèles prévisionnels étaient utilisés pour anticiper les hausses à venir ; mais, dans le contexte économique perturbé de l'époque, il était impossible d'avoir des prévisions fiables. Malgré cela, tous les objectifs étaient respectés (au centième de pour cent près) par les acheteurs qui avaient même une inflation de leurs prix moindre que celle prévue par les modèles. Pour arriver à ce résultat étonnant sans provoquer des faillites en grand nombre chez les fournisseurs, les acheteurs procédaient en fait simplement. Comme les pièces nouvelles n'étaient pas prises en compte dans le calcul de l'indice des prix (opération techniquement difficile), les acheteurs acceptaient un prix de départ élevé pour les nouvelles pièces ; cela leur permettait de s'entendre sur une faible augmentation des pièces anciennes qui, elles, entraient dans le calcul de l'indice ; ce procédé permettait donc d'obtenir des dérives de prix plus faibles que celles calculées par les modèles de prévision ; il était aussi la cause des écarts de prix importants entre des pièces semblables, mais apparues au catalogue à des dates différentes ;<br />
 Pour chaque pièce, ils choisissaient deux ou plusieurs fournisseurs à des prix différents (jusqu'à 30 % d'écart) et modulaient la part de chacun en cours d'année de manière à atteindre exactement l'objectif visé.<br />
 On pourrait toutefois s'étonner qu'une telle situation se perpétue. Mais ceux qui connaissaient ces pratiques étaient les différents responsables des achats ; or les chefs de section, chefs de service, jusqu'au directeur lui-même, avaient des objectifs à respecter, qui étaient l'agrégation des objectifs de leurs subordonnés. Cela les dissuadait d'intervenir, car ils risquaient de détruire à leur détriment tout cet équilibre. De l'extérieur, ces pratiques étaient difficiles à percevoir, car la direction des achats était un ensemble opaque où 700 acheteurs géraient 40 000 références."<br />
 </p>
+<hr />
 
 <p>
 Le découpage en centres de responsabilité peut, de plus, produire des effets pervers. En effet, répartir les responsabilités, c’est demander à chacun dans l’organisation d’atteindre les objectifs qui lui sont fixés, au détriment, parfois, de l’entreprise dans son ensemble. On peut, par exemple, imaginer que le responsable des achats fasse des économies en choisissant des matières premières de moindre qualité : il améliorera ainsi ses coûts, mais risque alors d’engendrer une augmentation des rebuts lors de la fabrication, ce qui conduira le responsable du centre production à utiliser plus de matières premières pour réaliser sa production et détériorera donc la performance de ce dernier. Les exemples sur ce thème sont multiples dans les entreprises : on sait ainsi que mettre en place des centres de responsabilité c’est introduire de la concurrence dans l’organisation, ce qui incite les acteurs à être plus efficaces pour atteindre leurs objectifs, mais peut se faire au détriment de la coopération entre les différents services ou de la performance de l’entreprise dans son ensemble comme le montre l’exemple ci-dessous.<br />
 </p>
 
-<p class="verse">
-Quand les objectifs locaux sont atteints au détriment de la performance de l’entreprise<sup><a id="fnr.37" class="footref" href="#fn.37">37</a></sup><br />
+<hr />
+<p>
+<b>Exemple - Quand les objectifs locaux sont atteints au détriment de la performance de l’entreprise<sup><a id="fnr.37" class="footref" href="#fn.37">37</a></sup>*</b><br />
 Afin d’atteindre ses objectifs budgétaires trimestriels, le directeur d’une usine anglaise appartenant à un groupe international a livré des produits non finis dans un entrepôt aux Pays-Bas, proche du lieu de livraison final, afin d’y être assemblé. En livrant le produit non fini, l’opération permet de réaliser la vente plus tôt, avant la fin du trimestre, et ainsi de réaliser les objectifs budgétaires. Mais, le coût élevé d’assemblage des biens livrés à distance, qui a nécessité la location d’un entrepôt, mais aussi de la main d’œuvre, a réduit le bénéfice pour le groupe.<br />
 </p>
+<hr />
 
 <p>
 De manière générale, la gestion par les résultats pose donc un problème d’adéquation entre l’optimisation locale et l’optimisation globale. En outre, encourager les acteurs à atteindre leurs objectifs suppose de les motiver pour cela. Le management par les objectifs, parce qu’il vise à responsabiliser les individus et à les motiver, pose donc la question des facteurs de cette motivation. Parmi les théories de la motivation, celle de l’autodétermination identifie deux grands types de motivations : la motivation extrinsèque et la motivation intrinsèque<sup><a id="fnr.38" class="footref" href="#fn.38">38</a></sup>.<br />
@@ -2686,8 +3423,8 @@ Pourtant, une mobilisation excessive des facteurs de motivation extrinsèque peu
 </div>
 </div>
 
-<div id="outline-container-org92afee8" class="outline-4">
-<h4 id="org92afee8"><span class="section-number-4">5.1.2</span> Manipulations et jeux comptables</h4>
+<div id="outline-container-orgfad4d3d" class="outline-4">
+<h4 id="orgfad4d3d"><span class="section-number-4">5.1.2</span> Manipulations et jeux comptables</h4>
 <div class="outline-text-4" id="text-5-1-2">
 <p>
 Le recours aux indicateurs peut induire une tentation de manipulations comptables, soit a priori (<i>slack</i>). soit a posteriori (manipulation des données).<br />
@@ -2701,10 +3438,12 @@ Ainsi, la pression liée à la nécessité de réaliser des résultats peut cond
 Cette pression peut aller au-delà, et conduire les managers ou les contrôleurs à gérer leur résultat. Cette gestion du résultat peut se faire dans le cadre légal des options comptables acceptées ou allers au-delà du cadre légal.<br />
 </p>
 
-<p class="verse">
-Pression sur les résultats et jeu comptable <sup><a id="fnr.39" class="footref" href="#fn.39">39</a></sup><br />
+<hr />
+<p>
+<b>Exemple - Pression sur les résultats et jeu comptable <sup><a id="fnr.39" class="footref" href="#fn.39">39</a></sup>*</b><br />
 Vous vous retrouvez à avoir un super bon mois de décembre, où vous  avez gardé des réserves un petit peu partout – la règle c’est 60/40, c’est-à-dire que vous essayez toujours d’avoir 60% de chance d’atteindre votre résultat et que 40% de chance de ne pas l’atteindre, donc vous avez planqué des réserves un peu partout – il se trouve que vos ventes sont bonnes donc vous vous retrouvez avec plein de réserves. Alors là, ce que vous essayez en général de faire – et tous les contrôleurs de gestion vous diront la même chose – vous essayez de ne pas l’annoncer et de garder la cagnotte pour l’année suivante. Enfin disons que c’est quelque chose auquel vous vous pliez assez naturellement parce que pour vous aussi c’est plus facile de piloter et puis cela reste vague, quel est le résultat réel ?, quel est le résultat officiel ? (directeur du contrôleur de gestion, division d’une entreprise d’agroalimentaire)<br />
 </p>
+<hr />
 
 <p>
 Ainsi, une gestion forte par les résultats peut induire des jeux comptables. Au-delà de ces jeux, la mise en place d’un système de contrôle à un coût. En effet, la mobilisation d’un système de contrôle de gestion comporte un risque de bureaucratisation et engendre des coûts dont il faut tenir compte. Le coût relatif de la mise en place d’un système de contrôle et celui des inefficiences ou des gaspillages relatifs à la non-mise en place de ce système de contrôle doivent donc être comparés. En effet, mettre en place un système de contrôle induit un coût (développer et maintenir un système d’information, embaucher des contrôleurs de gestion, écrire et suivre des procédures, etc.) qui ne doit pas excéder l’utilité du système de contrôle (que l’on ne peut bien sûr pas évaluer simplement de manière chiffrée et monétaire). Lorsqu’aucune défaillance n’est acceptable, par exemple un lancement de fusées par Ariane Espace ou par la NASA ou la gestion d’une centrale nucléaire, il n’est pas possible de se satisfaire uniquement d’un contrôle par les résultats. Il faut alors contrôler par les procédures et s’assurer, par supervision directe, de la bonne réalisation des tâches.<br />
@@ -2814,22 +3553,28 @@ Tous les systèmes de contrôle et de mesure de la performance peuvent être uti
 Les outils de contrôle et de mesure de la performance peuvent donc être employés de manière diagnostique ou interactive. L'utilisation interactive des outils de contrôle va au-delà de la simple gestion par les résultats et peut faciliter des apprentissages organisationnels. Les entreprises performantes sont celles qui arrivent à articuler, en fonction de leur stratégie et des contraintes de leur environnement, les contrôles diagnostiques et interactifs afin de permettre le déploiement et l'émergence de stratégies et de compenser les effets pervers des systèmes de contrôle diagnostiques par une utilisation interactive d'autres outils de contrôle.<br />
 </p>
 
-<p class="verse">
-L'utilisation interactive du budget<sup><a id="fnr.42" class="footref" href="#fn.42">42</a></sup><br />
+<hr />
+<p>
+<b>Exemple - L'utilisation interactive du budget<sup><a id="fnr.42" class="footref" href="#fn.42">42</a></sup>*</b><br />
 Une entreprise a décidé de réformer son système budgétaire afin de remplacer un système considéré comme rigide, bureaucratique et peu utile. Les changements s'apparentent à une utilisation interactive du budget. Ils ont notamment porté sur trois points. D'abord, la discussion budgétaire a été réorganisée pour favoriser la discussion entre des managers de divers niveaux ou de diverses fonctions (ingénieurs, financiers, etc.). Ensuite, l'accent a été mis sur son articulation avec les plans d'action ce qui permet une réflexion en amont sur les objectifs : "Avant les plans d'action étaient des emplâtres sur des jambes de bois. Je m'explique : on faisait le budget et quand tout était bouclé, on regardait quels plans d'action nous pouvions mettre en œuvre. Forcément, l'exercice était impossible" (Un directeur d'usine). Enfin, le budget est maintenant glissant et doit donner lieu à de multiples reprévisions, ce qui est là encore une occasion de discussion comme le souligne le chef de projet : "c'est l'occasion une fois par trimestre de discuter : le chef doit dialoguer, débattre et discuter les prévisions (et les résultats) [&#x2026;] Le nombre de niveaux hiérarchiques impliqué est de 3 ou 4 à partir de la DG entreprise. Ça veut dire qu'on arrive au niveau du chef d'atelier. Ce sont les opérationnels qui font les prévisions (20% restent traitées en central grâce à une modélisation). [&#x2026;] Le système permet de mettre face à face des gens ayant des points de vue différents pour faire les prévisions. » (Chef de projet Spring). Sans être parfait, le système a ainsi eu dans un certain nombre de cas, une dimension bénéfique comme le souligne un manager : "Ce système me permet chaque mois de me poser des questions sur mon activité et ses résultats. Il me permet de me comparer aux autres usines du groupe (en Pologne par exemple) et d'appeler le responsable de cette usine pour échanger avec lui sur nos problèmes communs. C'est un outil d'investigation fort utile." (Manager). Il conduit, d'une part, les managers à intégrer les préoccupations économiques dans leur raisonnement et, d'autre part, oblige les financiers à prendre en compte les contraintes opérationnelles dans la réalisation de leurs prévisions.<br />
 </p>
+<hr />
 </div>
 </div>
 
-<div id="outline-container-la-diversité-des-modes-de-contrôle" class="outline-4">
-<h4 id="la-diversité-des-modes-de-contrôle"><span class="section-number-4">5.2.2</span> La diversité des modes de contrôle</h4>
-<div class="outline-text-4" id="text-la-diversité-des-modes-de-contrôle">
+<div id="outline-container-diversitecont" class="outline-4">
+<h4 id="diversitecont"><span class="section-number-4">5.2.2</span> La diversité des modes de contrôle</h4>
+<div class="outline-text-4" id="text-diversitecont">
 <p>
-Au-delà de la gestion par les résultats, divers modes de contrôle permettent de rendre prévisibles les comportements. Les travaux d'Etzioni<sup><a id="fnr.43" class="footref" href="#fn.43">43</a></sup> sont à cet égard intéressants. Il propose de différencier les organisations selon les liens qu'elles ont avec les individus qui les composent. Il distingue ainsi trois types d'organisations : les entreprises (et, plus largement, les bureaucraties) qu'il nomme "organisations instrumentales", les institutions totalitaires (comme les prisons, les asiles) qui sont appelées "organisations coercitives" et les organisations idéologiques (tels les partis politiques, les églises) qui sont regroupées sous le terme "d'institutions normatives".<br />
+Au-delà de la gestion par les résultats, divers modes de contrôle permettent de rendre prévisibles les comportements.<br />
 </p>
 
 <p>
-L'implication des membres de l'organisation est fondamentalement différente dans ces trois types d'organisations :<br />
+Ces modes de contrôle diffèrent selon le type d'organisation et les liens qu'elles ont avec les individus qui les composent<sup><a id="fnr.43" class="footref" href="#fn.43">43</a></sup>. Etzioni distingue ainsi trois types d'organisations : les entreprises (et, plus largement, les bureaucraties) qu'il nomme "organisations instrumentales", les institutions totalitaires (comme les prisons, les asiles) qui sont appelées "organisations coercitives" et les organisations idéologiques (tels les partis politiques, les églises) qui sont regroupées sous le terme "d'institutions normatives".<br />
+</p>
+
+<p>
+L'implication des membres de l'organisation est très différente dans ces trois types d'organisations :<br />
 </p>
 <ul class="org-ul">
 <li>Dans les organisations coercitives, les buts des individus sont opposés à ceux de l'organisation et le contrôle qui y est exercé est de type coercitif : il vise à soumettre physiquement les personnes à l'organisation ;<br /></li>
@@ -2838,7 +3583,7 @@ L'implication des membres de l'organisation est fondamentalement différente dan
 </ul>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 8 :</span> Les types d'organisation et les modes de contrôle selon Etzioni</caption>
+<caption class="t-above"><span class="table-number">Tableau 8 :</span> Types d'organisation et modes de contrôle</caption>
 
 <colgroup>
 <col  class="org-left" />
@@ -2898,12 +3643,12 @@ Cette typologie nous permet de comprendre que les modes de contrôle à utiliser
 </p>
 
 <p>
-Ouchi<sup><a id="fnr.44" class="footref" href="#fn.44">44</a></sup> propose une typologie des modes de contrôle plus directement applicable au cas des organisations classiques (entreprises et administrations). Il met en évidence trois modes de contrôle auxquels les organisations ont recours pour résoudre le problème de la divergence d'intérêts :<br />
+Ouchi<sup><a id="fnr.44" class="footref" href="#fn.44">44</a></sup> propose une typologie des modes de contrôle plus directement applicable au cas des organisations classiques. Il met en évidence trois modes de contrôle auxquels les organisations ont recours pour résoudre le problème de la divergence d'intérêts :<br />
 </p>
 <ul class="org-ul">
-<li>Le contrôle par les résultats ou contrôle des <i>outputs</i> qui consiste à rendre les acteurs responsables et "comptables" de leurs résultats et implique de définir des objectifs et de savoir les mesurer par des données comptables ou non-comptables.<br /></li>
-<li>Le contrôle par la bureaucratie qui porte sur les actions et les comportements des individus dans les organisations et a pour objectif de s'assurer que les individus réalisent des actions (des tâches) qui sont souhaitées par l'organisation, qu'ils œuvrent dans le sens prévu par l'organisation. Ce contrôle peut recourir à des contraintes physiques et administratives, mobiliser des procédures et/ou utiliser la supervision directe par la hiérarchie. Seront récompensés les individus qui agissent conformément aux règles. Ce type de contrôles nécessite que soient définies par une hiérarchie les règles à suivre et que l'on s'assure de leur bonne mise en œuvre. En outre, pour les entreprises dont l'environnement est extrêmement mouvant, ce contrôle est peu adapté puisque sa mise en œuvre nécessiterait de faire évoluer les règles fréquemment, au moins au rythme du changement de l'environnement. Néanmoins, le contrôle de type bureaucratique est très présent dans les organisations publiques, mais aussi largement mis en œuvre dans les grandes entreprises. À cet égard, les normes ISO (<i>International Organization for Standardization</i>), le contrôle interne ou encore l'audit introduisent et normalisent une forme de contrôle bureaucratique. Les contrôles de type bureaucratique peuvent servir de <i>système garde-fou</i> et permettre de délimiter ce qu'il est possible de faire et ce qui est interdit. Plutôt que de dire ce qu'il faut faire, ils permettent de laisser de la liberté en ne disant que ce qu'il ne faut pas faire. On peut les retrouver dans les chartes d'entreprise ou dans les codes éthiques, mais aussi dans les discours stratégiques.<br /></li>
-<li>Le contrôle par le clan, les qualifications et la culture met l'accent sur l'importance de la confiance dans le personnel pour réaliser ce qui est le mieux pour l'organisation. On considère ici que contrôler c'est former les identités, les émotions, les attitudes et les croyances : gagner les cœurs et les esprits. L'attention est alors portée sur ces éléments immatériels (pensées, croyances, émotions&#x2026;). Diverses tactiques permettent de mettre en œuvre ce type de contrôle : contrôle par le clan ou par les pairs (dans la mafia personne ne déroge au code de l'honneur, car chacun est sous la surveillance de ses pairs) ; contrôle par la standardisation des qualifications (embauche de personnes qui ont <i>a priori</i> les compétences pour assumer la mission qui leur est confiée du fait de leur formation initiale ou continue, c'est le cas par exemple des médecins, des ingénieurs, ou des comptables, mais aussi des gestionnaires dans certaines organisations pour lesquels une "certification" atteste de la conformité des valeurs et des comportements) ; contrôle par la culture, le sens de l'appartenance ou la socialisation qui peuvent permettre une forme d'endoctrinement aux valeurs et objectifs de l'organisation ; ou maîtrise des conditions affectives par les facteurs de satisfaction. Le contrôle repose alors sur des systèmes de croyances et s'appuie sur les valeurs fondamentales des membres de l'organisation. Ces valeurs définissent les principes, les objectifs et les responsabilités vis-à-vis des clients, des employés et des diverses parties prenantes. Ils s'inscrivent souvent dans la personnalité des fondateurs, mais lorsque l'entreprise croît il devient nécessaire de les communiquer de manière plus formelle. On peut les retrouver dans les "<i>credo</i>" ou "missions" communiquées par la direction.<br /></li>
+<li>Le <b>contrôle par les résultats</b> ou contrôle des <i>outputs</i> qui consiste à rendre les acteurs responsables et "comptables" de leurs résultats et implique de définir des objectifs et de savoir les mesurer par des données comptables ou non-comptables.<br /></li>
+<li>Le <b>contrôle par la bureaucratie</b> qui porte sur les actions et les comportements des individus dans les organisations et a pour objectif de s'assurer que les individus réalisent des actions (des tâches) qui sont souhaitées par l'organisation, qu'ils œuvrent dans le sens prévu par l'organisation. Ce contrôle peut recourir à des contraintes physiques et administratives, mobiliser des procédures et/ou utiliser la supervision directe par la hiérarchie. Seront récompensés les individus qui agissent conformément aux règles. Ce type de contrôles nécessite que soient définies par une hiérarchie les règles à suivre et que l'on s'assure de leur bonne mise en œuvre. En outre, pour les entreprises dont l'environnement est extrêmement mouvant, ce contrôle est peu adapté puisque sa mise en œuvre nécessiterait de faire évoluer les règles fréquemment, au moins au rythme du changement de l'environnement. Néanmoins, le contrôle de type bureaucratique est très présent dans les organisations publiques, mais aussi largement mis en œuvre dans les grandes entreprises. À cet égard, les normes ISO (<i>International Organization for Standardization</i>), le contrôle interne ou encore l'audit introduisent et normalisent une forme de contrôle bureaucratique. Les contrôles de type bureaucratique peuvent servir de <i>système garde-fou</i> et permettre de délimiter ce qu'il est possible de faire et ce qui est interdit. Plutôt que de dire ce qu'il faut faire, ils permettent de laisser de la liberté en ne disant que ce qu'il ne faut pas faire. On peut les retrouver dans les chartes d'entreprise ou dans les codes éthiques, mais aussi dans les discours stratégiques.<br /></li>
+<li>Le <b>contrôle par le clan</b>, les qualifications et la culture met l'accent sur l'importance de la confiance dans le personnel pour réaliser ce qui est le mieux pour l'organisation. On considère ici que contrôler c'est former les identités, les émotions, les pensées, les attitudes et les croyances : gagner les cœurs et les esprits. L'attention est alors portée sur ces éléments immatériels. Diverses tactiques permettent de mettre en œuvre ce type de contrôle : contrôle par le clan ou par les pairs (dans la mafia personne ne déroge au code de l'honneur, car chacun est sous la surveillance de ses pairs) ; contrôle par la standardisation des qualifications (embauche de personnes qui ont <i>a priori</i> les compétences pour assumer la mission qui leur est confiée du fait de leur formation initiale ou continue, c'est le cas par exemple des médecins, des ingénieurs, ou des comptables, mais aussi des gestionnaires dans certaines organisations pour lesquels une "certification" atteste de la conformité des valeurs et des comportements) ; contrôle par la culture, le sens de l'appartenance ou la socialisation qui peuvent permettre une forme d'endoctrinement aux valeurs et objectifs de l'organisation ; ou maîtrise des conditions affectives par les facteurs de satisfaction. Le contrôle repose alors sur des systèmes de croyances et s'appuie sur les valeurs fondamentales des membres de l'organisation. Ces valeurs définissent les principes, les objectifs et les responsabilités vis-à-vis des clients, des employés et des diverses parties prenantes. Ils s'inscrivent souvent dans la personnalité des fondateurs, mais lorsque l'entreprise croît il devient nécessaire de les communiquer de manière plus formelle. On peut les retrouver dans les "<i>credo</i>" ou "missions" communiquées par la direction.<br /></li>
 </ul>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Tableau 9 :</span> Contrôle par la bureaucratie, par le marché et par le clan</caption>
@@ -2947,13 +3692,15 @@ Ouchi<sup><a id="fnr.44" class="footref" href="#fn.44">44</a></sup> propose une 
 Ces différents modes de contrôle peuvent être mobilisés simultanément ou de façon séparée. Ils seront plus ou moins efficaces selon le contexte dans lequel ils prennent place<sup><a id="fnr.45" class="footref" href="#fn.45">45</a></sup>. Le contrôle par les résultats n'est pas toujours le mode de contrôle le plus efficace et dans certains environnements d'autres types de contrôle sont envisageables et même souhaitables.<br />
 </p>
 
-<p class="verse">
+<blockquote>
+<p>
 Dans certains secteurs d’activité, la conformité à des normes de résultats peut être contre-productive et l’on peut davantage vouloir utiliser l’intuition, la créativité, l’ingéniosité des salariés pour trouver des solutions originales ou des processus inédits. On peut penser alors que la stratégie et la fixation d’objectifs se satisfont d’une navigation dans l’ambigu et que l’organisation doit favoriser cette ambiguïté pour permettre l’émergence de pratiques nouvelles. Les métiers créatifs sont évidemment les premiers concernés : des objectifs de résultats trop stricts peuvent aller à l’encontre de toute tentative d’innovation.<br />
 Différents critères doivent donc présider au choix des modes de contrôle à mettre en œuvre et notamment le niveau désiré d’innovation : un opérateur fortement encadré par des procédures et directement contrôlé par sa hiérarchie aura peu de capacité d’innovation. En indiquant aux agents ce qu’ils doivent faire et en s’assurant qu’ils le font, on limite leur capacité d’action et d’innovation. Éviter l’innovation permet souvent d’améliorer l’efficience, mais aussi de s’assurer de la qualité du produit ou du service et de la vitesse d’exécution des opérations. C’est pourquoi on laissera peu de capacité d’innovation à un employé de la restauration rapide ou à un ouvrier à la chaîne. On fait alors l’hypothèse que la hiérarchie a une meilleure connaissance de la bonne façon d’agir que les subordonnés. Pourtant, dans des environnements incertains ou en évolution constante, il faut savoir laisser une certaine capacité d’innovation et d’expérimentation aux subordonnés. Dans ce cas, il est préférable de favoriser un contrôle par les résultats à un contrôle des procédures en laissant les subordonnés libres d’envisager des manières de faire ou des produits qui n’avaient pas été pensés par la direction. Ils peuvent ainsi s’adapter à leurs marchés et à leurs clients. Des objectifs difficiles peuvent cependant rendre impossible toute recherche d’autres solutions et par la même toute innovation.<br />
 </p>
+</blockquote>
 
 <p>
-Parce qu'ils tentent de mettre sous pression les individus dans les organisations, les systèmes de contrôle interactifs et diagnostiques peuvent de plus conduire à des comportements déviants (manipulations comptables, fraudes, concurrence interne entre les responsables, etc.). Pour limiter ces risques, des contrôles administratifs ou culturels peuvent être mis en place. En résumé, quatre leviers de contrôle peuvent être utilisés dans les organisations. Ils permettent chacun de gérer une variable clé (les facteurs clés de succès, les facteurs stratégiques de risque, les valeurs ou les risques à éviter). Chacun de ces leviers de contrôle a des objectifs différents et permet de contrôler un élément particulier de la stratégie<sup><a id="fnr.46" class="footref" href="#fn.46">46</a></sup>.<br />
+Parce qu'ils tentent de mettre sous pression les individus dans les organisations, les systèmes de contrôle interactifs et diagnostiques peuvent de plus conduire à des comportements déviants (manipulations comptables, fraudes, concurrence interne entre les responsables, etc.). Pour limiter ces risques, des contrôles administratifs ou culturels peuvent être mis en place. En résumé, quatre leviers de contrôle peuvent être utilisés dans les organisations. Ils permettent chacun de gérer une variable clé (les facteurs clés de succès, les facteurs stratégiques de risque, les valeurs ou les risques à éviter). Chacun de ces leviers de contrôle a des objectifs différents et permet de contrôler un élément particulier de la stratégie.<br />
 </p>
 
 <p>
@@ -2969,7 +3716,7 @@ Cela nécessite d'avoir une bonne compréhension des différents outils qui peuv
 </p>
 
 <p>
-La comptabilité est un langage prédominant du domaine des affaires. Elle donne un grand pouvoir à ceux qui la maîtrisent. Cependant, il ne faut pas forcément chercher à tout mesurer. Les effets pervers potentiels sont nombreux. De plus, la production de données comptables à un coût. On retiendra que le coût d’un calcul (de coût ou d'une mesure de performance) doit être inférieur à son utilité.<br />
+La comptabilité est un langage prédominant du domaine des affaires. Elle donne un grand pouvoir à ceux qui la maîtrisent. Elle permet d'améliorer la prise de décision et de faciliter le contrôle. Cependant, il ne faut pas forcément chercher à tout mesurer. Les effets pervers potentiels sont nombreux. De plus, la production de données comptables à un coût: le coût d’un calcul (de coût ou d'une mesure de performance) doit rester inférieur à son utilité.<br />
 </p>
 </div>
 </div>
@@ -2988,7 +3735,7 @@ Simon, H. A., Kozmetsky, G., Tyndall, G., &amp; Simon, H. A. (1954). Centralizat
 </p></div></div>
 
 <div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
-J. Maurice Clark/, Studies in the Economics of Overhead Costs/ (University of Chicago Press, 1923), p. 175. Cité par H. Thomas Johnson et Robert S. Kaplan, dans <i>Relevance lost, the Rise and Fall of Management Accounting,</i> Harvard Business School Press, p. 155.<br />
+J. Maurice Clark, Studies in the Economics of Overhead Costs (University of Chicago Press, 1923), p. 175. Cité par H. Thomas Johnson et Robert S. Kaplan, dans <i>Relevance lost, the Rise and Fall of Management Accounting,</i> Harvard Business School Press, p. 155.<br />
 </p></div></div>
 
 <div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> <div class="footpara"><p class="footpara">
@@ -3092,7 +3839,7 @@ Bouquin, H (2010), Le contrôle de gestion, PUF, 8ᵉ édition.<br />
 </p></div></div>
 
 <div class="footdef"><sup><a id="fn.29" class="footnum" href="#fnr.29">29</a></sup> <div class="footpara"><p class="footpara">
-Le bénéfice résiduel a été utilisé par la General Electric dès les années 1950. Au cours des années 1990, Stern et Steward ont développé l'<b>Economic Value Added</b> (EVA) qui est une forme modernisée de bénéfice résiduel et qui a connu un certain succès dans les entreprises.<br />
+Le bénéfice résiduel a été utilisé par la General Electric dès les années 1950. Au cours des années 1990, Stern et Steward ont développé l'Economic Value Added (EVA), qui est une forme modernisée de bénéfice résiduel et qui a connu un certain succès dans les entreprises.<br />
 </p></div></div>
 
 <div class="footdef"><sup><a id="fn.30" class="footnum" href="#fnr.30">30</a></sup> <div class="footpara"><p class="footpara">
@@ -3112,7 +3859,7 @@ Anthony, R. N., Govindarajan, V., Hartmann, F. G. H., Kraus, K., &amp; Nilson, G
 </p></div></div>
 
 <div class="footdef"><sup><a id="fn.34" class="footnum" href="#fnr.34">34</a></sup> <div class="footpara"><p class="footpara">
-Cette section reprend en partie Sponem, S., &amp; Chatelain-Ponroy, S. (2019). Les comportements face au contrôle. In N. Berland &amp; Y. De Rongé (Éds.), Contrôle de gestion : Perspectives stratégiques et managériales (4 éd., p. 73‑94). Person France.<br />
+Cette section reprend en partie Sponem, S., &amp; Chatelain-Ponroy, S. (2019). Les comportements face au contrôle. In N. Berland &amp; Y. De Rongé (Éds.), Contrôle de gestion : Perspectives stratégiques et managériales (4 éd., p. 73‑94). Pearson.<br />
 </p></div></div>
 
 <div class="footdef"><sup><a id="fn.35" class="footnum" href="#fnr.35">35</a></sup> <div class="footpara"><p class="footpara">
@@ -3159,17 +3906,13 @@ Adapté de Ouchi, W. (1979), "A conceptual framework for the design of organizat
 Merchant, K. A., &amp; Van der Stede, W. A. (2017). Management control systems : Performance measurement, evaluation and incentives.<br />
 </p></div></div>
 
-<div class="footdef"><sup><a id="fn.46" class="footnum" href="#fnr.46">46</a></sup> <div class="footpara"><p class="footpara">
-Simons, R. (2000), Performance measurement and control systems for implementing strategy - Text and cases, Prentice Hall.<br />
-</p></div></div>
-
 
 </div>
 </div></div>
 <div id="postamble" class="status">
-<p class="date">Date: Mise à jour 2020-09-26</p>
+<p class="date">Date: Mise à jour 2020-09-30</p>
 <p class="author">Auteur: Samuel Sponem - HEC Montréal</p>
-<p class="date">Created: 2020-09-26 Sat 17:50</p>
+<p class="date">Created: 2020-09-30 Wed 14:50</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
