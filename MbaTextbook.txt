@@ -2,11 +2,10 @@
 #+subtitle: Mini-manuel - COMP50900
 #+Author:Samuel Sponem - HEC Montréal
 #+Date:Mise à jour {{{time(%Y-%m-%d)}}}
-#+LANGUAGE: fr
-#+LATEX_CLASS: kaobook
-#+OPTIONS: toc:1
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
-
+#+language: fr
+#+latex_class: kaobook
+#+setupfile: ./styles/theme-readtheorg-local.setup
+#+export_file_name: index.html
 
 @@latex:\mainmatter@@
 @@latex:\pagelayout{margin}@@
@@ -18,6 +17,10 @@
 /Ce mini-manuel complète les diapositives du cours COMP50900 pour les séances 8 à 12. Idéalement, la section correspondant au cours doit être lue préalablement au cours./
 
 Vous trouverez dans ce mini-manuel des liens vers des vidéos[fn:1], des exercices et des liens vers des quiz qui vous permettent de vérifier votre compréhension. Pour compléter votre apprentissage, des exercices sont aussi disponibles sur ZoneCours.
+
+/Vous pouvez trouver la version la plus récente de ce document en ligne/
+- html : https://samspo.github.io/COMP50900
+- pdf : https://samspo.github.io/COMP50900/Manuel.pdf
 #+end_kaobox
 
 Les états financiers donnent aux parties prenantes externes une image comptable et financière de l'entreprise. L'état des résultats représente la performance de l'organisation sur une année et l'état de la situation financière donne une image du patrimoine à la fin de l'exercice comptable.
@@ -29,7 +32,7 @@ C'est le rôle de la comptabilité de gestion a pour objectif d'organiser et d'a
 #+caption: Comptabilité financière et comptabilité de gestion
 #+name: comptafi
 #+attr_latex: :placement [H] :center nil
-[[./img/comptafi.pdf]]
+[[./img/comptafi.png]]
 
 Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en interne – des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"[fn:2].
 
@@ -43,7 +46,7 @@ Le comptable est généralement responsable de la production de l'information co
 #+caption: Utiliser la comptabilité de gestion pour planifier, contrôler et ajuster
 #+name: pdca
 #+attr_latex: :placement [H] :center nil
-[[./img/pdca.pdf]]
+[[./img/pdca.png]]
 
 Pour planifier, il est nécessaire de calculer et analyser les coûts permettant de faire les choix pertinents qui se matérialisent dans les plans stratégiques et de connaître les coûts à inscrire dans les budgets. Le contrôle budgétaire et les tableaux de bord permettent de suivre les réalisations. Grâce aux mesures de performance, il est possible d'analyser les résultats et de faire les ajustements nécessaires au bon fonctionnement de l'organisation.
 
@@ -66,8 +69,8 @@ Ce document présente les pratiques communément acceptées en comptabilité de 
 - d'utiliser l’information produite par le comptable et d'exercer un regard critique sur les outils et procédures qu’il utilise ;
 - de maîtriser les techniques de base de calcul des coûts, de construction des budgets ;
 - de comprendre les enjeux de la mesure de la performance.
-*Pour chaque section, vous pouvez faire les exercices disponibles sur ZoneCours et vérifier vos connaissances à l'aide de quiz d’entrainement disponibles à l'adresse suivante : https://www.wooclap.com/COMP50900 
-Ces quiz sont optionnels et non évalués. Les quiz obligatoires sont disponibles sur ZoneCours.*
+*Pour chaque section, vous pouvez faire les exercices disponibles sur ZoneCours et vérifier vos connaissances à l'aide de quiz d’entrainement disponibles à l'adresse suivante : https://www.wooclap.com/COMP50900*
+Ces quiz sont optionnels et non évalués. Les quiz obligatoires sont disponibles sur ZoneCours.
 #+end_kaobox
 
 * Comportement des coûts, calcul des coûts et prise de décision sur le court terme
@@ -211,7 +214,7 @@ On peut aussi dire que le seuil de rentabilité est atteint lorsque la marge sur
 Ceci peut se représenter graphiquement de la manière suivante :
 #+caption: Coût fixe, marge sur coûts variable et seuil de rentabilité
 #+attr_latex: :placement [H] :center nil :font \footnotesize
-[[./img/srmcvcf.pdf]]
+[[./img/srmcvcf.png]]
 
 Le seuil de rentabilité se calcule en quantités ou en chiffre d'affaires de la manière suivante :
 #+begin_center
@@ -359,6 +362,9 @@ Les charges indirectes sont les charges que l'on ne peut affecter sans ambiguït
     :END:
 
 Une fois qu'un objet de coût est défini, on peut synthétiser le calcul du coût complet en 4 étapes :
+#+caption: Étapes de calcul du coût complet
+#+attr_latex: :placement [H] :center nil
+[[./img/cc.png]]
 
 - Étape 1. Classement des charges en charges directes et indirectes
 L'ensemble des charges de la comptabilité financière doit être pris en compte à l'exception des charges qui ne reflètent pas les conditions normales d'une exploitation régulière de l'entreprise (par exemple, les charges ou pertes exceptionnelles). Le total des charges incorporables est classé en charges directes (affectables sans ambiguïté à un produit) et charges indirectes.
@@ -372,7 +378,7 @@ Les coûts du centre sont dits homogènes s'ils forment un ensemble stable et so
 
 Quelques principes doivent être pris en compte lors de la définition des centres : 1/ la liste des centres doit être exhaustive ; 2/ les centres doivent s'exclure mutuellement ; 3/ Il doit être possible d'attribuer à chaque centre de regroupement ses charges. On remarquera que plus le nombre de centres est élevé, plus le coût de saisie et de traitement est élevé, mais plus les centres ont des chances de présenter une activité homogène mesurable.
 
-- Étape 3. Regroupement en fonction des bases d’imputation et calcul des taux d’imputation
+- Étape 3. Calcul des taux d’imputation
 
 Lorsque les centres de regroupement sont déterminés, on cherche à répartir le coût des centres dans les produits. Pour pouvoir le faire, il est nécessaire de calculer un taux d'imputation, ce qui nécessite de déterminer pour chaque centre une base d'imputation. 
 
@@ -383,7 +389,6 @@ Le choix de la base d'imputation est déterminant, car les bases d'imputation pe
 Le taux d'imputation est obtenu en divisant les totaux issus de la répartition secondaire par le volume de la base d'imputation.
 
 Les étapes 2 et 3 doivent être menées en réalisant un tableau de répartition des charges indirectes. Le tableau de répartition des charges indirectes se présente de la manière suivante :
-@@latex:\clearpage@@
 #+caption: Tableau de répartition des charges indirectes
 #+attr_latex: :font \footnotesize :align p{3cm} p{5cm} cp{1cm} cp{1cm}
 | Charges indirectes                          | Centre de regroupement 1                                                                                                                                 | Centre 2  | Centre 3 |
@@ -394,7 +399,9 @@ Les étapes 2 et 3 doivent être menées en réalisant un tableau de répartitio
 | Base d'imputation en volume                 | Calcul du volume de la base d'imputation. Par exemple, si on choisit les heures machines, on calcule le total des heures machines pour tous les produits | (2)       |          |
 | Taux d'imputation                           | Le taux d'imputation est obtenu en divisant les ressources consommées par la base d'imputation                                                           | (1) ÷ (2) |          |
 
-Le tableau comprend autant de colonnes que le nombre de centres de regroupement.  Pour simplifier, il est possible de regrouper les centres ayant des bases d'imputation identiques, avant de calculer les taux d'imputation.
+Le tableau comprend autant de colonnes que le nombre de centres de regroupement.
+
+*Pour simplifier, il est possible de regrouper les centres ayant des bases d'imputation identiques, avant de calculer les taux d'imputation.*
 
 #+begin_kaowarn
 Le tableau de répartition des charges indirectes est une étape *indispensable* du calcul du coût complet. Dans les situations simples, on peut être tenté de se passer de cette étape en affectant directement les charges indirectes, sans passer par cette étape intermédiaire.
@@ -570,7 +577,7 @@ La méthode de calcul des coûts par activité s'appuie sur la chaîne de valeur
 
 #+caption: La chaîne de valeur (Porter, 1985)
 #+attr_latex: :placement [H] :center nil
-[[./img/chaine.pdf]]
+[[./img/chaine.png]]
 
 La mise en oeuvre des calculs du coût par activité n'est pas fondamentalement différente de la méthode classique des calculs de coût complet examinée plus haut. Elle repose cependant, une logique différente, un vocabulaire spécifique (activités à la place de centres de regroupement, inducteurs à la place de base d'imputation) et une représentation processuelle de l’entreprise plutôt que hiérarchique.
 
@@ -578,7 +585,7 @@ Dans la méthode des coûts par activités, on considère que les produits décl
 
 #+caption: Calcul des coûts complets - Méthode traditionnelle vs coût par activité
 #+attr_latex: :placement [H] :center nil
-[[./img/abc.pdf]]
+[[./img/abc.png]]
 
 Pour pouvoir calculer un coût, il faut donc mettre en évidence :
 - les activités, que l'on peut définir comme un ensemble de travaux, tâches ou opérations à accomplir pour mener à bien le processus ;
@@ -686,7 +693,7 @@ Dans une économie de l'offre (par exemple, aujourd'hui dans quelques entreprise
 
 #+caption: Les étapes du processus budgétaire
 #+attr_latex: :placement [H] :center nil :width 1.2\textwidth
-[[./img/budget.pdf]]
+[[./img/budget.png]]
 
 Le schéma ci-dessus synthétise les différentes étapes du processus budgétaire dans le cas classique d'abondance de l'offre. Le premier budget qui doit être réalisé est le budget des ventes (étape 1), qui dépend notamment de la stratégie et du plan (étape 0), mais qui doit être ajusté en fonction des évolutions récentes du marché.
 
@@ -945,7 +952,7 @@ Dans les faits, lors de la construction du budget se suivent des étapes /top-do
 
 #+caption: Un exemple de calendrier budgétaire
 #+attr_latex: :placement [H] :center nil
-[[./img/budgetcal.pdf]]
+[[./img/budgetcal.png]]
 
 ** Le budget : des rôles divers
    :PROPERTIES:
@@ -1002,7 +1009,7 @@ Une bonne image de ce mécanisme cybernétique est donnée par l’exemple du th
 
 #+caption: La gestion par les résultats : un processus cybernétique
 #+attr_latex: :placement [H] :center nil
-[[./img/gestionobj.pdf]]
+[[./img/gestionobj.png]]
 La gestion par les résultats repose, dans un premier temps, sur la fixation d’une norme chiffrée (étape 1). La définition de cette norme n’a bien sûr rien d’évident. Elle peut s’appuyer sur une prévision (effectuée dans le cadre du processus budgétaire, par exemple) ou traduire un objectif volontariste de la direction (infléchissement de tendance). Parfois, la définition de cette norme est réalisée en se comparant aux concurrents (analyse comparative) ou en faisant participer ceux qui sont contrôlés afin d’améliorer la prévision qui est faite (puisqu’on suppose que la personne contrôlée connaît souvent mieux l’activité et son évolution que la personne qui la contrôle) et son appropriation par la personne qui est chargée de la mise en œuvre. On parle alors de direction participative par objectifs. Cette participation à la définition des objectifs pose cependant un problème : lors de la discussion de ses objectifs, la personne contrôlée a intérêt à minimiser la difficulté des objectifs qui lui sont assignés afin de s’assurer qu’elle pourra les atteindre. Dans le cadre du processus budgétaire, ce phénomène est qualifié de /slack/ budgétaire.
 
 Dans un deuxième temps (étape 2), la personne contrôlée est laissée libre d’organiser la transformation des ressources en produits ou la réalisation de ses activités de la manière la plus efficace et la plus efficiente. 
@@ -1056,7 +1063,7 @@ Dans les organisations, ces divers types de centres de responsabilité s’embo�
 
 #+caption: Les types de centres de responsabilité
 #+attr_latex: :placement [H] :center nil
-[[./img/centres.pdf]]
+[[./img/centres.png]]
 Le découpage de l’organisation en centres de responsabilité qui en découle permet de clarifier l’organisation, d’amoindrir sa complexité, d’attribuer des responsabilités à chacun et donc de décentraliser.
 
 La décentralisation est le processus par lequel la prise de décision est déléguée aux responsables des unités d'affaires.
@@ -1171,7 +1178,7 @@ La pyramide du ROI permet d'expliquer la formation du retour sur investissement 
 
 #+caption: La pyramide du ROI
 #+attr_latex: :placement [H] :center nil
-[[./img/roi.pdf]]
+[[./img/roi.png]]
 
 Deux entreprises peuvent ainsi avoir un même ROI, mais en l'obtenant de manière très différente. Par exemple, les activités de luxe ou de construction exigent de forts investissements (faible rotation des actifs), mais permettent de forts taux de marge. Inversement, les activités de distribution vont avoir un fort taux de rotation des actifs (puisqu'elles payent leurs fournisseurs avec d'importants délais alors que leurs clients payent au comptant) et un taux de marge peu élevé.
 -----
@@ -1200,7 +1207,7 @@ La décomposition de la pyramide peut être poursuivie pour faire apparaître un
 
 #+caption: La décomposition du ROI
 #+attr_latex: :placement [H] :center nil
-[[./img/roidetail.pdf]]
+[[./img/roidetail.png]]
 
 En résumé, le ROI synthétise "la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"[fn:30]. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.
 
@@ -1327,7 +1334,7 @@ Un centre de responsabilité peut recevoir tout ou partie de son approvisionneme
 
 #+caption: Les prix de cession interne
 #+attr_latex: :placement [H] :center nil
-[[./img/pci.pdf]]
+[[./img/pci.png]]
 Ces prix sont fictifs, car ils ne correspondent pas à un échange sur un marché ni à une transaction enregistrée en comptabilité financière.
 
 On parle parfois de *prix de transfert*, notamment lorsque les cessions sont réalisées entre des entités juridiques distinctes appartenant à un même groupe[fn:32].
@@ -1336,7 +1343,7 @@ La détermination du profit au niveau de chaque centre suppose une valorisation 
 
 #+caption: Les prix de cession interne
 #+attr_latex: :placement [H] :center nil
-[[./img/pciresult.pdf]]
+[[./img/pciresult.png]]
 
 On voit ici que (tant qu’il n’influence pas les décisions d’achat des centres), le niveau du prix de cession interne n’a pas d’incidence sur le résultat total de l’entreprise puisqu’il constitue à la fois un produit et une charge[fn:33].
 
@@ -1477,7 +1484,7 @@ La figure ci-dessous permet de représenter graphiquement ces quatre étapes.
 
 #+caption: Le contrôle interactif
 #+attr_latex: :placement [H] :center nil
-[[./img/inter.pdf]]
+[[./img/inter.png]]
 
 Tous les systèmes de contrôle et de mesure de la performance peuvent être utilisés de manière interactive : les budgets, les tableaux de bord, les indicateurs marketing, les outils de contrôle de gestion des projets, les indicateurs sur les ressources humaines, etc. Ce n'est donc pas l'outil en tant que tel qui compte pour comprendre l'impact du contrôle sur la stratégie, mais la manière de l'utiliser. En revanche, il ne peut y avoir trop de systèmes de contrôle et de mesure de la performance utilisés simultanément de manière interactive. En effet, ce type de contrôle a un coût économique et cognitif (les individus ne peuvent prêter attention à tout, ils ont une rationalité et une attention limitée). Se concentrer sur trop de systèmes de contrôle en même temps risque de conduire à un surplus d'informations, des analyses superficielles et une paralysie.
 
@@ -1550,7 +1557,7 @@ Parce qu'ils tentent de mettre sous pression les individus dans les organisation
 
 #+caption: Les divers leviers de contrôle
 #+attr_latex: :placement [H] :center nil
-[[./img/levers.pdf]]
+[[./img/levers.png]]
 
 Chacun de ces leviers de contrôle a des objectifs différents et permet de contrôler un élément particulier de la stratégie. Les entreprises performantes sont celles qui arrivent à articuler, en fonction de leur stratégie et des contraintes de leur environnement, les divers leviers de contrôle afin de compenser les effets pervers des uns et des autres.
 
