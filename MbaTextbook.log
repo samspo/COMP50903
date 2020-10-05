@@ -1,0 +1,4879 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.2)  5 OCT 2020 01:21
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**MbaTextbook.tex
+(./MbaTextbook.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-24>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kaobook/kaobook.cls
+Document Class: kaobook 2020/03/12 v1.1 kaobook
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count168
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2020/09/21 v3.32 KOMA-Script document class (book)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile-patcholdlate
+x.sty
+Package: scrlfile-patcholdlatex 2020/09/21 v3.32 KOMA-Script package (patching 
+old LaTeX kernels)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-09-24 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count169
+\l__pdf_internal_box=\box45
+))
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex
+\l__xparse_current_arg_int=\count170
+\g__xparse_grabber_int=\count171
+\l__xparse_m_args_int=\count172
+\l__xparse_v_nesting_int=\count173
+))))) (/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2020/09/21 v3.32 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box46
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 137.
+Class scrbook Info: You've used standard option `oneside'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `twoside=false'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `twoside=false' there
+(scrbook)           instead of `oneside', too.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 2437.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2020/09/21 v3.32 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count174
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+
+
+Package typearea Warning: DIV for 9.5pt and used papersize
+(typearea)                not defined!
+(typearea)                Using DIV=calc.
+
+DIV calculation for typearea with good linewidth.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 6
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 298.75397pt
+(typearea)              DIV departure   = 2%
+(typearea)              \evensidemargin = 77.107pt
+(typearea)              \oddsidemargin  = 77.107pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 431.29865pt
+(typearea)              \topmargin      = 37.22127pt
+(typearea)              \headheight     = 14.24995pt
+(typearea)              \headsep        = 17.09995pt
+(typearea)              \topskip        = 9.5pt
+(typearea)              \footskip       = 39.89987pt
+(typearea)              \baselineskip   = 11.39996pt
+(typearea)              on input line 1740.
+)
+\c@part=\count175
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\scr@dte@chapter@maxnumwidth=\skip53
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\chapter on input line 5625.
+\scr@dte@section@maxnumwidth=\skip54
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\section on input line 5636.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\section on input line 5636.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrbook Info: using compatibility default `afterindent=true'
+(scrbook)           for `\part on input line 5645.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsection on input line 5655.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsection on input line 5655.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsubsection on input line 5665.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsubsection on input line 5665.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\paragraph on input line 5676.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\paragraph on input line 5676.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subparagraph on input line 5686.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subparagraph on input line 5686.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box47
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6929.
+
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count182
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6950.
+
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count183
+Class scrbook Info: Redefining `\numberline' on input line 7123.
+\bibindent=\dimen134
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/kaobook/styles/kao.sty
+Package: styles/kao 2020/07/03 v1.2.3 kao
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count184
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count185
+\calc@Bcount=\count186
+\calc@Adimen=\dimen135
+\calc@Bdimen=\dimen136
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count187
+\calc@Cskip=\skip66
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count188
+\decimalpart=\count189
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks17
+\AP@partial=\box48
+\AP@footins=\box49
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/imakeidx/imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count190
+\mult@box=\box50
+\multicol@leftmargin=\dimen137
+\c@unbalance=\count191
+\c@collectmore=\count192
+\doublecol@number=\count193
+\multicoltolerance=\count194
+\multicolpretolerance=\count195
+\full@width=\dimen138
+\page@free=\dimen139
+\premulticols=\dimen140
+\postmulticols=\dimen141
+\multicolsep=\skip67
+\multicolbaselineskip=\skip68
+\partial@page=\box51
+\last@line=\box52
+\maxbalancingoverflow=\dimen142
+\mult@rightbox=\box53
+\mult@grightbox=\box54
+\mult@gfirstbox=\box55
+\mult@firstbox=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count196
+\c@columnbadness=\count197
+\c@finalcolumnbadness=\count198
+\last@try=\dimen143
+\multicolovershoot=\dimen144
+\multicolundershoot=\dimen145
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count199
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/varioref.sty
+Package: varioref 2020/01/23 v1.6c package for extended references (FMi)
+\c@vrcnt=\count266
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip69
+\RaggedLeftLeftskip=\skip70
+\RaggedRightLeftskip=\skip71
+\CenteringRightskip=\skip72
+\RaggedLeftRightskip=\skip73
+\RaggedRightRightskip=\skip74
+\CenteringParfillskip=\skip75
+\RaggedLeftParfillskip=\skip76
+\RaggedRightParfillskip=\skip77
+\JustifyingParfillskip=\skip78
+\CenteringParindent=\skip79
+\RaggedLeftParindent=\skip80
+\RaggedRightParindent=\skip81
+\JustifyingParindent=\skip82
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language86
+LaTeX Info: Redefining \_ on input line 43.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+\MT@toks=\toks18
+\MT@count=\count267
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen146
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
+\MT@listname@count=\count268
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
+\MT@outer@space=\skip83
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box96
+\extrarowheight=\dimen148
+\NC@list=\toks19
+\extratabsurround=\skip84
+\backup@length=\skip85
+\ar@cellbox=\box97
+)
+\everycr=\toks20
+\minrowclearance=\skip86
+)
+\rownum=\count269
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks21
+\footnotemargin=\dimen149
+\c@pp@next@reset=\count270
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/footnotebackref/footnotebackref.s
+ty
+Package: footnotebackref 2012/07/01 v1.0 Backreferences for footnotes (Holger L
+ange)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen150
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count273
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count274
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen151
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count275
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count279
+\c@bookmark@seq@number=\count280
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip87
+)
+\c@BackrefHyperFootnoteCounter=\count281
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count282
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/marginfix/marginfix.sty
+Package: marginfix 2020/05/06 v1.2 Fix Margin Paragraphs
+\Mfx@inject@insert=\insert252
+\Mfx@marginbox=\box98
+\Mfx@marginpos@min=\dimen154
+\Mfx@marginpos@max=\dimen155
+\Mfx@marginspace=\dimen156
+\Mfx@marginheight=\dimen157
+\Mfx@piece@content=\box99
+\Mfx@piece@count=\count283
+\Mfx@mparshift=\dimen158
+\marginheightadjustment=\dimen159
+\marginposadjustment=\dimen160
+\Mfx@strutheight=\dimen161
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/sidenotes/sidenotes.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+)
+Package: sidenotes 2016/04/21 v1.00 rich text in the margin for LaTeX
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/09/12 v3.5b Customizing captions (AR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
+\captionmargin=\dimen162
+\captionmargin@=\dimen163
+\captionwidth=\dimen164
+\caption@tempdima=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
+Package caption Info: KOMA-Script document class detected.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption-koma.sto
+File: caption-koma.sto 2020/09/12 v2.0a Adaption of the caption package to the 
+KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count284
+\c@continuedfloat=\count285
+Package caption Info: hyperref package is loaded.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count286
+\cp@tempcnt=\count287
+)
+\c@sidenote=\count288
+\@sidenotes@marginfigurebox=\box100
+\@sidenotes@margintablebox=\box101
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen169
+\Gin@req@width=\dimen170
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen171
+\pgfutil@tempdimb=\dimen172
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box102
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/09/28 v3.1.6 (3.1.6)
+))
+Package: pgf 2020/09/28 v3.1.6 (3.1.6)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/09/28 v3.1.6 (3.1.6)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks25
+))
+\pgf@x=\dimen173
+\pgf@y=\dimen174
+\pgf@xa=\dimen175
+\pgf@ya=\dimen176
+\pgf@xb=\dimen177
+\pgf@yb=\dimen178
+\pgf@xc=\dimen179
+\pgf@yc=\dimen180
+\pgf@xd=\dimen181
+\pgf@yd=\dimen182
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count289
+\c@pgf@countb=\count290
+\c@pgf@countc=\count291
+\c@pgf@countd=\count292
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count293
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/09/28 v3.1.6 (3.1.6)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2020/09/28 v3.1.6 (3.1.6)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/09/28 v3.1.6 (3.1.6)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgfsyssoftpath@smallbuffer@items=\count294
+\pgfsyssoftpath@bigbuffer@items=\count295
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/09/28 v3.1.6 (3.1.6)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/09/28 v3.1.6 (3.1.6)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen183
+\pgfmath@count=\count296
+\pgfmath@box=\box103
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count297
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgf@picminx=\dimen184
+\pgf@picmaxx=\dimen185
+\pgf@picminy=\dimen186
+\pgf@picmaxy=\dimen187
+\pgf@pathminx=\dimen188
+\pgf@pathmaxx=\dimen189
+\pgf@pathminy=\dimen190
+\pgf@pathmaxy=\dimen191
+\pgf@xx=\dimen192
+\pgf@xy=\dimen193
+\pgf@yx=\dimen194
+\pgf@yy=\dimen195
+\pgf@zx=\dimen196
+\pgf@zy=\dimen197
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgf@path@lastx=\dimen198
+\pgf@path@lasty=\dimen199
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgf@shorten@end@additional=\dimen256
+\pgf@shorten@start@additional=\dimen257
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgfpic=\box104
+\pgf@hbox=\box105
+\pgf@layerbox@main=\box106
+\pgf@picture@serial@count=\count298
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgflinewidth=\dimen258
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgf@pt@x=\dimen259
+\pgf@pt@y=\dimen260
+\pgf@pt@temp=\dimen261
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgfarrowsep=\dimen262
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgf@max=\dimen263
+\pgf@sys@shading@range@num=\count299
+\pgf@shadingcount=\count300
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/09/28 v3.1.6 (3.1.6)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgfexternal@startupbox=\box107
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgfnodeparttextbox=\box108
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/09/28 v3.1.6 (3.1.6)
+\pgf@nodesepstart=\dimen264
+\pgf@nodesepend=\dimen265
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/09/28 v3.1.6 (3.1.6)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/09/28 v3.1.6 (3.1.6)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen266
+\pgffor@skip=\dimen267
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/09/28 v3.1.6 (3.1.6)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgf@plot@mark@count=\count301
+\pgfplotmarksize=\dimen268
+)
+\tikz@lastx=\dimen269
+\tikz@lasty=\dimen270
+\tikz@lastxsaved=\dimen271
+\tikz@lastysaved=\dimen272
+\tikz@lastmovetox=\dimen273
+\tikz@lastmovetoy=\dimen274
+\tikzleveldistance=\dimen275
+\tikzsiblingdistance=\dimen276
+\tikz@figbox=\box109
+\tikz@figbox@bg=\box110
+\tikz@tempbox=\box111
+\tikz@tempbox@bg=\box112
+\tikztreelevel=\count302
+\tikznumberofchildren=\count303
+\tikznumberofcurrentchild=\count304
+\tikz@fig@count=\count305
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/09/28 v3.1.6 (3.1.6)
+\pgfmatrixcurrentrow=\count306
+\pgfmatrixcurrentcolumn=\count307
+\pgf@matrix@numberofcolumns=\count308
+)
+\tikz@expandcount=\count309
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen277
+\lightrulewidth=\dimen278
+\cmidrulewidth=\dimen279
+\belowrulesep=\dimen280
+\belowbottomsep=\dimen281
+\aboverulesep=\dimen282
+\abovetopsep=\dimen283
+\cmidrulesep=\dimen284
+\cmidrulekern=\dimen285
+\defaultaddspace=\dimen286
+\@cmidla=\count310
+\@cmidlb=\count311
+\@aboverulesep=\dimen287
+\@belowrulesep=\dimen288
+\@thisruleclass=\count312
+\@lastruleclass=\count313
+\@thisrulewidth=\dimen289
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip88
+\multirow@cntb=\count314
+\multirow@dima=\skip89
+\bigstrutjot=\dimen290
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count315
+\rotFPtop=\skip90
+\rotFPbot=\skip91
+\rot@float@box=\box113
+\rot@mess@toks=\toks34
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count316
+\lst@gtempboxa=\box114
+\lst@token=\toks35
+\lst@length=\count317
+\lst@currlwidth=\dimen291
+\lst@column=\count318
+\lst@pos=\count319
+\lst@lostspace=\dimen292
+\lst@width=\dimen293
+\lst@newlines=\count320
+\lst@lineno=\count321
+\lst@maxwidth=\dimen294
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count322
+\lst@skipnumbers=\count323
+\lst@framebox=\box115
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/morewrites/morewrites.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/morewrites/primargs.sty
+Package: primargs 2018/12/29 Parsing arguments of primitives
+)
+Package: morewrites 2018/12/29 Always room for a new write
+\g__morewrites_later_int=\count324
+\l__morewrites_user_int=\count325
+\g__morewrites_iow=\write4
+\g__morewrites_ior=\read3
+\g__morewrites_group_level_int=\count326
+\g__morewrites_shipout_box=\box116
+\l__morewrites_collect_next_int=\count327
+\g__morewrites_alloc_write_int=\count328
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/floatrow/floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+\c@float@type=\count329
+\float@exts=\toks36
+\float@box=\box117
+\@floatcapt=\box118
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks37
+\flrow@foot=\insert251
+\FB@wd=\dimen295
+\FBo@wd=\dimen296
+\FBc@wd=\dimen297
+\FBo@ht=\skip92
+\FBc@ht=\skip93
+\FBf@ht=\skip94
+\FBo@max=\skip95
+\FBc@max=\skip96
+\FBf@max=\skip97
+\c@FBl@b=\count330
+\floatbox@depth=\count331
+\c@FRobj=\count332
+\c@FRsobj=\count333
+\Xhsize=\skip98
+\sXhsize=\skip99
+\Zhsize=\skip100
+\sZhsize=\skip101
+\flrow@rowbox=\box119
+\FR@Zunitlength=\dimen298
+\c@FBcnt=\count334
+\FPOScnt=\count335
+\LTleft=\skip102
+\LTright=\skip103
+\LTleft=\skip104
+\LTright=\skip105
+\flrow@types=\toks38
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/dblfloatfix/dblfloatfix.sty
+Package: dblfloatfix 2012/12/31 v1.0a (JAW)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+)
+\@dblbotnum=\count336
+\c@dblbotnumber=\count337
+)
+\kaomarginskipabove=\skip106
+\kaomarginskipbelow=\skip107
+\@sidenotes@marginlistingbox=\box120
+\mycap=\box121
+\hpll=\skip108
+\vpll=\skip109
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count338
+\Gm@cntv=\count339
+\c@Gm@tempcnt=\count340
+\Gm@bindingoffset=\dimen299
+\Gm@wd@mp=\dimen300
+\Gm@odd@mp=\dimen301
+\Gm@even@mp=\dimen302
+\Gm@layoutwidth=\dimen303
+\Gm@layoutheight=\dimen304
+\Gm@layouthoffset=\dimen305
+\Gm@layoutvoffset=\dimen306
+\Gm@dimlist=\toks39
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2020/09/21 v3.32 KOMA-Script package (end user interf
+ace for scrlayer)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2020/09/21 v3.32 KOMA-Script package (defining layers and pag
+e styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 109.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 211
+6.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1085.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1109.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoc/etoc.sty
+Package: etoc 2020/05/15 v1.09c Completely customisable TOCs (JFB)
+\Etoc@toctoks=\toks40
+\c@etoc@tocid=\count341
+\c@etoc@tocdepth=\count342
+\etoc@framed@titlebox=\box122
+\etoc@framed@contentsbox=\box123
+)
+\c@margintocdepth=\count343
+\mtocshift=\skip110
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks41
+\inpenc@posthook=\toks42
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 112.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/newpxtext.sty
+Package: newpxtext 2017/08/18 v1.321
+
+`newpxtext' v1.321, 2017/08/18 Text macros taking advantage of TeXGyre Pagella 
+and its extensions (msharpe)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+zpltlf on input line
+ 112.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/t1zpltlf.fd
+File: t1zpltlf.fd 2015/01/17 v1.0 font definition file for T1/zpl/tlf
+)
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 9.21501pt on input line 112.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/newpxmath.sty
+Package: newpxmath 2020/01/09 v1.409
+
+`newpxmath' v1.409, 2020/01/09 Math macros based on pxfonts (msharpe)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip111
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks43
+\ex@=\dimen307
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen308
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count344
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count345
+\leftroot@=\count346
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count347
+\DOTSCASE@=\count348
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box124
+\strutbox@=\box125
+\big@size=\dimen309
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count349
+\c@MaxMatrixCols=\count350
+\dotsspace@=\muskip17
+\c@parentequation=\count351
+\dspbrk@lvl=\count352
+\tag@help=\toks44
+\row@=\count353
+\column@=\count354
+\maxfields@=\count355
+\andhelp@=\toks45
+\eqnshift@=\dimen310
+\alignsep@=\dimen311
+\tagshift@=\dimen312
+\tagwidth@=\dimen313
+\totwidth@=\dimen314
+\lineht@=\dimen315
+\@envbody=\toks46
+\multlinegap=\skip112
+\multlinetaggap=\skip113
+\mathdisplay@stack=\toks47
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kastrup/binhex.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/oberdiek/centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+\px@tA=\toks48
+\px@tB=\toks49
+\px@su=\read4
+\px@Isdigit=\count356
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 194.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/zpltlf/m/n on input line 194.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/zpltlf/m/n on input line 194.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/zpltlf/m/n --> OT1/zpltlf/b/n on input line 195.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 198.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/qhv/m/n on input line 198.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/qhv/m/n on input line 198.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 199.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/zpltlf/m/it on input line 199.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/zpltlf/m/it on input line 199.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 200.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/npxtt/m/n on input line 200.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/npxtt/m/n on input line 200.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 202.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/zpltlf/b/n on input line 202.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/zpltlf/b/n on input line 202.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/zpltlf/m/it --> OT1/zpltlf/b/it on input line 203.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/qhv/m/n --> T1/qhv/b/n on input line 205.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/npxtt/m/n --> T1/npxtt/b/n on input line 206.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 217.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/npxmi/m/it on input line 217.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/npxmi/m/it on input line 217.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/npxmi/m/it --> OML/npxmi/b/it on input line 218.
+\symlettersA=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/npxmia/m/it --> U/npxmia/b/it on input line 236.
+Now handling font encoding LMS ...
+... no UTF-8 mapping file for font encoding LMS
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 246.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 246.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LMS/npxsy/m/n on input line 246.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 246.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LMS/npxsy/m/n on input line 246.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LMS/npxsy/m/n --> LMS/npxsy/b/n on input line 247.
+\symAMSm=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/npxsym/m/n --> U/npxsym/b/n on input line 265.
+\symsymbolsC=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/npxsyc/m/n --> U/npxsyc/b/n on input line 287.
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 307.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 3
+07.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/npxexx/m/n on input line 307.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 307
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/npxexx/m/n on input line 307.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/npxexx/m/n --> LMX/npxexx/b/n on input line 308.
+\symlargesymbolsPXA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `largesymbolsPXA' in version `bold'
+
+(Font)                  U/npxexa/m/n --> U/npxexa/b/n on input line 315.
+\px@cntz=\count357
+\px@IsAlNum=\count358
+\px@sbptoks=\toks50
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 470.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 471.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 472.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 473.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 474.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 475.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 476.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 478.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 482.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 483.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 484.
+LaTeX Font Info:    Redeclaring math delimiter \Arrowvert on input line 485.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 511.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 525.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 526.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 527.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 528.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 529.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 530.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 531.
+LaTeX Font Info:    Redeclaring math accent \check on input line 532.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 536.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 537.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 1579.
+\npx@numstart=\count359
+\npx@UCstart=\count360
+\npx@lcstart=\count361
+\npx@tmpc=\count362
+\npx@imath=\count363
+\npx@jmath=\count364
+LaTeX Info: Redefining \not on input line 2132.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathalpha/mathalfa.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathalpha/mathalpha.sty
+Package: mathalpha 2019/10/05 - 1.13mathalpha (License LPPL) Michael Sharpe
+
+`mathalpha' v1.13, 2019/10/05, a renaming of mathalfa (msharpe)
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 297.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  U/BOONDOX-calo/m/n --> U/BOONDOX-calo/b/n on input line
+ 298.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup8
+\symAMSb=\mathgroup9
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 74.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 75.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 76.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
+)
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 52.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
+.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61
+.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 62.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 69.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 73.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+79.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \multimap on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
+9.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
+LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \Cup on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \Cap on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 151.
+
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \circledS on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 173.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 185.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 191.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 192.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 212.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
+
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 226.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
+
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 233.
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \eth on input line 240.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 247.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 249.
+LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 250.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 253.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 254.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 255.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 256.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
+\BKM@id=\count365
+))
+Package hyperref Info: Option `unicode' set `true' on input line 834.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 834.
+Package hyperref Info: Option `breaklinks' set `true' on input line 834.
+Package hyperref Info: Option `colorlinks' set `true' on input line 834.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kaobook/styles/environments.sty
+Package: styles/environments 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks51
+\labelindent=\skip114
+\enit@outerparindent=\dimen316
+\enit@toks=\toks52
+\enit@inbox=\box126
+\enit@count@id=\count366
+\enitdp@description=\count367
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-05-28 v2.31 Module abspage for zref (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-05-28 v2.31 Module base for zref (HO)
+Package zref Info: New property list: main on input line 763.
+Package zref Info: New property: default on input line 764.
+Package zref Info: New property: page on input line 765.
+)
+\c@abspage=\count368
+Package zref Info: New property: abspage on input line 66.
+)
+\mdf@templength=\skip115
+\c@mdf@globalstyle@cnt=\count369
+\mdf@skipabove@length=\skip116
+\mdf@skipbelow@length=\skip117
+\mdf@leftmargin@length=\skip118
+\mdf@rightmargin@length=\skip119
+\mdf@innerleftmargin@length=\skip120
+\mdf@innerrightmargin@length=\skip121
+\mdf@innertopmargin@length=\skip122
+\mdf@innerbottommargin@length=\skip123
+\mdf@splittopskip@length=\skip124
+\mdf@splitbottomskip@length=\skip125
+\mdf@outermargin@length=\skip126
+\mdf@innermargin@length=\skip127
+\mdf@linewidth@length=\skip128
+\mdf@innerlinewidth@length=\skip129
+\mdf@middlelinewidth@length=\skip130
+\mdf@outerlinewidth@length=\skip131
+\mdf@roundcorner@length=\skip132
+\mdf@footenotedistance@length=\skip133
+\mdf@userdefinedwidth@length=\skip134
+\mdf@needspace@length=\skip135
+\mdf@frametitleaboveskip@length=\skip136
+\mdf@frametitlebelowskip@length=\skip137
+\mdf@frametitlerulewidth@length=\skip138
+\mdf@frametitleleftmargin@length=\skip139
+\mdf@frametitlerightmargin@length=\skip140
+\mdf@shadowsize@length=\skip141
+\mdf@extratopheight@length=\skip142
+\mdf@subtitleabovelinewidth@length=\skip143
+\mdf@subtitlebelowlinewidth@length=\skip144
+\mdf@subtitleaboveskip@length=\skip145
+\mdf@subtitlebelowskip@length=\skip146
+\mdf@subtitleinneraboveskip@length=\skip147
+\mdf@subtitleinnerbelowskip@length=\skip148
+\mdf@subsubtitleabovelinewidth@length=\skip149
+\mdf@subsubtitlebelowlinewidth@length=\skip150
+\mdf@subsubtitleaboveskip@length=\skip151
+\mdf@subsubtitlebelowskip@length=\skip152
+\mdf@subsubtitleinneraboveskip@length=\skip153
+\mdf@subsubtitleinnerbelowskip@length=\skip154
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box127
+\mdf@footnotebox=\box128
+\mdf@splitbox@one=\box129
+\mdf@splitbox@two=\box130
+\mdf@splitbox@save=\box131
+\mdfsplitboxwidth=\skip155
+\mdfsplitboxtotalwidth=\skip156
+\mdfsplitboxheight=\skip157
+\mdfsplitboxdepth=\skip158
+\mdfsplitboxtotalheight=\skip159
+\mdfframetitleboxwidth=\skip160
+\mdfframetitleboxtotalwidth=\skip161
+\mdfframetitleboxheight=\skip162
+\mdfframetitleboxdepth=\skip163
+\mdfframetitleboxtotalheight=\skip164
+\mdffootnoteboxwidth=\skip165
+\mdffootnoteboxtotalwidth=\skip166
+\mdffootnoteboxheight=\skip167
+\mdffootnoteboxdepth=\skip168
+\mdffootnoteboxtotalheight=\skip169
+\mdftotallinewidth=\skip170
+\mdfboundingboxwidth=\skip171
+\mdfboundingboxtotalwidth=\skip172
+\mdfboundingboxheight=\skip173
+\mdfboundingboxdepth=\skip174
+\mdfboundingboxtotalheight=\skip175
+\mdf@freevspace@length=\skip176
+\mdf@horizontalwidthofbox@length=\skip177
+\mdf@verticalmarginwhole@length=\skip178
+\mdf@horizontalspaceofbox=\skip179
+\mdfsubtitleheight=\skip180
+\mdfsubsubtitleheight=\skip181
+\c@mdfcountframes=\count370
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count371
+\c@mdf@env@i=\count372
+\c@mdf@env@ii=\count373
+\c@mdf@zref@counter=\count374
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+\c@kaocounter=\count375
+Package tocbasic Info: babel extension for `loi' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 105.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kaobook/styles/packages.sty
+Package: styles/packages 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
+\ESO@tempdima=\dimen317
+\ESO@tempdimb=\dimen318
+)
+\AM@pagewidth=\dimen319
+\AM@pageheight=\dimen320
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box132
+\AM@global@opts=\toks53
+\AM@pagecnt=\count376
+\AM@toc@title=\toks54
+\c@AM@survey=\count377
+\AM@templatesizebox=\box133
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2020/09/07 v2.0 Multi-file projects (package)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2020/08/18 v1.1.3 Todonotes source and documentation.
+Package: todonotes 2018/11/22
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2020/09/28 v3.1.6 (3.1.6)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/09/28 v3.1.6 (3.1.6)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2020/09/28 v3.1.6 (3.1.6)
+)))
+\c@@todonotes@numberoftodonotes=\count378
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count379
+\algocf@hangindent=\skip182
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count380
+LaTeX Info: Redefining \checkoddpage on input line 45.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip183
+\skiplinenumber=\skip184
+\skiprule=\skip185
+\skiphlne=\skip186
+\skiptext=\skip187
+\skiplength=\skip188
+\algomargin=\skip189
+\skipalgocfslide=\skip190
+\algowidth=\dimen321
+\inoutsize=\dimen322
+\inoutindent=\dimen323
+\interspacetitleruled=\dimen324
+\interspacealgoruled=\dimen325
+\interspacetitleboxruled=\dimen326
+\algocf@ruledwidth=\skip191
+\algocf@inoutbox=\box134
+\algocf@inputbox=\box135
+\AlCapSkip=\skip192
+\AlCapHSkip=\skip193
+\algoskipindent=\skip194
+\algocf@nlbox=\box136
+\algocf@hangingbox=\box137
+\algocf@untilbox=\box138
+\algocf@skipuntil=\skip195
+\algocf@capbox=\box139
+\algocf@lcaptionbox=\skip196
+\algoheightruledefault=\skip197
+\algoheightrule=\skip198
+\algotitleheightruledefault=\skip199
+\algotitleheightrule=\skip256
+\c@algocfline=\count381
+\c@algocfproc=\count382
+\c@algocf=\count383
+\algocf@algoframe=\box140
+\algocf@algobox=\box141
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ccicons/ccicons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks55
+\xl@@everylogo=\toks56
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2020/03/19 v4.46 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks57
+\@glsmrest=\toks58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count384
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count385
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count386
+\FP@xia=\count387
+\FP@xib=\count388
+\FP@xfa=\count389
+\FP@xfb=\count390
+\FP@rega=\count391
+\FP@regb=\count392
+\FP@regs=\count393
+\FP@times=\count394
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count395
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks59
+\@dtl@tmpcount=\count396
+\dtl@tmplength=\skip257
+\dtl@sortresult=\count397
+\@dtl@numgrpsepcount=\count398
+\@dtl@datatype=\count399
+\dtl@codeA=\count400
+\dtl@codeB=\count401
+\@dtl@foreach@level=\count402
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries-compat
+ible-307.sty
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
+)
+\gls@level=\count403
+\@gls@tmpb=\toks60
+\gls@tmplen=\skip258
+\glskeylisttok=\toks61
+\glslabeltok=\toks62
+\glsshorttok=\toks63
+\glslongtok=\toks64
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip259
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip260
+\LTright=\skip261
+\LTpre=\skip262
+\LTpost=\skip263
+\LTchunksize=\count404
+\LTcapwidth=\dimen327
+\LT@head=\box142
+\LT@firsthead=\box143
+\LT@foot=\box144
+\LT@lastfoot=\box145
+\LT@cols=\count405
+\LT@rows=\count406
+\c@LT@tables=\count407
+\c@LT@chunks=\count408
+\LT@p@ftn=\toks65
+)
+Class scrbook Info: longtable captions redefined on input line 43.
+\glsdescwidth=\skip264
+\glspagelistwidth=\skip265
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count409
+\ST@wd=\dimen328
+\ST@rightskip=\skip266
+\ST@leftskip=\skip267
+\ST@parfillskip=\skip268
+\ST@pageleft=\dimen329
+\ST@headht=\dimen330
+\ST@tailht=\dimen331
+\ST@pagesofar=\dimen332
+\ST@pboxht=\dimen333
+\ST@lineht=\dimen334
+\ST@prevht=\dimen335
+\ST@toadd=\dimen336
+\ST@dimen=\dimen337
+\ST@pbox=\box146
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip269
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2020/03/01 v5.4 Nomenclature package
+Package tocbasic Info: babel extension for `nlo' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 179.
+Package tocbasic Info: babel extension for `nls' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 180.
+\nomlabelwidth=\dimen338
+\nom@tempdim=\dimen339
+\nomitemsep=\skip270
+))
+\overflowingheadlen=\skip271
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kaobook/styles/mdftheorems.sty
+Package: styles/mdftheorems 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks66
+\thm@bodyfont=\toks67
+\thm@headfont=\toks68
+\thm@notefont=\toks69
+\thm@headpunct=\toks70
+\thm@preskip=\skip272
+\thm@postskip=\skip273
+\thm@headsep=\skip274
+\dth@everypar=\toks71
+LaTeX Info: Redefining \textsquare on input line 427.
+)
+Class scrbook Info: amsthm's \deferred@thm@head patched.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thmtools.sty
+Package: thmtools 2020/08/01 v0.72
+\thmt@toks=\toks72
+\c@thmt@dummyctr=\count410
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thm-patch.sty
+Package: thm-patch 2020/08/01 v0.72
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/parseargs.sty
+Package: parseargs 2020/08/01 v0.72
+\@parsespec=\toks73
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thm-kv.sty
+Package: thm-kv 2020/08/01 v0.72
+Package thm-kv Info: Theorem names will be uppercased on input line 42.
+Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 158.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thm-autoref.sty
+Package: thm-autoref 2020/08/01 v0.72
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/aliasctr.sty
+Package: aliasctr 2020/08/01 v0.72
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thm-listof.sty
+Package: thm-listof 2020/08/01 v0.72
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thm-restate.sty
+Package: thm-restate 2020/08/01 v0.72
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thm-amsthm.sty
+Package: thm-amsthm 2020/08/01 v0.72
+\thmt@style@headstyle=\toks74
+))
+Package thmtools Info: Automatically pulling in `thmdef-mdframed' on input line
+ 180.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/thmtools/thmdef-mdframed.sty
+Package: thmdef-mdframed 2020/08/01 v0.72
+)
+\c@theorem=\count411
+\c@definition=\count412
+\c@assumption=\count413
+\c@remark=\count414
+\c@example=\count415
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kaobook/styles/kaorefs.sty
+Package: styles/kaorefs 2020/22/06 v1.1.0 kaorefs
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `varioref' support loaded on input line 2605.
+Package cleveref Info: `cleveref' supersedes `varioref's \labelformatcommand on
+ input line 2605.
+LaTeX Info: Redefining \vref on input line 2605.
+LaTeX Info: Redefining \Vref on input line 2605.
+LaTeX Info: Redefining \vrefrange on input line 2605.
+LaTeX Info: Redefining \fullref on input line 2605.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+Package cleveref Info: `listings' support loaded on input line 3131.
+Package cleveref Info: `algorithm2e' support loaded on input line 3147.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+25.
+Package cleveref Info: include cross-reference names in hyperlinks on input lin
+e 7836.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+52.
+Package cleveref Info: include cross-reference names in hyperlinks on input lin
+e 7852.
+Package cleveref Info: no abbreviation of names on input line 7852.
+)
+/usr/local/texlive/2020/texmf-dist/tex/latex/kaobook/styles/kaorefs.sty:58: Und
+efined control sequence.
+l.58 \addto
+           \captionsenglish{%
+? 
+/usr/local/texlive/2020/texmf-dist/tex/latex/kaobook/styles/kaorefs.sty:58: Und
+efined control sequence.
+l.58 \addto\captionsenglish
+                           {%
+? 
+/usr/local/texlive/2020/texmf-dist/tex/latex/kaobook/styles/kaorefs.sty:78: Und
+efined control sequence.
+l.78 \addto
+           \captionsitalian{%
+? 
+/usr/local/texlive/2020/texmf-dist/tex/latex/kaobook/styles/kaorefs.sty:78: Und
+efined control sequence.
+l.78 \addto\captionsitalian
+                           {%
+? 
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/grffile/grffile.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen340
+\WF@size=\dimen341
+\c@WF@wrappedlines=\count416
+\WF@box=\box147
+\WF@everypar=\toks75
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box148
+\UL@hyphenbox=\box149
+\UL@skip=\skip275
+\UL@hook=\toks76
+\UL@height=\dimen342
+\UL@pe=\count417
+\UL@pixel=\dimen343
+\ULC@box=\box150
+Package: ulem 2019/11/18
+\ULdepth=\dimen344
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/capt-of/capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen345
+\TX@old@table=\dimen346
+\TX@old@col=\dimen347
+\TX@target=\dimen348
+\TX@delta=\dimen349
+\TX@cols=\count418
+\TX@ftn=\toks77
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 51.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 51.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\medskipamount' on input line 51.
+
+LaTeX Font Info:    Trying to load font information for T1+zpllf on input line 
+59.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/t1zpllf.fd
+File: t1zpllf.fd 2015/01/17 v1.0 font definition file for T1/zpl/lf
+)
+LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
+(Font)              scaled to size 9.21501pt on input line 59.
+
+(./MbaTextbook.aux)
+\openout1 = `MbaTextbook.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 59.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
+ 59.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/omlnpxmi.fd
+File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
+)
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 59.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 
+59.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/unpxexa.fd
+File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
+)
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 59.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line
+ 59.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
+File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
+)
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 59.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input lin
+e 59.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
+File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
+)
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+Package scrbase Info: activating english \contentsname on input line 59.
+Package scrbase Info: activating english \listfigurename on input line 59.
+Package scrbase Info: activating english \listtablename on input line 59.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 59.
+LaTeX Info: Redefining \microtypecontext on input line 59.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 59.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count419
+\scratchdimen=\dimen350
+\scratchbox=\box151
+\nofMPsegments=\count420
+\nofMParguments=\count421
+\everyMPshowfont=\toks78
+\MPscratchCnt=\count422
+\MPscratchDim=\dimen351
+\MPnumerator=\count423
+\makeMPintoPDFobject=\count424
+\everyMPtoPDFconversion=\toks79
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box152
+Package hyperref Info: Link coloring ON on input line 59.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count425
+LaTeX Info: Redefining \Ref on input line 520.
+)
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \Ref on input line 59.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: floatrow package v0.3b is loaded.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen352
+\caption@adjustwidth@linewidth=\dimen353
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: Fixing longtable code of `floatrow' package.
+Package caption Info: rotating package is loaded.
+Package caption Info: supertabular package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\@sidenotes@extrawidth=\skip276
+
+ABD: EveryShipout initializing macros
+\c@lstlisting=\count426
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/floatrow/fr-longtable.sty
+Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
+
+\flrow@LT@lasthead=\box153
+\flrow@LT@prelastfoot=\box154
+\c@FBLTpage=\count427
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includemp 
+* h-part:(L,W,R)=(72.58057pt, 481.7242pt, 59.99023pt)
+* v-part:(T,H,B)=(73.23653pt, 648.49693pt, 73.23653pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=313.15002pt
+* \textheight=648.49693pt
+* \oddsidemargin=0.31058pt
+* \evensidemargin=0.31058pt
+* \topmargin=-30.38336pt
+* \headheight=106.91467pt
+* \headsep=17.09995pt
+* \topskip=9.5pt
+* \footskip=39.89987pt
+* \marginparwidth=144.57578pt
+* \marginparsep=23.9984pt
+* \columnsep=10.0pt
+* \skip\footins=8.54997pt plus 3.79958pt minus 1.90039pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.58057pt, 313.15002pt, 228.5644pt)
+* v-part:(T,H,B)=(73.23653pt, 648.49693pt, 73.23653pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=313.15002pt
+* \textheight=648.49693pt
+* \oddsidemargin=0.31058pt
+* \evensidemargin=0.31058pt
+* \topmargin=-123.04808pt
+* \headheight=106.91467pt
+* \headsep=17.09995pt
+* \topskip=9.5pt
+* \footskip=39.89987pt
+* \marginparwidth=144.57578pt
+* \marginparsep=23.9984pt
+* \columnsep=10.0pt
+* \skip\footins=8.54997pt plus 3.79958pt minus 1.90039pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\Etoc@tf=\read5
+\c@mv@tabular=\count428
+\c@mv@boldtabular=\count429
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.58057pt, 469.13387pt, 72.58057pt)
+* v-part:(T,H,B)=(73.23653pt, 648.49693pt, 73.23653pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.13387pt
+* \textheight=648.49693pt
+* \oddsidemargin=0.31058pt
+* \evensidemargin=0.31058pt
+* \topmargin=-123.04808pt
+* \headheight=106.91467pt
+* \headsep=17.09995pt
+* \topskip=9.5pt
+* \footskip=39.89987pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=8.54997pt plus 3.79958pt minus 1.90039pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\medskipamount' on input line 63.
+
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 63
+.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 8.5698pt on input line 63.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `qhv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 8.5698pt on input line 63.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 17.7738pt on input line 63.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 10.28372pt on input line 63.
+LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
+(Font)              scaled to size 13.26964pt on input line 63.
+LaTeX Font Info:    Calculating math sizes for size <13.68002> on input line 63
+.
+LaTeX Font Info:    Trying to load font information for OT1+zpltlf on input lin
+e 63.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
+File: ot1zpltlf.fd 2015/01/17 v1.0 font definition file for OT1/zpl/tlf
+)
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 13.26964pt on input line 63.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 9.68675pt on input line 63.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 7.29832pt on input line 63.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 
+63.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/unpxmia.fd
+File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
+)
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 
+63.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/unpxsym.fd
+File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
+)
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 
+63.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/unpxsyc.fd
+File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+\openout4 = `MbaTextbook.mw'.
+
+ [1
+
+
+
+
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+\tf@toc=\write19
+\openout4 = `MbaTextbook.toc'.
+
+LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
+(Font)              scaled to size 19.11197pt on input line 65.
+LaTeX Font Info:    Font shape `T1/zpllf/b/n' will be
+(Font)              scaled to size 19.11197pt on input line 65.
+Package tocbasic Info: character protrusion at toc deactivated on input line 65
+.
+LaTeX Font Info:    Font shape `T1/zpllf/b/n' will be
+(Font)              scaled to size 9.21501pt on input line 65.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 65.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 9.21501pt on input line 65.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 6.7269pt on input line 65.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 5.06827pt on input line 65.
+
+
+Class scrbook Warning: Usage of deprecated command `\ifthispageodd'.
+(scrbook)              The command has been renamed because of a
+(scrbook)              recommendation of The LaTeX Project Team.
+(scrbook)              Please replace `\ifthispageodd' by `\Ifthispageodd' on i
+nput line 66.
+
+LaTeX Font Info:    Font shape `T1/zpllf/m/sl' will be
+(Font)              scaled to size 9.21501pt on input line 66.
+\openout4 = `MbaTextbook.mw'.
+
+[2
+
+
+] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.58057pt, 313.15002pt, 228.5644pt)
+* v-part:(T,H,B)=(73.23653pt, 648.49693pt, 73.23653pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=313.15002pt
+* \textheight=648.49693pt
+* \oddsidemargin=0.31058pt
+* \evensidemargin=0.31058pt
+* \topmargin=-123.04808pt
+* \headheight=106.91467pt
+* \headsep=17.09995pt
+* \topskip=9.5pt
+* \footskip=39.89987pt
+* \marginparwidth=144.57578pt
+* \marginparsep=23.9984pt
+* \columnsep=10.0pt
+* \skip\footins=8.54997pt plus 3.79958pt minus 1.90039pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.58057pt, 313.15002pt, 228.5644pt)
+* v-part:(T,H,B)=(73.23653pt, 648.49693pt, 73.23653pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=313.15002pt
+* \textheight=648.49693pt
+* \oddsidemargin=0.31058pt
+* \evensidemargin=0.31058pt
+* \topmargin=-123.04808pt
+* \headheight=106.91467pt
+* \headsep=17.09995pt
+* \topskip=9.5pt
+* \footskip=39.89987pt
+* \marginparwidth=144.57578pt
+* \marginparsep=23.9984pt
+* \columnsep=10.0pt
+* \skip\footins=8.54997pt plus 3.79958pt minus 1.90039pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface.
+
+
+Overfull \hbox (168.57417pt too wide) in paragraph at lines 71--71
+[][]
+ []
+
+Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 71
+.
+Package marginnote Info: right page because not two side mode on input line 71.
+
+Package marginnote Info: xpos seems to be 72.58057pt on input line 71.
+LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
+(Font)              scaled to size 7.67926pt on input line 71.
+LaTeX Font Info:    Font shape `T1/zpllf/b/n' will be
+(Font)              scaled to size 13.26964pt on input line 71.
+LaTeX Font Info:    Font shape `T1/zpllf/b/n' will be
+(Font)              scaled to size 8.40875pt on input line 71.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 75.
+LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
+(Font)              scaled to size 9.21501pt on input line 75.
+LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
+(Font)              scaled to size 6.7269pt on input line 77.
+Package marginnote Info: Margin note 3.2 is on absolute page 3 on input line 77
+.
+Package marginnote Info: right page because not two side mode on input line 77.
+
+Package marginnote Info: xpos seems to be 360.35457pt on input line 77.
+<./img/comptafi.pdf, id=127, 927.64757pt x 389.44327pt>
+File: ./img/comptafi.pdf Graphic file (type pdf)
+<use ./img/comptafi.pdf>
+Package pdftex.def Info: ./img/comptafi.pdf  used on input line 88.
+(pdftex.def)             Requested size: 313.1454pt x 131.46411pt.
+LaTeX Font Info:    Font shape `T1/zpllf/b/n' will be
+(Font)              scaled to size 7.67926pt on input line 89.
+LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
+(Font)              scaled to size 8.40875pt on input line 96.
+LaTeX Font Info:    Calculating math sizes for size <8.66881> on input line 96.
+
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 8.40875pt on input line 96.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 6.13834pt on input line 96.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 4.62483pt on input line 96.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.102 
+      
+\openout4 = `MbaTextbook.mw'.
+
+ [1
+
+
+
+
+
+ <./img/comptafi.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+<./img/pdca.pdf, id=163, 866.92505pt x 417.22241pt>
+File: ./img/pdca.pdf Graphic file (type pdf)
+<use ./img/pdca.pdf>
+Package pdftex.def Info: ./img/pdca.pdf  used on input line 105.
+(pdftex.def)             Requested size: 313.15103pt x 150.70924pt.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 112.
+
+
+./MbaTextbook.tex:117: Package inputenc Error: Unicode character   (U+202F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 \item d'améliorer la prise de décision 
+                                                 ;
+? 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 125.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 13
+3.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
+(Font)              scaled to size 8.07506pt on input line 133.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.134 \end{kaobox}
+                  
+\openout4 = `MbaTextbook.mw'.
+
+ [2 <./img/pdca.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[3] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+chapter 2.
+
+Overfull \hbox (168.57417pt too wide) in paragraph at lines 136--136
+[][]
+ []
+
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 12.34053pt on input line 138.
+LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
+(Font)              scaled to size 7.67926pt on input line 141.
+./MbaTextbook.tex:154: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   o
+l.154 \begin{kaowarn}
+                     
+? 
+./MbaTextbook.tex:154: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   o
+l.154 \begin{kaowarn}
+                     
+? 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 155.
+\openout4 = `MbaTextbook.mw'.
+
+[4
+
+
+] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:195: Undefined control sequence.
+l.195 \sidenotesize
+                   
+? 
+
+Overfull \hbox (2.3889pt too wide) in paragraph at lines 196--205
+ [][] 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 208.
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 8.07506pt on input line 208.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[5] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:224: Undefined control sequence.
+l.224 \sidenotesize
+                   
+? 
+
+Underfull \hbox (badness 1142) in paragraph at lines 231--231
+[]|\T1/zpllf/m/n/9.5 (+20) - Charges fixes di-
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 232--232
+\T1/zpllf/m/n/9.5 (+20) sp�-ci-fiques (marge
+ []
+
+
+Overfull \hbox (61.30931pt too wide) in paragraph at lines 225--236
+ [][] 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 239.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 246.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[6] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+<./img/srcact.pdf, id=215, 962.28883pt x 414.64157pt>
+File: ./img/srcact.pdf Graphic file (type pdf)
+<use ./img/srcact.pdf>
+Package pdftex.def Info: ./img/srcact.pdf  used on input line 265.
+(pdftex.def)             Requested size: 313.1513pt x 134.93405pt.
+<./img/srmcvcf.pdf, id=216, 778.94186pt x 354.51076pt>
+File: ./img/srmcvcf.pdf Graphic file (type pdf)
+<use ./img/srmcvcf.pdf>
+Package pdftex.def Info: ./img/srmcvcf.pdf  used on input line 274.
+(pdftex.def)             Requested size: 313.14014pt x 142.51582pt.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[7 <./img/srcact.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+LaTeX Font Info:    Trying to load font information for TS1+zpllf on input line
+ 280.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newpx/ts1zpllf.fd
+File: ts1zpllf.fd 2015/01/18 v1.0 fd file for TS1/zpllf
+)
+LaTeX Font Info:    Font shape `TS1/zpllf/b/n' will be
+(Font)              scaled to size 9.21501pt on input line 280.
+LaTeX Font Info:    Font shape `TS1/zpllf/m/n' will be
+(Font)              scaled to size 9.21501pt on input line 292.
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 302--303
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[8 <./img/srmcvcf.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 352--353
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[9] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[10] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 422--423
+[] 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 427.
+
+Overfull \hbox (4.3079pt too wide) in paragraph at lines 427--428
+\T1/zpllf/m/n/9.5 (-20) d'entrainement : [][]$\T1/fvm/m/n/9.5 https : / / app .
+ wooclap . com / COMP50900 / questionnaires /
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[11] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+chapter 3.
+
+Overfull \hbox (168.57417pt too wide) in paragraph at lines 430--430
+[][]
+ []
+
+
+./MbaTextbook.tex:438: Package inputenc Error: Unicode character ∑ (U+2211)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.438 ...tes + quote-part des charges indirectes.}
+                                                  
+? 
+\openout4 = `MbaTextbook.mw'.
+
+[12
+
+
+] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[13] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:477: Undefined control sequence.
+l.477 \sidenotesize
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
+[]|\T1/zpllf/m/n/9.5 (+20) Charges in-di-rectes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+[]|\T1/zpllf/m/n/9.5 (+20) Choix d'une base
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\T1/zpllf/m/n/9.5 (+20) d'imputation car-ac-t�ris-
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 482--482
+\T1/zpllf/m/n/9.5 (+20) (par ex-em-ple, les heures
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 484--484
+[]|\T1/zpllf/m/n/9.5 (+20) Le taux d'imputation est
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 484--484
+\T1/zpllf/m/n/9.5 (+20) obtenu en di-visant les
+ []
+
+
+Overfull \hbox (25.49942pt too wide) in paragraph at lines 478--486
+ [][] 
+ []
+
+./MbaTextbook.tex:490: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   o
+l.490 \begin{kaowarn}
+                     
+? 
+./MbaTextbook.tex:490: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   o
+l.490 \begin{kaowarn}
+                     
+? 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 491.
+./MbaTextbook.tex:502: Undefined control sequence.
+l.502 \sidenotesize
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+[]|\T1/zpllf/m/n/9.5 (+20) Charges
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+[]|\T1/zpllf/m/n/9.5 (+20) Quantit�s x
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
+[]|\T1/zpllf/m/n/9.5 (+20) Volumme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
+\T1/zpllf/m/n/9.5 (+20) d'imputation
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 507--507
+\T1/zpllf/m/n/9.5 (+20) pour le pro-
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 507--507
+\T1/zpllf/m/n/9.5 (+20) duit x taux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
+\T1/zpllf/m/n/9.5 (+20) d'imputation
+ []
+
+
+Overfull \hbox (47.83026pt too wide) in paragraph at lines 503--510
+ [][] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[14
+
+] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:551: Undefined control sequence.
+l.551 \sidenotesize
+                   
+? 
+
+Overfull \hbox (64.1364pt too wide) in paragraph at lines 552--562
+ [] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[15] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:566: Undefined control sequence.
+l.566 \sidenotesize
+                   
+? 
+
+Overfull \hbox (18.02885pt too wide) in paragraph at lines 567--581
+ [] 
+ []
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 585--586
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[16] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 631--632
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[17] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (16.64201pt too wide) in paragraph at lines 656--657
+[]\T1/zpllf/m/n/9.5 (-20) En re-vanche, dans le cas ci-dessous il faudrait trou
+-ver une autre base d'imputation : 
+ []
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 667--668
+[] 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 672.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[18] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+
+./MbaTextbook.tex:686: Package inputenc Error: Unicode character   (U+202F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.686 ...vard Business Review, 63(5), 142‑150.)}
+                                                  , parce que les charges di...
+
+? 
+
+./MbaTextbook.tex:688: Package inputenc Error: Unicode character   (U+202F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.688 ...ng superior performance. The Free Press.}
+                                                  , qui représente l'ensemb...
+
+? 
+<./img/chaine.pdf, id=321, 891.58522pt x 346.91258pt>
+File: ./img/chaine.pdf Graphic file (type pdf)
+<use ./img/chaine.pdf>
+Package pdftex.def Info: ./img/chaine.pdf  used on input line 692.
+(pdftex.def)             Requested size: 313.14786pt x 121.8447pt.
+<./img/abc.pdf, id=322, 925.47171pt x 424.11436pt>
+File: ./img/abc.pdf Graphic file (type pdf)
+<use ./img/abc.pdf>
+Package pdftex.def Info: ./img/abc.pdf  used on input line 702.
+(pdftex.def)             Requested size: 313.14522pt x 143.50452pt.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[19 <./img/chaine.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 713.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[20 <./img/abc.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:755: Undefined control sequence.
+l.755 \sidenotesize
+                   
+? 
+./MbaTextbook.tex:770: Undefined control sequence.
+l.770 \sidenotesize
+                   
+? 
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[21] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 783--784
+[] 
+ []
+
+./MbaTextbook.tex:789: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   o
+l.789 \begin{kaowarn}
+                     
+? 
+./MbaTextbook.tex:789: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   o
+l.789 \begin{kaowarn}
+                     
+? 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 790.
+./MbaTextbook.tex:799: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   o
+l.799 \begin{kaowarn}
+                     
+? 
+./MbaTextbook.tex:799: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   o
+l.799 \begin{kaowarn}
+                     
+? 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 800.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 804.
+
+Overfull \hbox (4.3079pt too wide) in paragraph at lines 804--805
+\T1/zpllf/m/n/9.5 (-20) d'entrainement : [][]$\T1/fvm/m/n/9.5 https : / / app .
+ wooclap . com / COMP50900 / questionnaires /
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[22] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+chapter 4.
+
+Overfull \hbox (168.57417pt too wide) in paragraph at lines 807--807
+[][]
+ []
+
+<./img/budget.pdf, id=395, 963.6pt x 542.025pt>
+File: ./img/budget.pdf Graphic file (type pdf)
+<use ./img/budget.pdf>
+Package pdftex.def Info: ./img/budget.pdf  used on input line 820.
+(pdftex.def)             Requested size: 375.77309pt x 211.37234pt.
+
+Overfull \hbox (62.62306pt too wide) in paragraph at lines 820--821
+ [][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[23
+
+
+ <./img/budget.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 831.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[24] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
+(Font)              scaled to size 11.05797pt on input line 845.
+LaTeX Font Info:    Font shape `T1/zpllf/b/n' will be
+(Font)              scaled to size 11.05797pt on input line 845.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[25] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[26] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (4.09746pt too wide) in paragraph at lines 895--896
+[]\T1/zpllf/m/n/9.5 (-20) Diverses m�th-odes per-me-t-tent alors d'optimiser ce
+ co�t d'approvisionnement[][]. 
+ []
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 928--929
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[27] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:943: Undefined control sequence.
+l.943 \sidenotesize
+                   
+? 
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[28] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 984.
+
+Overfull \hbox (176.76068pt too wide) in paragraph at lines 993--994
+\T1/fvm/b/n/9.5 sharepoint . com/ : x : /g / personal / samuel _ sponem _ hec _
+ ca / ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw ?
+ []
+
+./MbaTextbook.tex:999: Undefined control sequence.
+l.999 \sidenotesize
+                   
+? 
+
+./MbaTextbook.tex:1003: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1003 Prévisions de ventes en volume & 5 
+                                             000 pièces & 1 000 pièces\\
+? 
+
+./MbaTextbook.tex:1003: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1003 ...entes en volume & 5 000 pièces & 1 
+                                                  000 pièces\\
+? 
+
+./MbaTextbook.tex:1005: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1005 Objectif de stock final en volume & 1 
+                                               100 pièces & 50 pièces\\
+? 
+
+./MbaTextbook.tex:1007: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1007 Stock initial en valeur & 38 
+                                      400 \$ & 26 200 \$\\
+? 
+
+./MbaTextbook.tex:1007: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1007 ... initial en valeur & 38 400 \$ & 26 
+                                                  200 \$\\
+? 
+
+Overfull \hbox (13.81348pt too wide) in paragraph at lines 1000--1009
+ [] 
+ []
+
+./MbaTextbook.tex:1016: Undefined control sequence.
+l.1016 \sidenotesize
+                    
+? 
+./MbaTextbook.tex:1029: Undefined control sequence.
+l.1029 \sidenotesize
+                    
+? 
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[29] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:1042: Undefined control sequence.
+l.1042 \sidenotesize
+                    
+? 
+
+./MbaTextbook.tex:1046: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1046 Stock initial en volume & 7 
+                                     000 kg & 6 000 kg\\
+? 
+
+./MbaTextbook.tex:1046: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1046 Stock initial en volume & 7 000 kg & 6 
+                                                  000 kg\\
+? 
+
+./MbaTextbook.tex:1047: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1047 Objectif de stock final en volume & 8 
+                                               000 kg & 2 000 kg\\
+? 
+
+./MbaTextbook.tex:1047: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1047 ...tock final en volume & 8 000 kg & 2 
+                                                  000 kg\\
+? 
+
+./MbaTextbook.tex:1056: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1056 \item Fixes : 420 
+                           000 \$
+? 
+./MbaTextbook.tex:1061: Undefined control sequence.
+l.1061 \sidenotesize
+                    
+? 
+
+./MbaTextbook.tex:1063: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1063 Recherche et développement & 76 
+                                          000 \$\\
+? 
+
+./MbaTextbook.tex:1064: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 Promotion des ventes & 133 
+                                    000 \$\\
+? 
+
+./MbaTextbook.tex:1065: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1065 Logistique des ventes & 66 
+                                    500 \$\\
+? 
+
+./MbaTextbook.tex:1066: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1066 Administration des ventes & 47 
+                                        500 \$\\
+? 
+
+./MbaTextbook.tex:1067: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1067 Administration générale & 152 
+                                         000 \$\\
+? 
+
+./MbaTextbook.tex:1068: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1068 ...hors production} & \textbf{475 000 \$}
+                                                  \\
+? 
+
+./MbaTextbook.tex:1069: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1069 Recherche et développement & 60 
+                                          000 \$\\
+? 
+
+./MbaTextbook.tex:1070: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1070 Promotion des ventes & 67 
+                                   000 \$\\
+? 
+
+./MbaTextbook.tex:1071: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1071 Logistique des ventes & 33 
+                                    500 \$\\
+? 
+
+./MbaTextbook.tex:1072: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1072 Administration des ventes & 12 
+                                        500 \$\\
+? 
+
+./MbaTextbook.tex:1073: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1073 Administration générale & 222 
+                                         000 \$\\
+? 
+
+./MbaTextbook.tex:1074: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1074 ...xes indirectes hors production} & 395 
+                                                  000 \$\\
+? 
+
+./MbaTextbook.tex:1075: Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1075 ...ges indirectes hors production} & 870 
+                                                  000 \$\\
+? 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1081.
+
+Overfull \hbox (123.28775pt too wide) in paragraph at lines 1081--1082
+\T1/fvm/m/n/9.5 com/ : x : /g / personal / samuel _ sponem _ hec _ ca / EdRgP6O
+zodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ ?
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[30] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1091.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1100.
+<./img/budgetcal.pdf, id=483, 714.9602pt x 225.23558pt>
+File: ./img/budgetcal.pdf Graphic file (type pdf)
+<use ./img/budgetcal.pdf>
+Package pdftex.def Info: ./img/budgetcal.pdf  used on input line 1118.
+(pdftex.def)             Requested size: 313.15433pt x 98.65373pt.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[31] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1128.
+Package marginnote Info: Margin note 34.1 is on absolute page 34 on input line 
+1128.
+Package marginnote Info: right page because not two side mode on input line 112
+8.
+Package marginnote Info: xpos seems to be 234.13214pt on input line 1128.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[32 <./img/budgetcal.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+LaTeX Font Info:    Font shape `TS1/zpllf/m/n' will be
+(Font)              scaled to size 7.67926pt on input line 1137.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[33] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+
+./MbaTextbook.tex:1152: Package inputenc Error: Unicode character   (U+202F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1152 ...ement Accounting Research, 30, 47‑61.}
+                                                   : certaines en font la r...
+
+? 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1157.
+
+Overfull \hbox (4.3079pt too wide) in paragraph at lines 1157--1158
+\T1/zpllf/m/n/9.5 (-20) d'entrainement : [][]$\T1/fvm/m/n/9.5 https : / / app .
+ wooclap . com / COMP50900 / questionnaires /
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[34] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+chapter 5.
+
+Overfull \hbox (168.57417pt too wide) in paragraph at lines 1160--1160
+[][]
+ []
+
+<./img/gestionobj.pdf, id=517, 895.12329pt x 408.59431pt>
+File: ./img/gestionobj.pdf Graphic file (type pdf)
+<use ./img/gestionobj.pdf>
+Package pdftex.def Info: ./img/gestionobj.pdf  used on input line 1173.
+(pdftex.def)             Requested size: 313.1476pt x 142.94156pt.
+\openout4 = `MbaTextbook.mw'.
+
+[35
+
+
+ <./img/gestionobj.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+
+./MbaTextbook.tex:1184: Package inputenc Error: Unicode character ᵉ (U+1D49)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1184 ...ons nord-américaines au début du XXᵉ
+                                                   siècle\sidenote{Sloan, A...
+
+? 
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[36] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[37] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1213.
+Package marginnote Info: Margin note 40.1 is on absolute page 40 on input line 
+1215.
+Package marginnote Info: right page because not two side mode on input line 121
+5.
+Package marginnote Info: xpos seems to be 318.3646pt on input line 1215.
+Package marginnote Info: Margin note 40.2 is on absolute page 41 on input line 
+1215.
+Package marginnote Info: right page because not two side mode on input line 121
+5.
+Package marginnote Info: xpos seems to be 287.01932pt on input line 1215.
+
+
+./MbaTextbook.tex:1215: Package inputenc Error: Unicode character   (U+202F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1215 ...he Accounting Review, 64(3), 539‑558.}
+                                                  .
+? 
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[38] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+<./img/centres.pdf, id=572, 962.52432pt x 414.70178pt>
+File: ./img/centres.pdf Graphic file (type pdf)
+<use ./img/centres.pdf>
+Package pdftex.def Info: ./img/centres.pdf  used on input line 1234.
+(pdftex.def)             Requested size: 313.1545pt x 134.92201pt.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[39 <./img/centres.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1242.
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 1264--1265
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[40] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1284.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[41] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:1296: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   o
+l.1296 \begin{kaowarn}
+                      
+? 
+./MbaTextbook.tex:1296: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   o
+l.1296 \begin{kaowarn}
+                      
+? 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1297.
+./MbaTextbook.tex:1326: Undefined control sequence.
+l.1326 \sidenotesize
+                    
+? 
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[42] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:1351: Undefined control sequence.
+l.1351 \sidenotesize
+                    
+? 
+
+Overfull \hbox (4.35168pt too wide) in paragraph at lines 1352--1359
+ [] 
+ []
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 1362--1363
+[] 
+ []
+
+<./img/roi.pdf, id=618, 926.64314pt x 365.51627pt>
+File: ./img/roi.pdf Graphic file (type pdf)
+<use ./img/roi.pdf>
+Package pdftex.def Info: ./img/roi.pdf  used on input line 1368.
+(pdftex.def)             Requested size: 313.14568pt x 123.52094pt.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[43 <./img/roi.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:1383: Undefined control sequence.
+l.1383 \sidenotesize
+                    
+? 
+
+Overfull \hbox (31.20418pt too wide) in paragraph at lines 1384--1393
+ [] 
+ []
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 1399--1400
+[] 
+ []
+
+<./img/roidetail.pdf, id=637, 904.8783pt x 445.18294pt>
+File: ./img/roidetail.pdf Graphic file (type pdf)
+<use ./img/roidetail.pdf>
+Package pdftex.def Info: ./img/roidetail.pdf  used on input line 1405.
+(pdftex.def)             Requested size: 313.14986pt x 154.06378pt.
+
+./MbaTextbook.tex:1409: Package inputenc Error: Unicode character ᵉ (U+1D49)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1409 ...trôle de gestion, PUF, 8ᵉ édition.}
+                                                  . Il permet aussi de trans...
+
+? 
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[44 <./img/roidetail.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[45] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:1464: Undefined control sequence.
+l.1464 \sidenotesize
+                    
+? 
+./MbaTextbook.tex:1484: Undefined control sequence.
+l.1484 \sidenotesize
+                    
+? 
+
+Overfull \hbox (4.78482pt too wide) in paragraph at lines 1485--1494
+ [] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[46] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 1497--1498
+[] 
+ []
+
+./MbaTextbook.tex:1521: Undefined control sequence.
+l.1521 \sidenotesize
+                    
+? 
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 1531--1532
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[47] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+<./img/pci.pdf, id=691, 962.97137pt x 388.56732pt>
+File: ./img/pci.pdf Graphic file (type pdf)
+<use ./img/pci.pdf>
+Package pdftex.def Info: ./img/pci.pdf  used on input line 1545.
+(pdftex.def)             Requested size: 313.13832pt x 126.35403pt.
+<./img/pciresult.pdf, id=692, 961.68097pt x 407.21625pt>
+File: ./img/pciresult.pdf Graphic file (type pdf)
+<use ./img/pciresult.pdf>
+Package pdftex.def Info: ./img/pciresult.pdf  used on input line 1556.
+(pdftex.def)             Requested size: 313.14426pt x 132.59846pt.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[48 <./img/pci.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (6.62265pt too wide) in paragraph at lines 1562--1563
+[]\T1/zpllf/m/n/9.5 (-20) Les prix de ces-sion in-terne per-me-t-tent de faire 
+en-trer le march� dans l'organisation
+ []
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 1583--1584
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[49 <./img/pciresult.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[50] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 6.7293pt on input line 1612.
+LaTeX Font Info:    Calculating math sizes for size <7.91676> on input line 161
+2.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 7.67926pt on input line 1612.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 5.60582pt on input line 1612.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 4.2236pt on input line 1612.
+
+Underfull \hbox (badness 1490) in paragraph at lines 1612--1612
+[]\T1/zpllf/m/n/7.91676 (+20) 15: Ec-cles, R. G. (1983). Con-trol with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1612
+\T1/zpllf/m/n/7.91676 (+20) Fair-ness in Trans-fer Pric-ing. Har-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1612
+\T1/zpllf/m/n/7.91676 (+20) vard Busi-ness Re-view, Novem-ber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1612
+\T1/zpllf/m/n/7.91676 (+20) 1983. [][]$\T1/fvm/m/n/7.91676 https : / / hbr . or
+g / 1983 / 11 /
+ []
+
+
+Overfull \hbox (24.01627pt too wide) in paragraph at lines 1612--1612
+\T1/fvm/m/n/7.91676 control-[]with-[]fairness-[]in-[]transfer-[]pricing$[][] 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1616.
+
+Overfull \hbox (16.82639pt too wide) in paragraph at lines 1616--1617
+\T1/fvm/m/n/9.5 app . wooclap . com / COMP50900 / questionnaires / 5f689959ca40
+2c5d7fde62cf$[][] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[51] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: Not enough space on this page on input line 1617.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[52] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+chapter 6.
+
+Overfull \hbox (168.57417pt too wide) in paragraph at lines 1619--1619
+[][]
+ []
+
+
+./MbaTextbook.tex:1623: Package inputenc Error: Unicode character   (U+202F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1623 ...ériales (4 éd., p. 73‑94). Pearson.}
+                                                  .
+? 
+\openout4 = `MbaTextbook.mw'.
+
+[53
+
+
+] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+
+./MbaTextbook.tex:1636: Package inputenc Error: Unicode character   (U+202F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1636 ...umains. Ecole Polytechnique, p.12-13.}*}
+                                                  
+? 
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[54] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 1644--1645
+[] 
+ []
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 1653--1654
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[55] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[56] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 1680--1681
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[57] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+LaTeX Font Info:    Font shape `T1/zpllf/b/it' will be
+(Font)              scaled to size 9.21501pt on input line 1693.
+
+Overfull \hbox (2.89929pt too wide) in paragraph at lines 1699--1700
+\T1/zpllf/m/n/9.5 (-20) dirigeants pro-duisent des in-cer-ti-tudes strat�giques
+ ou fac-teurs strat�giques
+ []
+
+<./img/inter.pdf, id=785, 963.50713pt x 354.85533pt>
+File: ./img/inter.pdf Graphic file (type pdf)
+<use ./img/inter.pdf>
+Package pdftex.def Info: ./img/inter.pdf  used on input line 1708.
+(pdftex.def)             Requested size: 313.1508pt x 115.33203pt.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[58] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:1714: Undefined control sequence.
+l.1714 {\sidenotesize
+                     
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1718--1718
+[]|\T1/zpllf/m/n/9.5 (+20) Leviers de
+ []
+
+
+Overfull \hbox (9.51987pt too wide) in alignment at lines 1715--1720
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1724--1724
+[]|\T1/zpllf/m/n/9.5 (+20) Leviers de
+ []
+
+
+Overfull \hbox (9.51987pt too wide) in alignment at lines 1720--1727
+ [] [] [] 
+ []
+
+
+Overfull \hbox (9.51987pt too wide) in alignment at lines 1727--1729
+ [] [] [] 
+ []
+
+
+Overfull \hbox (9.51987pt too wide) in alignment at lines 1729--1730
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1732--1732
+[]|\T1/zpllf/m/n/9.5 (+20) Nature des
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 1733--1733
+[]|\T1/zpllf/m/n/9.5 (+20) Objectif des
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 1733--1733
+[]|\T1/zpllf/m/n/9.5 (+20) Fournir la mo-ti-va-tion, les ressources et
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 1733--1734
+[]|\T1/zpllf/m/n/9.5 (+20) Faire con-verger l'attention or-gan-i-sa-tion-nelle
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 1736--1736
+[]|\T1/zpllf/m/n/9.5 (+20) But du sys-
+ []
+
+
+Overfull \hbox (9.51987pt too wide) in alignment at lines 1730--1737
+ [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1737
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[59 <./img/inter.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+Overfull \hbox (9.21501pt too wide) in paragraph at lines 1746--1747
+[] 
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[60] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:1761: Undefined control sequence.
+l.1761 {\sidenotesize
+                     
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1765
+[]|\T1/zpllf/m/n/9.5 (+20) Types
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1765
+[]|\T1/zpllf/m/n/9.5 (+20) Relations en-tre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1765
+\T1/zpllf/m/n/9.5 (+20) l'organisation et
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 1765--1766
+[]|\T1/zpllf/m/n/9.5 (+20) Exemples en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1771--1771
+[]|\T1/zpllf/m/n/9.5 (+20) Types
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1771--1771
+[]|\T1/zpllf/m/n/9.5 (+20) Relations en-tre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1771--1771
+\T1/zpllf/m/n/9.5 (+20) l'organisation et
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 1771--1772
+[]|\T1/zpllf/m/n/9.5 (+20) Exemples en
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 1779--1779
+[]|\T1/zpllf/m/n/9.5 (+20) Les buts des in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1779--1779
+\T1/zpllf/m/n/9.5 (+20) di-vidus sont op-
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 1779--1779
+\T1/zpllf/m/n/9.5 (+20) pos�s � ceux de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1779--1779
+[]|\T1/zpllf/m/n/9.5 (+20) Entit�
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 1779--1779
+[]|\T1/zpllf/m/n/9.5 (+20) Coercition : force,
+ []
+
+
+Overfull \hbox (1.22916pt too wide) in paragraph at lines 1779--1780
+[]|\T1/zpllf/m/n/9.5 (-20) Licenciements,
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 1780--1780
+[]|\T1/zpllf/m/n/9.5 (+20) Les buts des in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1780--1780
+\T1/zpllf/m/n/9.5 (+20) di-vidus di-ver-
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 1780--1780
+\T1/zpllf/m/n/9.5 (+20) gent de ceux de
+ []
+
+
+Overfull \hbox (3.91257pt too wide) in paragraph at lines 1780--1780
+[]|\T1/zpllf/m/n/9.5 (-20) Comportement| 
+ []
+
+
+Overfull \hbox (1.0782pt too wide) in paragraph at lines 1780--1781
+[]|\T1/zpllf/m/n/9.5 (-20) R�mun�ration,
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 1781--1781
+[]|\T1/zpllf/m/n/9.5 (+20) Les buts des in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1781--1781
+\T1/zpllf/m/n/9.5 (+20) di-vidus con-ver-
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 1781--1781
+\T1/zpllf/m/n/9.5 (+20) gent avec ceux de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1781--1781
+[]|\T1/zpllf/m/n/9.5 (+20) Vision du
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1781--1781
+\T1/zpllf/m/n/9.5 (+20) ligieuses,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1781--1781
+\T1/zpllf/m/n/9.5 (+20) as-so-ci-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1781--1781
+[]|\T1/zpllf/m/n/9.5 (+20) Identification, so-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1781--1782
+[]|\T1/zpllf/m/n/9.5 (+20) Propagande,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1781--1782
+\T1/zpllf/m/n/9.5 (+20) com-mu-ni-ca-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1782
+ []
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[61] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+
+./MbaTextbook.tex:1795: Undefined control sequence.
+l.1795 \sidenotesize
+                    
+? 
+
+Underfull \hbox (badness 2582) in paragraph at lines 1799--1800
+[]|\T1/zpllf/m/n/9.5 (+20) Contr�le des com-
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 1801--1802
+\T1/zpllf/m/n/9.5 (+20) / con-tr�le sym-bol-
+ []
+
+
+Overfull \hbox (7.37752pt too wide) in paragraph at lines 1796--1803
+ [][] 
+ []
+
+
+./MbaTextbook.tex:1805: Package inputenc Error: Unicode character   (U+202F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1805 ...measurement, evaluation and incentives.}
+                                                  . Le contrôle par les ré...
+
+? 
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[62] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1808.
+<./img/levers.pdf, id=826, 961.43683pt x 394.76561pt>
+File: ./img/levers.pdf Graphic file (type pdf)
+<use ./img/levers.pdf>
+Package pdftex.def Info: ./img/levers.pdf  used on input line 1817.
+(pdftex.def)             Requested size: 313.15277pt x 128.5804pt.
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[63 <./img/levers.pdf>] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1826.
+
+
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 59.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (155.98384pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+\openout4 = `MbaTextbook.mw'.
+
+[64] (./MbaTextbook.mw)
+\openout4 = `MbaTextbook.mw'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1830.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1830.
+ (./MbaTextbook.aux
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+\openout4 = `MbaTextbook.mw'.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1830.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1830.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+\openout4 = `MbaTextbook.toc'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 46255 strings out of 480875
+ 871643 string characters out of 5907566
+ 1379308 words of memory out of 5000000
+ 60370 multiletter control sequences out of 15000+600000
+ 670508 words of font info for 294 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 120i,20n,129p,10703b,952s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-lf.enc}{/usr
+/local/texlive/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/t
+exlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2020/tex
+mf-dist/fonts/enc/dvips/newtx/ntx-ecth-tlf.enc}{/usr/local/texlive/2020/texmf-d
+ist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/bera/fvmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
+ublic/bera/fvmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/tex-gyre/qhvb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/tex-
+gyre/qplb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/q
+plr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newpx/zplb.pfb><
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
+Output written on MbaTextbook.pdf (66 pages, 1438625 bytes).
+PDF statistics:
+ 1032 PDF objects out of 1200 (max. 8388607)
+ 773 compressed objects within 8 object streams
+ 212 named destinations out of 1000 (max. 500000)
+ 33181 words of extra memory for PDF output out of 35830 (max. 10000000)
+

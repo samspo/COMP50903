@@ -1,0 +1,47 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\nonumberline Contents}{2}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\etoc@startlocaltoc {2}
+\contentsline {chapter}{\numberline {2}Comportement des coûts, calcul des coûts et prise de décision sur le court terme}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Les rôles du calcul de coût}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Distinguer coûts variables et coûts fixes}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Marge sur coût variable et marge nette}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Analyse coûts / volumes / profits : le calcul du seuil de rentabilité}{7}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Gestion des coûts et prise de décision sur le long terme}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Le concept de coût complet}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Les étapes de calcul du coût de revient complet}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Conditions de validité de la méthode : Homogénéité des centres de regroupement et choix des bases d'imputation}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Du calcul du coût à la gestion des coûts : la méthode par activité}{18}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Quel coût pour quelle décision ?}{21}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Planification et animation budgétaire}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}La planification budgétaire}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Les budgets fonctionnels}{25}{section.4.2}%
+\contentsline {subsection}{\nonumberline Budget des ventes et des coûts commerciaux}{25}{subsection*.14}%
+\contentsline {subsection}{\nonumberline Programme de production et budget des coûts de production}{25}{subsection*.16}%
+\contentsline {subsection}{\nonumberline Programme et budget des approvisionnements}{26}{subsection*.18}%
+\contentsline {subsection}{\nonumberline Budgets des centres de coûts discrétionnaires et des centres d'investissement}{27}{subsection*.20}%
+\contentsline {subsection}{\nonumberline Budget de trésorerie (encaisse)}{28}{subsection*.22}%
+\contentsline {subsection}{\nonumberline Le compte de résultat et le bilan prévisionnel}{30}{subsection*.25}%
+\contentsline {section}{\numberline {4.3}Participation et processus budgétaire}{31}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Le budget : des rôles divers}{32}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Le budget et ses critiques}{33}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Mesure de la performance financière}{35}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Mesure de performance et gestion par les résultats}{35}{section.5.1}%
+\contentsline {subsection}{\nonumberline Gestion par les résultats et pilotage}{35}{subsection*.28}%
+\contentsline {subsection}{\nonumberline Les avantages de la gestion par les résultats}{36}{subsection*.31}%
+\contentsline {subsection}{\nonumberline Gérer par les résultats : hypothèses sur le processus contrôlé et la motivation des individus}{37}{subsection*.33}%
+\contentsline {section}{\numberline {5.2}Gestion par les résultats et centres de responsabilité}{39}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Mesurer la performance des centres de responsabilité}{41}{section.5.3}%
+\contentsline {subsection}{\nonumberline Le contrôle budgétaire et le calcul des écarts}{41}{subsection*.36}%
+\contentsline {subsection}{\nonumberline Le calcul et l'analyse du ROI}{42}{subsection*.38}%
+\contentsline {subsection}{\nonumberline Les limites du ROI}{45}{subsection*.42}%
+\contentsline {subsection}{\nonumberline Bénéfice résiduel}{45}{subsection*.44}%
+\contentsline {subsection}{\nonumberline Bénéfice résiduel et ROI}{46}{subsection*.46}%
+\contentsline {section}{\numberline {5.4}Transformer des centres de coûts ou de revenus en centre de profit : le rôle des prix de cession interne}{48}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Conclusion - Mesures de la performance, gestion par les résultats et contrôle}{53}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Les effets pervers de la gestion par les résultats}{53}{section.6.1}%
+\contentsline {subsection}{\nonumberline Focalisation sur les indicateurs et le déplacement des buts}{53}{subsection*.50}%
+\contentsline {subsection}{\nonumberline Manipulations et jeux comptables}{56}{subsection*.52}%
+\contentsline {section}{\numberline {6.2}Les modes de contrôle alternatifs à la gestion par les résultats}{57}{section.6.2}%
+\contentsline {subsection}{\nonumberline La diversité des usages des mesures de performance}{57}{subsection*.54}%
+\contentsline {subsection}{\nonumberline La diversité des modes de contrôle}{60}{subsection*.57}%
