@@ -1,4 +1,4 @@
-#+Title:Prévoir, décider et piloter à l'aide des informations comptables - COMP50900
+#+Title:Prévoir, décider et piloter à l'aide des informations comptables
 #+subtitle: Mini-manuel - COMP50900
 #+Author:Samuel Sponem - HEC Montréal
 #+Date:Mise à jour {{{time(%Y-%m-%d)}}}
@@ -15,16 +15,16 @@
 * Introduction
 
 #+begin_kaobox
-/Ces notes de cours viennent compléter les diapositives du cours COMP50900 pour les séances 8 à 12. Idéalement, la section correspondant au cours doit être lue préalablement au cours./
+/Ce mini-manuel complète les diapositives du cours COMP50900 pour les séances 8 à 12. Idéalement, la section correspondant au cours doit être lue préalablement au cours./
 
-Vous trouverez dans ces notes de cours quelques liens vers des vidéos[fn:1], des exercices et des liens vers des quiz qui vous permettent de vérifier votre compréhension. Pour compléter votre apprentissage, des exercices sont aussi disponibles sur ZoneCours.
+Vous trouverez dans ce mini-manuel des liens vers des vidéos[fn:1], des exercices et des liens vers des quiz qui vous permettent de vérifier votre compréhension. Pour compléter votre apprentissage, des exercices sont aussi disponibles sur ZoneCours.
 #+end_kaobox
 
 Les états financiers donnent aux parties prenantes externes une image comptable et financière de l'entreprise. L'état des résultats représente la performance de l'organisation sur une année et l'état de la situation financière donne une image du patrimoine à la fin de l'exercice comptable.
 
 Cette image comptable et financière (ce que l'on appelle la comptabilité financière) est cependant insuffisante pour permettre la gestion d'une organisation. Les managers ont besoin d'informations complémentaires pour planifier les activités de l'organisation, les contrôler et prendre les bonnes décisions.
 
-La comptabilité de gestion a pour objectif d'organiser et d'analyser les informations de la comptabilité financière, ainsi que des informations non financières, afin de soutenir les gestionnaires dans leurs activités de management en leur donnant des informations sur les coûts, les prévisions et en mesurant la performance interne.
+C'est le rôle de la comptabilité de gestion a pour objectif d'organiser et d'analyser les informations de la comptabilité financière, ainsi que des informations non financières, afin de soutenir les gestionnaires dans leurs activités de management en leur donnant des informations sur les coûts, les prévisions et en mesurant la performance interne.
 
 #+caption: Comptabilité financière et comptabilité de gestion
 #+name: comptafi
@@ -33,7 +33,7 @@ La comptabilité de gestion a pour objectif d'organiser et d'analyser les inform
 
 Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en interne – des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"[fn:2].
 
-En organisation, la comptabilité peut ainsi remplir divers rôles[fn:3] :
+En organisation, la comptabilité peut remplir divers rôles[fn:3] :
 - Aider à la résolution des problèmes et à la prise de décision /(problem-solving)/ ;
 - Orienter l’attention et organiser la vigilance /(attention-directing)/ ;
 - Permettre un constat et évaluer la performance /(scorekeeping)/.
@@ -48,7 +48,9 @@ Le comptable est généralement responsable de la production de l'information co
 Pour planifier, il est nécessaire de calculer et analyser les coûts permettant de faire les choix pertinents qui se matérialisent dans les plans stratégiques et de connaître les coûts à inscrire dans les budgets. Le contrôle budgétaire et les tableaux de bord permettent de suivre les réalisations. Grâce aux mesures de performance, il est possible d'analyser les résultats et de faire les ajustements nécessaires au bon fonctionnement de l'organisation.
 
 #+begin_kaobox
-Contrairement à la comptabilité financière, la comptabilité de gestion n'est pas normalisée. Le vocabulaire, les méthodes et les outils peuvent ainsi varier selon les entreprises. La plus grande difficulté est donc qu'il n'y a pas de méthode universelle qui serait applicable partout. Il n'y a pas de coûts justes ou exacts, il n'y a que des coûts pertinents pour une décision donnée. On utilise donc des calculs de coût différents pour prendre des décisions à court terme ou à long terme. De la même manière, le choix des chiffres à inscrire dans le budget dépend de l'utilisation que l'on va faire de l'outil et les mesures de performances doivent être choisies en pensant aux impacts qu'elles vont avoir sur les comportements. 
+Contrairement à la comptabilité financière, la comptabilité de gestion n'est pas normalisée. Le vocabulaire, les méthodes et les outils peuvent ainsi varier selon les entreprises. La plus grande difficulté est donc qu'il n'y a pas de méthode universelle qui serait applicable partout.
+
+Par exemple, il n'y a pas de coûts justes ou exacts, il n'y a que des coûts pertinents pour une décision donnée. On utilise donc des calculs de coût différents pour prendre des décisions à court terme ou à long terme. De la même manière, le choix des chiffres à inscrire dans le budget dépend de l'utilisation que l'on va faire de l'outil et les mesures de performances doivent être choisies en pensant aux impacts qu'elles vont avoir sur les comportements. 
 #+end_kaobox
 
 Les chiffres produits par la comptabilité de gestion reposent sur des hypothèses qui sont souvent discutables. Ils n'ont de valeur que parce qu'ils permettent :
@@ -59,7 +61,7 @@ La comptabilité de gestion n'est donc pas purement technique. Elle fait partie 
 
 
 #+begin_kaobox
-Ce document vient en complément des diapositives utilisées pour le cours. Il présente les pratiques communément acceptées en comptabilité de gestion, de manière simplifiée et à destination des gestionnaires, afin de vous permettre :
+Ce document présente les pratiques communément acceptées en comptabilité de gestion, de manière simplifiée et à destination des gestionnaires, afin de vous permettre :
 - de discuter avec un comptable en organisation (maîtriser son vocabulaire et comprendre ses méthodes) ;
 - d'utiliser l’information produite par le comptable et d'exercer un regard critique sur les outils et procédures qu’il utilise ;
 - de maîtriser les techniques de base de calcul des coûts, de construction des budgets ;
@@ -82,13 +84,13 @@ Un coût est une somme de charges, il se différencie d'un prix que l'on peut tr
 - prévoir les dépenses à inscrire au budget ;
 - mettre une valeur sur les stocks et produits en cours[fn:5].
 
-Dans de nombreuses situations, la connaissance des coûts est donc un élément de base de la prise de décision, même si la connaissance du coût n'est pas un élément suffisant. Elle vient en complément de l'analyse du marché, de l'analyse du processus de production et de l'analyse des risques encourus par l'entreprise. 
+Dans de nombreuses situations, la connaissance des coûts est donc un élément de base de la prise de décision, même si la connaissance du coût n'est pas un élément suffisant. Cette connaissance du coût vient en complément de l'analyse du marché, de l'analyse du processus de production et de l'analyse des risques encourus par l'entreprise. 
 
 Selon les décisions à prendre, divers types de calcul des coûts sont envisageables. Par exemple, pour les décisions à court terme on se limitera généralement au calcul de coûts partiels (c'est-à-dire, qui ne prennent en compte qu'une partie des coûts) alors que sur le long terme on appuiera les décisions sur des calculs des coûts complets (qui prennent en compte l'ensemble des coûts). Aucune méthode n'est adaptée à toutes les situations ; la méthode retenue doit être pertinente compte tenu de la décision à prendre. 
 #+begin_kaowarn
-Avant de se lancer dans un calcul de coûts, il faut se demander quel est l'objectif de ce calcul et bien choisir son /objet de coût/ (élément pour lequel une mesure séparée du coût est nécessaire). 
+Avant de se lancer dans un calcul de coûts, il faut se demander quel est l'objectif de ce calcul et bien choisir son /objet de coût/. 
 #+end_kaowarn
-Un objet de coût peut être un produit, un service, un client, une ligne de produits, une fonction, une activité, etc.
+La notion d'objet de coût correspond à tout élément pour lequel une mesure séparée du coût est nécessaire. Un objet de coût peut être un produit, un service, un client, une ligne de produits, une fonction, une activité, etc.
 
 Selon les décisions à prendre, il peut être utile de calculer le coût total ou le coût unitaire :
 - le *coût total* est le coût d'un ensemble de produits fabriqués ;
@@ -102,9 +104,13 @@ Selon les décisions à prendre, il peut être utile de calculer le coût total 
 La plupart des calculs en coûts partiels partent de la distinction entre les charges fixes et les charges variables.
 #+begin_center
 *Un coût est dit variable si son montant global varie proportionnellement aux variations du niveau d'activité.*
+
 *Un coût est dit fixe s'il n'est pas affecté par les variations d'activité (on parle aussi de coût de capacité).*
 #+end_center
-La distinction entre charges variables et charges fixes n'est vraie que pour un horizon de temps donné. Sur le court et le moyen terme, les charges fixes ne peuvent être modifiées, mais sur le long terme elles peuvent évoluer. Par exemple, on peut imaginer acheter une machine ou un nouveau bâtiment.
+
+Par exemple, le coût des matières premières ou de l'énergie évolue en fonction des quantités produites. Inversement, le coût de la location d'un bâtiment qui abrite l'usine est stable quelle que soit la quantité produite.
+
+Certains coûts sont difficiles à caractériser (par exemple, le coût de la main d'oeuvre)s. De plus, la distinction entre charges variables et charges fixes n'est vraie que pour un horizon de temps donné. Sur le court et le moyen terme, les charges fixes ne peuvent être modifiées, mais sur le long terme elles peuvent évoluer. Par exemple, on peut imaginer acheter une machine ou un nouveau bâtiment.
 
 La distinction entre les coûts fixes – indépendants du niveau d'activité – et les coûts variables – qui évoluent en fonction du volume – permet de définir la *fonction de coût* :
 #+begin_center
@@ -117,7 +123,7 @@ Cette fonction de coût modélise la relation entre le volume et les coûts. Ell
     :CUSTOM_ID: mcv
     :END:
 
-La marge sur coût variable est souvent utilisée pour évaluer la contribution d'un produit ou d'un service. Elle se calcule de la manière suivante : 
+*La marge sur coût variable* est souvent utilisée pour évaluer la contribution d'un produit ou d'un service. Elle se calcule de la manière suivante : 
 #+begin_center
 *Marge sur Coût Variable unitaire = Prix de vente unitaire - Coût variable unitaire*
 #+end_center
@@ -127,7 +133,9 @@ Elle peut être calculée de manière unitaire ou au total pour l'ensemble des u
 *= Chiffre d'affaires - Coût variable total*
 *= Quantités vendues x (Prix de vente unitaire - Coût variable unitaire)*
 #+end_center
-Dans la méthode du coût variable, les charges fixes ne sont donc pas imputées au coût des produits. Cette méthode a notamment été introduite afin de mesurer la performance des gestionnaires, qui bien souvent ne peuvent être tenus responsables de coûts fixes qu'ils n'ont pas engagés. Le tableau d'analyse des coûts en marge sur coût variable simple se présente de la manière suivante:
+Dans la méthode du coût variable, les charges fixes ne sont donc pas imputées au coût des produits. Cette méthode a notamment été introduite afin de mesurer la performance des gestionnaires, qui bien souvent ne peuvent être tenus responsables de coûts fixes qu'ils n'ont pas engagés.
+
+Le tableau d'analyse des coûts en marge sur coût variable simple se présente de la manière suivante:
 #+caption: Compte de résultat en marge sur coût variable /(avec CA = chiffre d'affaires ; CV = charges variables ; MCV : marge sur coût variable)/
 #+attr_latex: :center nil :align l c c c :font \footnotesize
 |                         | Produit A  | Produit B  | Total           |
@@ -145,7 +153,7 @@ Pour une synthèse en vidéo, concernant la notion de marge sur coûts variables
 
 Le calcul de la marge sur coût variable est très utile pour comparer deux propositions qui n'ont pas d'impact sur les coûts fixes. Ce calcul étant très simple, il doit être privilégié lorsque les coûts fixes sont stables. 
 
-La marge nette (aussi appelé méthode des coûts spécifiques) traduit la contribution apportée par chaque produit ou service. Le besoin de dépasser la marge sur coût variable simple est venu de l'importance croissante des charges fixes. La maîtrise de ces dernières est sera donc cruciale.
+Dans la plupart des entreprises, les coûts fixes représentent une part importante des coûts. Leur maîtrise est donc cruciale. *La marge nette* (aussi appelé méthode des coûts spécifiques) mesure la contribution apportée par chaque produit ou service, en prenant en compte une partie de ces coûts fixes.
 
 Parmi les coûts fixes, on peut distinguer ceux qui sont spécifiques – que l'on nomme aussi directs parce qu'ils sont facilement attribuables à un objet de coût (par exemple, une machine qui n'est utilisée que par un produit) – de ceux qui sont communs – que l'on nomme aussi indirects car ils ne peuvent être attribués directement aux différents produits et services (par exemple, le système informatique qui est utilisé pour les différents produits ou services de l'entreprise).
 
@@ -154,7 +162,7 @@ Pour calculer les marges nettes, on ne prend en compte que les coûts variables 
 Le tableau d'analyse des coûts est donc le suivant :
 
 #+caption: Compte de résultat en marge nette /(avec CA = chiffre d'affaires ; CV = charges variables ; MCV = marge sur coût variable ; CFS = coûts fixes spécifiques)/
-#+attr_latex: :align p{3cm} c c p{2cm} :font \footnotesize
+#+attr_latex: :font \footnotesize :align p{3cm} cp{2cm} cp{2cm} cp{3cm} 
 |                                              | Produit A        | Produit B        | Total                      |
 | <10>                                         | <10>             | <10>             | <10>                       |
 |----------------------------------------------+------------------+------------------+----------------------------|
@@ -189,13 +197,15 @@ Les coûts partiel donnent cependant une image incomplète du coût d'un produit
 L'une des applications courantes de la distinction entre coûts variables et coûts fixes est le calcul du seuil de rentabilité (ou point mort). 
 Par définition, le seuil de rentabilité est atteint lorsque le résultat est égal à 0, ce qui signifie que le chiffre d'affaires est équivalent aux coûts :
 #+begin_center
+Lorsque l'on est au seuil de rentabilité, alors :
+
 *Chiffre d'affaires = Coût variable unitaire x Quantités + Coûts fixes*
 #+end_center
 Ceci peut se représenter graphiquement de la manière suivante :
 #+caption: Chiffre d'affaires, coût total et seuil de rentabilité
 #+attr_latex: :placement [H] :center nil :font \footnotesize
 [[./img/srcact.pdf]]
-La marge de sécurité est la différence (exprimée en unités ou en unités monétaires) entre le niveau d'activité prévu et le niveau d'activité au point mort.
+*La marge de sécurité* est la différence (exprimée en unités ou en unités monétaires) entre le niveau d'activité prévu et le niveau d'activité au point mort.
 
 On peut aussi dire que le seuil de rentabilité est atteint lorsque la marge sur coût variable totale permet de couvrir les coûts fixes. 
 Ceci peut se représenter graphiquement de la manière suivante :
@@ -206,6 +216,7 @@ Ceci peut se représenter graphiquement de la manière suivante :
 Le seuil de rentabilité se calcule en quantités ou en chiffre d'affaires de la manière suivante :
 #+begin_center
 *Seuil de rentabilité en quantités  =  Coûts fixes ÷ (Marge sur coût variables unitaire)*
+
 *Seuil de rentabilité en chiffre d'affaires = Coûts fixes / Taux de marge sur coût variable*
 #+end_center
 
@@ -226,7 +237,7 @@ On peut déterminer le seuil de rentabilité en chiffre d'affaires (que l'on not
 
 Le calcul du seuil de rentabilité est à la fois assez simple et très utile puisqu'il permet de déterminer le volume minimum de vente pour atteindre un résultat nul.
 
-Les exercices ci-dessous permettent de s'exercer au calcul du seuil de rentabilité et de mieux comprendre comment la modélisation en coûts variables permet de choisir entre plusieurs types d'investissements.
+Les exercices ci-dessous permettent de s'entraîner au calcul du seuil de rentabilité et de mieux comprendre comment la modélisation en coûts variables permet de choisir entre plusieurs types d'investissements.
 
 -----
 *Exercice - Entreprise Bertrand*
@@ -255,20 +266,20 @@ Selon le directeur commercial, l'exploitation de BertMod se ferait aux condition
 *Corrigé*
 
 1 - 
-Charges variables : matières premières et charges de distribution.
-Charges fixes : amortissement et salaire
+- Charges variables : matières premières et charges de distribution.
+- Charges fixes : amortissement et salaire
 
 2 - 
-Marge sur coût variable unitaire = 10 $
-Seuil de rentabilité en quantités = 65 000
+- Marge sur coût variable unitaire = 10 $
+- Seuil de rentabilité en quantités = 65 000
 
 3 -
-100 000 x 10 - 650 000 = 350 000
+- 100 000 x 10 - 650 000 = 350 000
 
 4 -
-Nouvelle marge sur coût variable unitaire = 15 $
-15 x Q - 1 350 000 > 350 000
-Q* > 1133333
+- Nouvelle marge sur coût variable unitaire = 15 $
+- 15 x Q - 1 350 000 > 350 000
+- Q* > 1133333
 -----
 -----
 *Exercice - IsoGreen*
@@ -335,10 +346,11 @@ Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz
    :END:
 ** Le concept de coût complet
 
-Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges considérées comme incorporables (qu'elles soient variables, fixes, directes ou indirectes) pour les imputer aux objets de coûts. Les méthodes présentées par la suite s'appliquent à tout "objet de coût" (un produit, un service, un client, etc.), mais simplifier la formulation on parlera par la suite de "produit". 
+Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges considérées comme incorporables (qu'elles soient variables, fixes, directes ou indirectes) pour les imputer aux objets de coût[fn:6]. 
+
 Établir le coût complet d'un produit consiste à chercher à valoriser l'ensemble des ressources consommées par ce produit. Un coût complet se calcule donc de la manière suivante :
 #+begin_center
-*Coût complet = ∑ des charges directes + quote-part des charges indirectes.*
+*Coût complet = ∑ des charges directes + quote-part des charges indirectes*
 #+end_center
 Les charges indirectes sont les charges que l'on ne peut affecter sans ambiguïté à un produit. Par exemple, les coûts d'une machine utilisée par plusieurs produits, des frais de la direction générale, des coûts de transports communs à plusieurs produits sont des charges indirectes. Toute la difficulté vient de la nécessité, pour calculer un coût complet, de rattacher ces charges à un produit.
 ** Les étapes de calcul du coût de revient complet
@@ -349,10 +361,10 @@ Les charges indirectes sont les charges que l'on ne peut affecter sans ambiguït
 Une fois qu'un objet de coût est défini, on peut synthétiser le calcul du coût complet en 4 étapes :
 
 - Étape 1. Classement des charges en charges directes et indirectes
-L'ensemble des charges de la comptabilité financière doit être pris en compte à l'exception des charges qui ne reflètent pas les conditions normales d'une exploitation régulière de l'entreprise (par exemple, les charges ou pertes exceptionnelles, les amortissements dérogatoires, etc.). Le total des charges incorporables est classé en charges directes (affectables sans ambiguïté à un produit) et charges indirectes.
+L'ensemble des charges de la comptabilité financière doit être pris en compte à l'exception des charges qui ne reflètent pas les conditions normales d'une exploitation régulière de l'entreprise (par exemple, les charges ou pertes exceptionnelles). Le total des charges incorporables est classé en charges directes (affectables sans ambiguïté à un produit) et charges indirectes.
 
 - Étape 2. Affectation des charges indirectes aux centres de regroupement
-À cette étape, il est nécessaire d'affecter l'ensemble des charges indirectes à ce que l'on appelle des centres de regroupement, qui sont des entités comptables dans lesquelles on regroupe les charges indirectes qui se ressemblent[fn:6].
+À cette étape, il est nécessaire d'affecter l'ensemble des charges indirectes à ce que l'on appelle des centres de regroupement, qui sont des entités comptables dans lesquelles on regroupe les charges indirectes qui se ressemblent[fn:7].
 
 Un centre de regroupement est un "compartiment comptable" incluant des activités homogènes technologiquement distinctes des activités des autres centres. Dans la pratique, les centres de regroupement correspondent souvent aux différents services, départements ou ateliers mais si l'on y effectue des tâches technologiquement distinctes, il est nécessaire de définir plusieurs centres pour s'assurer de l'homogénéité des charges regroupées au sein du centre.
 
@@ -362,7 +374,8 @@ Quelques principes doivent être pris en compte lors de la définition des centr
 
 - Étape 3. Regroupement en fonction des bases d’imputation et calcul des taux d’imputation
 
-Lorsque les centres de regroupement sont déterminés, on cherche à répartir le coût des centres dans les produits. Pour pouvoir le faire, il est nécessaire de calculer un taux d'imputation. Pour simplifier, il est possible de regrouper les centres ayant des bases d'imputation identiques, avant de calculer les taux d'imputation.
+Lorsque les centres de regroupement sont déterminés, on cherche à répartir le coût des centres dans les produits. Pour pouvoir le faire, il est nécessaire de calculer un taux d'imputation, ce qui nécessite de déterminer pour chaque centre une base d'imputation. 
+
 La base d'imputation est l'unité de mesure de l'activité d'un centre, elle modélise les coûts de ce centre. Elle doit être choisie de manière à être la plus représentative possible du travail effectué par le centre et à traduire les variations de son activité. Souvent elle correspond au principal facteur de production utilisé par le centre (la main d'œuvre, l'heure machine, le nombre de lots, etc.).
 
 Le choix de la base d'imputation est déterminant, car les bases d'imputation permettent d'opérer les transferts de coûts vers les objets de coût. Une bonne base d'imputation est celle pour laquelle une corrélation satisfaisante est observée avec le coût du centre.
@@ -372,37 +385,41 @@ Le taux d'imputation est obtenu en divisant les totaux issus de la répartition 
 Les étapes 2 et 3 doivent être menées en réalisant un tableau de répartition des charges indirectes. Le tableau de répartition des charges indirectes se présente de la manière suivante :
 @@latex:\clearpage@@
 #+caption: Tableau de répartition des charges indirectes
-#+attr_latex: :align p{3cm} p{4cm} cp{2cm} cp{2cm} :font \footnotesize
+#+attr_latex: :font \footnotesize :align p{3cm} p{5cm} cp{1cm} cp{1cm}
 | Charges indirectes                          | Centre de regroupement 1                                                                                                                                 | Centre 2  | Centre 3 |
 | <10>                                        | <20>                                                                                                                                                     | <10>      | <5>      |
 |---------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+----------|
-| Charges indirectes consommées par le centre | Total de toutes les ressources consommées par le centre. Attention, ici on se limite aux charges indirectes.                                             | (1)       | xxx      |
-| Base d'imputation                           | Choix d'une base d'imputation caractéristique de l'activité du centre (par exemple, les heures machine, le nombre de lots, etc.)                         |           | xxx      |
-| Base d'imputation en volume                 | Calcul du volume de la base d'imputation. Par exemple, si on choisit les heures machines, on calcule le total des heures machines pour tous les produits | (2)       | xxx      |
-| Taux d'imputation                           | Le taux d'imputation est obtenu en divisant les ressources consommées par la base d'imputation                                                           | (1) ÷ (2) | xxx      |
+| Charges indirectes consommées par le centre | Total de toutes les ressources consommées par le centre. Attention, ici on se limite aux charges indirectes.                                             | (1)       |          |
+| Base d'imputation                           | Choix d'une base d'imputation caractéristique de l'activité du centre (par exemple, les heures machine, le nombre de lots, etc.)                         |           |          |
+| Base d'imputation en volume                 | Calcul du volume de la base d'imputation. Par exemple, si on choisit les heures machines, on calcule le total des heures machines pour tous les produits | (2)       |          |
+| Taux d'imputation                           | Le taux d'imputation est obtenu en divisant les ressources consommées par la base d'imputation                                                           | (1) ÷ (2) |          |
 
-Le tableau comprend autant de colonnes que le nombre de centres de regroupement.
+Le tableau comprend autant de colonnes que le nombre de centres de regroupement.  Pour simplifier, il est possible de regrouper les centres ayant des bases d'imputation identiques, avant de calculer les taux d'imputation.
 
 #+begin_kaowarn
-Le tableau de répartition des charges indirectes est une étape *indispensable* du calcul du coût complet. Dans les situations simples, on peut être tenté de se passer de cette étape en affectant directement les charges indirectes, sans passer par cette étape intermédiaire. Cependant, en faisant cela, on multiplie les possibilités d'erreur. De plus, on ne rend pas disponible une information importante sur ce que nous coûte chacune des opérations en termes de charges indirectes.
+Le tableau de répartition des charges indirectes est une étape *indispensable* du calcul du coût complet. Dans les situations simples, on peut être tenté de se passer de cette étape en affectant directement les charges indirectes, sans passer par cette étape intermédiaire.
+
+Cependant, en faisant cela, on multiplie les possibilités d'erreur. De plus, on ne rend pas disponible une information importante sur ce que nous coûte chacune des opérations en termes de charges indirectes.
 #+end_kaowarn
 - Étape 4. Imputation des charges directes et indirectes aux objets de coût
 Les charges directes concernent souvent (mais pas seulement et pas toujours) des charges de main-d'œuvre et les charges de matière première. Elles peuvent être directement, et sans calcul, affectées aux produits.
 L'affectation des charges indirectes aux objets de coût se fait par l'intermédiaire des taux d'imputation. 
 L'étape 4, qui permet le calcul du coût complet et du résultat en coût complet pour chaque produit doit être réalisé à l'aide d'un tableau qui prend la forme suivante :
 #+caption: Calcul du coût complet des produits
-#+attr_latex: :align p{2cm} p{5cm} p{2cm} p{2cm} :font \footnotesize
+#+attr_latex: :font \footnotesize :placement [H] :align p{1cm} p{5cm} p{2cm} p{2cm}
 |                    | Produit 1                                                                                                                                                                                                                                               | Produit 2                                                      | Produit 3 |
 | <10>               | <20>                                                                                                                                                                                                                                                    | <10>                                                           | <5>       |
 |--------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------|
-| Charges directes   | Une ligne pour chaque type de charge directe. Par exemple, la main d'oeuvre directe, les matières premières, etc.                                                                                                                                       | Quantités x coût unitaire = (1)                                | xxx       |
-| Charges indirectes | Une ligne pour chaque centre. Par exemple, centre de regroupement assemblage, livraison, etc. Pour affecter les charges indirectes, on multiplie la base d'imputation (en l'adaptant aux quantités consommées par le produit) par le taux d'imputation. | Volumme d'imputation pour le produit x taux d'imputation = (2) | xxx       |
-| Coût complet       |                                                                                                                                                                                                                                                         | = (1) + (2)                                                    | xxx       |
+| Charges directes   | Une ligne pour chaque type de charge directe. Par exemple, la main d'oeuvre directe, les matières premières, etc.                                                                                                                                       | Quantités x coût unitaire = (1)                                |           |
+| Charges indirectes | Une ligne pour chaque centre. Par exemple, centre de regroupement assemblage, livraison, etc. Pour affecter les charges indirectes, on multiplie la base d'imputation (en l'adaptant aux quantités consommées par le produit) par le taux d'imputation. | Volumme d'imputation pour le produit x taux d'imputation = (2) |           |
+| Coût complet       |                                                                                                                                                                                                                                                         | = (1) + (2)                                                    |           |
+
 Dans le tableau, il doit y avoir une colonne pour chaque produit. Le volume d'imputation correspond à ce qui est consommé par le produit. Par exemple, si la base d'imputation est l'heure machine, qu'un produit donné consomme 2 heures machines et qu'on produit 100 unités de ce produit. Le volume d'imputation est de 100 x 2. Autre exemple, si la base d'imputation est le nombre de lots mis en production et que pour un produit donné, il y a 50 lots mis en production, le volume d'imputation est de 50.
 
 La méthode des coûts complets peut être utilisée pour calculer le coût de produits ou de services, comme le montre l'exemple ci-dessous :
 -----
 *Exercice - Calcul du coût des clients dans un cabinet comptable*
+
 Un cabinet comptable de taille moyenne possède un portefeuille d'une centaine de clients, répartis dans 3 secteurs d'activité :
 - coiffeurs : 60 clients (secteur "C"),
 - restaurateurs : 30 clients (secteur "R"),
@@ -472,7 +489,7 @@ Si ces choix sont mal faits, c'est toute la pertinence de la répartition des ch
 
 Un centre de regroupement est un "compartiment comptable" regroupant des activités homogènes technologiquement distinctes des activités des autres centres. Dans la pratique, les centres de regroupement correspondent souvent aux différents services ou ateliers mais si on effectue des tâches technologiquement distinctes, il est nécessaire de définir plusieurs centres ou sections pour s'assurer de l'homogénéité des coûts qui composent le centre.
 
-Les coûts du centre sont dits homogènes s'ils forment un ensemble stable et solidaire c'est-à-dire si chaque fois que l'activité est déclenchée, les tâches élémentaires qu'elle comporte sont toutes effectuées et si chacune de ses tâches est exécutée de manière stable[fn:7]. Autrement dit, quel que soit le produit, celui-ci doit consommer toutes les tâches dans les mêmes proportions.
+Les coûts du centre sont dits homogènes s'ils forment un ensemble stable et solidaire c'est-à-dire si chaque fois que l'activité est déclenchée, les tâches élémentaires qu'elle comporte sont toutes effectuées et si chacune de ses tâches est exécutée de manière stable[fn:8]. Autrement dit, quel que soit le produit, celui-ci doit consommer toutes les tâches dans les mêmes proportions.
 
 -----
 *Exemple - Découpage des centres de regroupement et homogénéité*
@@ -525,7 +542,10 @@ En revanche, dans le cas ci-dessous il faudrait trouver une autre base d'imputat
 Selon les choix faits, des résultats très différents pourront être trouvés. Des produits ou des clients pourront apparaître comme bénéficiaires avec une méthode alors qu'ils sont déficitaires avec une autre méthode. Il est donc nécessaire de faire ces choix avec circonspection.
 
 #+begin_kaobox
-Traditionnellement, la comptabilité de gestion a apporté une grande importance aux activités volumiques, c'est-à-dire qui sont liés aux quantités produites et vendues (par ex, les charges indirectes de production liées aux heures de machine ou de main d’œuvre directe). Il est cependant important de prendre aussi en compte les activités non volumiques, c'est-à-dire qui ne sont pas directement reliées aux quantités produites et vendues (ex: contrôle qualité, manutention, conception des produits qui dépendent du nombre de lots ou du nombre de modèles).
+Traditionnellement, la comptabilité de gestion a apporté une grande importance aux activités volumiques, c'est-à-dire aux activités qui sont liés aux quantités produites et vendues (par exemple, les charges indirectes de production liées aux heures de machine ou de main d’œuvre directe).
+
+Il est cependant important de prendre aussi en compte les activités non volumiques, c'est-à-dire qui ne sont pas directement reliées aux quantités produites et vendues (ex: contrôle qualité, manutention, conception des produits qui dépendent du nombre de lots ou du nombre de modèles).
+
 Ainsi, les bases d’imputation ne doivent pas être uniquement volumiques si les coût indirects non reliés aux volumes représentent un part importante des charges indirectes.
 #+end_kaobox
 
@@ -536,19 +556,23 @@ Ainsi, les bases d’imputation ne doivent pas être uniquement volumiques si le
 
 Différentes critiques peuvent être faites aux démarches de calcul de coûts complets :
 - Les comportements de coûts n'apparaissent pas clairement en ne permettant pas la distinction entre les charges fixes et les charges variables. En particulier pour ces dernières, cette méthode ne permet pas de connaître leur mode de variation (linéaire, exponentiel, etc.) et les causes de celui-ci (par rapport à quelle(s) base(s) d'imputation elles varient).
-- La distinction entre charges directes et indirectes est peu aisée. Tout au plus, on peut dire que "les charges directes sont celles que l'on peut affecter en totalité, sans calcul préalable, à un produit ou une activité déterminée selon le critère d'analyse choisi. Les autres charges, communes à plusieurs produits ou activités, sont dites indirectes"[fn:8].
+- La distinction entre charges directes et indirectes est peu aisée. Tout au plus, on peut dire que "les charges directes sont celles que l'on peut affecter en totalité, sans calcul préalable, à un produit ou une activité déterminée selon le critère d'analyse choisi. Les autres charges, communes à plusieurs produits ou activités, sont dites indirectes"[fn:9].
 - La collecte et le traitement des informations nécessaires au calcul des coûts peuvent entrainer des opérations longues et coûteuses.
 - Les coûts de revient obtenus peuvent sembler être le reflet de choix "administratifs et comptables" et donc artificiels.
 
-En effet, dans de nombreuses entreprises, les centres de regroupement retenus sont essentiellement le reflet de l'organisation hiérarchique de l'entreprise. Cette façon de faire a été critiquée, notamment par Johnson et Kaplan[fn:9], parce que les charges directes (particulièrement la main d'oeuvre directe) décroissent, pendant que les charges indirectes prennent une part de plus en plus importante des coûts de production dans les usines (mais aussi dans les industries de services, avec les coûts des systèmes TI, par exemple). Dans ce contexte, la répartition des charges indirectes doit refléter de manière correcte la consommation des ressources par les différents produits, sinon le calcul des coûts donne une mauvaise représentation de la performance des différents produits.
+Dans de nombreuses entreprises, les centres de regroupement retenus sont essentiellement le reflet de l'organisation hiérarchique de l'entreprise. Cette façon de faire a été critiquée, notamment par Johnson et Kaplan[fn:10], parce que les charges directes (particulièrement la main d'oeuvre directe) décroissent, pendant que les charges indirectes prennent une part de plus en plus importante des coûts de production dans les usines (mais aussi dans les industries de services, avec les coûts des systèmes TI, par exemple).
 
-Pour bien prendre en compte la consommation des ressources, il faudrait donc s'appuyer sur une représentation qui part des processus de l'entreprise, afin de donner une représentation plus fidèle de la consommation de ressources que la représentation hiérarchique. La méthode de calcul des coûts par activité s'appuie ainsi sur la chaîne de valeur[fn:10], qui représente l'ensemble des activités (primaires et de soutien) qu'une entreprise doit réaliser afin de satisfaire ses clients.
+Dans ce contexte, la répartition des charges indirectes doit refléter de manière correcte la consommation des ressources par les différents produits, sinon le calcul des coûts donne une mauvaise représentation de la performance des différents produits.
+
+Pour bien prendre en compte la consommation des ressources, il faudrait donc s'appuyer sur une représentation qui part des processus de l'entreprise, afin de donner une représentation plus fidèle de la consommation de ressources que la représentation hiérarchique. C'est ce que propose la comptabilité par activité.
+
+La méthode de calcul des coûts par activité s'appuie sur la chaîne de valeur[fn:11], qui représente l'ensemble des activités (primaires et de soutien) qu'une entreprise doit réaliser afin de satisfaire ses clients.
 
 #+caption: La chaîne de valeur (Porter, 1985)
 #+attr_latex: :placement [H] :center nil
 [[./img/chaine.pdf]]
 
-La mise en oeuvre des calculs de coût par activité n'est pas fondamentalement différente de la méthode classique des calculs de coût complet examinée plus haut. Elle repose cependant, une logique différente, un vocabulaire spécifique (activités à la place de centres de regroupement, inducteurs à la place de base d'imputation) et une représentation processuelle de l’entreprise plutôt que hiérarchique.
+La mise en oeuvre des calculs du coût par activité n'est pas fondamentalement différente de la méthode classique des calculs de coût complet examinée plus haut. Elle repose cependant, une logique différente, un vocabulaire spécifique (activités à la place de centres de regroupement, inducteurs à la place de base d'imputation) et une représentation processuelle de l’entreprise plutôt que hiérarchique.
 
 Dans la méthode des coûts par activités, on considère que les produits déclenchent des activités, qui elles-mêmes consomment des ressources. 
 
@@ -591,7 +615,9 @@ On peut ainsi gérer un coût, sans le connaître précisément, si on a une bon
 
 Les différentes méthodes de calcul de coût ne permettent pas de prendre les mêmes types de décisions.
 
-*Le calcul du coût complet* de ce que consomme un produit, directement ou indirectement, en raison des capacités qu'il exige de mobiliser est un élément fondamental de la prise de décision sur le long terme. Celui-ci associe à un produit ses coûts de capacité et ses coûts variables, directs et indirects. On peut alors déterminer le résultat comptable de ce produit, bénéfice ou perte. Un tel calcul est essentiel lors des décisions de lancement ou de retrait d'une production. Il peut être utile également lors de la fixation du prix de vente d'un produit (si le marché est offreur). Il faudra cependant rester prudent en cas d'arrêt d'un produit dont le résultat en coût complet est négatif : cela peut conduire à une détérioration du résultat de l'entreprise s'il n'est pas possible de couvrir les coûts fixes autrement.
+*Le calcul du coût complet* de ce que consomme un produit, directement ou indirectement, en raison des capacités qu'il exige de mobiliser est un élément fondamental de la prise de décision sur le long terme. Celui-ci associe à un produit ses coûts de capacité et ses coûts variables, directs et indirects. On peut alors déterminer le résultat comptable de ce produit, bénéfice ou perte.
+
+Un tel calcul est essentiel lors des décisions de lancement ou de retrait d'une production. Il peut être utile également lors de la fixation du prix de vente d'un produit (si le marché est offreur). Il faudra cependant rester prudent en cas d'arrêt d'un produit dont le résultat en coût complet est négatif : cela peut conduire à une détérioration du résultat de l'entreprise s'il n'est pas possible de couvrir les coûts fixes autrement.
 -----
 *Exemple - Dans quel cas faut-il arrêter un produit ?*
 
@@ -650,12 +676,13 @@ Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz
    :PROPERTIES:
    :CUSTOM_ID: définition
    :END:
-Le budget est la traduction comptable des plans d'action retenus pour l'année à venir. Il devrait aussi être la déclinaison annuelle des stratégies. Il articule ainsi le court terme (le mensuel et l'annuel) et le moyen terme (l'annuel et le pluriannuel). C'est d'abord un outil de prévision. 
-Il permet ensuite un contrôle budgétaire grâce au calcul des écarts entre ce qui se produit et ce qui avait été prévu (le réel). Chaque écart peut être affecté à un service, permettant ainsi d'identifier les sources des inefficiences. Il peut donc être utilisé pour évaluer la performance des managers. 
+Le budget est la traduction comptable des plans d'action retenus pour l'année à venir. Il devrait aussi être la déclinaison annuelle des stratégies, en s'articulant avec la première année du plan (mais ce n'est pas toujours le cas). Le budget articule ainsi le court terme (le mensuel et l'annuel) et le moyen terme (l'annuel et le pluriannuel) : c'est un outil de prévision.
 
-Dans la pratique, un budget est défini pour chaque fonction de l'entreprise. Il est nécessaire de commencer la construction des budgets par les contraintes les plus fortes. Dans une économie de l'offre (par exemple, aujourd'hui dans quelques entreprises proposant des innovations technologiques ayant un succès tel qu'elles n'arrivent pas à répondre à la demande), la principale contrainte vient des capacités de production puisque les entreprises n'arrivent pas à satisfaire la demande. Dans ce cas, il faut construire en premier lieu le budget de production. 
+Il permet aussi un contrôle budgétaire, grâce au calcul des écarts entre ce qui se produit et ce qui avait été prévu (le réel). Chaque écart peut être affecté à un service, permettant ainsi d'identifier les sources des inefficiences. Il peut donc être utilisé pour évaluer la performance des managers. 
 
-Dans une entreprise familiale, qui a des problèmes de financement, la trésorerie constitue la principale contrainte : c'est par ce budget qu'il faudra débuter. Dans une économie de la demande, la marche de l'entreprise est essentiellement contrainte par la demande du marché. Dans ce cas, il faut commencer par établir le budget des ventes. C'est le cas le plus courant, et c'est celui que nous développerons par la suite.
+Dans la pratique, un budget est défini pour chaque fonction de l'entreprise. Il est nécessaire de commencer la construction des budgets par les contraintes les plus fortes.
+
+Dans une économie de l'offre (par exemple, aujourd'hui dans quelques entreprises proposant des innovations technologiques ayant un succès tel qu'elles n'arrivent pas à répondre à la demande), la principale contrainte vient des capacités de production puisque les entreprises n'arrivent pas à satisfaire la demande. Dans ce cas, il faut construire en premier lieu le budget de production. Dans une entreprise familiale, qui a des problèmes de financement, la trésorerie constitue la principale contrainte : c'est par ce budget qu'il faudra débuter. Dans une économie de la demande, la marche de l'entreprise est essentiellement contrainte par la demande du marché. Dans ce cas, il faut commencer par établir le budget des ventes. C'est le cas le plus courant, et c'est celui que nous développerons par la suite.
 
 #+caption: Les étapes du processus budgétaire
 #+attr_latex: :placement [H] :center nil :width 1.2\textwidth
@@ -674,9 +701,9 @@ https://youtu.be/Wbqrj7UfhmI
 
 Si le budget de trésorerie (ou budget de caisse) fait apparaître des besoins de financement auxquels l'entreprise ne peut pas faire face ou si le compte de résultat prévisionnel fait apparaître une rentabilité trop faible, le niveau des ventes doit, dans la mesure de ce qui peut être vendu sur le marché par l'entreprise, être modifié. Le budget est donc un outil fondamental en phase de prévision puisqu'il permet de tester la faisabilité de la stratégie en ce qui concerne les besoins de trésorerie sur le court terme et d'évaluer l'impact de cette stratégie sur le résultat et la rentabilité économique de l'activité.
 
-La démarche budgétaire est initiée par les comptables. Ils sont les garants de la procédure budgétaire. Les comptables fournissent le cadre budgétaire permettant de collecter les données, ils collectent les données primaires et organisent les réunions budgétaires permettant la confrontation des points de vue.
+La démarche budgétaire est initiée par les comptables. Ils sont les garants de la procédure budgétaire : ils fournissent le cadre budgétaire permettant de collecter les données, ils collectent les données primaires et organisent les réunions budgétaires permettant la confrontation des points de vue.
 
-Mais, la construction budgétaire va aussi impliquer, le plus souvent, les gestionnaires. En effet, la construction du budget implique le recueil de données internes (capacités de production, coûts, chiffre d'affaires prévisionnel) et externes (conjoncture économique et évolution du marché). Il faut aussi que le budget prenne en compte les préoccupations stratégiques de l'entreprise et qu'il soit en phase avec les réalités opérationnelles de l'entreprise. La participation des gestionnaires est donc nécessaire pour recueillir ces différentes informations. Ils fournissent les données, questionnent les hypothèses budgétaires et les dirigeants arbitrent sur les grands choix à réaliser. 
+Mais, la construction budgétaire implique aussi, le plus souvent, les gestionnaires. En effet, la construction du budget implique le recueil de données internes (capacités de production, coûts, chiffre d'affaires prévisionnel) et externes (conjoncture économique et évolution du marché). Il faut aussi que le budget prenne en compte les préoccupations stratégiques de l'entreprise et qu'il soit en phase avec les réalités opérationnelles de l'entreprise. La participation des gestionnaires est donc nécessaire pour recueillir ces différentes informations. Ils fournissent les données, questionnent les hypothèses budgétaires et les dirigeants arbitrent sur les grands choix à réaliser. 
 La construction du budget est donc souvent un long processus qui implique de nombreux acteurs dans l'entreprise, au-delà des comptables
 
 ** Les budgets fonctionnels
@@ -695,7 +722,7 @@ Lors de cette étape, la participation des vendeurs, des experts en marketing et
 
 Bien souvent, l'estimation des ventes se fait en reconduisant les réalisations de l'année N+1 plus ou moins un pourcentage qui correspond à la tendance générale du marché. C'est une méthode rapide, mais qui semble peu adéquate pour faire des prévisions sérieuses.
 
-Pour les entreprises qui ont une activité avec peu de clients (par exemple : les entreprises de la construction, un artisan plombier, un constructeur d'avions, une entreprise de gardiennage) la prévision peut se faire à partir du portefeuille de commandes et en évaluant le nombre de clients gagnés et perdus.
+Pour les entreprises qui ont une activité avec peu de clients (par exemple, les entreprises de la construction, un artisan plombier, un constructeur d'avions, une entreprise de gardiennage) la prévision peut se faire à partir du portefeuille de commandes et en évaluant le nombre de clients gagnés et perdus.
 À partir de ce budget des ventes, il est possible de faire le budget des coûts commerciaux. Le budget des coûts commerciaux peut être divisé par type d'activités : administration de la vente (gestion des clients, facturation), marketing (études commerciales, publicité, promotion), vente (salaires et coût des représentants), livraisons (emballages, expéditions), service après-vente.
 
 *** Programme de production et budget des coûts de production
@@ -720,7 +747,9 @@ Pour chaque facteur de production, il est nécessaire de vérifier que les capac
 
 Le budget de production est la valorisation du programme de production. Cette valorisation repose sur les calculs de coût complet effectués à l'aide des méthodes de comptabilité de gestion. Elle suppose la prise en compte des coûts variables (matières premières, fournitures, énergies, etc.) et fixes (amortissement des machines, main d'œuvre, etc.) qu'ils soient directs ou indirects. Les frais indirects de production sont inscrits dans les budgets en fonction de la base d'imputation retenue (critère utilisé pour répartir les frais généraux, par exemple le nombre de produits, le volume de travail, etc.) et du taux d'imputation calculé (= charges indirectes de production ÷ volume de la base d'imputation).
 
-Ceci permet de calculer le budget des coûts de production. Le budget de production complet nécessite de connaître le montant des approvisionnements, il doit donc être fait parallèlement au budget des approvisionnements.
+Ceci permet de calculer le budget des coûts de production.
+
+Le budget de production complet nécessite de connaître le montant des approvisionnements, il doit donc être fait parallèlement au budget des approvisionnements.
 
 *** Programme et budget des approvisionnements
 
@@ -731,7 +760,7 @@ Plusieurs paramètres déterminent les choix réalisés en la matière :
 - les coûts de stockage (coût de financement du stock, primes d'assurance, coûts des moyens de stockage - coût des entrepôts, du matériel de manutention -, coût de la dépréciation du stock, etc.) : plus ce coût est élevé et moins le stock doit être élevé, ce qui signifie qu'il est nécessaire de passer de nombreuses petites commandes ;
 - le coût de la rupture de stock : plus ce coût est élevé et plus il faut être prudent en matière de gestion des stocks et limiter les ruptures possibles (ce qui implique d'avoir un niveau de stock élevé).
 
-Diverses méthodes permettent alors d'optimiser ce coût d'approvisionnement[fn:11].
+Diverses méthodes permettent alors d'optimiser ce coût d'approvisionnement[fn:12].
 
 Le budget des coûts d'approvisionnement comprend :
 - les coûts d'achat, qui dépendent souvent des quantités achetées et doivent inclure les frais liés aux achats (notamment le transport) ;
@@ -768,6 +797,7 @@ Les autres méthodes seront étudiées dans le cours de finance. Dans le cadre d
 Le budget de trésorerie recense les encaissements et les décaissements relatifs à l'exploitation et aux investissements. Il est ainsi nécessaire de connaître les délais et dates de paiement pour les divers produits et charges pour l'établir :
 - les encaissements dépendent des délais accordés aux clients (il faudra penser à insérer dans le budget des encaissements ce que les clients doivent de l'exercice précédent et qui se situe dans le bilan) ;
 - les décaissements dépendent des délais accordés par les fournisseurs, le gouvernement, les salariés.
+Lorsqu'il y a des décalages entre le flux budgétaire et le flux de trésorerie, il est nécessaire de construire un tableau en mettant en ligne les flux budgétaires et en colonne les flux de trésorerie.
 
 #+caption: Budget de trésorerie (budget de caisse)
 #+attr_latex: :font \footnotesize
@@ -792,7 +822,6 @@ Le flux de trésorerie permet de calculer le niveau de trésorerie de l'entrepri
 *Trésorerie initiale + flux de trésorerie = trésorerie finale*
 #+end_center
 Si la trésorerie finale est négative, il faut prendre en compte les charges financières liées au découvert (en fonction des conditions de découvert obtenues auprès de la banque pour la marge de crédit). 
-Lorsqu'il y a des décalages entre le flux budgétaire et le flux de trésorerie, il est nécessaire de construire un tableau en mettant en ligne les flux budgétaires et en colonne les flux de trésorerie.
 
 -----
 *Application : Mirabel Air*
@@ -812,9 +841,8 @@ Le budget général final est le résultat de plusieurs itérations. L’entrepr
 - le budget des approvisionnements
 - le budget unitaire des coûts de production
 - le budget des coûts de production des produits vendus
-
-*Un modèle Excel est disponible pour vous guider : https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z*
 #+end_kaobox
+*Un modèle Excel est disponible pour vous guider : https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z*
 
 Les prévisions de vente et de stock de produits finis sont les suivantes :
 
@@ -923,11 +951,11 @@ Dans les faits, lors de la construction du budget se suivent des étapes /top-do
    :PROPERTIES:
    :CUSTOM_ID: rolebudg
    :END:
-Divers rôles sont attribués au budget. Anthony résume les finalités du budget et du processus de préparation budgétaire en cinq points[fn:12] : "(1) Motiver les managers à dresser des plans, (2) informer les managers de ce qui est attendu d'eux, (3) obtenir un engagement des managers, (4) coordonner les différentes activités d'une organisation, (5) fournir un standard pour juger la performance réelle". 
+Divers rôles sont attribués au budget. Anthony résume les finalités du budget et du processus de préparation budgétaire en cinq points[fn:13] : "(1) Motiver les managers à dresser des plans, (2) informer les managers de ce qui est attendu d'eux, (3) obtenir un engagement des managers, (4) coordonner les différentes activités d'une organisation, (5) fournir un standard pour juger la performance réelle". 
 Les rôles le plus souvent mis en avant s'articulent autour de quatre pôles : coordination/communication, gestion prévisionnelle, délégation/motivation et apprentissage au management. Ainsi, le processus budgétaire est l'occasion pour les divers services de se coordonner, par exemple de s'assurer que ce qui va être vendu par le service commercial aura bien été produit par les usines. Le budget doit permettre de prévoir les difficultés à venir et de choisir les programmes d'activité : il est donc un outil de gestion prévisionnelle. Le budget peut aussi être utilisé comme un contrat passé entre un responsable et sa hiérarchie sur les résultats à atteindre et/ou les moyens à mettre en œuvre. Enfin, le budget est une occasion privilégiée pour introduire la dimension économique et financière dans les choix opérationnels qui sont faits. Il est à ce titre un outil d'apprentissage au management.
 
 #+begin_kaobox
-Comme l'ont souligné Barrett et Fraser[fn:13], certains rôles sont incompatibles et l'utilisation du budget pour des rôles différents peut entraîner des effets pervers. Ils mettent notamment en évidence un conflit majeur entre les fonctions de prévision, de coordination et de communication d'une part et la fonction de délégation et d'évaluation d'autre part. En effet, les budgets utilisés pour la planification et la prévision doivent être fixés à un niveau réaliste pour permettre l'allocation des ressources et la coordination alors que s'ils sont utilisés pour motiver, ils doivent être fixés de façon à être difficiles à atteindre. Il y a donc contradiction entre la volonté de prévoir l'avenir le mieux possible et celle d'amener des managers à s'engager sur des objectifs ambitieux.
+Comme l'ont souligné Barrett et Fraser[fn:14], certains rôles sont incompatibles et l'utilisation du budget pour des rôles différents peut entraîner des effets pervers. Ils mettent notamment en évidence un conflit majeur entre les fonctions de prévision, de coordination et de communication d'une part et la fonction de délégation et d'évaluation d'autre part. En effet, les budgets utilisés pour la planification et la prévision doivent être fixés à un niveau réaliste pour permettre l'allocation des ressources et la coordination alors que s'ils sont utilisés pour motiver, ils doivent être fixés de façon à être difficiles à atteindre. Il y a donc contradiction entre la volonté de prévoir l'avenir le mieux possible et celle d'amener des managers à s'engager sur des objectifs ambitieux.
 #+end_kaobox
 
 De plus, on peut penser que les intérêts des supérieurs et des subordonnés diffèrent selon le rôle qui est accordé au budget. Ainsi, si le budget est d'abord utilisé dans un but de planification, les contrôlés ont intérêt à ce qu'on leur fixe des objectifs budgétaires plus importants pour disposer de plus de ressources. Si le budget est utilisé dans un but de motivation, les contrôlés vont chercher à minimiser leurs objectifs budgétaires pour accroître leurs chances de les atteindre. C'est ce qu'on appelle le /slack ou matelas budgétaire/. 
@@ -938,16 +966,16 @@ Pour réconcilier les divers objectifs du budget, plusieurs solutions peuvent ê
    :PROPERTIES:
    :CUSTOM_ID: budgcrit
    :END:
-Depuis l'étude d'Argyris au début des années 1950[fn:14], le budget fait l'objet de critiques importantes. L'école des relations humaines en contrôle de gestion s'est ainsi développée sur l'étude de ses effets négatifs sur la motivation. Argyris souligne notamment que les budgets ne permettent pas de comprendre la performance, s'intéressent à la performance passée, sont rigides et parfois irréalistes. Ils sont de plus un moyen de pression qui crée de la tension, détruit la coopération et produit du stress. La solution proposée par l'école des relations humaines est alors de promouvoir la participation des opérationnels au budget pour favoriser leur implication.
+Depuis l'étude d'Argyris au début des années 1950[fn:15], le budget fait l'objet de critiques importantes. L'école des relations humaines en contrôle de gestion s'est ainsi développée sur l'étude de ses effets négatifs sur la motivation. Argyris souligne notamment que les budgets ne permettent pas de comprendre la performance, s'intéressent à la performance passée, sont rigides et parfois irréalistes. Ils sont de plus un moyen de pression qui crée de la tension, détruit la coopération et produit du stress. La solution proposée par l'école des relations humaines est alors de promouvoir la participation des opérationnels au budget pour favoriser leur implication.
 
-Au début des années 1990, la critique du budget reprend de la vigueur. Deux remèdes ont ainsi été proposés, celui des partisans d'une amélioration du budget grâce à l'/Activity Based Budgeting/ (ABB) et celui des adeptes de sa suppression dans le cadre du /Beyond Budgeting/ (BB)[fn:15]. Il est ainsi reproché au budget de faire prévaloir le court terme sur le long terme, de rigidifier l'entreprise, de négliger la gestion de la valeur, d'inciter au marchandage pour obtenir des /bonis/, de provoquer de l'individualisme et du stress, d'être bureaucratique et de faire oublier la concurrence.
+Au début des années 1990, la critique du budget reprend de la vigueur. Deux remèdes ont ainsi été proposés, celui des partisans d'une amélioration du budget grâce à l'/Activity Based Budgeting/ (ABB) et celui des adeptes de sa suppression dans le cadre du /Beyond Budgeting/ (BB)[fn:16]. Il est ainsi reproché au budget de faire prévaloir le court terme sur le long terme, de rigidifier l'entreprise, de négliger la gestion de la valeur, d'inciter au marchandage pour obtenir des /bonis/, de provoquer de l'individualisme et du stress, d'être bureaucratique et de faire oublier la concurrence.
 
 Les critiques émises semblent relever de trois catégories : une critique du contrôle de gestion comme mode de direction par objectifs, une critique des effets pervers du budget et une critique du budget comme un des éléments du système de planification stratégique.
 
-Le budget est critiqué car il va souvent de pair avec un mode de management contractuel de type délégation/évaluation/rémunération qui ne permet pas toujours d'exploiter au mieux les compétences des salariés. On retrouve ici plus ou moins la critique du behaviorisme qui prônait dans les années 1970 le "management participatif" et dans les années 1990 "l'empowerment". Le courant "Beyond Budgeting" en fait le cœur de sa critique[fn:16] : 
+Le budget est critiqué car il va souvent de pair avec un mode de management contractuel de type délégation/évaluation/rémunération qui ne permet pas toujours d'exploiter au mieux les compétences des salariés. On retrouve ici plus ou moins la critique du behaviorisme qui prônait dans les années 1970 le "management participatif" et dans les années 1990 "l'empowerment". Le courant "Beyond Budgeting" en fait le cœur de sa critique[fn:17] : 
 /"Les entreprises ont investi des sommes considérables dans les technologies de l'information en réseau, le reengineering des processus et une palette d'outils de management tels que l'EVA, le balanced scorecard et la comptabilité d'activité. Mais elles n'ont pas été capables d'établir un “nouvel ordre” parce que le budget et la culture de type “diriger et contrôler” restent prédominants."/
 
-Ce mode de management a, de plus, un certain nombre d'effets pervers (cloisonnement, vision à court terme, ne permet de gérer que le financier, empêche l'innovation...). Plus généralement, comme tout système formalisé, il peut être à l'origine des cercles vicieux bureaucratiques tels qu'ils ont été identifiés par les sociologues des organisations américains depuis les années 1950. Le contrat budgétaire est à l'origine de nombreux comportements opportunistes[fn:17] : /"Essayer de négocier au plus bas les objectifs, obtenir son bonus à tout prix, faire passer le client après les objectifs, ne pas partager le savoir, dépenser le budget intégralement, pouvoir expliquer les écarts, ne pas fournir des prévisions justes, atteindre le budget, mais ne pas le dépasser et ne pas prendre de risques"./ Il serait même à l'origine de grandes faillites et fraudes nord-américaines : /"Dans des cas extrêmes, l'utilisation du budget pour forcer l'amélioration des performances peut conduire à des failles dans l'éthique des entreprises. Les personnes qui travaillaient à WorldCom, aujourd'hui en faillite [...] disent que les demandes rigides du président, Bernard Ebbers, étaient incontournables dans la vie dans l'entreprise. “Vous aviez un budget et il vous demandait de faire 2 % de moins que le budget”, a dit une personne travaillant à WorldCom [...] “rien d'autre n'était accepté”. WorldCom, Enron, Barings Bank et les autres entreprises qui ont chuté avaient des processus de contrôle budgétaire serrés qui n'orientaient l'information que vers ceux qui “doivent savoir”."/
+Ce mode de management a, de plus, un certain nombre d'effets pervers (cloisonnement, vision à court terme, ne permet de gérer que le financier, empêche l'innovation...). Plus généralement, comme tout système formalisé, il peut être à l'origine des cercles vicieux bureaucratiques tels qu'ils ont été identifiés par les sociologues des organisations américains depuis les années 1950. Le contrat budgétaire est à l'origine de nombreux comportements opportunistes[fn:18] : /"Essayer de négocier au plus bas les objectifs, obtenir son bonus à tout prix, faire passer le client après les objectifs, ne pas partager le savoir, dépenser le budget intégralement, pouvoir expliquer les écarts, ne pas fournir des prévisions justes, atteindre le budget, mais ne pas le dépasser et ne pas prendre de risques"./ Il serait même à l'origine de grandes faillites et fraudes nord-américaines : /"Dans des cas extrêmes, l'utilisation du budget pour forcer l'amélioration des performances peut conduire à des failles dans l'éthique des entreprises. Les personnes qui travaillaient à WorldCom, aujourd'hui en faillite [...] disent que les demandes rigides du président, Bernard Ebbers, étaient incontournables dans la vie dans l'entreprise. “Vous aviez un budget et il vous demandait de faire 2 % de moins que le budget”, a dit une personne travaillant à WorldCom [...] “rien d'autre n'était accepté”. WorldCom, Enron, Barings Bank et les autres entreprises qui ont chuté avaient des processus de contrôle budgétaire serrés qui n'orientaient l'information que vers ceux qui “doivent savoir”."/
 
 Ce sont les effets pervers induits par un système de contrôle financier strict, tel le contrôle budgétaire, qui semblent être au centre de ces critiques. 
 
@@ -987,9 +1015,11 @@ La gestion par les résultats offre de nombreux avantages qui expliquent son rô
 - La gestion par les résultats permet de décentraliser la prise de décision en échange du contrôle des résultats. De nombreuses décisions peuvent ainsi être prises par les responsables sur le terrain, au plus proche des opérations, ce qui favorise une meilleure qualité de l’information et permet une réactivité accrue dans la prise de décision. En outre, cette décentralisation de la prise de décision permet à la direction de se limiter à un contrôle par exception - c’est-à-dire restreint aux déviations notables par rapport aux objectifs – et ainsi de se consacrer aux décisions importantes, plus stratégiques qu’opérationnelles ;
 - La gestion par les résultats doit permettre de responsabiliser, d’évaluer et donc de motiver des salariés à partir des objectifs qui leur ont été fixés. À ce titre, c’est un outil de gouvernement des hommes qui peut être utilisé à tous les niveaux de l’organisation pour s’assurer que chacun fait des efforts dans l’intérêt de l’organisation.
 
-Au-delà de ses avantages en termes d’efficacité et d’efficience, ce système est présenté parfois comme une avancée démocratique. En substituant « la pratique d’un contrôle gestionnaire autonome à celle qui reposait sur la domination » la gestion par les résultats permettrait, en effet, d’atteindre un « idéal » démocratique dans lequel la responsabilité de chaque individu est mesurée dans le cadre d’un contrat passé préalablement à l’action entre des individus libres et égaux[fn:23]. 
+Au-delà de ses avantages en termes d’efficacité et d’efficience, ce système est présenté parfois comme une avancée démocratique. En substituant "la pratique d’un contrôle gestionnaire autonome à celle qui reposait sur la domination" la gestion par les résultats permettrait, en effet, d’atteindre un "idéal" démocratique dans lequel la responsabilité de chaque individu est mesurée dans le cadre d’un contrat passé préalablement à l’action entre des individus libres et égaux[fn:23]. 
 *** Gérer par les résultats : hypothèses sur le processus contrôlé et la motivation des individus
-La gestion par les résultats permet de piloter un processus de transformation d’inputs (ressources) en outputs (produits) en assignant à chaque responsable des objectifs et en lui offrant, en contrepartie, la maîtrise de moyens et une certaine liberté de mise en œuvre pour atteindre ses objectifs. De son côté, celui qui contrôle va pouvoir le faire par exception, c’est-à-dire en s’impliquant uniquement en cas de déviation significative par rapport aux objectifs. Cependant, ce modèle de gestion repose sur des hypothèses concernant le processus à contrôler et la manière dont les individus sont motivés.
+La gestion par les résultats permet de piloter un processus de transformation d’inputs (ressources) en outputs (produits) en assignant à chaque responsable des objectifs et en lui offrant, en contrepartie, la maîtrise de moyens et une certaine liberté de mise en œuvre pour atteindre ses objectifs. De son côté, celui qui contrôle va pouvoir le faire par exception, c’est-à-dire en s’impliquant uniquement en cas de déviation significative par rapport aux objectifs.
+
+Cependant, ce modèle de gestion repose sur des hypothèses concernant le processus à contrôler et la manière dont les individus sont motivés.
 
 *Une première hypothèse porte sur le processus contrôlé.*
 
@@ -1016,7 +1046,7 @@ Les relations complexes entre objectif, motivation, récompense et performance o
 Au-delà des hypothèses sur les objectifs et les motivations, la gestion par les résultats repose sur une troisième hypothèse : il est possible de découper l'organisation en plusieurs entités (que l'on appelle centres de responsabilité) dont on peut mesurer la performance.
 
 ** Gestion par les résultats et centres de responsabilité
-Pour contrôler par les résultats, il faut aussi découper l’organisation en centres de responsabilité et s’assurer de la convergence des buts. 
+Pour contrôler par les résultats, il faut découper l’organisation en centres de responsabilité et s’assurer de la convergence des buts. 
 Un centre de responsabilité est une subdivision de l’entreprise à la tête de laquelle est placé un responsable auquel sont fixés des objectifs et alloués un budget et des moyens. Le découpage de l’entreprise en centres de responsabilité est indispensable pour mettre en place un pilotage par les résultats, c’est-à-dire pour fixer des objectifs, assigner des responsabilités et clarifier l’autorité de chacun des acteurs impliqués. Divers types de centres de responsabilité existent : 
 - les centres de coût, qui rendent compte de leurs coûts, par exemple : une usine ;
 - les centres de revenus, qui sont responsables de leur chiffre d’affaires, par exemple : un agent commercial ;
@@ -1195,16 +1225,16 @@ On peut calculer le bénéfice résiduel de la manière suivante :
 #+begin_center
 *Bénéfice résiduel*
 *= résultat d'exploitation après impôts - coût des capitaux investis*
-/Avec : Coût des capitaux investis = capitaux investis x coût moyen pondéré du
-capital/
+/(avec Coût des capitaux investis = capitaux investis x coût moyen pondéré du
+capital)/
 #+end_center
 Les capitaux investis sont constitués des capitaux propres et de
 l'endettement. Le coût moyen pondéré du capital (CMPC) correspond à la moyenne pondérée
 du coût de la dette et du coût des capitaux propres.
 #+begin_center
-*Coût moyen pondéré du capital* 
-*=  coût de la dette × Dettes / (dette + capitaux propres)* 
-*+ coût des capitaux propres × capitaux propres / (dette + capitaux propres)*
+*Coût moyen pondéré du capital*
+- *=  coût de la dette × Dettes / (dette + capitaux propres)* 
+- *+ coût des capitaux propres × capitaux propres / (dette + capitaux propres)*
 #+end_center
 
 Le bénéfice résiduel permet de calculer un bénéfice net après rémunération des actionnaires (on sait que les dividendes versés aux actionnaires ne correspondent pas à une charge, ils n'apparaissent donc pas dans le bénéfice comptable). Le niveau de rémunération attendu par les actionnaires dépend du niveau de risque de l'activité de l'entreprise. Plus une entreprise est risquée et plus le coût de la rémunération des capitaux investis sera donc élevé.
@@ -1220,8 +1250,8 @@ Si l'on repart de la définition du bénéfice résiduel, on peut constater que 
 #+begin_center
 *Bénéfice résiduel = Résultat d'exploitation après impôts - coût des
 capitaux investis*
-*= ROI x actif - CMPC x actif*
-*= Actif x (ROI - CMPC)*
+- *= ROI x actif - CMPC x actif*
+- *= Actif x (ROI - CMPC)*
 #+end_center
 
 Cette formulation montre qu'un ROI élevé ne signifie pas qu'une entité crée de la valeur : tout dépend du coût moyen pondéré du capital. Ainsi, il ne sert à rien de comparer le niveau de ROI de diverses entités : tout dépend de leur coût moyen pondéré du capital. 
@@ -1257,7 +1287,9 @@ obtenus avec le ROI. Commenter.
 D'après le calcul du bénéfice résiduel, seule la division A crée de la valeur. On constate d'ailleurs que pour qu'il y ait création de valeur, il faut que le ROI soit supérieur au coût du capital. 
 -----
 
-Nous avons souligné ci-dessus que ROI peut poser des problèmes de sous optimisation. En effet, pour améliorer son ROI une division peut accepter un investissement qui détruit de la valeur pour l'entreprise. Inversement, pour maintenir son ROI à un taux élevé, une division peut refuser un investissement qui créé de la valeur. Le bénéfice résiduel résout ces problèmes : toutes les décisions d'investissement seront réalisées si et seulement si elles créent de la valeur.
+Nous avons souligné ci-dessus que ROI peut poser des problèmes de sous optimisation. En effet, pour améliorer son ROI une division peut accepter un investissement qui détruit de la valeur pour l'entreprise.
+
+Inversement, pour maintenir son ROI à un taux élevé, une division peut refuser un investissement qui créé de la valeur. Le bénéfice résiduel résout ces problèmes : toutes les décisions d'investissement seront réalisées si et seulement si elles créent de la valeur.
 
 -----
 *Exercice - Calcul du ROI et du bénéfice résiduel (suite)*
@@ -1335,8 +1367,8 @@ Les prix de cession interne ont donc pour objectif de motiver les responsables, 
 Une politique de prix de cession interne suppose que l’on réponde à deux questions : /qui fixe les prix de cession interne ? (ou comment, par quels mécanismes ?) selon quel principe d’évaluation ? (fait-on référence au prix du marché, à un coût calculé, etc. ?)/
 La fixation des prix de cession interne peut se faire de manière centralisée, ou au contraire décentralisée :
 - la fixation centralisée signifie que c’est la direction générale qui fixe les prix de cession, pour imposer indirectement sa stratégie. Par exemple, si on mène une stratégie d’intégration verticale, il faut inciter l’aval à s’approvisionner en amont ce qui suppose généralement des prix de cession interne « attractifs » à la fois pour le vendeur et pour l’acheteur ;
-- la fixation décentralisée signifie que les différents centres sont libres de négocier entre eux les prix qu’ils veulent, comme sur un « vrai » marché ;
-- il peut y avoir des situations intermédiaires, quand par exemple la direction fixe des grandes règles ou des contraintes. Par exemple : « liberté totale de négociation des prix de cession interne, mais ceux-ci ne doivent pas être supérieurs au prix du marché moins 5 %, avec obligation de s’approvisionner dans le groupe ».
+- la fixation décentralisée signifie que les différents centres sont libres de négocier entre eux les prix qu’ils veulent, comme sur un "vrai" marché ;
+- il peut y avoir des situations intermédiaires, quand par exemple la direction fixe des grandes règles ou des contraintes. Par exemple : "liberté totale de négociation des prix de cession interne, mais ceux-ci ne doivent pas être supérieurs au prix du marché moins 5 %, avec obligation de s’approvisionner dans le groupe".
 
 Deux grandes méthodes d’évaluation sont envisageables : par les prix ou par les coûts.
 
@@ -1344,7 +1376,7 @@ Deux grandes méthodes d’évaluation sont envisageables : par les prix ou par 
 Le prix de marché, quand il existe, présente l’intérêt de s’imposer objectivement à tous, et donc d’éviter les âpres négociations qui tournent à l’affrontement. Il permet également de dynamiser les centres, en les soumettant aux forces concurrentielles du marché. Mais il peut avoir des effets pervers, en induisant des transferts internes de profit qui n’existent que sur le papier, certains centres « faisant du bénéfice » sur le dos des autres.
 Ce prix de marché permet de mesurer la performance du centre acheteur et du centre vendeur.
 
-*Le coût marginal* (en pratique, le coût variable unitaire), constitue, à l’inverse, une limite inférieure, dans la mesure où il sera difficile de demander au centre « vendeur » de travailler en cédant sa production en dessous de son coût marginal : plus son activité serait grande, plus sa perte comptable serait importante. Sur le plan théorique, le coût marginal neutralise les transferts de bénéfice évoqués plus haut : les seuls résultats comptables affichés sont les "vrais" résultats, ceux gagnés grâce aux contrats avec les clients externes. Il ne permet donc pas de mesurer la performance des différents centres.
+*Le coût marginal* (en pratique, le coût variable unitaire), constitue, à l’inverse, une limite inférieure, dans la mesure où il sera difficile de demander au centre « vendeur » de travailler en cédant sa production en dessous de son coût marginal : plus son activité serait grande, plus sa perte comptable serait importante. Sur le plan théorique, le coût marginal neutralise les transferts de bénéfice évoqués plus haut : les seuls résultats comptables affichés sont les "vrais" résultats, ceux gagnés grâce aux contrats avec les clients externes. Il ne permet donc pas de mesurer la performance des différents centres.
 Le problème avec le coût marginal, c’est qu’il faut le calculer (ce n’est pas une donnée constatée comme le prix de marché), et sa valeur va constituer un enjeu entre les centres vendeurs et acheteurs, dont les résultats dépendent de la valeur retenue. D’où de multiples affrontements en perspective lors des discussions de préparation du budget, quand il faudra se mettre d’accord sur le montant des coûts.
 
 Entre ces deux valeurs extrêmes, il y a une infinité de coûts intermédiaires possibles : le coût complet, le coût complet + une marge forfaitaire, le prix de marché – une marge forfaitaire, un coût hors frais généraux et hors frais financiers, etc.
@@ -1402,33 +1434,35 @@ Pourtant, une mobilisation excessive des facteurs de motivation extrinsèque peu
 *** Manipulations et jeux comptables
 La mesure de la performance et son utilisation pour évaluer les individus peut induire une tentation de manipulations comptables, soit a priori (/slack/), soit a posteriori (manipulation des données).
 
-C'est par exemple un cas extrèmement courant avec le budget, comme le note Jensen lorsqu'il affirme que le budget /"prend beaucoup de temps aux managers, les forçant à tenir des réunions répétées et sans fin et à s'investir dans des négociations tendues. Il encourage les managers à mentir et à tricher, à minimiser les objectifs et à gonfler les résultats et il les pénalise lorsqu'ils disent la vérité. Il transforme les décisions en un jeu et monte les collègues les uns contre les autres, créant de la méfiance et de la rancune. Il produit des distorsions dans les incitations en motivant les gens à agir dans un sens qui va contre l'intérêt de leur entreprise."[fn:18]/
+C'est par exemple un cas extrèmement courant avec le budget, comme le note Jensen lorsqu'il affirme que le budget /"prend beaucoup de temps aux managers, les forçant à tenir des réunions répétées et sans fin et à s'investir dans des négociations tendues. Il encourage les managers à mentir et à tricher, à minimiser les objectifs et à gonfler les résultats et il les pénalise lorsqu'ils disent la vérité. Il transforme les décisions en un jeu et monte les collègues les uns contre les autres, créant de la méfiance et de la rancune. Il produit des distorsions dans les incitations en motivant les gens à agir dans un sens qui va contre l'intérêt de leur entreprise."[fn:41]/
 
 Ainsi, la pression liée à la nécessité de réaliser des résultats peut conduire les acteurs à se ménager un "matelas", ce que l’on nomme souvent le /slack/. On montre ainsi que le processus budgétaire, outil central en contrôle de gestion - mobilisé à des fins aussi diverses que l’autorisation des dépenses, la prévision des événements, la planification, la coordination des actions, la motivation des managers ou encore l’évaluation des performances - est souvent perçu par les acteurs, non comme un moyen mis à leur disposition, mais comme un outil de contrôle. Cela expliquerait qu’ils cherchent alors à créer ce que l’on nomme du /slack/ dont la finalité est de permettre aux managers de conserver des marges de manœuvre et de ne pas subir trop intensément la pression liée aux objectifs assignés.
 
 Cette pression peut aller au-delà, et conduire les managers ou les contrôleurs à gérer leur résultat. Cette gestion du résultat peut se faire dans le cadre légal des options comptables acceptées ou allers au-delà du cadre légal.
 
 -----
-*Exemple - Pression sur les résultats et jeu comptable [fn:41]*
+*Exemple - Pression sur les résultats et jeu comptable [fn:42]*
 
 Vous vous retrouvez à avoir un super bon mois de décembre, où vous  avez gardé des réserves un petit peu partout – la règle c’est 60/40, c’est-à-dire que vous essayez toujours d’avoir 60% de chance d’atteindre votre résultat et que 40% de chance de ne pas l’atteindre, donc vous avez planqué des réserves un peu partout – il se trouve que vos ventes sont bonnes donc vous vous retrouvez avec plein de réserves. Alors là, ce que vous essayez en général de faire – et tous les contrôleurs de gestion vous diront la même chose – vous essayez de ne pas l’annoncer et de garder la cagnotte pour l’année suivante. Enfin disons que c’est quelque chose auquel vous vous pliez assez naturellement parce que pour vous aussi c’est plus facile de piloter et puis cela reste vague, quel est le résultat réel ?, quel est le résultat officiel ? (directeur du contrôleur de gestion, division d’une entreprise d’agroalimentaire)
 -----
 
-Ainsi, une gestion forte par les résultats peut induire des jeux comptables. Au-delà de ces jeux, la mise en place d’un système de contrôle à un coût. En effet, la mobilisation d’un système de contrôle de gestion comporte un risque de bureaucratisation et engendre des coûts dont il faut tenir compte. Le coût relatif de la mise en place d’un système de contrôle et celui des inefficiences ou des gaspillages relatifs à la non-mise en place de ce système de contrôle doivent donc être comparés. En effet, mettre en place un système de contrôle induit un coût (développer et maintenir un système d’information, embaucher des contrôleurs de gestion, écrire et suivre des procédures, etc.) qui ne doit pas excéder l’utilité du système de contrôle (que l’on ne peut bien sûr pas évaluer simplement de manière chiffrée et monétaire). Lorsqu’aucune défaillance n’est acceptable, par exemple un lancement de fusées par Ariane Espace ou par la NASA ou la gestion d’une centrale nucléaire, il n’est pas possible de se satisfaire uniquement d’un contrôle par les résultats. Il faut alors contrôler par les procédures et s’assurer, par supervision directe, de la bonne réalisation des tâches.
+Ainsi, une gestion forte par les résultats peut induire des jeux comptables. Au-delà de ces jeux, la mise en place d’un système de contrôle à un coût. En effet, la mobilisation d’un système de contrôle de gestion comporte un risque de bureaucratisation et engendre des coûts dont il faut tenir compte. Le coût relatif de la mise en place d’un système de contrôle et celui des inefficiences ou des gaspillages relatifs à la non-mise en place de ce système de contrôle doivent donc être comparés. En effet, mettre en place un système de contrôle induit un coût (développer et maintenir un système d’information, embaucher des contrôleurs de gestion, écrire et suivre des procédures, etc.) qui ne doit pas excéder l’utilité du système de contrôle (que l’on ne peut bien sûr pas évaluer simplement de manière chiffrée et monétaire). 
 
 Évidemment, plus le système de contrôle par les résultats est strict et plus ses effets incitatifs sont forts, mais, dans le même temps, plus ses effets pervers sont exacerbés.
+
+Lorsqu’aucune défaillance n’est acceptable, par exemple un lancement de fusées par Ariane Espace ou par la NASA ou la gestion d’une centrale nucléaire, il n’est pas possible de se satisfaire uniquement d’un contrôle par les résultats. Il faut alors contrôler par les procédures et s’assurer, par supervision directe, de la bonne réalisation des tâches.
 
 ** Les modes de contrôle alternatifs à la gestion par les résultats
    :PROPERTIES:
    :CUSTOM_ID: altercontrol
    :END:
-Vouloir contrôler, c'est "chercher à orienter des actions, des comportements - sinon des savoirs, des buts ou des valeurs"[fn:42]. La raison d'être d'un système de contrôle est d'accroître les chances que les individus internalisent les objectifs organisationnels et qu'ils se comportent de manière à atteindre ces buts. Les mesures de performance permettent de contrôler en gérant par les résultats. Il est cependant possible de les utiliser de diverses manières. De plus, ce n'est pas l'unique mode de contrôle possible dans les organisations.
+Vouloir contrôler, c'est "chercher à orienter des actions, des comportements - sinon des savoirs, des buts ou des valeurs"[fn:43]. La raison d'être d'un système de contrôle est d'accroître les chances que les individus internalisent les objectifs organisationnels et qu'ils se comportent de manière à atteindre ces buts. Les mesures de performance permettent de contrôler en gérant par les résultats. Il est cependant possible de les utiliser de diverses manières. De plus, ce n'est pas l'unique mode de contrôle possible dans les organisations.
 *** La diversité des usages des mesures de performance
     :PROPERTIES:
     :CUSTOM_ID: diversiteusage
     :END:
 
-Les recherches récentes suggèrent que les grandes organisations sont aujourd'hui dotées de systèmes de contrôle et de mesure de la performance plus ou moins équivalents. Ce qui les différencie, c'est la manière dont ces systèmes sont utilisés[fn:43]. Simons met ainsi en évidence deux modes d'utilisation des systèmes de contrôle et de mesures de la performance : diagnostique et interactive.
+Les recherches récentes suggèrent que les grandes organisations sont aujourd'hui dotées de systèmes de contrôle et de mesure de la performance plus ou moins équivalents. Ce qui les différencie, c'est la manière dont ces systèmes sont utilisés[fn:44]. Simons met ainsi en évidence deux modes d'utilisation des systèmes de contrôle et de mesures de la performance : diagnostique et interactive.
 
 Les /*systèmes de contrôle et de mesure de la performance utilisés de manière diagnostique*/ sont "les systèmes d'information que les managers utilisent pour surveiller les résultats de l'organisation et corriger les déviations par rapport aux standards prédéfinis de performance" : ils s'inscrivent ainsi dans la logique classique de déploiement de la stratégie. Ils doivent permettre de contrôler la mise en œuvre de la stratégie en surveillant l'atteinte des Facteurs clés de succès et doivent attirer l'attention sur les écarts importants par rapport aux prévisions en permettant un contrôle par exception. Ils s'inscrivent dans une logique de gestion par les résultats.
 
@@ -1461,7 +1495,7 @@ Tous les systèmes de contrôle et de mesure de la performance peuvent être uti
 Les outils de contrôle et de mesure de la performance peuvent donc être employés de manière diagnostique ou interactive. L'utilisation interactive des outils de contrôle va au-delà de la simple gestion par les résultats et peut faciliter des apprentissages organisationnels. Les entreprises performantes sont celles qui arrivent à articuler, en fonction de leur stratégie et des contraintes de leur environnement, les contrôles diagnostiques et interactifs afin de permettre le déploiement et l'émergence de stratégies et de compenser les effets pervers des systèmes de contrôle diagnostiques par une utilisation interactive d'autres outils de contrôle.
 
 -----
-*Exemple - L'utilisation interactive du budget[fn:44]**
+*Exemple - L'utilisation interactive du budget[fn:45]**
 
 Une entreprise a décidé de réformer son système budgétaire afin de remplacer un système considéré comme rigide, bureaucratique et peu utile. Les changements s'apparentent à une utilisation interactive du budget. Ils ont notamment porté sur trois points. D'abord, la discussion budgétaire a été réorganisée pour favoriser la discussion entre des managers de divers niveaux ou de diverses fonctions (ingénieurs, financiers, etc.). Ensuite, l'accent a été mis sur son articulation avec les plans d'action ce qui permet une réflexion en amont sur les objectifs : "Avant les plans d'action étaient des emplâtres sur des jambes de bois. Je m'explique : on faisait le budget et quand tout était bouclé, on regardait quels plans d'action nous pouvions mettre en œuvre. Forcément, l'exercice était impossible" (Un directeur d'usine). Enfin, le budget est maintenant glissant et doit donner lieu à de multiples reprévisions, ce qui est là encore une occasion de discussion comme le souligne le chef de projet : "c'est l'occasion une fois par trimestre de discuter : le chef doit dialoguer, débattre et discuter les prévisions (et les résultats) [...] Le nombre de niveaux hiérarchiques impliqué est de 3 ou 4 à partir de la DG entreprise. Ça veut dire qu'on arrive au niveau du chef d'atelier. Ce sont les opérationnels qui font les prévisions (20% restent traitées en central grâce à une modélisation). [...] Le système permet de mettre face à face des gens ayant des points de vue différents pour faire les prévisions. » (Chef de projet Spring). Sans être parfait, le système a ainsi eu dans un certain nombre de cas, une dimension bénéfique comme le souligne un manager : "Ce système me permet chaque mois de me poser des questions sur mon activité et ses résultats. Il me permet de me comparer aux autres usines du groupe (en Pologne par exemple) et d'appeler le responsable de cette usine pour échanger avec lui sur nos problèmes communs. C'est un outil d'investigation fort utile." (Manager). Il conduit, d'une part, les managers à intégrer les préoccupations économiques dans leur raisonnement et, d'autre part, oblige les financiers à prendre en compte les contraintes opérationnelles dans la réalisation de leurs prévisions.
 -----
@@ -1473,7 +1507,7 @@ Une entreprise a décidé de réformer son système budgétaire afin de remplace
 
 Au-delà de la gestion par les résultats, divers modes de contrôle permettent de rendre prévisibles les comportements. 
 
-Ces modes de contrôle diffèrent selon le type d'organisation et les liens qu'elles ont avec les individus qui les composent[fn:45]. Etzioni distingue ainsi trois types d'organisations : les entreprises (et, plus largement, les bureaucraties) qu'il nomme "organisations instrumentales", les institutions totalitaires (comme les prisons, les asiles) qui sont appelées "organisations coercitives" et les organisations idéologiques (tels les partis politiques, les églises) qui sont regroupées sous le terme "d'institutions normatives".
+Ces modes de contrôle diffèrent selon le type d'organisation et les liens qu'elles ont avec les individus qui les composent[fn:46]. Etzioni distingue ainsi trois types d'organisations : les entreprises (et, plus largement, les bureaucraties) qu'il nomme "organisations instrumentales", les institutions totalitaires (comme les prisons, les asiles) qui sont appelées "organisations coercitives" et les organisations idéologiques (tels les partis politiques, les églises) qui sont regroupées sous le terme "d'institutions normatives".
 
 L'implication des membres de l'organisation est très différente dans ces trois types d'organisations :
 - Dans les organisations coercitives, les buts des individus sont opposés à ceux de l'organisation et le contrôle qui y est exercé est de type coercitif : il vise à soumettre physiquement les personnes à l'organisation ;
@@ -1491,7 +1525,7 @@ L'implication des membres de l'organisation est très différente dans ces trois
 
 Cette typologie nous permet de comprendre que les modes de contrôle à utiliser dépendent de la divergence d'intérêts qui peut exister entre l'organisation et les individus qui la composent. Elle montre aussi que, dans une certaine mesure, les entreprises utilisent non seulement des contrôles instrumentaux, mais également des modes de contrôle coercitifs (les licenciements, les sanctions) et normatifs (la propagande, la communication, la culture interne). Elle suggère, enfin, que le contrôle le plus efficace est celui qui n'est pas ressenti consciemment par les individus, c'est-à-dire le contrôle normatif. Agir sur les croyances et sur l'idéologie se révèle d'une grande force pour orienter les comportements (si certaines personnes sont prêtes à mourir pour des idées ou une religion, il est beaucoup plus rare de trouver des personnes prêtes à mourir pour des résultats).
 
-Ouchi[fn:46] propose une typologie des modes de contrôle plus directement applicable au cas des organisations classiques. Il met en évidence trois modes de contrôle auxquels les organisations ont recours pour résoudre le problème de la divergence d'intérêts :
+Ouchi[fn:47] propose une typologie des modes de contrôle plus directement applicable au cas des organisations classiques. Il met en évidence trois modes de contrôle auxquels les organisations ont recours pour résoudre le problème de la divergence d'intérêts :
 - Le *contrôle par les résultats* ou contrôle des /outputs/ qui consiste à rendre les acteurs responsables et "comptables" de leurs résultats et implique de définir des objectifs et de savoir les mesurer par des données comptables ou non-comptables. 
 - Le *contrôle par la bureaucratie* qui porte sur les actions et les comportements des individus dans les organisations et a pour objectif de s'assurer que les individus réalisent des actions (des tâches) qui sont souhaitées par l'organisation, qu'ils œuvrent dans le sens prévu par l'organisation. Ce contrôle peut recourir à des contraintes physiques et administratives, mobiliser des procédures et/ou utiliser la supervision directe par la hiérarchie. Seront récompensés les individus qui agissent conformément aux règles. Ce type de contrôles nécessite que soient définies par une hiérarchie les règles à suivre et que l'on s'assure de leur bonne mise en œuvre. En outre, pour les entreprises dont l'environnement est extrêmement mouvant, ce contrôle est peu adapté puisque sa mise en œuvre nécessiterait de faire évoluer les règles fréquemment, au moins au rythme du changement de l'environnement. Néanmoins, le contrôle de type bureaucratique est très présent dans les organisations publiques, mais aussi largement mis en œuvre dans les grandes entreprises. À cet égard, les normes ISO (/International Organization for Standardization/), le contrôle interne ou encore l'audit introduisent et normalisent une forme de contrôle bureaucratique. Les contrôles de type bureaucratique peuvent servir de /système garde-fou/ et permettre de délimiter ce qu'il est possible de faire et ce qui est interdit. Plutôt que de dire ce qu'il faut faire, ils permettent de laisser de la liberté en ne disant que ce qu'il ne faut pas faire. On peut les retrouver dans les chartes d'entreprise ou dans les codes éthiques, mais aussi dans les discours stratégiques.
 - Le *contrôle par le clan*, les qualifications et la culture met l'accent sur l'importance de la confiance dans le personnel pour réaliser ce qui est le mieux pour l'organisation. On considère ici que contrôler c'est former les identités, les émotions, les pensées, les attitudes et les croyances : gagner les cœurs et les esprits. L'attention est alors portée sur ces éléments immatériels. Diverses tactiques permettent de mettre en œuvre ce type de contrôle : contrôle par le clan ou par les pairs (dans la mafia personne ne déroge au code de l'honneur, car chacun est sous la surveillance de ses pairs) ; contrôle par la standardisation des qualifications (embauche de personnes qui ont /a priori/ les compétences pour assumer la mission qui leur est confiée du fait de leur formation initiale ou continue, c'est le cas par exemple des médecins, des ingénieurs, ou des comptables, mais aussi des gestionnaires dans certaines organisations pour lesquels une "certification" atteste de la conformité des valeurs et des comportements) ; contrôle par la culture, le sens de l'appartenance ou la socialisation qui peuvent permettre une forme d'endoctrinement aux valeurs et objectifs de l'organisation ; ou maîtrise des conditions affectives par les facteurs de satisfaction. Le contrôle repose alors sur des systèmes de croyances et s'appuie sur les valeurs fondamentales des membres de l'organisation. Ces valeurs définissent les principes, les objectifs et les responsabilités vis-à-vis des clients, des employés et des diverses parties prenantes. Ils s'inscrivent souvent dans la personnalité des fondateurs, mais lorsque l'entreprise croît il devient nécessaire de les communiquer de manière plus formelle. On peut les retrouver dans les "/credo/" ou "missions" communiquées par la direction.
@@ -1504,15 +1538,15 @@ Ouchi[fn:46] propose une typologie des modes de contrôle plus directement appli
 | Par les objectifs       | Incitations, mise en concurrence (marché)                                              | Contrôle des résultats                      |
 | Par les normes sociales | Engagement, surveillance des pairs, socialisation, qualifications, croyances et valeur | Contrôle des intrants / contrôle symbolique |
 
-Ces différents modes de contrôle peuvent être mobilisés simultanément ou de façon séparée. Ils seront plus ou moins efficaces selon le contexte dans lequel ils prennent place[fn:47]. Le contrôle par les résultats n'est pas toujours le mode de contrôle le plus efficace et dans certains environnements d'autres types de contrôle sont envisageables et même souhaitables. 
+Ces différents modes de contrôle peuvent être mobilisés simultanément ou de façon séparée. Ils seront plus ou moins efficaces selon le contexte dans lequel ils prennent place[fn:48]. Le contrôle par les résultats n'est pas toujours le mode de contrôle le plus efficace et dans certains environnements d'autres types de contrôle sont envisageables et même souhaitables. 
 
 #+begin_kaobox
-Dans certains secteurs d’activité, la conformité à des normes de résultats peut être contre-productive et l’on peut davantage vouloir utiliser l’intuition, la créativité, l’ingéniosité des salariés pour trouver des solutions originales ou des processus inédits. On peut penser alors que la stratégie et la fixation d’objectifs se satisfont d’une navigation dans l’ambigu et que l’organisation doit favoriser cette ambiguïté pour permettre l’émergence de pratiques nouvelles. Les métiers créatifs sont évidemment les premiers concernés : des objectifs de résultats trop stricts peuvent aller à l’encontre de toute tentative d’innovation.
+Dans certains secteurs d’activité, la conformité à des normes de résultats peut être contre-productive et l’on peut davantage vouloir utiliser l’intuition, la créativité, l’ingéniosité des salariés pour trouver des solutions originales ou des processus inédits. On peut penser alors que la stratégie et la fixation d’objectifs se satisfont d’une navigation dans l’ambigu et que l’organisation doit favoriser cette ambiguïté pour permettre l’émergence de pratiques nouvelles. Les métiers créatifs sont évidemment les premiers concernés_: des objectifs de résultats trop stricts peuvent aller à l’encontre de toute tentative d’innovation.
 
 Différents critères doivent donc présider au choix des modes de contrôle à mettre en œuvre et notamment le niveau désiré d’innovation : un opérateur fortement encadré par des procédures et directement contrôlé par sa hiérarchie aura peu de capacité d’innovation. En indiquant aux agents ce qu’ils doivent faire et en s’assurant qu’ils le font, on limite leur capacité d’action et d’innovation. Éviter l’innovation permet souvent d’améliorer l’efficience, mais aussi de s’assurer de la qualité du produit ou du service et de la vitesse d’exécution des opérations. C’est pourquoi on laissera peu de capacité d’innovation à un employé de la restauration rapide ou à un ouvrier à la chaîne. On fait alors l’hypothèse que la hiérarchie a une meilleure connaissance de la bonne façon d’agir que les subordonnés. Pourtant, dans des environnements incertains ou en évolution constante, il faut savoir laisser une certaine capacité d’innovation et d’expérimentation aux subordonnés. Dans ce cas, il est préférable de favoriser un contrôle par les résultats à un contrôle des procédures en laissant les subordonnés libres d’envisager des manières de faire ou des produits qui n’avaient pas été pensés par la direction. Ils peuvent ainsi s’adapter à leurs marchés et à leurs clients. Des objectifs difficiles peuvent cependant rendre impossible toute recherche d’autres solutions et par la même toute innovation.
 #+end_kaobox
 
-Parce qu'ils tentent de mettre sous pression les individus dans les organisations, les systèmes de contrôle interactifs et diagnostiques peuvent de plus conduire à des comportements déviants (manipulations comptables, fraudes, concurrence interne entre les responsables, etc.). Pour limiter ces risques, des contrôles administratifs ou culturels peuvent être mis en place. En résumé, quatre leviers de contrôle peuvent être utilisés dans les organisations[fn:48]. Ces leviers de contrôle permettent de gérer des variables clés différentes (les facteurs clés de succès, les facteurs stratégiques de risque, les valeurs ou les risques à éviter). 
+Parce qu'ils tentent de mettre sous pression les individus dans les organisations, les systèmes de contrôle interactifs et diagnostiques peuvent de plus conduire à des comportements déviants (manipulations comptables, fraudes, concurrence interne entre les responsables, etc.). Pour limiter ces risques, des contrôles administratifs ou culturels peuvent être mis en place. En résumé, quatre leviers de contrôle peuvent être utilisés dans les organisations[fn:49]. Ces leviers de contrôle permettent de gérer des variables clés différentes (les facteurs clés de succès, les facteurs stratégiques de risque, les valeurs ou les risques à éviter). 
 
 #+caption: Les divers leviers de contrôle
 #+attr_latex: :placement [H] :center nil
@@ -1540,31 +1574,31 @@ La comptabilité est un langage prédominant du domaine des affaires. Elle donne
 
 [fn:5] Cette valorisation va ensuite être utilisée par la comptabilité financière. Ainsi, même si la comptabilité de gestion n'est pas directement normalisée, les données qu'elle produit pour valoriser le coût des stocks et produits en cours sont tout de même encadrées par les normes comptables.
 
-[fn:6] On distingue deux types de centres de regroupements : les centres principaux (qui assument une fonction directement opérationnelle) et les centres de support (qui travaillent pour d'autres centres, par exemple le service d'entretien ou le service comptable). Il est nécessaire de répartir les ressources consommées par les centres de support dans les centres principaux en fonction de leur consommation. Cela implique de trouver une base d'imputation qui permet d'affecter ces centres dans les centres principaux. Par exemple, les coûts du service de ressources humaines peuvent être refacturés aux autres centres sur la base du nombre de salariés dans chacun de ces centres (ou de leur masse salariale). Autre exemple, les coûts du service de maintenance informatique sont répartis aux autres centres en fonction du nombre de postes informatique au sein de chacun de ces centres. Cette difficulté technique supplémentaire dépasse le cadre de ce cours.
+[fn:6] Les méthodes présentées par la suite s'appliquent à tout "objet de coût" (un produit, un service, un client, etc.), mais pour simplifier la formulation on parlera la plupart de temps de "produits".
 
-[fn:7] Bouquin, H (2011), Comptabilité de gestion, éditions économica.
+[fn:7] On distingue deux types de centres de regroupement : les centres principaux (qui assument une fonction directement opérationnelle) et les centres de support (qui travaillent pour d'autres centres, par exemple le service d'entretien ou le service comptable). Il est nécessaire de répartir les ressources consommées par les centres de support dans les centres principaux en fonction de leur consommation. Cela implique de trouver une base d'imputation qui permet d'affecter ces centres dans les centres principaux. Par exemple, les coûts du service de ressources humaines peuvent être refacturés aux autres centres sur la base du nombre de salariés dans chacun de ces centres (ou de leur masse salariale). Autre exemple, les coûts du service de maintenance informatique sont répartis aux autres centres en fonction du nombre de postes informatique au sein de chacun de ces centres. Cette difficulté technique supplémentaire dépasse le cadre de ce cours.
 
-[fn:8] Burlaud A. et Simon C. (2003), Comptabilité de gestion, Vuibert Gestion, p. 15.
+[fn:8] Bouquin, H (2011), Comptabilité de gestion, éditions économica.
 
-[fn:9] Johnson, H. T., & Kaplan, R. S. (1987). Relevance lost : The rise and fall of management accounting. Harvard Business School Press. (voir auss Miller, J. G., & Vollmann, T. E. (1985). The hidden factory. Harvard Business Review, 63(5), 142‑150.)
+[fn:9] Burlaud A. et Simon C. (2003), Comptabilité de gestion, Vuibert Gestion, p. 15.
 
-[fn:10] Porter, M. E. (1985). Competitive advantage : Creating and sustaining superior performance. The Free Press.
+[fn:10] Johnson, H. T., & Kaplan, R. S. (1987). Relevance lost : The rise and fall of management accounting. Harvard Business School Press. (voir auss Miller, J. G., & Vollmann, T. E. (1985). The hidden factory. Harvard Business Review, 63(5), 142‑150.)
 
-[fn:11] Par exemple, [[https://fr.wikipedia.org/wiki/Formule_de_Wilson][la formule de Wilson]]
+[fn:11] Porter, M. E. (1985). Competitive advantage : Creating and sustaining superior performance. The Free Press.
 
-[fn:12] Anthony, R.N. (1988), The management control function, The Harvard Business School Press, Boston (Trad. La fonction contrôle de gestion), Paris, Publi-Union, 1993.
+[fn:12] Par exemple, [[https://fr.wikipedia.org/wiki/Formule_de_Wilson][la formule de Wilson]]
 
-[fn:13] Barrett, M.E. & Fraser, L.B. (1977), Conflicting Roles in Budgeting for Operations, Harvard Business Review, juillet-août, p. 136-147.
+[fn:13] Anthony, R.N. (1988), The management control function, The Harvard Business School Press, Boston (Trad. La fonction contrôle de gestion), Paris, Publi-Union, 1993.
 
-[fn:14] Argyris C. (1953), Human problems with budgets, Harvard Business Review, vol. 31, n° 1, p. 97-110.
+[fn:14] Barrett, M.E. & Fraser, L.B. (1977), Conflicting Roles in Budgeting for Operations, Harvard Business Review, juillet-août, p. 136-147.
 
-[fn:15] Hansen, S.C., Otley, D. & Van der Stede, W.A. (2003), Practice developments in budgeting : an overview and research perspective, Journal of Management Accounting Research, vol. 15, p. 95-116.
+[fn:15] Argyris C. (1953), Human problems with budgets, Harvard Business Review, vol. 31, n° 1, p. 97-110.
 
-[fn:16] Hope, J. & Fraser, R. (2003), Who needs budget ?, Harvard Business Review, février, p. 108-115.
+[fn:16] Hansen, S.C., Otley, D. & Van der Stede, W.A. (2003), Practice developments in budgeting : an overview and research perspective, Journal of Management Accounting Research, vol. 15, p. 95-116.
 
 [fn:17] Hope, J. & Fraser, R. (2003), Who needs budget ?, Harvard Business Review, février, p. 108-115.
 
-[fn:18] Jensen, M.C. (2001), Corporate Budgeting Is Broken - Let's Fix It, Harvard Business Review, vol. 79, n° 11, novembre, p. 94-101.
+[fn:18] Hope, J. & Fraser, R. (2003), Who needs budget ?, Harvard Business Review, février, p. 108-115.
 
 [fn:19]  Sponem, S., & Lambert, C. (2016), Exploring differences in budget characteristics, roles and satisfaction : A configurational approach. Management Accounting Research, 30, 47‑61.
 
@@ -1584,7 +1618,7 @@ La comptabilité est un langage prédominant du domaine des affaires. Elle donne
 
 [fn:27] Merchant, K. A., & Manzoni, J.-F. (1989). The Achievability of Budget Targets in Profit Centers : A Field Study. The Accounting Review, 64(3), 539‑558.
 
-[fn:28] Ce principe soulève cependant un certain nombre de questions lors de sa mise en œuvre. D'abord, comment neutraliser les externalités (impact d’événements imprévisibles et incontrôlables tels que l’évolution des taux de change, les dispositions légales ou réglementaires ; impact des décisions prises par d’autres acteurs de l’organisation et qui s’imposent au manager évalué…) afin que l’évaluation des performances des managers n’en soit pas affectée ? Ensuite, comment neutraliser les effets des décisions prises par d’autres entités de l’organisation ? Enfin, comment promouvoir la coordination et la coopération tout en favorisant une conception individuelle de la responsabilité ? Est-il réellement possible et souhaitable de respecter ce principe pour les managers les plus hauts placés dans la hiérarchie ? Leur rôle n’est-il pas justement d’anticiper ce qui pourrait advenir à l’organisation du fait de l’évolution de l’environnement ?
+[fn:28] Ce principe soulève cependant un certain nombre de questions lors de sa mise en œuvre. D'abord, comment neutraliser les externalités (impact d’événements imprévisibles et incontrôlables tels que l’évolution des taux de change, les dispositions légales ou réglementaires ; impact des décisions prises par d’autres acteurs de l’organisation et qui s’imposent au manager évalué…) afin que l’évaluation des performances des managers n’en soit pas affectée ? Ensuite, comment neutraliser les effets des décisions prises par d’autres entités de l’organisation ? Enfin, comment promouvoir la coordination et la coopération tout en favorisant une conception individuelle de la responsabilité ? Est-il réellement possible et souhaitable de respecter ce principe pour les managers les plus hauts placés dans la hiérarchie ? Leur rôle n’est-il pas justement d’anticiper ce qui pourrait advenir à l’organisation du fait de l’évolution de l’environnement ?
 
 [fn:29] Le ROI (/Return On Investment/ - retour sur investissement) est une innovation organisationnelle majeure de General Motors dans les années 1920. Il a permis de contrôler des divisions à distance et très diverses, et a ainsi rendu possible l'émergence de très grandes organisations mondialisées au cours du 20e siècle. Sloan (le directeur général de General Motors à cette époque) appelait cette mesure "le mètre étalon de la performance".
 
@@ -1594,7 +1628,7 @@ La comptabilité est un langage prédominant du domaine des affaires. Elle donne
 
 [fn:32] Lorsque la cession se produit entre deux entités juridiques différentes, par exemple entre deux filiales au sein d’un groupe, cela a des conséquences financières et fiscales. Ainsi, dans les groupes internationaux, on peut utiliser les prix de transfert pour déplacer des fonds d’une société à l’autre (pour financer indirectement une filiale, ou "rapatrier" des profits de façon occulte) ; minimiser les taxes fiscales ou les droits de douane, et faire de l’optimisation fiscale en faisant apparaître des bénéfices là où l’imposition est la plus faible ; contourner des quotas d’importation ou d’exportation ; ou minimiser certains risques de change. C’est pourquoi la plupart des pays ont édicté des règles pour limiter les manipulations des prix de transfert, qui en fait constituent souvent des fraudes.
 
-[fn:33] Pour être exact, il peut tout de même avoir une incidence sur le court terme lorsque que des stocks sont constitués.
+[fn:33] Pour être exact, il peut tout de même avoir une incidence sur le court terme, lorsque que des stocks sont constitués.
 
 [fn:34] Eccles, R. G. (1983). Control with Fairness in Transfer Pricing. Harvard Business Review, November 1983. https://hbr.org/1983/11/control-with-fairness-in-transfer-pricing
 
@@ -1610,18 +1644,20 @@ La comptabilité est un langage prédominant du domaine des affaires. Elle donne
 
 [fn:40] Deci, E. L., & Ryan, R. M. (1985), Intrinsic motivation and self-determination in human behavior. Perspectives in social psychology. New York: Plenum.
 
-[fn:41] Tiré de Lambert, C., Sponem, S. (2005), Corporate governance and profit manipulation: A french field study. Critical Perspectives on Accounting 16 (6): 717-748
+[fn:41] Jensen, M.C. (2001), Corporate Budgeting Is Broken - Let's Fix It, Harvard Business Review, vol. 79, n° 11, novembre, p. 94-101.
 
-[fn:42] Flamholtz, E. G., Das, T. K. & Tsui, A. S. (1985), "Toward an integrative framework of organizational control", Accounting, Organizations and Society, vol. 10, n° 1, p. 35-50.
+[fn:42] Tiré de Lambert, C., Sponem, S. (2005), Corporate governance and profit manipulation: A french field study. Critical Perspectives on Accounting 16 (6): 717-748
 
-[fn:43] Simons, R. (1995), Levers of control: How managers use innovative control systems to drive strategic renewal, Boston Massachusetts, Harvard Business School Press.
+[fn:43] Flamholtz, E. G., Das, T. K. & Tsui, A. S. (1985), "Toward an integrative framework of organizational control", Accounting, Organizations and Society, vol. 10, n° 1, p. 35-50.
 
-[fn:44] Tiré de Berland, N., Curtis, E., & Sponem, S. (2018). Exposing organizational tensions with a non-traditional budgeting system. Journal of Applied Accounting Research, 19(1), 122‑140.
+[fn:44] Simons, R. (1995), Levers of control: How managers use innovative control systems to drive strategic renewal, Boston Massachusetts, Harvard Business School Press.
 
-[fn:45] Etzioni, A. (1961), A comparative analysis of complex organizations, New York, Free Press.
+[fn:45] Tiré de Berland, N., Curtis, E., & Sponem, S. (2018). Exposing organizational tensions with a non-traditional budgeting system. Journal of Applied Accounting Research, 19(1), 122‑140.
 
-[fn:46] Adapté de Ouchi, W. (1979), "A conceptual framework for the design of organizational control mechanisms", Management Science, vol. 25, n° 9, p. 833-848.
+[fn:46] Etzioni, A. (1961), A comparative analysis of complex organizations, New York, Free Press.
 
-[fn:47] Merchant, K. A., & Van der Stede, W. A. (2017). Management control systems : Performance measurement, evaluation and incentives.
+[fn:47] Adapté de Ouchi, W. (1979), "A conceptual framework for the design of organizational control mechanisms", Management Science, vol. 25, n° 9, p. 833-848.
 
-[fn:48] Simons, R. (2000), Performance measurement and control systems for implementing strategy - Text and cases, Prentice Hall.
+[fn:48] Merchant, K. A., & Van der Stede, W. A. (2017). Management control systems : Performance measurement, evaluation and incentives.
+
+[fn:49] Simons, R. (2000), Performance measurement and control systems for implementing strategy - Text and cases, Prentice Hall.
