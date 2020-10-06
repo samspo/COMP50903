@@ -4,11 +4,9 @@
 #+Date:Mise à jour {{{time(%Y-%m-%d)}}}
 #+language: fr
 #+latex_class: kaobook
-#+setupfile: ./styles/theme-readtheorg-local.setup
-#+export_file_name: index.html
+#+export_file_name: Manuel.pdf
 
 @@latex:\mainmatter@@
-@@latex:\pagelayout{margin}@@
 @@latex:\setchapterstyle{kao}@@
 @@latex:\setchapterpreamble[u]{\margintoc}@@
 * Introduction
@@ -32,7 +30,7 @@ C'est le rôle de la comptabilité de gestion a pour objectif d'organiser et d'a
 #+caption: Comptabilité financière et comptabilité de gestion
 #+name: comptafi
 #+attr_latex: :placement [H] :center nil
-[[./img/comptafi.png]]
+[[./img/comptafi.pdf]]
 
 Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en interne – des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"[fn:2].
 
@@ -46,7 +44,7 @@ Le comptable est généralement responsable de la production de l'information co
 #+caption: Utiliser la comptabilité de gestion pour planifier, contrôler et ajuster
 #+name: pdca
 #+attr_latex: :placement [H] :center nil
-[[./img/pdca.png]]
+[[./img/pdca.pdf]]
 
 Pour planifier, il est nécessaire de calculer et analyser les coûts permettant de faire les choix pertinents qui se matérialisent dans les plans stratégiques et de connaître les coûts à inscrire dans les budgets. Le contrôle budgétaire et les tableaux de bord permettent de suivre les réalisations. Grâce aux mesures de performance, il est possible d'analyser les résultats et de faire les ajustements nécessaires au bon fonctionnement de l'organisation.
 
@@ -69,7 +67,8 @@ Ce document présente les pratiques communément acceptées en comptabilité de 
 - d'utiliser l’information produite par le comptable et d'exercer un regard critique sur les outils et procédures qu’il utilise ;
 - de maîtriser les techniques de base de calcul des coûts, de construction des budgets ;
 - de comprendre les enjeux de la mesure de la performance.
-*Pour chaque section, vous pouvez faire les exercices disponibles sur ZoneCours et vérifier vos connaissances à l'aide de quiz d’entrainement disponibles à l'adresse suivante : https://www.wooclap.com/COMP50900*
+*Pour chaque section, vous pouvez faire les exercices disponibles sur ZoneCours et vérifier vos connaissances à l'aide de quiz d’entrainement disponibles à l'adresse suivante :*
+- https://www.wooclap.com/COMP50900
 Ces quiz sont optionnels et non évalués. Les quiz obligatoires sont disponibles sur ZoneCours.
 #+end_kaobox
 
@@ -151,7 +150,8 @@ Le tableau d'analyse des coûts en marge sur coût variable simple se présente 
 |                         |            |            | = Résultat      |
 
 #+begin_kaobox
-Pour une synthèse en vidéo, concernant la notion de marge sur coûts variables, voir https://youtu.be/ZzKu-WWayDA
+Pour une synthèse en vidéo, concernant la notion de marge sur coûts variables, voir
+- https://youtu.be/ZzKu-WWayDA
 #+end_kaobox
 
 Le calcul de la marge sur coût variable est très utile pour comparer deux propositions qui n'ont pas d'impact sur les coûts fixes. Ce calcul étant très simple, il doit être privilégié lorsque les coûts fixes sont stables. 
@@ -180,7 +180,8 @@ Le tableau d'analyse des coûts est donc le suivant :
 #+begin_kaobox
 Le calcul de la marge nette permet un meilleur diagnostic de la performance des produits que la seule marge sur coût variable, puisque seule une fraction des charges fixes (les charges fixes communes) échappe à l'analyse par produit. Ainsi, les décisions d'abandon ou de maintien d'une activité à l'aide du calcul de la marge nette seront plus aisées qu'en se limitant à la marge sur coût variable.
 
-Pour une synthèse, concernant la notion de marge nette, voir : https://youtu.be/ZLnidu-H6zY
+Pour une synthèse, concernant la notion de marge nette, voir :
+- https://youtu.be/ZLnidu-H6zY
 #+end_kaobox
 
 De manière générale, les calculs en coût partiel permettent d'éviter la répartition arbitraire des charges indirectes (nous y reviendrons quand nous parlerons des coûts complets). 
@@ -214,7 +215,7 @@ On peut aussi dire que le seuil de rentabilité est atteint lorsque la marge sur
 Ceci peut se représenter graphiquement de la manière suivante :
 #+caption: Coût fixe, marge sur coûts variable et seuil de rentabilité
 #+attr_latex: :placement [H] :center nil :font \footnotesize
-[[./img/srmcvcf.png]]
+[[./img/srmcvcf.pdf]]
 
 Le seuil de rentabilité se calcule en quantités ou en chiffre d'affaires de la manière suivante :
 #+begin_center
@@ -340,8 +341,10 @@ Il est prévu que ces contenants aient la structure de coût suivante, pour un v
 Le seuil de rentabilité est ainsi extrêmement utile pour faire un calcul simple visant à s'interroger sur la pertinence d'un investissement. Des notions de finance plus élaborées peuvent cependant être utilisées, comme la valeur actuelle nette.
 
 #+begin_kaobox
-Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f6897932655921192ee504c
+Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
 #+end_kaobox
+- https://app.wooclap.com/COMP50900/questionnaires/5f6897932655921192ee504c
+
 
 * Gestion des coûts et prise de décision sur le long terme
    :PROPERTIES:
@@ -364,7 +367,7 @@ Les charges indirectes sont les charges que l'on ne peut affecter sans ambiguït
 Une fois qu'un objet de coût est défini, on peut synthétiser le calcul du coût complet en 4 étapes :
 #+caption: Étapes de calcul du coût complet
 #+attr_latex: :placement [H] :center nil
-[[./img/cc.png]]
+[[./img/cc.pdf]]
 
 - Étape 1. Classement des charges en charges directes et indirectes
 L'ensemble des charges de la comptabilité financière doit être pris en compte à l'exception des charges qui ne reflètent pas les conditions normales d'une exploitation régulière de l'entreprise (par exemple, les charges ou pertes exceptionnelles). Le total des charges incorporables est classé en charges directes (affectables sans ambiguïté à un produit) et charges indirectes.
@@ -390,7 +393,7 @@ Le taux d'imputation est obtenu en divisant les totaux issus de la répartition 
 
 Les étapes 2 et 3 doivent être menées en réalisant un tableau de répartition des charges indirectes. Le tableau de répartition des charges indirectes se présente de la manière suivante :
 #+caption: Tableau de répartition des charges indirectes
-#+attr_latex: :font \footnotesize :align p{3cm} p{5cm} cp{1cm} cp{1cm}
+#+attr_latex: :align p{3cm} p{5cm} cp{1cm} cp{1cm} :font \footnotesize
 | Charges indirectes                          | Centre de regroupement 1                                                                                                                                 | Centre 2  | Centre 3 |
 | <10>                                        | <20>                                                                                                                                                     | <10>      | <5>      |
 |---------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+----------|
@@ -413,7 +416,7 @@ Les charges directes concernent souvent (mais pas seulement et pas toujours) des
 L'affectation des charges indirectes aux objets de coût se fait par l'intermédiaire des taux d'imputation. 
 L'étape 4, qui permet le calcul du coût complet et du résultat en coût complet pour chaque produit doit être réalisé à l'aide d'un tableau qui prend la forme suivante :
 #+caption: Calcul du coût complet des produits
-#+attr_latex: :font \footnotesize :placement [H] :align p{1cm} p{5cm} p{2cm} p{2cm}
+#+attr_latex: :placement [H] :align p{2cm} p{5cm} p{2cm} p{1cm} :font \footnotesize
 |                    | Produit 1                                                                                                                                                                                                                                               | Produit 2                                                      | Produit 3 |
 | <10>               | <20>                                                                                                                                                                                                                                                    | <10>                                                           | <5>       |
 |--------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------|
@@ -549,7 +552,7 @@ En revanche, dans le cas ci-dessous il faudrait trouver une autre base d'imputat
 Selon les choix faits, des résultats très différents pourront être trouvés. Des produits ou des clients pourront apparaître comme bénéficiaires avec une méthode alors qu'ils sont déficitaires avec une autre méthode. Il est donc nécessaire de faire ces choix avec circonspection.
 
 #+begin_kaobox
-Traditionnellement, la comptabilité de gestion a apporté une grande importance aux activités volumiques, c'est-à-dire aux activités qui sont liés aux quantités produites et vendues (par exemple, les charges indirectes de production liées aux heures de machine ou de main d’œuvre directe).
+Traditionnellement, la comptabilité de gestion a accordé une grande importance aux activités volumiques, c'est-à-dire aux activités qui sont liés aux quantités produites et vendues (par exemple, les charges indirectes de production liées aux heures de machine ou de main d’œuvre directe).
 
 Il est cependant important de prendre aussi en compte les activités non volumiques, c'est-à-dire qui ne sont pas directement reliées aux quantités produites et vendues (ex: contrôle qualité, manutention, conception des produits qui dépendent du nombre de lots ou du nombre de modèles).
 
@@ -577,7 +580,7 @@ La méthode de calcul des coûts par activité s'appuie sur la chaîne de valeur
 
 #+caption: La chaîne de valeur (Porter, 1985)
 #+attr_latex: :placement [H] :center nil
-[[./img/chaine.png]]
+[[./img/chaine.pdf]]
 
 La mise en oeuvre des calculs du coût par activité n'est pas fondamentalement différente de la méthode classique des calculs de coût complet examinée plus haut. Elle repose cependant, une logique différente, un vocabulaire spécifique (activités à la place de centres de regroupement, inducteurs à la place de base d'imputation) et une représentation processuelle de l’entreprise plutôt que hiérarchique.
 
@@ -585,14 +588,14 @@ Dans la méthode des coûts par activités, on considère que les produits décl
 
 #+caption: Calcul des coûts complets - Méthode traditionnelle vs coût par activité
 #+attr_latex: :placement [H] :center nil
-[[./img/abc.png]]
+[[./img/abc.pdf]]
 
 Pour pouvoir calculer un coût, il faut donc mettre en évidence :
 - les activités, que l'on peut définir comme un ensemble de travaux, tâches ou opérations à accomplir pour mener à bien le processus ;
 - les inducteurs d'activité, qui sont les évènements déclencheurs de ces activités. 
 
 #+begin_kaobox
-/Activités/
+*Activités*
 - Exemples d'activités pour des entreprises de service : facturation des clients, réponse à un appel d’offre, vérification du crédit d’un client
 - Exemples d'activités pour des entreprises de fabrication : manipulation des matières premières, contrôle de la qualité, définition des spécifications de conception
 #+end_kaobox
@@ -650,8 +653,7 @@ Après suppression de P2, le résultat est diminué de 20 à 0 et P3 est devenu 
 | Charges indirectes (total = 90) |  45 | 45 |       |
 | Résultat                        |   5 | -5 |    0  |
 
-Les charges indirectes n'ont pas été supprimées avec la disparition de P2. Elles ont été réparties sur les autres produits ce qui a conduit à diminuer leurs marges et donc à diminuer le résultat de l'entreprise.
------
+Les charges indirectes n'ont pas été supprimées avec la disparition de P2. Elles ont été réparties sur les autres produits ce qui a conduit à diminuer leurs marges et donc à diminuer le résultat de l'entreprise.---
 
 Lorsque l'on supprime un produit déficitaire, on ne supprime pas les charges indirectes qui lui sont associées. Il est même parfois difficile de supprimer les charges fixes directes (aussi appelées coûts spécifiques) qui lui sont associées.
 
@@ -672,8 +674,10 @@ La méthode de calcul des coûts retenue doit être pertinente pour la décision
 #+end_kaowarn
 
 #+begin_kaobox
-Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f6898aee60d387141539337
+Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
 #+end_kaobox
+- https://app.wooclap.com/COMP50900/questionnaires/5f6898aee60d387141539337
+
 
 * Planification et animation budgétaire
   :PROPERTIES:
@@ -693,7 +697,7 @@ Dans une économie de l'offre (par exemple, aujourd'hui dans quelques entreprise
 
 #+caption: Les étapes du processus budgétaire
 #+attr_latex: :placement [H] :center nil :width 1.2\textwidth
-[[./img/budget.png]]
+[[./img/budget.pdf]]
 
 Le schéma ci-dessus synthétise les différentes étapes du processus budgétaire dans le cas classique d'abondance de l'offre. Le premier budget qui doit être réalisé est le budget des ventes (étape 1), qui dépend notamment de la stratégie et du plan (étape 0), mais qui doit être ajusté en fonction des évolutions récentes du marché.
 
@@ -703,7 +707,7 @@ Ces différents budgets sont ensuite rassemblés pour construire le budget de tr
 
 #+begin_kaobox
 Le processus budgétaire est adapté au type d'activité de l'entreprise. Ici l'exemple d'une entreprise spécialisée dans la vente de détail :
-https://youtu.be/Wbqrj7UfhmI
+- https://youtu.be/Wbqrj7UfhmI
 #+end_kaobox
 
 Si le budget de trésorerie (ou budget de caisse) fait apparaître des besoins de financement auxquels l'entreprise ne peut pas faire face ou si le compte de résultat prévisionnel fait apparaître une rentabilité trop faible, le niveau des ventes doit, dans la mesure de ce qui peut être vendu sur le marché par l'entreprise, être modifié. Le budget est donc un outil fondamental en phase de prévision puisqu'il permet de tester la faisabilité de la stratégie en ce qui concerne les besoins de trésorerie sur le court terme et d'évaluer l'impact de cette stratégie sur le résultat et la rentabilité économique de l'activité.
@@ -849,7 +853,8 @@ Le budget général final est le résultat de plusieurs itérations. L’entrepr
 - le budget unitaire des coûts de production
 - le budget des coûts de production des produits vendus
 #+end_kaobox
-*Un modèle Excel est disponible pour vous guider : https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z*
+*Un modèle Excel est disponible pour vous guider :*
+- https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z
 
 Les prévisions de vente et de stock de produits finis sont les suivantes :
 
@@ -913,9 +918,8 @@ Toutes les charges hors production sont indirectes :
 | *Total des charges indirectes hors production*           | 870 000 $   |
 Les charges indirectes variables hors production sont proportionnelles au chiffre d’affaires. Les charges indirectes fixes hors production sont imputées au prorata du chiffre d’affaires.
 
-#+begin_kaobox
-Lorsque vous avez complété le tableau Excel indiqué ci-dessus, vous pouvez aller voir le corrigé et les explications ici : https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h
-#+end_kaobox
+*Lorsque vous avez complété le tableau Excel indiqué ci-dessus, vous pouvez aller voir le corrigé et les explications ici :*
+-  https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h
 
 *** Le compte de résultat et le bilan prévisionnel
     :PROPERTIES:
@@ -928,7 +932,7 @@ Le compte de résultat permet de mesurer la performance de l'entreprise sur une 
 
 #+begin_kaobox
 La vidéo suivante détaille les différentes étapes d'un budget pour une entreprise de service.
-https://youtu.be/xtvSWeLm13s
+- https://youtu.be/xtvSWeLm13s
 #+end_kaobox
 
 ** Participation et processus budgétaire
@@ -952,7 +956,7 @@ Dans les faits, lors de la construction du budget se suivent des étapes /top-do
 
 #+caption: Un exemple de calendrier budgétaire
 #+attr_latex: :placement [H] :center nil
-[[./img/budgetcal.png]]
+[[./img/budgetcal.pdf]]
 
 ** Le budget : des rôles divers
    :PROPERTIES:
@@ -993,8 +997,9 @@ Malgré les critiques, le budget reste largement utilisé. Les différentes enqu
 La planification et le budget sont des outils au cœur du fonctionnement des grandes organisations aujourd'hui. Ils servent à savoir où l'entreprise va et à s'assurer du déploiement des choix stratégiques dans l'entreprise. Ces plans sont parfois utilisés pour discuter avec des apporteurs de capitaux (banquier, actionnaires potentiels), notamment dans le cas des entreprises en phase de croissance (start-up). Ils sont alors appelés /"Business Plan"/
 
 #+begin_kaobox
-Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f6898f251af0040aba9284c
+Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
 #+end_kaobox
+- https://app.wooclap.com/COMP50900/questionnaires/5f6898f251af0040aba9284c
 
 * Mesure de la performance financière
   :PROPERTIES:
@@ -1009,7 +1014,7 @@ Une bonne image de ce mécanisme cybernétique est donnée par l’exemple du th
 
 #+caption: La gestion par les résultats : un processus cybernétique
 #+attr_latex: :placement [H] :center nil
-[[./img/gestionobj.png]]
+[[./img/gestionobj.pdf]]
 La gestion par les résultats repose, dans un premier temps, sur la fixation d’une norme chiffrée (étape 1). La définition de cette norme n’a bien sûr rien d’évident. Elle peut s’appuyer sur une prévision (effectuée dans le cadre du processus budgétaire, par exemple) ou traduire un objectif volontariste de la direction (infléchissement de tendance). Parfois, la définition de cette norme est réalisée en se comparant aux concurrents (analyse comparative) ou en faisant participer ceux qui sont contrôlés afin d’améliorer la prévision qui est faite (puisqu’on suppose que la personne contrôlée connaît souvent mieux l’activité et son évolution que la personne qui la contrôle) et son appropriation par la personne qui est chargée de la mise en œuvre. On parle alors de direction participative par objectifs. Cette participation à la définition des objectifs pose cependant un problème : lors de la discussion de ses objectifs, la personne contrôlée a intérêt à minimiser la difficulté des objectifs qui lui sont assignés afin de s’assurer qu’elle pourra les atteindre. Dans le cadre du processus budgétaire, ce phénomène est qualifié de /slack/ budgétaire.
 
 Dans un deuxième temps (étape 2), la personne contrôlée est laissée libre d’organiser la transformation des ressources en produits ou la réalisation de ses activités de la manière la plus efficace et la plus efficiente. 
@@ -1063,7 +1068,7 @@ Dans les organisations, ces divers types de centres de responsabilité s’embo�
 
 #+caption: Les types de centres de responsabilité
 #+attr_latex: :placement [H] :center nil
-[[./img/centres.png]]
+[[./img/centres.pdf]]
 Le découpage de l’organisation en centres de responsabilité qui en découle permet de clarifier l’organisation, d’amoindrir sa complexité, d’attribuer des responsabilités à chacun et donc de décentraliser.
 
 La décentralisation est le processus par lequel la prise de décision est déléguée aux responsables des unités d'affaires.
@@ -1178,7 +1183,7 @@ La pyramide du ROI permet d'expliquer la formation du retour sur investissement 
 
 #+caption: La pyramide du ROI
 #+attr_latex: :placement [H] :center nil
-[[./img/roi.png]]
+[[./img/roi.pdf]]
 
 Deux entreprises peuvent ainsi avoir un même ROI, mais en l'obtenant de manière très différente. Par exemple, les activités de luxe ou de construction exigent de forts investissements (faible rotation des actifs), mais permettent de forts taux de marge. Inversement, les activités de distribution vont avoir un fort taux de rotation des actifs (puisqu'elles payent leurs fournisseurs avec d'importants délais alors que leurs clients payent au comptant) et un taux de marge peu élevé.
 -----
@@ -1207,7 +1212,7 @@ La décomposition de la pyramide peut être poursuivie pour faire apparaître un
 
 #+caption: La décomposition du ROI
 #+attr_latex: :placement [H] :center nil
-[[./img/roidetail.png]]
+[[./img/roidetail.pdf]]
 
 En résumé, le ROI synthétise "la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"[fn:30]. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.
 
@@ -1334,7 +1339,7 @@ Un centre de responsabilité peut recevoir tout ou partie de son approvisionneme
 
 #+caption: Les prix de cession interne
 #+attr_latex: :placement [H] :center nil
-[[./img/pci.png]]
+[[./img/pci.pdf]]
 Ces prix sont fictifs, car ils ne correspondent pas à un échange sur un marché ni à une transaction enregistrée en comptabilité financière.
 
 On parle parfois de *prix de transfert*, notamment lorsque les cessions sont réalisées entre des entités juridiques distinctes appartenant à un même groupe[fn:32].
@@ -1343,7 +1348,7 @@ La détermination du profit au niveau de chaque centre suppose une valorisation 
 
 #+caption: Les prix de cession interne
 #+attr_latex: :placement [H] :center nil
-[[./img/pciresult.png]]
+[[./img/pciresult.pdf]]
 
 On voit ici que (tant qu’il n’influence pas les décisions d’achat des centres), le niveau du prix de cession interne n’a pas d’incidence sur le résultat total de l’entreprise puisqu’il constitue à la fois un produit et une charge[fn:33].
 
@@ -1396,8 +1401,10 @@ En la matière, laisser liberté d’approvisionnement ou de vente en externe pe
 Inversement, laisser une liberté d’achat et de vente en interne ou en externe et mettre les centres en concurrence peut poser des problèmes de coordination : les centres n’ont plus intérêt à coopérer et peuvent même agir de manière à nuire aux intérêts des autres centres. Pour favoriser la coopération, il faut privilégier l’approvisionnement interne, valoriser les prix de cession interne au coût complet (éventuellement majoré d'une marge) et obliger les centres acheteurs et les centres vendeurs à privilégier les achats et les ventes internes. Cette approche est plus efficace dans les groupes faiblement diversifiés et à forte intégration verticale.
 
 #+begin_kaobox
-Pour vous exercer sur cette section, voir le quiz d'entrainement : https://app.wooclap.com/COMP50900/questionnaires/5f689959ca402c5d7fde62cf
+Pour vous exercer sur cette section, voir le quiz d'entrainement :
 #+end_kaobox
+- https://app.wooclap.com/COMP50900/questionnaires/5f689959ca402c5d7fde62cf
+
 
 * Conclusion - Mesures de la performance, gestion par les résultats et contrôle
 Dans le cadre de ce cours, nous avons centré notre attention sur les modes de calcul des coûts et de prévisions adaptés aux différentes situations de prise de décisions rencontrées par les gestionnaires. Ces mesures sont des instruments utiles pour les gestionnaires. Elles aident le gestionnaire à fonder ses décisions sur des faits plutôt que sur des perceptions. D'ailleurs, ont dit souvent qu' "on ne gère bien que ce que l'on mesure" (/What gets measured gets and rewarded done/[fn:35]), en considérant que ce qui est mesuré compte vraiment et doit être récompensé. 
@@ -1484,7 +1491,7 @@ La figure ci-dessous permet de représenter graphiquement ces quatre étapes.
 
 #+caption: Le contrôle interactif
 #+attr_latex: :placement [H] :center nil
-[[./img/inter.png]]
+[[./img/inter.pdf]]
 
 Tous les systèmes de contrôle et de mesure de la performance peuvent être utilisés de manière interactive : les budgets, les tableaux de bord, les indicateurs marketing, les outils de contrôle de gestion des projets, les indicateurs sur les ressources humaines, etc. Ce n'est donc pas l'outil en tant que tel qui compte pour comprendre l'impact du contrôle sur la stratégie, mais la manière de l'utiliser. En revanche, il ne peut y avoir trop de systèmes de contrôle et de mesure de la performance utilisés simultanément de manière interactive. En effet, ce type de contrôle a un coût économique et cognitif (les individus ne peuvent prêter attention à tout, ils ont une rationalité et une attention limitée). Se concentrer sur trop de systèmes de contrôle en même temps risque de conduire à un surplus d'informations, des analyses superficielles et une paralysie.
 
@@ -1557,7 +1564,7 @@ Parce qu'ils tentent de mettre sous pression les individus dans les organisation
 
 #+caption: Les divers leviers de contrôle
 #+attr_latex: :placement [H] :center nil
-[[./img/levers.png]]
+[[./img/levers.pdf]]
 
 Chacun de ces leviers de contrôle a des objectifs différents et permet de contrôler un élément particulier de la stratégie. Les entreprises performantes sont celles qui arrivent à articuler, en fonction de leur stratégie et des contraintes de leur environnement, les divers leviers de contrôle afin de compenser les effets pervers des uns et des autres.
 
