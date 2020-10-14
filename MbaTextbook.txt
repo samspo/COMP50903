@@ -837,6 +837,9 @@ Le flux de trésorerie permet de calculer le niveau de trésorerie de l'entrepri
 Si la trésorerie finale est négative, il faut prendre en compte les charges financières liées au découvert (en fonction des conditions de découvert obtenues auprès de la banque pour la marge de crédit).
 
 *** Application : Mirabel Air
+    :PROPERTIES:
+    :CUSTOM_ID: mirabel
+    :END:
 
 Mirabel Air est un fabricant de pièces de rechange pour l’aéronautique. Mirabel Air utilise de la main-d’œuvre qualifiée et des alliages métalliques pour fabriquer deux types de pièces de rechange :
 - type normal
