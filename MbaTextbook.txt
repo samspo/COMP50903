@@ -7,7 +7,6 @@
 #+LATEX_HEADER: \renewcommand{\footnote}{\sidenote}
 #+export_file_name: index.html
 #+setupfile: ./styles/theme-readtheorg-local.setup
-
 @@latex:\mainmatter@@
 @@latex:\setchapterstyle{kao}@@
 @@latex:\setchapterpreamble[u]{\margintoc}@@
@@ -16,11 +15,13 @@
 #+begin_kaobox
 /Ce mini-manuel complète les diapositives du cours COMP50900 pour les séances 8 à 12. Idéalement, la section correspondant au cours doit être lue préalablement au cours./
 
-Vous trouverez dans ce mini-manuel des liens vers des vidéos[fn:1], des exercices et des liens vers des quiz qui vous permettent de vérifier votre compréhension. Pour compléter votre apprentissage, des exercices sont aussi disponibles sur ZoneCours.
+Vous trouverez dans ce mini-manuel des liens vers des vidéos(*), des exercices et des liens vers des quiz qui vous permettent de vérifier votre compréhension. Pour compléter votre apprentissage, des exercices sont aussi disponibles sur ZoneCours.
 
 /Vous pouvez trouver la version la plus récente de ce document en ligne/
 - html : https://samspo.github.io/COMP50900
 - pdf : https://samspo.github.io/COMP50900/Manuel.pdf
+
+/(*)Les vidéos sont tirées de Tessier, S et Vézina, M. SC-102.5 - Décisions financières et gestion budgétaire. Edulib/
 #+end_kaobox
 
 Les états financiers donnent aux parties prenantes externes une image comptable et financière de l'entreprise. L'état des résultats représente la performance de l'organisation sur une année et l'état de la situation financière donne une image du patrimoine à la fin de l'exercice comptable.
@@ -32,11 +33,11 @@ C'est le rôle de la comptabilité de gestion a pour objectif d'organiser et d'a
 #+caption: Comptabilité financière et comptabilité de gestion
 #+name: comptafi
 #+attr_latex: :placement [H] :center nil
-[[./img/comptafi.png]]
+[[./img/comptafi.pdf]]
 
-Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en interne – des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"[fn:2].
+Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en interne – des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"[fn:1].
 
-En organisation, la comptabilité peut remplir divers rôles[fn:3] :
+En organisation, la comptabilité peut remplir divers rôles[fn:2] :
 - Aider à la résolution des problèmes et à la prise de décision /(problem-solving)/ ;
 - Orienter l’attention et organiser la vigilance /(attention-directing)/ ;
 - Permettre un constat et évaluer la performance /(scorekeeping)/.
@@ -46,7 +47,7 @@ Le comptable est généralement responsable de la production de l'information co
 #+caption: Utiliser la comptabilité de gestion pour planifier, contrôler et ajuster
 #+name: pdca
 #+attr_latex: :placement [H] :center nil
-[[./img/pdca.png]]
+[[./img/pdca.pdf]]
 
 Pour planifier, il est nécessaire de calculer et analyser les coûts permettant de faire les choix pertinents qui se matérialisent dans les plans stratégiques et de connaître les coûts à inscrire dans les budgets. Le contrôle budgétaire et les tableaux de bord permettent de suivre les réalisations. Grâce aux mesures de performance, il est possible d'analyser les résultats et de faire les ajustements nécessaires au bon fonctionnement de l'organisation.
 
@@ -80,13 +81,13 @@ Ces quiz sont optionnels et non évalués. Les quiz obligatoires sont disponible
    :END:
 ** Les rôles du calcul de coût
 
-Un coût est une somme de charges, il se différencie d'un prix que l'on peut trouver sur un marché. Le coût traduit une consommation de ressources. On considère "qu'il n'y a pas qu'une pratique correcte en matière de calcul de coûts, car celles-ci découlent de besoins variés, de situations et de problèmes différents"[fn:4]. Le calcul du coût peut en effet remplir différentes fonctions :
+Un coût est une somme de charges, il se différencie d'un prix que l'on peut trouver sur un marché. Le coût traduit une consommation de ressources. On considère "qu'il n'y a pas qu'une pratique correcte en matière de calcul de coûts, car celles-ci découlent de besoins variés, de situations et de problèmes différents"[fn:3]. Le calcul du coût peut en effet remplir différentes fonctions :
 - s’interroger sur le prix de vente ;
 - abandonner / développer un produit (ou un client) ;
 - faire l’examen des composantes du coût (comprendre la performance d’un département) ;
 - savoir s’il est plus rentable de faire ou de faire faire ;
 - prévoir les dépenses à inscrire au budget ;
-- mettre une valeur sur les stocks et produits en cours[fn:5].
+- mettre une valeur sur les stocks et produits en cours[fn:4].
 
 Dans de nombreuses situations, la connaissance des coûts est donc un élément de base de la prise de décision, même si la connaissance du coût n'est pas un élément suffisant. Cette connaissance du coût vient en complément de l'analyse du marché, de l'analyse du processus de production et de l'analyse des risques encourus par l'entreprise. 
 
@@ -210,14 +211,14 @@ Lorsque l'on est au seuil de rentabilité, alors :
 Ceci peut se représenter graphiquement de la manière suivante :
 #+caption: Chiffre d'affaires, coût total et seuil de rentabilité
 #+attr_latex: :placement [H] :center nil :font \footnotesize
-[[./img/srcact.png]]
+[[./img/srcact.pdf]]
 *La marge de sécurité* est la différence (exprimée en unités ou en unités monétaires) entre le niveau d'activité prévu et le niveau d'activité au point mort.
 
 On peut aussi dire que le seuil de rentabilité est atteint lorsque la marge sur coût variable totale permet de couvrir les coûts fixes. 
 Ceci peut se représenter graphiquement de la manière suivante :
 #+caption: Coût fixe, marge sur coûts variable et seuil de rentabilité
 #+attr_latex: :placement [H] :center nil :font \footnotesize
-[[./img/srmcvcf.png]]
+[[./img/srmcvcf.pdf]]
 
 Le seuil de rentabilité se calcule en quantités ou en chiffre d'affaires de la manière suivante :
 #+begin_center
@@ -354,7 +355,7 @@ Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz
    :END:
 ** Le concept de coût complet
 
-Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges considérées comme incorporables (qu'elles soient variables, fixes, directes ou indirectes) pour les imputer aux objets de coût[fn:6]. 
+Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges considérées comme incorporables (qu'elles soient variables, fixes, directes ou indirectes) pour les imputer aux objets de coût[fn:5]. 
 
 Établir le coût complet d'un produit consiste à chercher à valoriser l'ensemble des ressources consommées par ce produit. Un coût complet se calcule donc de la manière suivante :
 #+begin_center
@@ -369,13 +370,13 @@ Les charges indirectes sont les charges que l'on ne peut affecter sans ambiguït
 Une fois qu'un objet de coût est défini, on peut synthétiser le calcul du coût complet en 4 étapes :
 #+caption: Étapes de calcul du coût complet
 #+attr_latex: :placement [H] :center nil
-[[./img/cc.png]]
+[[./img/cc.pdf]]
 
 - Étape 1. Classement des charges en charges directes et indirectes
 L'ensemble des charges de la comptabilité financière doit être pris en compte à l'exception des charges qui ne reflètent pas les conditions normales d'une exploitation régulière de l'entreprise (par exemple, les charges ou pertes exceptionnelles). Le total des charges incorporables est classé en charges directes (affectables sans ambiguïté à un produit) et charges indirectes.
 
 - Étape 2. Affectation des charges indirectes aux centres de regroupement
-À cette étape, il est nécessaire d'affecter l'ensemble des charges indirectes à ce que l'on appelle des centres de regroupement, qui sont des entités comptables dans lesquelles on regroupe les charges indirectes qui se ressemblent[fn:7].
+À cette étape, il est nécessaire d'affecter l'ensemble des charges indirectes à ce que l'on appelle des centres de regroupement, qui sont des entités comptables dans lesquelles on regroupe les charges indirectes qui se ressemblent[fn:6].
 
 Un centre de regroupement est un "compartiment comptable" incluant des activités homogènes technologiquement distinctes des activités des autres centres. Dans la pratique, les centres de regroupement correspondent souvent aux différents services, départements ou ateliers mais si l'on y effectue des tâches technologiquement distinctes, il est nécessaire de définir plusieurs centres pour s'assurer de l'homogénéité des charges regroupées au sein du centre.
 
@@ -501,7 +502,7 @@ Si ces choix sont mal faits, c'est toute la pertinence de la répartition des ch
 
 Un centre de regroupement est un "compartiment comptable" regroupant des activités homogènes technologiquement distinctes des activités des autres centres. Dans la pratique, les centres de regroupement correspondent souvent aux différents services ou ateliers mais si on effectue des tâches technologiquement distinctes, il est nécessaire de définir plusieurs centres ou sections pour s'assurer de l'homogénéité des coûts qui composent le centre.
 
-Les coûts du centre sont dits homogènes s'ils forment un ensemble stable et solidaire c'est-à-dire si chaque fois que l'activité est déclenchée, les tâches élémentaires qu'elle comporte sont toutes effectuées et si chacune de ses tâches est exécutée de manière stable[fn:8]. Autrement dit, quel que soit le produit, celui-ci doit consommer toutes les tâches dans les mêmes proportions.
+Les coûts du centre sont dits homogènes s'ils forment un ensemble stable et solidaire c'est-à-dire si chaque fois que l'activité est déclenchée, les tâches élémentaires qu'elle comporte sont toutes effectuées et si chacune de ses tâches est exécutée de manière stable[fn:7]. Autrement dit, quel que soit le produit, celui-ci doit consommer toutes les tâches dans les mêmes proportions.
 
 -----
 *Exemple - Découpage des centres de regroupement et homogénéité*
@@ -568,21 +569,21 @@ Ainsi, les bases d’imputation ne doivent pas être uniquement volumiques si le
 
 Différentes critiques peuvent être faites aux démarches de calcul de coûts complets :
 - Les comportements de coûts n'apparaissent pas clairement en ne permettant pas la distinction entre les charges fixes et les charges variables. En particulier pour ces dernières, cette méthode ne permet pas de connaître leur mode de variation (linéaire, exponentiel, etc.) et les causes de celui-ci (par rapport à quelle(s) base(s) d'imputation elles varient).
-- La distinction entre charges directes et indirectes est peu aisée. Tout au plus, on peut dire que "les charges directes sont celles que l'on peut affecter en totalité, sans calcul préalable, à un produit ou une activité déterminée selon le critère d'analyse choisi. Les autres charges, communes à plusieurs produits ou activités, sont dites indirectes"[fn:9].
+- La distinction entre charges directes et indirectes est peu aisée. Tout au plus, on peut dire que "les charges directes sont celles que l'on peut affecter en totalité, sans calcul préalable, à un produit ou une activité déterminée selon le critère d'analyse choisi. Les autres charges, communes à plusieurs produits ou activités, sont dites indirectes"[fn:8].
 - La collecte et le traitement des informations nécessaires au calcul des coûts peuvent entrainer des opérations longues et coûteuses.
 - Les coûts de revient obtenus peuvent sembler être le reflet de choix "administratifs et comptables" et donc artificiels.
 
-Dans de nombreuses entreprises, les centres de regroupement retenus sont essentiellement le reflet de l'organisation hiérarchique de l'entreprise. Cette façon de faire a été critiquée, notamment par Johnson et Kaplan[fn:10], parce que les charges directes (particulièrement la main d'oeuvre directe) décroissent, pendant que les charges indirectes prennent une part de plus en plus importante des coûts de production dans les usines (mais aussi dans les industries de services, avec les coûts des systèmes TI, par exemple).
+Dans de nombreuses entreprises, les centres de regroupement retenus sont essentiellement le reflet de l'organisation hiérarchique de l'entreprise. Cette façon de faire a été critiquée, notamment par Johnson et Kaplan[fn:9], parce que les charges directes (particulièrement la main d'oeuvre directe) décroissent, pendant que les charges indirectes prennent une part de plus en plus importante des coûts de production dans les usines (mais aussi dans les industries de services, avec les coûts des systèmes TI, par exemple).
 
 Dans ce contexte, la répartition des charges indirectes doit refléter de manière correcte la consommation des ressources par les différents produits, sinon le calcul des coûts donne une mauvaise représentation de la performance des différents produits.
 
 Pour bien prendre en compte la consommation des ressources, il faudrait donc s'appuyer sur une représentation qui part des processus de l'entreprise, afin de donner une représentation plus fidèle de la consommation de ressources que la représentation hiérarchique. C'est ce que propose la comptabilité par activité.
 
-La méthode de calcul des coûts par activité s'appuie sur la chaîne de valeur[fn:11], qui représente l'ensemble des activités (primaires et de soutien) qu'une entreprise doit réaliser afin de satisfaire ses clients.
+La méthode de calcul des coûts par activité s'appuie sur la chaîne de valeur[fn:10], qui représente l'ensemble des activités (primaires et de soutien) qu'une entreprise doit réaliser afin de satisfaire ses clients.
 
 #+caption: La chaîne de valeur (Porter, 1985)
 #+attr_latex: :placement [H] :center nil
-[[./img/chaine.png]]
+[[./img/chaine.pdf]]
 
 La mise en oeuvre des calculs du coût par activité n'est pas fondamentalement différente de la méthode classique des calculs de coût complet examinée plus haut. Elle repose cependant, une logique différente, un vocabulaire spécifique (activités à la place de centres de regroupement, inducteurs à la place de base d'imputation) et une représentation processuelle de l’entreprise plutôt que hiérarchique.
 
@@ -590,7 +591,7 @@ Dans la méthode des coûts par activités, on considère que les produits décl
 
 #+caption: Calcul des coûts complets - Méthode traditionnelle vs coût par activité
 #+attr_latex: :placement [H] :center nil
-[[./img/abc.png]]
+[[./img/abc.pdf]]
 
 Pour pouvoir calculer un coût, il faut donc mettre en évidence :
 - les activités, que l'on peut définir comme un ensemble de travaux, tâches ou opérations à accomplir pour mener à bien le processus ;
@@ -699,7 +700,7 @@ Dans une économie de l'offre (par exemple, aujourd'hui dans quelques entreprise
 
 #+caption: Les étapes du processus budgétaire
 #+attr_latex: :placement [H] :center nil :width 1.2\textwidth
-[[./img/budget.png]]
+[[./img/budget.pdf]]
 
 Le schéma ci-dessus synthétise les différentes étapes du processus budgétaire dans le cas classique d'abondance de l'offre. Le premier budget qui doit être réalisé est le budget des ventes (étape 1), qui dépend notamment de la stratégie et du plan (étape 0), mais qui doit être ajusté en fonction des évolutions récentes du marché.
 
@@ -773,7 +774,7 @@ Plusieurs paramètres déterminent les choix réalisés en la matière :
 - les coûts de stockage (coût de financement du stock, primes d'assurance, coûts des moyens de stockage - coût des entrepôts, du matériel de manutention -, coût de la dépréciation du stock, etc.) : plus ce coût est élevé et moins le stock doit être élevé, ce qui signifie qu'il est nécessaire de passer de nombreuses petites commandes ;
 - le coût de la rupture de stock : plus ce coût est élevé et plus il faut être prudent en matière de gestion des stocks et limiter les ruptures possibles (ce qui implique d'avoir un niveau de stock élevé).
 
-Diverses méthodes permettent alors d'optimiser ce coût d'approvisionnement[fn:12].
+Diverses méthodes permettent alors d'optimiser ce coût d'approvisionnement[fn:11].
 
 Le budget des coûts d'approvisionnement comprend :
 - les coûts d'achat, qui dépendent souvent des quantités achetées et doivent inclure les frais liés aux achats (notamment le transport) ;
@@ -960,17 +961,17 @@ Dans les faits, lors de la construction du budget se suivent des étapes /top-do
 
 #+caption: Un exemple de calendrier budgétaire
 #+attr_latex: :placement [H] :center nil
-[[./img/budgetcal.png]]
+[[./img/budgetcal.pdf]]
 
 ** Le budget : des rôles divers
    :PROPERTIES:
    :CUSTOM_ID: rolebudg
    :END:
-Divers rôles sont attribués au budget. Anthony résume les finalités du budget et du processus de préparation budgétaire en cinq points[fn:13] : "(1) Motiver les managers à dresser des plans, (2) informer les managers de ce qui est attendu d'eux, (3) obtenir un engagement des managers, (4) coordonner les différentes activités d'une organisation, (5) fournir un standard pour juger la performance réelle". 
+Divers rôles sont attribués au budget. Anthony résume les finalités du budget et du processus de préparation budgétaire en cinq points[fn:12] : "(1) Motiver les managers à dresser des plans, (2) informer les managers de ce qui est attendu d'eux, (3) obtenir un engagement des managers, (4) coordonner les différentes activités d'une organisation, (5) fournir un standard pour juger la performance réelle". 
 Les rôles le plus souvent mis en avant s'articulent autour de quatre pôles : coordination/communication, gestion prévisionnelle, délégation/motivation et apprentissage au management. Ainsi, le processus budgétaire est l'occasion pour les divers services de se coordonner, par exemple de s'assurer que ce qui va être vendu par le service commercial aura bien été produit par les usines. Le budget doit permettre de prévoir les difficultés à venir et de choisir les programmes d'activité : il est donc un outil de gestion prévisionnelle. Le budget peut aussi être utilisé comme un contrat passé entre un responsable et sa hiérarchie sur les résultats à atteindre et/ou les moyens à mettre en œuvre. Enfin, le budget est une occasion privilégiée pour introduire la dimension économique et financière dans les choix opérationnels qui sont faits. Il est à ce titre un outil d'apprentissage au management.
 
 #+begin_kaobox
-Comme l'ont souligné Barrett et Fraser[fn:14], certains rôles sont incompatibles et l'utilisation du budget pour des rôles différents peut entraîner des effets pervers. Ils mettent notamment en évidence un conflit majeur entre les fonctions de prévision, de coordination et de communication d'une part et la fonction de délégation et d'évaluation d'autre part. En effet, les budgets utilisés pour la planification et la prévision doivent être fixés à un niveau réaliste pour permettre l'allocation des ressources et la coordination alors que s'ils sont utilisés pour motiver, ils doivent être fixés de façon à être difficiles à atteindre. Il y a donc contradiction entre la volonté de prévoir l'avenir le mieux possible et celle d'amener des managers à s'engager sur des objectifs ambitieux.
+Comme l'ont souligné Barrett et Fraser[fn:13], certains rôles sont incompatibles et l'utilisation du budget pour des rôles différents peut entraîner des effets pervers. Ils mettent notamment en évidence un conflit majeur entre les fonctions de prévision, de coordination et de communication d'une part et la fonction de délégation et d'évaluation d'autre part. En effet, les budgets utilisés pour la planification et la prévision doivent être fixés à un niveau réaliste pour permettre l'allocation des ressources et la coordination alors que s'ils sont utilisés pour motiver, ils doivent être fixés de façon à être difficiles à atteindre. Il y a donc contradiction entre la volonté de prévoir l'avenir le mieux possible et celle d'amener des managers à s'engager sur des objectifs ambitieux.
 #+end_kaobox
 
 De plus, on peut penser que les intérêts des supérieurs et des subordonnés diffèrent selon le rôle qui est accordé au budget. Ainsi, si le budget est d'abord utilisé dans un but de planification, les contrôlés ont intérêt à ce qu'on leur fixe des objectifs budgétaires plus importants pour disposer de plus de ressources. Si le budget est utilisé dans un but de motivation, les contrôlés vont chercher à minimiser leurs objectifs budgétaires pour accroître leurs chances de les atteindre. C'est ce qu'on appelle le /slack ou matelas budgétaire/. 
@@ -981,22 +982,22 @@ Pour réconcilier les divers objectifs du budget, plusieurs solutions peuvent ê
    :PROPERTIES:
    :CUSTOM_ID: budgcrit
    :END:
-Depuis l'étude d'Argyris au début des années 1950[fn:15], le budget fait l'objet de critiques importantes. L'école des relations humaines en contrôle de gestion s'est ainsi développée sur l'étude de ses effets négatifs sur la motivation. Argyris souligne notamment que les budgets ne permettent pas de comprendre la performance, s'intéressent à la performance passée, sont rigides et parfois irréalistes. Ils sont de plus un moyen de pression qui crée de la tension, détruit la coopération et produit du stress. La solution proposée par l'école des relations humaines est alors de promouvoir la participation des opérationnels au budget pour favoriser leur implication.
+Depuis l'étude d'Argyris au début des années 1950[fn:14], le budget fait l'objet de critiques importantes. L'école des relations humaines en contrôle de gestion s'est ainsi développée sur l'étude de ses effets négatifs sur la motivation. Argyris souligne notamment que les budgets ne permettent pas de comprendre la performance, s'intéressent à la performance passée, sont rigides et parfois irréalistes. Ils sont de plus un moyen de pression qui crée de la tension, détruit la coopération et produit du stress. La solution proposée par l'école des relations humaines est alors de promouvoir la participation des opérationnels au budget pour favoriser leur implication.
 
-Au début des années 1990, la critique du budget reprend de la vigueur. Deux remèdes ont ainsi été proposés, celui des partisans d'une amélioration du budget grâce à l'/Activity Based Budgeting/ (ABB) et celui des adeptes de sa suppression dans le cadre du /Beyond Budgeting/ (BB)[fn:16]. Il est ainsi reproché au budget de faire prévaloir le court terme sur le long terme, de rigidifier l'entreprise, de négliger la gestion de la valeur, d'inciter au marchandage pour obtenir des /bonis/, de provoquer de l'individualisme et du stress, d'être bureaucratique et de faire oublier la concurrence.
+Au début des années 1990, la critique du budget reprend de la vigueur. Deux remèdes ont ainsi été proposés, celui des partisans d'une amélioration du budget grâce à l'/Activity Based Budgeting/ (ABB) et celui des adeptes de sa suppression dans le cadre du /Beyond Budgeting/ (BB)[fn:15]. Il est ainsi reproché au budget de faire prévaloir le court terme sur le long terme, de rigidifier l'entreprise, de négliger la gestion de la valeur, d'inciter au marchandage pour obtenir des /bonis/, de provoquer de l'individualisme et du stress, d'être bureaucratique et de faire oublier la concurrence.
 
 Les critiques émises semblent relever de trois catégories : une critique du contrôle de gestion comme mode de direction par objectifs, une critique des effets pervers du budget et une critique du budget comme un des éléments du système de planification stratégique.
 
-Le budget est critiqué car il va souvent de pair avec un mode de management contractuel de type délégation/évaluation/rémunération qui ne permet pas toujours d'exploiter au mieux les compétences des salariés. On retrouve ici plus ou moins la critique du behaviorisme qui prônait dans les années 1970 le "management participatif" et dans les années 1990 "l'empowerment". Le courant "Beyond Budgeting" en fait le cœur de sa critique[fn:17] : 
+Le budget est critiqué car il va souvent de pair avec un mode de management contractuel de type délégation/évaluation/rémunération qui ne permet pas toujours d'exploiter au mieux les compétences des salariés. On retrouve ici plus ou moins la critique du behaviorisme qui prônait dans les années 1970 le "management participatif" et dans les années 1990 "l'empowerment". Le courant "Beyond Budgeting" en fait le cœur de sa critique[fn:16] : 
 /"Les entreprises ont investi des sommes considérables dans les technologies de l'information en réseau, le reengineering des processus et une palette d'outils de management tels que l'EVA, le balanced scorecard et la comptabilité d'activité. Mais elles n'ont pas été capables d'établir un “nouvel ordre” parce que le budget et la culture de type “diriger et contrôler” restent prédominants."/
 
-Ce mode de management a, de plus, un certain nombre d'effets pervers (cloisonnement, vision à court terme, ne permet de gérer que le financier, empêche l'innovation...). Plus généralement, comme tout système formalisé, il peut être à l'origine des cercles vicieux bureaucratiques tels qu'ils ont été identifiés par les sociologues des organisations américains depuis les années 1950. Le contrat budgétaire est à l'origine de nombreux comportements opportunistes[fn:18] : /"Essayer de négocier au plus bas les objectifs, obtenir son bonus à tout prix, faire passer le client après les objectifs, ne pas partager le savoir, dépenser le budget intégralement, pouvoir expliquer les écarts, ne pas fournir des prévisions justes, atteindre le budget, mais ne pas le dépasser et ne pas prendre de risques"./ Il serait même à l'origine de grandes faillites et fraudes nord-américaines : /"Dans des cas extrêmes, l'utilisation du budget pour forcer l'amélioration des performances peut conduire à des failles dans l'éthique des entreprises. Les personnes qui travaillaient à WorldCom, aujourd'hui en faillite [...] disent que les demandes rigides du président, Bernard Ebbers, étaient incontournables dans la vie dans l'entreprise. “Vous aviez un budget et il vous demandait de faire 2 % de moins que le budget”, a dit une personne travaillant à WorldCom [...] “rien d'autre n'était accepté”. WorldCom, Enron, Barings Bank et les autres entreprises qui ont chuté avaient des processus de contrôle budgétaire serrés qui n'orientaient l'information que vers ceux qui “doivent savoir”."/
+Ce mode de management a, de plus, un certain nombre d'effets pervers (cloisonnement, vision à court terme, ne permet de gérer que le financier, empêche l'innovation...). Plus généralement, comme tout système formalisé, il peut être à l'origine des cercles vicieux bureaucratiques tels qu'ils ont été identifiés par les sociologues des organisations américains depuis les années 1950. Le contrat budgétaire est à l'origine de nombreux comportements opportunistes[fn:17] : /"Essayer de négocier au plus bas les objectifs, obtenir son bonus à tout prix, faire passer le client après les objectifs, ne pas partager le savoir, dépenser le budget intégralement, pouvoir expliquer les écarts, ne pas fournir des prévisions justes, atteindre le budget, mais ne pas le dépasser et ne pas prendre de risques"./ Il serait même à l'origine de grandes faillites et fraudes nord-américaines : /"Dans des cas extrêmes, l'utilisation du budget pour forcer l'amélioration des performances peut conduire à des failles dans l'éthique des entreprises. Les personnes qui travaillaient à WorldCom, aujourd'hui en faillite [...] disent que les demandes rigides du président, Bernard Ebbers, étaient incontournables dans la vie dans l'entreprise. “Vous aviez un budget et il vous demandait de faire 2 % de moins que le budget”, a dit une personne travaillant à WorldCom [...] “rien d'autre n'était accepté”. WorldCom, Enron, Barings Bank et les autres entreprises qui ont chuté avaient des processus de contrôle budgétaire serrés qui n'orientaient l'information que vers ceux qui “doivent savoir”."/
 
 Ce sont les effets pervers induits par un système de contrôle financier strict, tel le contrôle budgétaire, qui semblent être au centre de ces critiques. 
 
 Une troisième catégorie de critiques a trait à la capacité des budgets à faire passer la "bonne stratégie". Au-delà du budget, c'est la faillite de la planification stratégique préconisée par l'école de Harvard ou par Ansoff de la fin des années 1960 aux années 1970 qui est critiquée ici. Il semblerait que le budget traduise généralement assez mal la stratégie telle qu'elle est proposée dans les plans stratégiques. Gérer avec des plans à long terme conduirait également à rigidifier l'entreprise en ne lui permettant pas de s'adapter aux opportunités qui se présentent en cours d'année. Cela interdirait aussi l'émergence d'idées stratégiques émanant de la base. 
 
-Malgré les critiques, le budget reste largement utilisé. Les différentes enquêtes réalisées montrent en effet que la quasi-totalité des entreprises et des organisations réalise des budgets. Certes, elles ne l'utilisent pas toutes de la même manière[fn:19] : certaines en font la référence incontournable de l'évaluation des responsables alors d'autres n'y accordent que peu d'importance, certaines impliquent les gestionnaires dans sa construction alors que d'autres ont une démarche plus participative. On constate ainsi que le budget fait l'objet de critiques lorsqu'il est peu participatif et qu'il est utilisé de manière stricte pour l'évaluation des gestionnaires.
+Malgré les critiques, le budget reste largement utilisé. Les différentes enquêtes réalisées montrent en effet que la quasi-totalité des entreprises et des organisations réalise des budgets. Certes, elles ne l'utilisent pas toutes de la même manière[fn:18] : certaines en font la référence incontournable de l'évaluation des responsables alors d'autres n'y accordent que peu d'importance, certaines impliquent les gestionnaires dans sa construction alors que d'autres ont une démarche plus participative. On constate ainsi que le budget fait l'objet de critiques lorsqu'il est peu participatif et qu'il est utilisé de manière stricte pour l'évaluation des gestionnaires.
 
 La planification et le budget sont des outils au cœur du fonctionnement des grandes organisations aujourd'hui. Ils servent à savoir où l'entreprise va et à s'assurer du déploiement des choix stratégiques dans l'entreprise. Ces plans sont parfois utilisés pour discuter avec des apporteurs de capitaux (banquier, actionnaires potentiels), notamment dans le cas des entreprises en phase de croissance (start-up). Ils sont alors appelés /"Business Plan"/
 
@@ -1012,13 +1013,13 @@ Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz
 Au-delà de l'aide à la décision, les données comptables peuvent être utilisées pour le contrôle des gestionnaires. Dans le cadre de ce cours, on se limitera aux mesures financières de la performance. Nous verrons quelles mesures financières peuvent être utilisées pour faciliter le contrôle de gestionnaires, mais aussi quels sont les risques liés à l'utilisation de ces mesures.
 ** Mesure de performance et gestion par les résultats
 *** Gestion par les résultats et pilotage
-La mesure de la performance permet de « gérer par les résultats »[fn:20] en mettant en œuvre un contrôle a posteriori. Elle prend alors la forme d’un contrôle cybernétique permettant à la direction de s’assurer que les objectifs fixés vont être réalisés[fn:21]. Elle facilite ainsi le pilotage et la convergence des buts dans l’organisation.
+La mesure de la performance permet de « gérer par les résultats »[fn:19] en mettant en œuvre un contrôle a posteriori. Elle prend alors la forme d’un contrôle cybernétique permettant à la direction de s’assurer que les objectifs fixés vont être réalisés[fn:20]. Elle facilite ainsi le pilotage et la convergence des buts dans l’organisation.
 
 Une bonne image de ce mécanisme cybernétique est donnée par l’exemple du thermostat. Celui-ci va déceler une différence entre la température réelle d’une pièce et la température souhaitée et réagir à cette divergence en allumant ou en éteignant le chauffage pour obtenir la température désirée. La « gestion par les résultats » s’apparente également à un processus cybernétique puisqu’elle vise à identifier les différences entre les objectifs et le niveau réel de performance afin de déclencher des mesures d’ajustement lorsque des écarts sont identifiés.
 
 #+caption: La gestion par les résultats : un processus cybernétique
 #+attr_latex: :placement [H] :center nil
-[[./img/gestionobj.png]]
+[[./img/gestionobj.pdf]]
 La gestion par les résultats repose, dans un premier temps, sur la fixation d’une norme chiffrée (étape 1). La définition de cette norme n’a bien sûr rien d’évident. Elle peut s’appuyer sur une prévision (effectuée dans le cadre du processus budgétaire, par exemple) ou traduire un objectif volontariste de la direction (infléchissement de tendance). Parfois, la définition de cette norme est réalisée en se comparant aux concurrents (analyse comparative) ou en faisant participer ceux qui sont contrôlés afin d’améliorer la prévision qui est faite (puisqu’on suppose que la personne contrôlée connaît souvent mieux l’activité et son évolution que la personne qui la contrôle) et son appropriation par la personne qui est chargée de la mise en œuvre. On parle alors de direction participative par objectifs. Cette participation à la définition des objectifs pose cependant un problème : lors de la discussion de ses objectifs, la personne contrôlée a intérêt à minimiser la difficulté des objectifs qui lui sont assignés afin de s’assurer qu’elle pourra les atteindre. Dans le cadre du processus budgétaire, ce phénomène est qualifié de /slack/ budgétaire.
 
 Dans un deuxième temps (étape 2), la personne contrôlée est laissée libre d’organiser la transformation des ressources en produits ou la réalisation de ses activités de la manière la plus efficace et la plus efficiente. 
@@ -1026,12 +1027,12 @@ Les résultats obtenus font ensuite l’objet d’une mesure qui est comparée a
 
 Si un écart significatif entre la norme et le résultat réel est constaté, des actions correctives sont alors engagées (étape 4). Celles-ci peuvent conduire à modifier le processus de transformation et/ou les ressources mises en œuvre dans ce processus. Dans le même temps, l’atteinte (ou non) des normes de résultats définies a priori conduit à attribuer des primes (monétaires ou autres) aux responsables ou à les sanctionner.
 *** Les avantages de la gestion par les résultats
-La gestion par les résultats offre de nombreux avantages qui expliquent son rôle dans le développement des grandes organisations nord-américaines au début du XXᵉ siècle[fn:22]. Parmi eux, trois raisons majeures sont le plus souvent avancées :
+La gestion par les résultats offre de nombreux avantages qui expliquent son rôle dans le développement des grandes organisations nord-américaines au début du XXᵉ siècle[fn:21]. Parmi eux, trois raisons majeures sont le plus souvent avancées :
 - La gestion par les résultats s’appuie sur des données comptables et financières. Elle permet par conséquent d’appliquer un langage commun à l’ensemble de l’organisation, quelles que soient la diversité des produits et des services proposés et la variété des activités réalisées. Elle facilite, de ce fait, la gestion à distance dans les grandes organisations diversifiées en permettant à la fois la déclinaison des informations centrales et la synthèse des informations locales ;
 - La gestion par les résultats permet de décentraliser la prise de décision en échange du contrôle des résultats. De nombreuses décisions peuvent ainsi être prises par les responsables sur le terrain, au plus proche des opérations, ce qui favorise une meilleure qualité de l’information et permet une réactivité accrue dans la prise de décision. En outre, cette décentralisation de la prise de décision permet à la direction de se limiter à un contrôle par exception - c’est-à-dire restreint aux déviations notables par rapport aux objectifs – et ainsi de se consacrer aux décisions importantes, plus stratégiques qu’opérationnelles ;
 - La gestion par les résultats doit permettre de responsabiliser, d’évaluer et donc de motiver des salariés à partir des objectifs qui leur ont été fixés. À ce titre, c’est un outil de gouvernement des hommes qui peut être utilisé à tous les niveaux de l’organisation pour s’assurer que chacun fait des efforts dans l’intérêt de l’organisation.
 
-Au-delà de ses avantages en termes d’efficacité et d’efficience, ce système est présenté parfois comme une avancée démocratique. En substituant "la pratique d’un contrôle gestionnaire autonome à celle qui reposait sur la domination" la gestion par les résultats permettrait, en effet, d’atteindre un "idéal" démocratique dans lequel la responsabilité de chaque individu est mesurée dans le cadre d’un contrat passé préalablement à l’action entre des individus libres et égaux[fn:23]. 
+Au-delà de ses avantages en termes d’efficacité et d’efficience, ce système est présenté parfois comme une avancée démocratique. En substituant "la pratique d’un contrôle gestionnaire autonome à celle qui reposait sur la domination" la gestion par les résultats permettrait, en effet, d’atteindre un "idéal" démocratique dans lequel la responsabilité de chaque individu est mesurée dans le cadre d’un contrat passé préalablement à l’action entre des individus libres et égaux[fn:22]. 
 *** Gérer par les résultats : hypothèses sur le processus contrôlé et la motivation des individus
 La gestion par les résultats permet de piloter un processus de transformation d’inputs (ressources) en outputs (produits) en assignant à chaque responsable des objectifs et en lui offrant, en contrepartie, la maîtrise de moyens et une certaine liberté de mise en œuvre pour atteindre ses objectifs. De son côté, celui qui contrôle va pouvoir le faire par exception, c’est-à-dire en s’impliquant uniquement en cas de déviation significative par rapport aux objectifs.
 
@@ -1048,15 +1049,15 @@ En résumé, faire du contrôle par les résultats suppose de pouvoir définir u
 
 D’une part, il suppose que le manager ou le contrôleur est capable de fixer des objectifs pertinents pour la performance de l’organisation, ce qui sous-entend qu'il est parfaitement rationnel et d’une loyauté sans failles vis-à-vis de l’organisation et que ses propres objectifs sont cohérents avec ceux de son organisation. Cela est loin d’être évident.
 
-D’autre part, il présume que la personne contrôlée est potentiellement opportuniste. Il suppose donc qu’elle cherche à minimiser ses efforts et qu’il faut, par conséquent, la contraindre à travailler, en mettant en œuvre des systèmes d’incitation extrinsèques qui vont orienter ses efforts afin de la faire participer aux objectifs de l’organisation. C’est l’individu décrit par ce que McGregor a décrit comme la théorie X du management[fn:24] : celui qui, réfractaire au travail, ne fournit d’effort que sous la contrainte, qui n’aime pas les responsabilités et préfère être dirigé, qui désire la sécurité et ne déploie son intelligence que pour contourner les règlements.
+D’autre part, il présume que la personne contrôlée est potentiellement opportuniste. Il suppose donc qu’elle cherche à minimiser ses efforts et qu’il faut, par conséquent, la contraindre à travailler, en mettant en œuvre des systèmes d’incitation extrinsèques qui vont orienter ses efforts afin de la faire participer aux objectifs de l’organisation. C’est l’individu décrit par ce que McGregor a décrit comme la théorie X du management[fn:23] : celui qui, réfractaire au travail, ne fournit d’effort que sous la contrainte, qui n’aime pas les responsabilités et préfère être dirigé, qui désire la sécurité et ne déploie son intelligence que pour contourner les règlements.
 Dans cette perspective, les motivations extrinsèques (guidée par des raisons externes à l’individu, par exemple des objectifs liés à une rémunération) jouent un rôle déterminant dans la motivation.
 
-Il faut cependant tenir compte des attentes réelles des salariés, le salaire et les primes n’étant qu’une des composantes de la satisfaction, en concurrence avec la sécurité de l’emploi, certains avantages acquis, certaines marques de reconnaissance, etc.[fn:25]. Les individus ne sont de plus pas uniquement motivés par des facteurs extrinsèques. Il existe des facteurs intrinsèques de motivation. Dans sa version "direction participative par objectifs",  le management par objectifs s’appuie sur le postulat inspiré des travaux de l’école des relations humaines selon lequel la participation et la responsabilisation des salariés favoriseraient leur implication et permettraient donc la réalisation des objectifs de l’organisation. On est alors plus proche de ce que McGregor a appelé la théorie Y, qui postule que si une activité apporte des satisfactions à un salarié alors son engagement envers l'organisation s'améliore, que chaque individu est capable de se réaliser si on l'associe aux buts de l'organisation et que, mis dans de bonnes conditions, il accepte et recherche les responsabilités.
+Il faut cependant tenir compte des attentes réelles des salariés, le salaire et les primes n’étant qu’une des composantes de la satisfaction, en concurrence avec la sécurité de l’emploi, certains avantages acquis, certaines marques de reconnaissance, etc.[fn:24]. Les individus ne sont de plus pas uniquement motivés par des facteurs extrinsèques. Il existe des facteurs intrinsèques de motivation. Dans sa version "direction participative par objectifs",  le management par objectifs s’appuie sur le postulat inspiré des travaux de l’école des relations humaines selon lequel la participation et la responsabilisation des salariés favoriseraient leur implication et permettraient donc la réalisation des objectifs de l’organisation. On est alors plus proche de ce que McGregor a appelé la théorie Y, qui postule que si une activité apporte des satisfactions à un salarié alors son engagement envers l'organisation s'améliore, que chaque individu est capable de se réaliser si on l'associe aux buts de l'organisation et que, mis dans de bonnes conditions, il accepte et recherche les responsabilités.
 
 #+begin_kaobox
 On notera que le niveau auquel doit être fixée la norme n’a rien d’évident. Faut-il se référer à une prévision qui se contenterait de reproduire la tendance observée ou fixer des objectifs ambitieux ? Des objectifs trop lâches, pas assez ambitieux, motivent peu, car les responsables peuvent céder à la facilité : on dit que l’organisation n’est alors pas « mise sous tension ». En augmentant la difficulté des objectifs, on peut dynamiser les équipes qui ont ainsi un défi à relever. Mais au-delà d’un certain seuil, au lieu de renforcer la motivation, des objectifs trop ambitieux découragent, « démobilisent » les responsables qui peuvent avoir le sentiment qu’on leur demande trop, et que, quels que soient leurs efforts ils ne pourront pas atteindre l’objectif, ce n’est pas la peine d’essayer.
 
-Les relations complexes entre objectif, motivation, récompense et performance ont été modélisées par la théorie de l’expectance[fn:26]. Cette théorie repose sur l’idée que la motivation d’un individu à faire des efforts dépend de la conjonction de trois facteurs : la probabilité perçue par cet individu que son effort le mène au succès (expectance), la probabilité que ce succès entraîne effectivement une récompense (une promotion ou une hausse de salaire par exemple), et la valeur que cet individu attache au type de récompense prévisible. Ainsi, les objectifs doivent paraître à la fois ambitieux et accessibles pour jouer pleinement leur rôle incitatif[fn:27]. 
+Les relations complexes entre objectif, motivation, récompense et performance ont été modélisées par la théorie de l’expectance[fn:25]. Cette théorie repose sur l’idée que la motivation d’un individu à faire des efforts dépend de la conjonction de trois facteurs : la probabilité perçue par cet individu que son effort le mène au succès (expectance), la probabilité que ce succès entraîne effectivement une récompense (une promotion ou une hausse de salaire par exemple), et la valeur que cet individu attache au type de récompense prévisible. Ainsi, les objectifs doivent paraître à la fois ambitieux et accessibles pour jouer pleinement leur rôle incitatif[fn:26]. 
 #+end_kaobox
 
 Au-delà des hypothèses sur les objectifs et les motivations, la gestion par les résultats repose sur une troisième hypothèse : il est possible de découper l'organisation en plusieurs entités (que l'on appelle centres de responsabilité) dont on peut mesurer la performance.
@@ -1072,7 +1073,7 @@ Dans les organisations, ces divers types de centres de responsabilité s’embo�
 
 #+caption: Les types de centres de responsabilité
 #+attr_latex: :placement [H] :center nil
-[[./img/centres.png]]
+[[./img/centres.pdf]]
 Le découpage de l’organisation en centres de responsabilité qui en découle permet de clarifier l’organisation, d’amoindrir sa complexité, d’attribuer des responsabilités à chacun et donc de décentraliser.
 
 La décentralisation est le processus par lequel la prise de décision est déléguée aux responsables des unités d'affaires.
@@ -1096,7 +1097,7 @@ La difficulté est donc de trouver les normes qui permettent de faire converger 
 Une entreprise décide de fixer des objectifs de restriction des coûts à tous les services supports. Il est ainsi demandé au service maintenance une diminution de 20%. Le responsable du service maintenance met tout en œuvre pour atteindre ses objectifs : il minimise ses achats de pièces et il décide de ne pas remplacer le personnel en congé en ne faisant pas appel aux intérimaires. L’objectif est atteint. On constate cependant un dérapage des coûts de l’usine. En effet, du fait des déficits de maintenance, les arrêts de la chaine de production ont été plus fréquents. La productivité a baissé. Pour atteindre ses objectifs de production, l’usine a donc dû faire faire des heures supplémentaires à ses employés, ce qui a augmenté ses coûts.
 -----
 
-Si l’on veut que les normes soient incitatives, il est nécessaire de s’assurer que les personnes évaluées ne sont tenues responsables que d’éléments sur lesquels elles peuvent agir. Cela correspond au principe de contrôlabilité selon lequel la responsabilité d’un manager ne peut s’exercer que sur les éléments qu’il contrôle et sur lesquels il dispose de leviers d’action. Autrement dit : on ne peut tenir un manager responsable des éléments « non contrôlables » (par lui-même) qui devraient, par conséquent, être exclus de l’évaluation de ses performances. Il est facile de comprendre les raisons de ce principe. La plus importante tient au fait qu’il serait injuste, et donc démotivant, de demander à un manager de rendre des comptes sur des éléments qui ne dépendent pas de son action[fn:28].
+Si l’on veut que les normes soient incitatives, il est nécessaire de s’assurer que les personnes évaluées ne sont tenues responsables que d’éléments sur lesquels elles peuvent agir. Cela correspond au principe de contrôlabilité selon lequel la responsabilité d’un manager ne peut s’exercer que sur les éléments qu’il contrôle et sur lesquels il dispose de leviers d’action. Autrement dit : on ne peut tenir un manager responsable des éléments « non contrôlables » (par lui-même) qui devraient, par conséquent, être exclus de l’évaluation de ses performances. Il est facile de comprendre les raisons de ce principe. La plus importante tient au fait qu’il serait injuste, et donc démotivant, de demander à un manager de rendre des comptes sur des éléments qui ne dépendent pas de son action[fn:27].
 
 Les mesures financières de performance de chacun des centres de responsabilité devraient ainsi être adaptées au type de responsabilité de chacun de ces centres.
 ** Mesurer la performance des centres de responsabilité
@@ -1133,7 +1134,7 @@ Il existe de multiples modalités de calcul des écarts. La mise en œuvre de la
     :END:
 Pour les centres d'investissement (qui sont responsables à la fois de leurs revenus, de leurs coûts et de leurs investissements), il est logique d'évaluer la performance financière par la rentabilité.
 
-Le ROI (/Return on Investment/) est un ratio de rentabilité économique qui mesure un retour un investissement. Cette mesure est très largement utilisées dans les entreprises [fn:29]. Ce ratio est assez proche du ROCE (/Return on Capital Employed/) et du ROA (/Return on Assets/), qui sont aussi largement utilisés dans les organisations. Cette mesure de la performance est uniquement financière, mais elle permet, grâce à sa décomposition pyramidale, d'évaluer de nombreux aspects de la gestion d'une division. Elle présente l'avantage, contrairement à un simple résultat comptable, de permettre de comparer des entités de taille différente. De plus, elle peut être calculée directement à partir du bilan comptable, elle est donc simple à calculer et à comprendre.
+Le ROI (/Return on Investment/) est un ratio de rentabilité économique qui mesure un retour un investissement. Cette mesure est très largement utilisées dans les entreprises [fn:28]. Ce ratio est assez proche du ROCE (/Return on Capital Employed/) et du ROA (/Return on Assets/), qui sont aussi largement utilisés dans les organisations. Cette mesure de la performance est uniquement financière, mais elle permet, grâce à sa décomposition pyramidale, d'évaluer de nombreux aspects de la gestion d'une division. Elle présente l'avantage, contrairement à un simple résultat comptable, de permettre de comparer des entités de taille différente. De plus, elle peut être calculée directement à partir du bilan comptable, elle est donc simple à calculer et à comprendre.
 
 Plusieurs formulations du ROI sont possibles, mais elles prennent toute la forme d'un ratio du type : 
 #+begin_center
@@ -1187,7 +1188,7 @@ La pyramide du ROI permet d'expliquer la formation du retour sur investissement 
 
 #+caption: La pyramide du ROI
 #+attr_latex: :placement [H] :center nil
-[[./img/roi.png]]
+[[./img/roi.pdf]]
 
 Deux entreprises peuvent ainsi avoir un même ROI, mais en l'obtenant de manière très différente. Par exemple, les activités de luxe ou de construction exigent de forts investissements (faible rotation des actifs), mais permettent de forts taux de marge. Inversement, les activités de distribution vont avoir un fort taux de rotation des actifs (puisqu'elles payent leurs fournisseurs avec d'importants délais alors que leurs clients payent au comptant) et un taux de marge peu élevé.
 -----
@@ -1216,9 +1217,9 @@ La décomposition de la pyramide peut être poursuivie pour faire apparaître un
 
 #+caption: La décomposition du ROI
 #+attr_latex: :placement [H] :center nil
-[[./img/roidetail.png]]
+[[./img/roidetail.pdf]]
 
-En résumé, le ROI synthétise "la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"[fn:30]. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.
+En résumé, le ROI synthétise "la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"[fn:29]. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.
 
 Il peut, de plus, être relié directement aux attentes des actionnaires et à la rentabilité financière (que l'on nomme en général ROE : /Return on Equity/), par l'intermédiaire de l'effet de levier, notion que vous verrez dans le cours de finance.
 *** Les limites du ROI
@@ -1235,7 +1236,7 @@ L'emploi d'un ratio amplifie les effets pervers mis en évidence ci-dessus puisq
     :PROPERTIES:
     :CUSTOM_ID: benefres
     :END:
-Le bénéfice résiduel est un indicateur de performance mesurant la création de valeur d'une entreprise ou d'une partie d'une entreprise après rémunération des capitaux investis au coût moyen pondéré du capital[fn:31]. 
+Le bénéfice résiduel est un indicateur de performance mesurant la création de valeur d'une entreprise ou d'une partie d'une entreprise après rémunération des capitaux investis au coût moyen pondéré du capital[fn:30]. 
 
 On peut calculer le bénéfice résiduel de la manière suivante :
 #+begin_center
@@ -1343,18 +1344,18 @@ Un centre de responsabilité peut recevoir tout ou partie de son approvisionneme
 
 #+caption: Les prix de cession interne
 #+attr_latex: :placement [H] :center nil
-[[./img/pci.png]]
+[[./img/pci.pdf]]
 Ces prix sont fictifs, car ils ne correspondent pas à un échange sur un marché ni à une transaction enregistrée en comptabilité financière.
 
-On parle parfois de *prix de transfert*, notamment lorsque les cessions sont réalisées entre des entités juridiques distinctes appartenant à un même groupe[fn:32].
+On parle parfois de *prix de transfert*, notamment lorsque les cessions sont réalisées entre des entités juridiques distinctes appartenant à un même groupe[fn:31].
 
 La détermination du profit au niveau de chaque centre suppose une valorisation des cessions internes, d’où l’utilisation de prix de cession interne entre centres "fournisseurs" et centres "clients".
 
 #+caption: Les prix de cession interne
 #+attr_latex: :placement [H] :center nil
-[[./img/pciresult.png]]
+[[./img/pciresult.pdf]]
 
-On voit ici que (tant qu’il n’influence pas les décisions d’achat des centres), le niveau du prix de cession interne n’a pas d’incidence sur le résultat total de l’entreprise puisqu’il constitue à la fois un produit et une charge[fn:33].
+On voit ici que (tant qu’il n’influence pas les décisions d’achat des centres), le niveau du prix de cession interne n’a pas d’incidence sur le résultat total de l’entreprise puisqu’il constitue à la fois un produit et une charge[fn:32].
 
 Les prix de cession interne permettent de faire entrer le marché dans l’organisation en transformant des centres de coût ou de revenu en centres de profit, rendant ainsi possible (du moins en apparence) l’évaluation de leur performance par l’intermédiaire de leur résultat. Ils vont ainsi faciliter la mise sous tension de l’organisation, motiver et dynamiser les responsables, et rendre possible l’évaluation les performances, grâce à la mise en place de centres de profit jugés sur des résultats. 
 
@@ -1401,7 +1402,7 @@ Le coût standard permet dans une certaine mesure d’évaluer la performance de
 Les prix de cession interne seront souvent négociés entre ces deux limites (prix de marché et coût marginal). Le niveau de prix de cession interne reflète ainsi le rapport de force entre les différentes entités de l’organisation, chacune essayant d’obtenir un niveau de prix de cession interne lui permettant d’obtenir un bon niveau de résultat. Dans certains cas, les prix de cession interne sont utilisés pour faire apparaître telle ou telle usine comme déficitaire et ainsi justifier a posteriori une décision déjà prise (par exemple, de délocalisation).
 
 De multiples approches sont donc possibles pour organiser le système de prix de cession interne. Au-delà de la valorisation des prix de cession interne, deux questions se posent en effet, lors de la mise en place d’un tel système : /Faut-il obliger ou non les centres acheteurs à s’approvisionner en interne ? Faut-il obliger les centres vendeurs à favoriser les ventes en interne ?/
-En la matière, laisser liberté d’approvisionnement ou de vente en externe permet de faire rentrer le marché dans l’organisation et peut avoir un fort pouvoir d’incitation. En effet, les centres de responsabilité sont dans ce cas mis en concurrence avec des acteurs externes. On peut qualifier cette approche de concurrentielle. Elle est plus efficace dans les groupes fortement diversifiés et à faible intégration verticale[fn:34].
+En la matière, laisser liberté d’approvisionnement ou de vente en externe permet de faire rentrer le marché dans l’organisation et peut avoir un fort pouvoir d’incitation. En effet, les centres de responsabilité sont dans ce cas mis en concurrence avec des acteurs externes. On peut qualifier cette approche de concurrentielle. Elle est plus efficace dans les groupes fortement diversifiés et à faible intégration verticale[fn:33].
 Inversement, laisser une liberté d’achat et de vente en interne ou en externe et mettre les centres en concurrence peut poser des problèmes de coordination : les centres n’ont plus intérêt à coopérer et peuvent même agir de manière à nuire aux intérêts des autres centres. Pour favoriser la coopération, il faut privilégier l’approvisionnement interne, valoriser les prix de cession interne au coût complet (éventuellement majoré d'une marge) et obliger les centres acheteurs et les centres vendeurs à privilégier les achats et les ventes internes. Cette approche est plus efficace dans les groupes faiblement diversifiés et à forte intégration verticale.
 
 #+begin_kaobox
@@ -1411,11 +1412,11 @@ Pour vous exercer sur cette section, voir le quiz d'entrainement :
 
 
 * Conclusion - Mesures de la performance, gestion par les résultats et contrôle
-Dans le cadre de ce cours, nous avons centré notre attention sur les modes de calcul des coûts et de prévisions adaptés aux différentes situations de prise de décisions rencontrées par les gestionnaires. Ces mesures sont des instruments utiles pour les gestionnaires. Elles aident le gestionnaire à fonder ses décisions sur des faits plutôt que sur des perceptions. D'ailleurs, ont dit souvent qu' "on ne gère bien que ce que l'on mesure" (/What gets measured gets and rewarded done/[fn:35]), en considérant que ce qui est mesuré compte vraiment et doit être récompensé. 
+Dans le cadre de ce cours, nous avons centré notre attention sur les modes de calcul des coûts et de prévisions adaptés aux différentes situations de prise de décisions rencontrées par les gestionnaires. Ces mesures sont des instruments utiles pour les gestionnaires. Elles aident le gestionnaire à fonder ses décisions sur des faits plutôt que sur des perceptions. D'ailleurs, ont dit souvent qu' "on ne gère bien que ce que l'on mesure" (/What gets measured gets and rewarded done/[fn:34]), en considérant que ce qui est mesuré compte vraiment et doit être récompensé. 
 
-On a cependant vu que trouver la bonne mesure n'a rien d’évident. La mesure peut ainsi avoir des effets pervers lorsqu'elle est utilisée pour gérer par les résultats. Elle peut, certes, aider au contrôle de l'organisation, mais ce n'est pas l'unique dispositif à destination des gestionnaires[fn:36].
+On a cependant vu que trouver la bonne mesure n'a rien d’évident. La mesure peut ainsi avoir des effets pervers lorsqu'elle est utilisée pour gérer par les résultats. Elle peut, certes, aider au contrôle de l'organisation, mais ce n'est pas l'unique dispositif à destination des gestionnaires[fn:35].
 ** Les effets pervers de la gestion par les résultats
-Mesurer la performance et gérer par les résultats c’est inciter les individus dans l’organisation à poursuivre un objectif cohérent avec celui de l’entreprise et les responsabiliser. Dans certains cas, ce mode de gestion peut cependant avoir des effets pervers. Ainsi, dès les années 1950, de nombreux auteurs, et notamment Argyris[fn:37], ont mis en évidence les effets psychologiques dévastateurs d’une « pression » des objectifs financiers sur les gestionnaires et les employés. Les individus ainsi contrôlés peuvent ainsi éprouver des sentiments de frustration, développer des pathologies psychosomatiques ou dépressives ou encore faire preuve d’agressivité dans leurs relations de travail. Outre leurs conséquences individuelles et humaines, ces phénomènes nuiraient à l’efficacité professionnelle des individus. Ce type de gestion peut aussi avoir des conséquences organisationnelles, en focalisant les acteurs sur leurs objectifs de manière parfois excessive et en les poussant à des manipulations et jeux comptables.
+Mesurer la performance et gérer par les résultats c’est inciter les individus dans l’organisation à poursuivre un objectif cohérent avec celui de l’entreprise et les responsabiliser. Dans certains cas, ce mode de gestion peut cependant avoir des effets pervers. Ainsi, dès les années 1950, de nombreux auteurs, et notamment Argyris[fn:36], ont mis en évidence les effets psychologiques dévastateurs d’une « pression » des objectifs financiers sur les gestionnaires et les employés. Les individus ainsi contrôlés peuvent ainsi éprouver des sentiments de frustration, développer des pathologies psychosomatiques ou dépressives ou encore faire preuve d’agressivité dans leurs relations de travail. Outre leurs conséquences individuelles et humaines, ces phénomènes nuiraient à l’efficacité professionnelle des individus. Ce type de gestion peut aussi avoir des conséquences organisationnelles, en focalisant les acteurs sur leurs objectifs de manière parfois excessive et en les poussant à des manipulations et jeux comptables.
 *** Focalisation sur les indicateurs et le déplacement des buts
 Les systèmes de contrôle, parce qu’ils visent à orienter le comportement des acteurs de l’organisation en les responsabilisant et en les motivant, ont une portée sur ces acteurs. En la matière, des effets non désirés peuvent se produire. D’abord, ceci peut conduire à donner une importance excessive aux éléments chiffrés et ainsi à donner une prépondérance aux éléments financiers, le plus souvent de court terme. Ensuite, introduire des mécanismes s’apparentant à ceux de la concurrence peut mettre à mal la nécessaire coopération qui doit exister dans une organisation. Enfin, promouvoir des objectifs et encourager leur réalisation pose des questions relatives aux mécanismes de motivation. En résumé, la gestion par les résultats peut pousser les individus dans l’organisation à se focaliser sur leurs objectifs particuliers sans prendre en compte la performance de l’organisation dans son ensemble : il y a un déplacement des objectifs des individus vers ce qui est pris en compte dans leur évaluation.
 
@@ -1424,7 +1425,7 @@ Ainsi, faire du contrôle par les résultats, c’est valoriser ce qui est mesur
 De plus, s’il est possible d’évaluer la contribution à la performance financière d’un manager ayant de grosses responsabilités ou d’une entité, il semble très incertain d’évaluer cette contribution pour un salarié de plus bas niveau dans l’organisation. D’autres indicateurs de performance doivent alors être utilisés. La traduction des objectifs financiers en indicateurs opérationnels n’a cependant rien d’évident. Toute erreur en la matière peut conduire à un déplacement des objectifs ou à des comportements opportunistes. Une recherche menée dans une grande entreprise industrielle permet d’illustrer ce phénomène.
 
 -----
-*Exemple - Les effets pervers d'un mauvais choix d'indicateurs[fn:38]**
+*Exemple - Les effets pervers d'un mauvais choix d'indicateurs[fn:37]**
 
 Des chercheurs, chargés d’étudier un processus d’achat de pièces détachées, concluent à une gestion aberrante : pour deux pièces semblables, on relève des écarts de prix d’achat allant jusqu’à 30 % selon le fournisseur.
 
@@ -1436,12 +1437,12 @@ On pourrait s’étonner qu’une telle situation se perpétue. Mais ceux qui co
 Le découpage en centres de responsabilité peut, de plus, produire des effets pervers. En effet, répartir les responsabilités, c’est demander à chacun dans l’organisation d’atteindre les objectifs qui lui sont fixés, au détriment, parfois, de l’entreprise dans son ensemble. On peut, par exemple, imaginer que le responsable des achats fasse des économies en choisissant des matières premières de moindre qualité : il améliorera ainsi ses coûts, mais risque alors d’engendrer une augmentation des rebuts lors de la fabrication, ce qui conduira le responsable du centre production à utiliser plus de matières premières pour réaliser sa production et détériorera donc la performance de ce dernier. Les exemples sur ce thème sont multiples dans les entreprises : on sait ainsi que mettre en place des centres de responsabilité c’est introduire de la concurrence dans l’organisation, ce qui incite les acteurs à être plus efficaces pour atteindre leurs objectifs, mais peut se faire au détriment de la coopération entre les différents services ou de la performance de l’entreprise dans son ensemble comme le montre l’exemple ci-dessous.
 
 -----
-*Exemple - Quand les objectifs locaux sont atteints au détriment de la performance de l’entreprise[fn:39]*
+*Exemple - Quand les objectifs locaux sont atteints au détriment de la performance de l’entreprise[fn:38]*
 
 Afin d’atteindre ses objectifs budgétaires trimestriels, le directeur d’une usine anglaise appartenant à un groupe international a livré des produits non finis dans un entrepôt aux Pays-Bas, proche du lieu de livraison final, afin d’y être assemblé. En livrant le produit non fini, l’opération permet de réaliser la vente plus tôt, avant la fin du trimestre, et ainsi de réaliser les objectifs budgétaires. Mais, le coût élevé d’assemblage des biens livrés à distance, qui a nécessité la location d’un entrepôt, mais aussi de la main d’œuvre, a réduit le bénéfice pour le groupe.
 -----
 
-De manière générale, la gestion par les résultats pose donc un problème d’adéquation entre l’optimisation locale et l’optimisation globale. En outre, encourager les acteurs à atteindre leurs objectifs suppose de les motiver pour cela. Le management par les objectifs, parce qu’il vise à responsabiliser les individus et à les motiver, pose donc la question des facteurs de cette motivation. Parmi les théories de la motivation, celle de l’autodétermination identifie deux grands types de motivations : la motivation extrinsèque et la motivation intrinsèque[fn:40]:
+De manière générale, la gestion par les résultats pose donc un problème d’adéquation entre l’optimisation locale et l’optimisation globale. En outre, encourager les acteurs à atteindre leurs objectifs suppose de les motiver pour cela. Le management par les objectifs, parce qu’il vise à responsabiliser les individus et à les motiver, pose donc la question des facteurs de cette motivation. Parmi les théories de la motivation, celle de l’autodétermination identifie deux grands types de motivations : la motivation extrinsèque et la motivation intrinsèque[fn:39]:
 - La motivation extrinsèque dépend de facteurs externes (récompenses ou punitions) à l’activité : celle-ci n’est pas réalisée pour le plaisir qu’elle apporte, mais pour des raisons externes (récompenses, punitions, contraintes). La motivation est alors renforcée lorsque la récompense (ou la punition) est accrue ;
 - La motivation intrinsèque est, quant à elle, liée à l’activité elle-même : celle-ci est alors réalisée pour le plaisir qu’elle procure ou la satisfaction qu’elle donne. Elle est renforcée par des manifestations symboliques de reconnaissance ou d’estime.
 
@@ -1452,14 +1453,14 @@ Pourtant, une mobilisation excessive des facteurs de motivation extrinsèque peu
 *** Manipulations et jeux comptables
 La mesure de la performance et son utilisation pour évaluer les individus peut induire une tentation de manipulations comptables, soit a priori (/slack/), soit a posteriori (manipulation des données).
 
-C'est par exemple un cas extrèmement courant avec le budget, comme le note Jensen lorsqu'il affirme que le budget /"prend beaucoup de temps aux managers, les forçant à tenir des réunions répétées et sans fin et à s'investir dans des négociations tendues. Il encourage les managers à mentir et à tricher, à minimiser les objectifs et à gonfler les résultats et il les pénalise lorsqu'ils disent la vérité. Il transforme les décisions en un jeu et monte les collègues les uns contre les autres, créant de la méfiance et de la rancune. Il produit des distorsions dans les incitations en motivant les gens à agir dans un sens qui va contre l'intérêt de leur entreprise."[fn:41]/
+C'est par exemple un cas extrèmement courant avec le budget, comme le note Jensen lorsqu'il affirme que le budget /"prend beaucoup de temps aux managers, les forçant à tenir des réunions répétées et sans fin et à s'investir dans des négociations tendues. Il encourage les managers à mentir et à tricher, à minimiser les objectifs et à gonfler les résultats et il les pénalise lorsqu'ils disent la vérité. Il transforme les décisions en un jeu et monte les collègues les uns contre les autres, créant de la méfiance et de la rancune. Il produit des distorsions dans les incitations en motivant les gens à agir dans un sens qui va contre l'intérêt de leur entreprise."[fn:40]/
 
 Ainsi, la pression liée à la nécessité de réaliser des résultats peut conduire les acteurs à se ménager un "matelas", ce que l’on nomme souvent le /slack/. On montre ainsi que le processus budgétaire, outil central en contrôle de gestion - mobilisé à des fins aussi diverses que l’autorisation des dépenses, la prévision des événements, la planification, la coordination des actions, la motivation des managers ou encore l’évaluation des performances - est souvent perçu par les acteurs, non comme un moyen mis à leur disposition, mais comme un outil de contrôle. Cela expliquerait qu’ils cherchent alors à créer ce que l’on nomme du /slack/ dont la finalité est de permettre aux managers de conserver des marges de manœuvre et de ne pas subir trop intensément la pression liée aux objectifs assignés.
 
 Cette pression peut aller au-delà, et conduire les managers ou les contrôleurs à gérer leur résultat. Cette gestion du résultat peut se faire dans le cadre légal des options comptables acceptées ou allers au-delà du cadre légal.
 
 -----
-*Exemple - Pression sur les résultats et jeu comptable [fn:42]*
+*Exemple - Pression sur les résultats et jeu comptable [fn:41]*
 
 Vous vous retrouvez à avoir un super bon mois de décembre, où vous  avez gardé des réserves un petit peu partout – la règle c’est 60/40, c’est-à-dire que vous essayez toujours d’avoir 60% de chance d’atteindre votre résultat et que 40% de chance de ne pas l’atteindre, donc vous avez planqué des réserves un peu partout – il se trouve que vos ventes sont bonnes donc vous vous retrouvez avec plein de réserves. Alors là, ce que vous essayez en général de faire – et tous les contrôleurs de gestion vous diront la même chose – vous essayez de ne pas l’annoncer et de garder la cagnotte pour l’année suivante. Enfin disons que c’est quelque chose auquel vous vous pliez assez naturellement parce que pour vous aussi c’est plus facile de piloter et puis cela reste vague, quel est le résultat réel ?, quel est le résultat officiel ? (directeur du contrôleur de gestion, division d’une entreprise d’agroalimentaire)
 -----
@@ -1474,13 +1475,13 @@ Lorsqu’aucune défaillance n’est acceptable, par exemple un lancement de fus
    :PROPERTIES:
    :CUSTOM_ID: altercontrol
    :END:
-Vouloir contrôler, c'est "chercher à orienter des actions, des comportements - sinon des savoirs, des buts ou des valeurs"[fn:43]. La raison d'être d'un système de contrôle est d'accroître les chances que les individus internalisent les objectifs organisationnels et qu'ils se comportent de manière à atteindre ces buts. Les mesures de performance permettent de contrôler en gérant par les résultats. Il est cependant possible de les utiliser de diverses manières. De plus, ce n'est pas l'unique mode de contrôle possible dans les organisations.
+Vouloir contrôler, c'est "chercher à orienter des actions, des comportements - sinon des savoirs, des buts ou des valeurs"[fn:42]. La raison d'être d'un système de contrôle est d'accroître les chances que les individus internalisent les objectifs organisationnels et qu'ils se comportent de manière à atteindre ces buts. Les mesures de performance permettent de contrôler en gérant par les résultats. Il est cependant possible de les utiliser de diverses manières. De plus, ce n'est pas l'unique mode de contrôle possible dans les organisations.
 *** La diversité des usages des mesures de performance
     :PROPERTIES:
     :CUSTOM_ID: diversiteusage
     :END:
 
-Les recherches récentes suggèrent que les grandes organisations sont aujourd'hui dotées de systèmes de contrôle et de mesure de la performance plus ou moins équivalents. Ce qui les différencie, c'est la manière dont ces systèmes sont utilisés[fn:44]. Simons met ainsi en évidence deux modes d'utilisation des systèmes de contrôle et de mesures de la performance : diagnostique et interactive.
+Les recherches récentes suggèrent que les grandes organisations sont aujourd'hui dotées de systèmes de contrôle et de mesure de la performance plus ou moins équivalents. Ce qui les différencie, c'est la manière dont ces systèmes sont utilisés[fn:43]. Simons met ainsi en évidence deux modes d'utilisation des systèmes de contrôle et de mesures de la performance : diagnostique et interactive.
 
 Les /*systèmes de contrôle et de mesure de la performance utilisés de manière diagnostique*/ sont "les systèmes d'information que les managers utilisent pour surveiller les résultats de l'organisation et corriger les déviations par rapport aux standards prédéfinis de performance" : ils s'inscrivent ainsi dans la logique classique de déploiement de la stratégie. Ils doivent permettre de contrôler la mise en œuvre de la stratégie en surveillant l'atteinte des Facteurs clés de succès et doivent attirer l'attention sur les écarts importants par rapport aux prévisions en permettant un contrôle par exception. Ils s'inscrivent dans une logique de gestion par les résultats.
 
@@ -1495,7 +1496,7 @@ La figure ci-dessous permet de représenter graphiquement ces quatre étapes.
 
 #+caption: Le contrôle interactif
 #+attr_latex: :placement [H] :center nil
-[[./img/inter.png]]
+[[./img/inter.pdf]]
 
 Tous les systèmes de contrôle et de mesure de la performance peuvent être utilisés de manière interactive : les budgets, les tableaux de bord, les indicateurs marketing, les outils de contrôle de gestion des projets, les indicateurs sur les ressources humaines, etc. Ce n'est donc pas l'outil en tant que tel qui compte pour comprendre l'impact du contrôle sur la stratégie, mais la manière de l'utiliser. En revanche, il ne peut y avoir trop de systèmes de contrôle et de mesure de la performance utilisés simultanément de manière interactive. En effet, ce type de contrôle a un coût économique et cognitif (les individus ne peuvent prêter attention à tout, ils ont une rationalité et une attention limitée). Se concentrer sur trop de systèmes de contrôle en même temps risque de conduire à un surplus d'informations, des analyses superficielles et une paralysie.
 
@@ -1513,7 +1514,7 @@ Tous les systèmes de contrôle et de mesure de la performance peuvent être uti
 Les outils de contrôle et de mesure de la performance peuvent donc être employés de manière diagnostique ou interactive. L'utilisation interactive des outils de contrôle va au-delà de la simple gestion par les résultats et peut faciliter des apprentissages organisationnels. Les entreprises performantes sont celles qui arrivent à articuler, en fonction de leur stratégie et des contraintes de leur environnement, les contrôles diagnostiques et interactifs afin de permettre le déploiement et l'émergence de stratégies et de compenser les effets pervers des systèmes de contrôle diagnostiques par une utilisation interactive d'autres outils de contrôle.
 
 -----
-*Exemple - L'utilisation interactive du budget[fn:45]**
+*Exemple - L'utilisation interactive du budget[fn:44]**
 
 Une entreprise a décidé de réformer son système budgétaire afin de remplacer un système considéré comme rigide, bureaucratique et peu utile. Les changements s'apparentent à une utilisation interactive du budget. Ils ont notamment porté sur trois points. D'abord, la discussion budgétaire a été réorganisée pour favoriser la discussion entre des managers de divers niveaux ou de diverses fonctions (ingénieurs, financiers, etc.). Ensuite, l'accent a été mis sur son articulation avec les plans d'action ce qui permet une réflexion en amont sur les objectifs : "Avant les plans d'action étaient des emplâtres sur des jambes de bois. Je m'explique : on faisait le budget et quand tout était bouclé, on regardait quels plans d'action nous pouvions mettre en œuvre. Forcément, l'exercice était impossible" (Un directeur d'usine). Enfin, le budget est maintenant glissant et doit donner lieu à de multiples reprévisions, ce qui est là encore une occasion de discussion comme le souligne le chef de projet : "c'est l'occasion une fois par trimestre de discuter : le chef doit dialoguer, débattre et discuter les prévisions (et les résultats) [...] Le nombre de niveaux hiérarchiques impliqué est de 3 ou 4 à partir de la DG entreprise. Ça veut dire qu'on arrive au niveau du chef d'atelier. Ce sont les opérationnels qui font les prévisions (20% restent traitées en central grâce à une modélisation). [...] Le système permet de mettre face à face des gens ayant des points de vue différents pour faire les prévisions. » (Chef de projet Spring). Sans être parfait, le système a ainsi eu dans un certain nombre de cas, une dimension bénéfique comme le souligne un manager : "Ce système me permet chaque mois de me poser des questions sur mon activité et ses résultats. Il me permet de me comparer aux autres usines du groupe (en Pologne par exemple) et d'appeler le responsable de cette usine pour échanger avec lui sur nos problèmes communs. C'est un outil d'investigation fort utile." (Manager). Il conduit, d'une part, les managers à intégrer les préoccupations économiques dans leur raisonnement et, d'autre part, oblige les financiers à prendre en compte les contraintes opérationnelles dans la réalisation de leurs prévisions.
 -----
@@ -1525,7 +1526,7 @@ Une entreprise a décidé de réformer son système budgétaire afin de remplace
 
 Au-delà de la gestion par les résultats, divers modes de contrôle permettent de rendre prévisibles les comportements. 
 
-Ces modes de contrôle diffèrent selon le type d'organisation et les liens qu'elles ont avec les individus qui les composent[fn:46]. Etzioni distingue ainsi trois types d'organisations : les entreprises (et, plus largement, les bureaucraties) qu'il nomme "organisations instrumentales", les institutions totalitaires (comme les prisons, les asiles) qui sont appelées "organisations coercitives" et les organisations idéologiques (tels les partis politiques, les églises) qui sont regroupées sous le terme "d'institutions normatives".
+Ces modes de contrôle diffèrent selon le type d'organisation et les liens qu'elles ont avec les individus qui les composent[fn:45]. Etzioni distingue ainsi trois types d'organisations : les entreprises (et, plus largement, les bureaucraties) qu'il nomme "organisations instrumentales", les institutions totalitaires (comme les prisons, les asiles) qui sont appelées "organisations coercitives" et les organisations idéologiques (tels les partis politiques, les églises) qui sont regroupées sous le terme "d'institutions normatives".
 
 L'implication des membres de l'organisation est très différente dans ces trois types d'organisations :
 - Dans les organisations coercitives, les buts des individus sont opposés à ceux de l'organisation et le contrôle qui y est exercé est de type coercitif : il vise à soumettre physiquement les personnes à l'organisation ;
@@ -1543,7 +1544,7 @@ L'implication des membres de l'organisation est très différente dans ces trois
 
 Cette typologie nous permet de comprendre que les modes de contrôle à utiliser dépendent de la divergence d'intérêts qui peut exister entre l'organisation et les individus qui la composent. Elle montre aussi que, dans une certaine mesure, les entreprises utilisent non seulement des contrôles instrumentaux, mais également des modes de contrôle coercitifs (les licenciements, les sanctions) et normatifs (la propagande, la communication, la culture interne). Elle suggère, enfin, que le contrôle le plus efficace est celui qui n'est pas ressenti consciemment par les individus, c'est-à-dire le contrôle normatif. Agir sur les croyances et sur l'idéologie se révèle d'une grande force pour orienter les comportements (si certaines personnes sont prêtes à mourir pour des idées ou une religion, il est beaucoup plus rare de trouver des personnes prêtes à mourir pour des résultats).
 
-Ouchi[fn:47] propose une typologie des modes de contrôle plus directement applicable au cas des organisations classiques. Il met en évidence trois modes de contrôle auxquels les organisations ont recours pour résoudre le problème de la divergence d'intérêts :
+Ouchi[fn:46] propose une typologie des modes de contrôle plus directement applicable au cas des organisations classiques. Il met en évidence trois modes de contrôle auxquels les organisations ont recours pour résoudre le problème de la divergence d'intérêts :
 - Le *contrôle par les résultats* ou contrôle des /outputs/ qui consiste à rendre les acteurs responsables et "comptables" de leurs résultats et implique de définir des objectifs et de savoir les mesurer par des données comptables ou non-comptables. 
 - Le *contrôle par la bureaucratie* qui porte sur les actions et les comportements des individus dans les organisations et a pour objectif de s'assurer que les individus réalisent des actions (des tâches) qui sont souhaitées par l'organisation, qu'ils œuvrent dans le sens prévu par l'organisation. Ce contrôle peut recourir à des contraintes physiques et administratives, mobiliser des procédures et/ou utiliser la supervision directe par la hiérarchie. Seront récompensés les individus qui agissent conformément aux règles. Ce type de contrôles nécessite que soient définies par une hiérarchie les règles à suivre et que l'on s'assure de leur bonne mise en œuvre. En outre, pour les entreprises dont l'environnement est extrêmement mouvant, ce contrôle est peu adapté puisque sa mise en œuvre nécessiterait de faire évoluer les règles fréquemment, au moins au rythme du changement de l'environnement. Néanmoins, le contrôle de type bureaucratique est très présent dans les organisations publiques, mais aussi largement mis en œuvre dans les grandes entreprises. À cet égard, les normes ISO (/International Organization for Standardization/), le contrôle interne ou encore l'audit introduisent et normalisent une forme de contrôle bureaucratique. Les contrôles de type bureaucratique peuvent servir de /système garde-fou/ et permettre de délimiter ce qu'il est possible de faire et ce qui est interdit. Plutôt que de dire ce qu'il faut faire, ils permettent de laisser de la liberté en ne disant que ce qu'il ne faut pas faire. On peut les retrouver dans les chartes d'entreprise ou dans les codes éthiques, mais aussi dans les discours stratégiques.
 - Le *contrôle par le clan*, les qualifications et la culture met l'accent sur l'importance de la confiance dans le personnel pour réaliser ce qui est le mieux pour l'organisation. On considère ici que contrôler c'est former les identités, les émotions, les pensées, les attitudes et les croyances : gagner les cœurs et les esprits. L'attention est alors portée sur ces éléments immatériels. Diverses tactiques permettent de mettre en œuvre ce type de contrôle : contrôle par le clan ou par les pairs (dans la mafia personne ne déroge au code de l'honneur, car chacun est sous la surveillance de ses pairs) ; contrôle par la standardisation des qualifications (embauche de personnes qui ont /a priori/ les compétences pour assumer la mission qui leur est confiée du fait de leur formation initiale ou continue, c'est le cas par exemple des médecins, des ingénieurs, ou des comptables, mais aussi des gestionnaires dans certaines organisations pour lesquels une "certification" atteste de la conformité des valeurs et des comportements) ; contrôle par la culture, le sens de l'appartenance ou la socialisation qui peuvent permettre une forme d'endoctrinement aux valeurs et objectifs de l'organisation ; ou maîtrise des conditions affectives par les facteurs de satisfaction. Le contrôle repose alors sur des systèmes de croyances et s'appuie sur les valeurs fondamentales des membres de l'organisation. Ces valeurs définissent les principes, les objectifs et les responsabilités vis-à-vis des clients, des employés et des diverses parties prenantes. Ils s'inscrivent souvent dans la personnalité des fondateurs, mais lorsque l'entreprise croît il devient nécessaire de les communiquer de manière plus formelle. On peut les retrouver dans les "/credo/" ou "missions" communiquées par la direction.
@@ -1556,7 +1557,7 @@ Ouchi[fn:47] propose une typologie des modes de contrôle plus directement appli
 | Par les objectifs       | Incitations, mise en concurrence (marché)                                              | Contrôle des résultats                      |
 | Par les normes sociales | Engagement, surveillance des pairs, socialisation, qualifications, croyances et valeur | Contrôle des intrants / contrôle symbolique |
 
-Ces différents modes de contrôle peuvent être mobilisés simultanément ou de façon séparée. Ils seront plus ou moins efficaces selon le contexte dans lequel ils prennent place[fn:48]. Le contrôle par les résultats n'est pas toujours le mode de contrôle le plus efficace et dans certains environnements d'autres types de contrôle sont envisageables et même souhaitables. 
+Ces différents modes de contrôle peuvent être mobilisés simultanément ou de façon séparée. Ils seront plus ou moins efficaces selon le contexte dans lequel ils prennent place[fn:47]. Le contrôle par les résultats n'est pas toujours le mode de contrôle le plus efficace et dans certains environnements d'autres types de contrôle sont envisageables et même souhaitables. 
 
 #+begin_kaobox
 Dans certains secteurs d’activité, la conformité à des normes de résultats peut être contre-productive et l’on peut davantage vouloir utiliser l’intuition, la créativité, l’ingéniosité des salariés pour trouver des solutions originales ou des processus inédits. On peut penser alors que la stratégie et la fixation d’objectifs se satisfont d’une navigation dans l’ambigu et que l’organisation doit favoriser cette ambiguïté pour permettre l’émergence de pratiques nouvelles. Les métiers créatifs sont évidemment les premiers concernés_: des objectifs de résultats trop stricts peuvent aller à l’encontre de toute tentative d’innovation.
@@ -1564,11 +1565,11 @@ Dans certains secteurs d’activité, la conformité à des normes de résultats
 Différents critères doivent donc présider au choix des modes de contrôle à mettre en œuvre et notamment le niveau désiré d’innovation : un opérateur fortement encadré par des procédures et directement contrôlé par sa hiérarchie aura peu de capacité d’innovation. En indiquant aux agents ce qu’ils doivent faire et en s’assurant qu’ils le font, on limite leur capacité d’action et d’innovation. Éviter l’innovation permet souvent d’améliorer l’efficience, mais aussi de s’assurer de la qualité du produit ou du service et de la vitesse d’exécution des opérations. C’est pourquoi on laissera peu de capacité d’innovation à un employé de la restauration rapide ou à un ouvrier à la chaîne. On fait alors l’hypothèse que la hiérarchie a une meilleure connaissance de la bonne façon d’agir que les subordonnés. Pourtant, dans des environnements incertains ou en évolution constante, il faut savoir laisser une certaine capacité d’innovation et d’expérimentation aux subordonnés. Dans ce cas, il est préférable de favoriser un contrôle par les résultats à un contrôle des procédures en laissant les subordonnés libres d’envisager des manières de faire ou des produits qui n’avaient pas été pensés par la direction. Ils peuvent ainsi s’adapter à leurs marchés et à leurs clients. Des objectifs difficiles peuvent cependant rendre impossible toute recherche d’autres solutions et par la même toute innovation.
 #+end_kaobox
 
-Parce qu'ils tentent de mettre sous pression les individus dans les organisations, les systèmes de contrôle interactifs et diagnostiques peuvent de plus conduire à des comportements déviants (manipulations comptables, fraudes, concurrence interne entre les responsables, etc.). Pour limiter ces risques, des contrôles administratifs ou culturels peuvent être mis en place. En résumé, quatre leviers de contrôle peuvent être utilisés dans les organisations[fn:49]. Ces leviers de contrôle permettent de gérer des variables clés différentes (les facteurs clés de succès, les facteurs stratégiques de risque, les valeurs ou les risques à éviter). 
+Parce qu'ils tentent de mettre sous pression les individus dans les organisations, les systèmes de contrôle interactifs et diagnostiques peuvent de plus conduire à des comportements déviants (manipulations comptables, fraudes, concurrence interne entre les responsables, etc.). Pour limiter ces risques, des contrôles administratifs ou culturels peuvent être mis en place. En résumé, quatre leviers de contrôle peuvent être utilisés dans les organisations[fn:48]. Ces leviers de contrôle permettent de gérer des variables clés différentes (les facteurs clés de succès, les facteurs stratégiques de risque, les valeurs ou les risques à éviter). 
 
 #+caption: Les divers leviers de contrôle
 #+attr_latex: :placement [H] :center nil
-[[./img/levers.png]]
+[[./img/levers.pdf]]
 
 Chacun de ces leviers de contrôle a des objectifs différents et permet de contrôler un élément particulier de la stratégie. Les entreprises performantes sont celles qui arrivent à articuler, en fonction de leur stratégie et des contraintes de leur environnement, les divers leviers de contrôle afin de compenser les effets pervers des uns et des autres.
 
@@ -1582,100 +1583,98 @@ La comptabilité est un langage prédominant du domaine des affaires. Elle donne
 
 * Footnotes
 
-[fn:1] Les vidéos sont tirées de Tessier, S et Vézina, M. SC-102.5 - Décisions financières et gestion budgétaire. Edulib
+[fn:1] Bhimani, A., Horngren, C. T., Datar, S. M., & Rajan, M. V. (2019). Management and cost accounting. Pearson.
 
-[fn:2] Bhimani, A., Horngren, C. T., Datar, S. M., & Rajan, M. V. (2019). Management and cost accounting. Pearson.
+[fn:2] Simon, H. A., Kozmetsky, G., Tyndall, G., & Simon, H. A. (1954). Centralization vs. Decentralization in organizing the controller’s department. [A research study and report prepared for Controllership Foundation, Inc.]. Controllership Foundation.
 
-[fn:3] Simon, H. A., Kozmetsky, G., Tyndall, G., & Simon, H. A. (1954). Centralization vs. Decentralization in organizing the controller’s department. [A research study and report prepared for Controllership Foundation, Inc.]. Controllership Foundation.
+[fn:3] J. Maurice Clark, Studies in the Economics of Overhead Costs (University of Chicago Press, 1923), p. 175. Cité par H. Thomas Johnson et Robert S. Kaplan, dans /Relevance lost, the Rise and Fall of Management Accounting,/ Harvard Business School Press, p. 155.
 
-[fn:4] J. Maurice Clark, Studies in the Economics of Overhead Costs (University of Chicago Press, 1923), p. 175. Cité par H. Thomas Johnson et Robert S. Kaplan, dans /Relevance lost, the Rise and Fall of Management Accounting,/ Harvard Business School Press, p. 155.
+[fn:4] Cette valorisation va ensuite être utilisée par la comptabilité financière. Ainsi, même si la comptabilité de gestion n'est pas directement normalisée, les données qu'elle produit pour valoriser le coût des stocks et produits en cours sont tout de même encadrées par les normes comptables.
 
-[fn:5] Cette valorisation va ensuite être utilisée par la comptabilité financière. Ainsi, même si la comptabilité de gestion n'est pas directement normalisée, les données qu'elle produit pour valoriser le coût des stocks et produits en cours sont tout de même encadrées par les normes comptables.
+[fn:5] Les méthodes présentées par la suite s'appliquent à tout "objet de coût" (un produit, un service, un client, etc.), mais pour simplifier la formulation on parlera la plupart de temps de "produits".
 
-[fn:6] Les méthodes présentées par la suite s'appliquent à tout "objet de coût" (un produit, un service, un client, etc.), mais pour simplifier la formulation on parlera la plupart de temps de "produits".
+[fn:6] On distingue deux types de centres de regroupement : les centres principaux (qui assument une fonction directement opérationnelle) et les centres de support (qui travaillent pour d'autres centres, par exemple le service d'entretien ou le service comptable). Il est nécessaire de répartir les ressources consommées par les centres de support dans les centres principaux en fonction de leur consommation. Cela implique de trouver une base d'imputation qui permet d'affecter ces centres dans les centres principaux. Par exemple, les coûts du service de ressources humaines peuvent être refacturés aux autres centres sur la base du nombre de salariés dans chacun de ces centres (ou de leur masse salariale). Autre exemple, les coûts du service de maintenance informatique sont répartis aux autres centres en fonction du nombre de postes informatique au sein de chacun de ces centres. Cette difficulté technique supplémentaire dépasse le cadre de ce cours.
 
-[fn:7] On distingue deux types de centres de regroupement : les centres principaux (qui assument une fonction directement opérationnelle) et les centres de support (qui travaillent pour d'autres centres, par exemple le service d'entretien ou le service comptable). Il est nécessaire de répartir les ressources consommées par les centres de support dans les centres principaux en fonction de leur consommation. Cela implique de trouver une base d'imputation qui permet d'affecter ces centres dans les centres principaux. Par exemple, les coûts du service de ressources humaines peuvent être refacturés aux autres centres sur la base du nombre de salariés dans chacun de ces centres (ou de leur masse salariale). Autre exemple, les coûts du service de maintenance informatique sont répartis aux autres centres en fonction du nombre de postes informatique au sein de chacun de ces centres. Cette difficulté technique supplémentaire dépasse le cadre de ce cours.
+[fn:7] Bouquin, H (2011), Comptabilité de gestion, éditions économica.
 
-[fn:8] Bouquin, H (2011), Comptabilité de gestion, éditions économica.
+[fn:8] Burlaud A. et Simon C. (2003), Comptabilité de gestion, Vuibert Gestion, p. 15.
 
-[fn:9] Burlaud A. et Simon C. (2003), Comptabilité de gestion, Vuibert Gestion, p. 15.
+[fn:9] Johnson, H. T., & Kaplan, R. S. (1987). Relevance lost : The rise and fall of management accounting. Harvard Business School Press. (voir auss Miller, J. G., & Vollmann, T. E. (1985). The hidden factory. Harvard Business Review, 63(5), 142‑150.)
 
-[fn:10] Johnson, H. T., & Kaplan, R. S. (1987). Relevance lost : The rise and fall of management accounting. Harvard Business School Press. (voir auss Miller, J. G., & Vollmann, T. E. (1985). The hidden factory. Harvard Business Review, 63(5), 142‑150.)
+[fn:10] Porter, M. E. (1985). Competitive advantage : Creating and sustaining superior performance. The Free Press.
 
-[fn:11] Porter, M. E. (1985). Competitive advantage : Creating and sustaining superior performance. The Free Press.
+[fn:11] Par exemple, [[https://fr.wikipedia.org/wiki/Formule_de_Wilson][la formule de Wilson]]
 
-[fn:12] Par exemple, [[https://fr.wikipedia.org/wiki/Formule_de_Wilson][la formule de Wilson]]
+[fn:12] Anthony, R.N. (1988), The management control function, The Harvard Business School Press, Boston (Trad. La fonction contrôle de gestion), Paris, Publi-Union, 1993.
 
-[fn:13] Anthony, R.N. (1988), The management control function, The Harvard Business School Press, Boston (Trad. La fonction contrôle de gestion), Paris, Publi-Union, 1993.
+[fn:13] Barrett, M.E. & Fraser, L.B. (1977), Conflicting Roles in Budgeting for Operations, Harvard Business Review, juillet-août, p. 136-147.
 
-[fn:14] Barrett, M.E. & Fraser, L.B. (1977), Conflicting Roles in Budgeting for Operations, Harvard Business Review, juillet-août, p. 136-147.
+[fn:14] Argyris C. (1953), Human problems with budgets, Harvard Business Review, vol. 31, n° 1, p. 97-110.
 
-[fn:15] Argyris C. (1953), Human problems with budgets, Harvard Business Review, vol. 31, n° 1, p. 97-110.
+[fn:15] Hansen, S.C., Otley, D. & Van der Stede, W.A. (2003), Practice developments in budgeting : an overview and research perspective, Journal of Management Accounting Research, vol. 15, p. 95-116.
 
-[fn:16] Hansen, S.C., Otley, D. & Van der Stede, W.A. (2003), Practice developments in budgeting : an overview and research perspective, Journal of Management Accounting Research, vol. 15, p. 95-116.
+[fn:16] Hope, J. & Fraser, R. (2003), Who needs budget ?, Harvard Business Review, février, p. 108-115.
 
 [fn:17] Hope, J. & Fraser, R. (2003), Who needs budget ?, Harvard Business Review, février, p. 108-115.
 
-[fn:18] Hope, J. & Fraser, R. (2003), Who needs budget ?, Harvard Business Review, février, p. 108-115.
+[fn:18]  Sponem, S., & Lambert, C. (2016), Exploring differences in budget characteristics, roles and satisfaction : A configurational approach. Management Accounting Research, 30, 47‑61.
 
-[fn:19]  Sponem, S., & Lambert, C. (2016), Exploring differences in budget characteristics, roles and satisfaction : A configurational approach. Management Accounting Research, 30, 47‑61.
+[fn:19] Ce mode de gestion a été popularisé par Peter Drucker, l'un des grands "gourous" du management au 20ème siècle sous le de /Management by objectives/
 
-[fn:20] Ce mode de gestion a été popularisé par Peter Drucker, l'un des grands "gourous" du management au 20ème siècle sous le de /Management by objectives/
+[fn:20] Hofstede, G. (1978). The Poverty of Management Control Philosophy. The Academy of Management Review, 3(3), 450‑461.
 
-[fn:21] Hofstede, G. (1978). The Poverty of Management Control Philosophy. The Academy of Management Review, 3(3), 450‑461.
+[fn:21] Sloan, A. P. (1963). My years with General Motors. Doubleday.
 
-[fn:22] Sloan, A. P. (1963). My years with General Motors. Doubleday.
+[fn:22] Drucker, P. F. (1954). The practice of management. Harper & Row.
 
-[fn:23] Drucker, P. F. (1954). The practice of management. Harper & Row.
+[fn:23] McGregor, D. M. (1957). The Human Side of Enterprise. Management Review, 46(11), 22‑28.
 
-[fn:24] McGregor, D. M. (1957). The Human Side of Enterprise. Management Review, 46(11), 22‑28.
+[fn:24] Maslow, A. H. (1968). Toward a psychology of being. D. Van Nostrand Company.
 
-[fn:25] Maslow, A. H. (1968). Toward a psychology of being. D. Van Nostrand Company.
+[fn:25] Porter, L. W., & Lawler, E. E. (1968). Managerial attitudes and performance. R.D. Irwin.
 
-[fn:26] Porter, L. W., & Lawler, E. E. (1968). Managerial attitudes and performance. R.D. Irwin.
+[fn:26] Merchant, K. A., & Manzoni, J.-F. (1989). The Achievability of Budget Targets in Profit Centers : A Field Study. The Accounting Review, 64(3), 539‑558.
 
-[fn:27] Merchant, K. A., & Manzoni, J.-F. (1989). The Achievability of Budget Targets in Profit Centers : A Field Study. The Accounting Review, 64(3), 539‑558.
+[fn:27] Ce principe soulève cependant un certain nombre de questions lors de sa mise en œuvre. D'abord, comment neutraliser les externalités (impact d’événements imprévisibles et incontrôlables tels que l’évolution des taux de change, les dispositions légales ou réglementaires ; impact des décisions prises par d’autres acteurs de l’organisation et qui s’imposent au manager évalué…) afin que l’évaluation des performances des managers n’en soit pas affectée ? Ensuite, comment neutraliser les effets des décisions prises par d’autres entités de l’organisation ? Enfin, comment promouvoir la coordination et la coopération tout en favorisant une conception individuelle de la responsabilité ? Est-il réellement possible et souhaitable de respecter ce principe pour les managers les plus hauts placés dans la hiérarchie ? Leur rôle n’est-il pas justement d’anticiper ce qui pourrait advenir à l’organisation du fait de l’évolution de l’environnement ?
 
-[fn:28] Ce principe soulève cependant un certain nombre de questions lors de sa mise en œuvre. D'abord, comment neutraliser les externalités (impact d’événements imprévisibles et incontrôlables tels que l’évolution des taux de change, les dispositions légales ou réglementaires ; impact des décisions prises par d’autres acteurs de l’organisation et qui s’imposent au manager évalué…) afin que l’évaluation des performances des managers n’en soit pas affectée ? Ensuite, comment neutraliser les effets des décisions prises par d’autres entités de l’organisation ? Enfin, comment promouvoir la coordination et la coopération tout en favorisant une conception individuelle de la responsabilité ? Est-il réellement possible et souhaitable de respecter ce principe pour les managers les plus hauts placés dans la hiérarchie ? Leur rôle n’est-il pas justement d’anticiper ce qui pourrait advenir à l’organisation du fait de l’évolution de l’environnement ?
+[fn:28] Le ROI (/Return On Investment/ - retour sur investissement) est une innovation organisationnelle majeure de General Motors dans les années 1920. Il a permis de contrôler des divisions à distance et très diverses, et a ainsi rendu possible l'émergence de très grandes organisations mondialisées au cours du 20e siècle. Sloan (le directeur général de General Motors à cette époque) appelait cette mesure "le mètre étalon de la performance".
 
-[fn:29] Le ROI (/Return On Investment/ - retour sur investissement) est une innovation organisationnelle majeure de General Motors dans les années 1920. Il a permis de contrôler des divisions à distance et très diverses, et a ainsi rendu possible l'émergence de très grandes organisations mondialisées au cours du 20e siècle. Sloan (le directeur général de General Motors à cette époque) appelait cette mesure "le mètre étalon de la performance".
+[fn:29] Bouquin, H (2010), Le contrôle de gestion, PUF, 8ᵉ édition.
 
-[fn:30] Bouquin, H (2010), Le contrôle de gestion, PUF, 8ᵉ édition.
+[fn:30] Le bénéfice résiduel a été utilisé par la General Electric dès les années 1950. Au cours des années 1990, Stern et Steward ont développé l'Economic Value Added (EVA), qui est une forme modernisée de bénéfice résiduel et qui a connu un certain succès dans les entreprises.
 
-[fn:31] Le bénéfice résiduel a été utilisé par la General Electric dès les années 1950. Au cours des années 1990, Stern et Steward ont développé l'Economic Value Added (EVA), qui est une forme modernisée de bénéfice résiduel et qui a connu un certain succès dans les entreprises.
+[fn:31] Lorsque la cession se produit entre deux entités juridiques différentes, par exemple entre deux filiales au sein d’un groupe, cela a des conséquences financières et fiscales. Ainsi, dans les groupes internationaux, on peut utiliser les prix de transfert pour déplacer des fonds d’une société à l’autre (pour financer indirectement une filiale, ou "rapatrier" des profits de façon occulte) ; minimiser les taxes fiscales ou les droits de douane, et faire de l’optimisation fiscale en faisant apparaître des bénéfices là où l’imposition est la plus faible ; contourner des quotas d’importation ou d’exportation ; ou minimiser certains risques de change. C’est pourquoi la plupart des pays ont édicté des règles pour limiter les manipulations des prix de transfert, qui en fait constituent souvent des fraudes.
 
-[fn:32] Lorsque la cession se produit entre deux entités juridiques différentes, par exemple entre deux filiales au sein d’un groupe, cela a des conséquences financières et fiscales. Ainsi, dans les groupes internationaux, on peut utiliser les prix de transfert pour déplacer des fonds d’une société à l’autre (pour financer indirectement une filiale, ou "rapatrier" des profits de façon occulte) ; minimiser les taxes fiscales ou les droits de douane, et faire de l’optimisation fiscale en faisant apparaître des bénéfices là où l’imposition est la plus faible ; contourner des quotas d’importation ou d’exportation ; ou minimiser certains risques de change. C’est pourquoi la plupart des pays ont édicté des règles pour limiter les manipulations des prix de transfert, qui en fait constituent souvent des fraudes.
+[fn:32] Pour être exact, il peut tout de même avoir une incidence sur le court terme, lorsque que des stocks sont constitués.
 
-[fn:33] Pour être exact, il peut tout de même avoir une incidence sur le court terme, lorsque que des stocks sont constitués.
+[fn:33] Eccles, R. G. (1983). Control with Fairness in Transfer Pricing. Harvard Business Review, November 1983. https://hbr.org/1983/11/control-with-fairness-in-transfer-pricing
 
-[fn:34] Eccles, R. G. (1983). Control with Fairness in Transfer Pricing. Harvard Business Review, November 1983. https://hbr.org/1983/11/control-with-fairness-in-transfer-pricing
+[fn:34] Anthony, R. N., Govindarajan, V., Hartmann, F. G. H., Kraus, K., & Nilson, G. (2014). Management control systems (1st european edition). McGraw Hill Higher Education.
 
-[fn:35] Anthony, R. N., Govindarajan, V., Hartmann, F. G. H., Kraus, K., & Nilson, G. (2014). Management control systems (1st european edition). McGraw Hill Higher Education.
+[fn:35] Cette section reprend en partie Sponem, S., & Chatelain-Ponroy, S. (2019). Les comportements face au contrôle. In N. Berland & Y. De Rongé (Éds.), Contrôle de gestion : Perspectives stratégiques et managériales (4 éd., p. 73‑94). Pearson.
 
-[fn:36] Cette section reprend en partie Sponem, S., & Chatelain-Ponroy, S. (2019). Les comportements face au contrôle. In N. Berland & Y. De Rongé (Éds.), Contrôle de gestion : Perspectives stratégiques et managériales (4 éd., p. 73‑94). Pearson.
+[fn:36] Les travaux d’Argyris s’inscrivent dans le courant des relations humaines et appliquent au contrôle de gestion les résultats des travaux de cette école. Argyris, C. (1953). Human Problems with Budgets. Harvard Business Review, 31(1), 97‑110.
 
-[fn:37] Les travaux d’Argyris s’inscrivent dans le courant des relations humaines et appliquent au contrôle de gestion les résultats des travaux de cette école. Argyris, C. (1953). Human Problems with Budgets. Harvard Business Review, 31(1), 97‑110.
+[fn:37] Extrait de Berry, M. (1983). Une technologie invisible ? Impact des instruments de gestion sur l’évolution des systèmes humains. Ecole Polytechnique, p.12-13.
 
-[fn:38] Extrait de Berry, M. (1983). Une technologie invisible ? Impact des instruments de gestion sur l’évolution des systèmes humains. Ecole Polytechnique, p.12-13.
+[fn:38] Jensen, M. C. (2001), Corporate budgeting is broken—let's fix it. Harvard Business Review 79 (11): 94-101.
 
-[fn:39] Jensen, M. C. (2001), Corporate budgeting is broken—let's fix it. Harvard Business Review 79 (11): 94-101.
+[fn:39] Deci, E. L., & Ryan, R. M. (1985), Intrinsic motivation and self-determination in human behavior. Perspectives in social psychology. New York: Plenum.
 
-[fn:40] Deci, E. L., & Ryan, R. M. (1985), Intrinsic motivation and self-determination in human behavior. Perspectives in social psychology. New York: Plenum.
+[fn:40] Jensen, M.C. (2001), Corporate Budgeting Is Broken - Let's Fix It, Harvard Business Review, vol. 79, n° 11, novembre, p. 94-101.
 
-[fn:41] Jensen, M.C. (2001), Corporate Budgeting Is Broken - Let's Fix It, Harvard Business Review, vol. 79, n° 11, novembre, p. 94-101.
+[fn:41] Tiré de Lambert, C., Sponem, S. (2005), Corporate governance and profit manipulation: A french field study. Critical Perspectives on Accounting 16 (6): 717-748
 
-[fn:42] Tiré de Lambert, C., Sponem, S. (2005), Corporate governance and profit manipulation: A french field study. Critical Perspectives on Accounting 16 (6): 717-748
+[fn:42] Flamholtz, E. G., Das, T. K. & Tsui, A. S. (1985), "Toward an integrative framework of organizational control", Accounting, Organizations and Society, vol. 10, n° 1, p. 35-50.
 
-[fn:43] Flamholtz, E. G., Das, T. K. & Tsui, A. S. (1985), "Toward an integrative framework of organizational control", Accounting, Organizations and Society, vol. 10, n° 1, p. 35-50.
+[fn:43] Simons, R. (1995), Levers of control: How managers use innovative control systems to drive strategic renewal, Boston Massachusetts, Harvard Business School Press.
 
-[fn:44] Simons, R. (1995), Levers of control: How managers use innovative control systems to drive strategic renewal, Boston Massachusetts, Harvard Business School Press.
+[fn:44] Tiré de Berland, N., Curtis, E., & Sponem, S. (2018). Exposing organizational tensions with a non-traditional budgeting system. Journal of Applied Accounting Research, 19(1), 122‑140.
 
-[fn:45] Tiré de Berland, N., Curtis, E., & Sponem, S. (2018). Exposing organizational tensions with a non-traditional budgeting system. Journal of Applied Accounting Research, 19(1), 122‑140.
+[fn:45] Etzioni, A. (1961), A comparative analysis of complex organizations, New York, Free Press.
 
-[fn:46] Etzioni, A. (1961), A comparative analysis of complex organizations, New York, Free Press.
+[fn:46] Adapté de Ouchi, W. (1979), "A conceptual framework for the design of organizational control mechanisms", Management Science, vol. 25, n° 9, p. 833-848.
 
-[fn:47] Adapté de Ouchi, W. (1979), "A conceptual framework for the design of organizational control mechanisms", Management Science, vol. 25, n° 9, p. 833-848.
+[fn:47] Merchant, K. A., & Van der Stede, W. A. (2017). Management control systems : Performance measurement, evaluation and incentives.
 
-[fn:48] Merchant, K. A., & Van der Stede, W. A. (2017). Management control systems : Performance measurement, evaluation and incentives.
-
-[fn:49] Simons, R. (2000), Performance measurement and control systems for implementing strategy - Text and cases, Prentice Hall.
+[fn:48] Simons, R. (2000), Performance measurement and control systems for implementing strategy - Text and cases, Prentice Hall.
