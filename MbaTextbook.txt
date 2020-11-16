@@ -123,12 +123,12 @@ La distinction entre les coûts fixes – indépendants du niveau d'activité �
 #+end_center
 Cette fonction de coût modélise la relation entre le volume et les coûts. Elle est notamment utile pour les prévisions et les calculs de seuil de rentabilité.
 
-** Marge sur coût variable et marge nette
+** Marge sur coût variable et contribution
     :PROPERTIES:
     :CUSTOM_ID: mcv
     :END:
 
-*La marge sur coût variable* est souvent utilisée pour évaluer la contribution d'un produit ou d'un service. Elle se calcule de la manière suivante : 
+*La marge sur coût variable* est souvent utilisée pour évaluer la contribution d'un produit ou d'un service au résultat de l'entreprise. Elle se calcule de la manière suivante : 
 #+begin_center
 *Marge sur Coût Variable unitaire = Prix de vente unitaire - Coût variable unitaire*
 #+end_center
@@ -159,31 +159,31 @@ Pour une synthèse en vidéo, concernant la notion de marge sur coûts variables
 
 Le calcul de la marge sur coût variable est très utile pour comparer deux propositions qui n'ont pas d'impact sur les coûts fixes. Ce calcul étant très simple, il doit être privilégié lorsque les coûts fixes sont stables. 
 
-Dans la plupart des entreprises, les coûts fixes représentent une part importante des coûts. Leur maîtrise est donc cruciale. *La marge nette* (aussi appelé méthode des coûts spécifiques) mesure la contribution apportée par chaque produit ou service, en prenant en compte une partie de ces coûts fixes.
+Dans la plupart des entreprises, les coûts fixes représentent une part importante des coûts. Leur maîtrise est donc cruciale. *La contribution* (aussi appelé marge sur coûts spécifiques ou marge nette) mesure la contribution apportée par chaque produit ou service, en prenant en compte une partie de ces coûts fixes.
 
 Parmi les coûts fixes, on peut distinguer ceux qui sont spécifiques – que l'on nomme aussi directs parce qu'ils sont facilement attribuables à un objet de coût (par exemple, une machine qui n'est utilisée que par un produit) – de ceux qui sont communs – que l'on nomme aussi indirects car ils ne peuvent être attribués directement aux différents produits et services (par exemple, le système informatique qui est utilisé pour les différents produits ou services de l'entreprise).
 
-Pour calculer les marges nettes, on ne prend en compte que les coûts variables et la part des coûts fixes spécifiques aux produits ou services. L'ensemble des coûts fait ainsi l'objet d'une double segmentation : charges fixes et charges variables, d'une part, et charges directes et charges indirectes, d'autre part.
+Pour calculer les contributions, on ne prend en compte que les coûts variables et la part des coûts fixes spécifiques aux produits ou services. L'ensemble des coûts fait ainsi l'objet d'une double segmentation : charges fixes et charges variables, d'une part, et charges directes et charges indirectes, d'autre part.
 
 Le tableau d'analyse des coûts est donc le suivant :
 
-#+caption: Compte de résultat en marge nette /(avec CA = chiffre d'affaires ; CV = charges variables ; MCV = marge sur coût variable ; CFS = coûts fixes spécifiques)/
+#+caption: Compte de résultat /(avec CA = chiffre d'affaires ; CV = charges variables ; MCV = marge sur coût variable ; CFS = coûts fixes spécifiques)/
 #+attr_latex: :font \footnotesize :align p{3cm} cp{2cm} cp{2cm} cp{3cm} 
-|                                              | Produit A        | Produit B        | Total                      |
-| <10>                                         | <10>             | <10>             | <10>                       |
-|----------------------------------------------+------------------+------------------+----------------------------|
-| Chiffre d'affaires                           | CA de A          | CA de B          |                            |
-| - Coûts variables                            | - CV de A        | - CV de B        |                            |
-| = Marge sur coût variable                    | MCV de A         | MCV de B         |                            |
-| - Charges fixes directes ou spécifiques      | CFS de A         | CFS de B         |                            |
-| = Marges sur coûts spécifiques (marge nette) | Marge nette de A | Marge nette de B | Marge nette totale         |
-| - Charges fixes indirectes ou communes       |                  |                  | - Charges fixes indirectes |
-|                                              |                  |                  | = Résultat                 |
+|                                              | Produit A         | Produit B         | Total                       |
+| <10>                                         | <10>              | <10>              | <10>                        |
+|----------------------------------------------+-------------------+-------------------+-----------------------------|
+| Chiffre d'affaires                           | CA de A           | CA de B           |                             |
+| - Coûts variables                            | - CV de A         | - CV de B         |                             |
+| = Marge sur coût variable                    | MCV de A          | MCV de B          |                             |
+| - Charges fixes directes ou spécifiques      | CFS de A          | CFS de B          |                             |
+| = Contribution (marge sur coûts spécifiques) | Contribution de A | Contribution de B | Marge sur coûts spécifiques |
+| - Charges fixes indirectes ou communes       |                   |                   | - Charges fixes indirectes  |
+|                                              |                   |                   | = Résultat                  |
 
 #+begin_kaobox
-Le calcul de la marge nette permet un meilleur diagnostic de la performance des produits que la seule marge sur coût variable, puisque seule une fraction des charges fixes (les charges fixes communes) échappe à l'analyse par produit. Ainsi, les décisions d'abandon ou de maintien d'une activité à l'aide du calcul de la marge nette seront plus aisées qu'en se limitant à la marge sur coût variable.
+Le calcul de la contribution permet un meilleur diagnostic de la performance des produits que la seule marge sur coût variable, puisque seule une fraction des charges fixes (les charges fixes communes) échappe à l'analyse par produit. Ainsi, les décisions d'abandon ou de maintien d'une activité à l'aide du calcul de la contribution seront plus aisées qu'en se limitant à la marge sur coût variable.
 
-Pour une synthèse, concernant la notion de marge nette, voir :
+Pour une synthèse, concernant la contribution (appelée aussi marge nette), voir :
 - https://youtu.be/ZLnidu-H6zY
 #+end_kaobox
 
