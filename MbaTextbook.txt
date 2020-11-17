@@ -461,14 +461,14 @@ Calculer les résultats par secteur de clientèle
 
 Ce calcul passe par la construction de deux tableaux : le tableau de répartition des charges indirectes et le tableau de calcul des résultats.
 #+attr_latex: :align l c c :font \footnotesize
-| /Tableau de répartition des charges indirectes/ | Admin. générale du cabinet         | Informatique       |
-|-------------------------------------------------+------------------------------------+--------------------|
-| Charges de personnel indirectes                 | 50 000                             | 50 000             |
-| Autres charges indirectes                       | 10 000                             | 40 000             |
-| *Total des charges indirectes*                  | 60 000                             | 90 000             |
-| Base d'imputation (1)                           | nombre de clients                  | chiffre d'affaires |
-| Volume de la base d'imputation (2)              | 100                                | 300 000            |
-| *Taux d'imputation (1) / (2)*                   | 600                                | 0,3                |
+| /Tableau de répartition des charges indirectes/ | Admin. générale du cabinet | Informatique       |
+|-------------------------------------------------+----------------------------+--------------------|
+| Charges de personnel indirectes                 | 50 000                     | 50 000             |
+| Autres charges indirectes                       | 10 000                     | 40 000             |
+| *Total des charges indirectes* (1)              | 60 000                     | 90 000             |
+| Base d'imputation                               | nombre de clients          | chiffre d'affaires |
+| Volume de la base d'imputation (2)              | 100                        | 300 000            |
+| *Taux d'imputation (1) / (2)*                   | 600                        | 0,3                |
 
 Lorsque les taux d'imputation sont calculés, il est possible de calculer le coût complet et le résultat.
 #+attr_latex: :align l c c c c :font \footnotesize
