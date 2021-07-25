@@ -1412,7 +1412,7 @@ Pour vous exercer sur cette section, voir le quiz d'entrainement :
 
 
 * Conclusion - Mesures de la performance, gestion par les résultats et contrôle
-Dans le cadre de ce cours, nous avons centré notre attention sur les modes de calcul des coûts et de prévisions adaptés aux différentes situations de prise de décisions rencontrées par les gestionnaires. Ces mesures sont des instruments utiles pour les gestionnaires. Elles aident le gestionnaire à fonder ses décisions sur des faits plutôt que sur des perceptions. D'ailleurs, ont dit souvent qu' "on ne gère bien que ce que l'on mesure" (/What gets measured gets and rewarded done/[fn:34]), en considérant que ce qui est mesuré compte vraiment et doit être récompensé. 
+Dans le cadre de ce cours, nous avons centré notre attention sur les modes de calcul des coûts et de prévisions adaptés aux différentes situations de prise de décisions rencontrées par les gestionnaires. Ces mesures sont des instruments utiles pour les gestionnaires. Elles aident le gestionnaire à fonder ses décisions sur des faits plutôt que sur des perceptions. D'ailleurs, ont dit souvent qu' "on ne gère bien que ce que l'on mesure" (/What gets measured and rewarded gets done/[fn:34]), en considérant que ce qui est mesuré compte vraiment et doit être récompensé. 
 
 On a cependant vu que trouver la bonne mesure n'a rien d’évident. La mesure peut ainsi avoir des effets pervers lorsqu'elle est utilisée pour gérer par les résultats. Elle peut, certes, aider au contrôle de l'organisation, mais ce n'est pas l'unique dispositif à destination des gestionnaires[fn:35].
 ** Les effets pervers de la gestion par les résultats
