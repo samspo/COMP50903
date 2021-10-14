@@ -204,7 +204,7 @@ Les coûts partiel donnent cependant une image incomplète du coût d'un produit
 L'une des applications courantes de la distinction entre coûts variables et coûts fixes est le calcul du seuil de rentabilité (ou point mort). 
 Par définition, le seuil de rentabilité est atteint lorsque le résultat est égal à 0, ce qui signifie que le chiffre d'affaires est équivalent aux coûts :
 #+begin_center
-Lorsque l'on est au seuil de rentabilité, alors :
+Lorsque l'on est au seuil de rentabilité, alors le chiffre d'affaires est égal aux coûts totaux, ce qui signifie que:
 
 *Chiffre d'affaires = Coût variable unitaire x Quantités + Coûts fixes*
 #+end_center
