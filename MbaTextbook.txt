@@ -846,9 +846,11 @@ Mirabel Air est un fabricant de pièces de rechange pour l’aéronautique. Mira
 - type normal
 - type hautes performances.
 
-Son système de coûts de production à la commande présente deux postes de charges directes (matières premières et main-d’œuvre directe) et un centre de regroupement des charges indirectes (frais de production). Les charges indirectes fixes et variables de production sont imputées aux produits en prenant l’heure de main-d’œuvre directe comme base d’imputation.
+Son système de calcul des coûts de production présente deux postes de charges directes (matières premières et main-d’œuvre directe) et un centre de regroupement des charges indirectes (frais de production).
 
-Le budget général final est le résultat de plusieurs itérations. L’entreprise s’apprête à établir son budget pour l’année N. Le budget général est la synthèse des différents budgets. Le processus budgétaire aboutit à un ensemble d’états financiers pour l’année à venir.
+Les charges indirectes fixes et variables de production sont imputées aux produits en prenant l’heure de main-d’œuvre directe comme base d’imputation.
+
+L’entreprise s’apprête à établir son budget pour l’année N. Le budget général final fait la synthèse des différents budgets. Il est le résultat de plusieurs itérations.
 
 #+begin_kaobox
 À partir des données ci-dessous, construire :
@@ -872,7 +874,7 @@ Les prévisions de vente et de stock de produits finis sont les suivantes :
 | Stock initial en volume           | 100 pièces    | 50 pièces               |
 | Stock initial en valeur           | 38 400 $      | 26 200 $                |
 
-Le chiffre d’affaires résulte uniquement de la vente des deux types de pièces. Les produits hors chiffre d’affaires, comme les produits financiers, est nul.
+Le chiffre d’affaires résulte uniquement de la vente des deux types de pièces.
 
 La direction de la production prévoit pour chaque pièce les consommations suivantes :
 
@@ -883,13 +885,18 @@ La direction de la production prévoit pour chaque pièce les consommations suiv
 | Alliage 112                       | 6 kg          | 8 kg                    |
 | Main-d'œuvre directe              | 4 heures      | 6 heures                |
 
-Toutes les charges directes de production sont proportionnelles aux quantités produites. La direction des approvisionnements et la direction des ressources ont déterminé les chiffres prévisionnels concernant le coût des matières premières et des ressources humaines pour l'année à venir :
+Toutes les charges directes de production sont proportionnelles aux quantités produites.
+
+La direction des approvisionnements a déterminé les chiffres prévisionnels concernant le coût des matières premières et des ressources humaines pour l'année à venir :
 
 #+attr_latex: :align l c :font \footnotesize
-| Alliage 111          | 7 $ par kg     |
-|----------------------+----------------|
-| Alliage 112          | 10 $ par kg    |
-| Main-d’œuvre directe | 20 $ par heure |
+
+| Facteurs de production | Coût unitaire  |
+|------------------------+----------------|
+| Alliage 111            | 7 $ par kg     |
+| Alliage 112            | 10 $ par kg    |
+| Main-d’œuvre directe   | 20 $ par heure |
+
 Les coûts unitaires des matières premières (et des produits finis) restent stables pendant l’année budgétaire.
 
 La direction des approvisionnements a aussi déterminé les objectifs de stock de matières premières pour l'année à venir :
@@ -907,6 +914,11 @@ Les charges indirectes variables de production sont proportionnelles aux heures 
 - Fixes : 420 000 $
 
 Toutes les charges hors production sont indirectes :
+- Les charges indirectes variables hors production sont proportionnelles au chiffre d’affaires.
+- Les charges indirectes fixes hors production sont imputées au prorata du chiffre d’affaires.
+
+Le tableau ci-dessous précise le montant des charges directes et indirectes hors production.
+
 #+attr_latex: :align l c :font \footnotesize
 | Recherche et développement                               | 76 000 $    |
 | Promotion des ventes                                     | 133 000 $   |
@@ -921,7 +933,7 @@ Toutes les charges hors production sont indirectes :
 | Administration générale                                  | 222 000 $   |
 | *Total des charges fixes indirectes hors production*     | 395 000 $   |
 | *Total des charges indirectes hors production*           | 870 000 $   |
-Les charges indirectes variables hors production sont proportionnelles au chiffre d’affaires. Les charges indirectes fixes hors production sont imputées au prorata du chiffre d’affaires.
+
 
 *Lorsque vous avez complété le tableau Excel indiqué ci-dessus, vous pouvez aller voir le corrigé et les explications ici :*
 -  https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h
