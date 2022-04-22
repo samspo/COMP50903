@@ -7,9 +7,13 @@
 #+LATEX_HEADER: \renewcommand{\footnote}{\sidenote}
 #+export_file_name: index.html
 #+setupfile: ./styles/theme-readtheorg-local.setup
+***** @todo changer la figure sur arrêt d'un produit:noexport:
+***** @todo rajouter un tableau de synthèse des coûts variabes / cf - CD / CI:noexport: 
+***** @todo transformer l'exercice sur les cabinets comptables en un exercice sur les cabinets de conseil:noexport:
 @@latex:\mainmatter@@
 @@latex:\setchapterstyle{kao}@@
 @@latex:\setchapterpreamble[u]{\margintoc}@@
+***** @todo publier la nouvelle version qui prend en compte les clarifications de mirabelle
 * Introduction
 
 #+begin_kaobox
