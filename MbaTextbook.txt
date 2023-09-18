@@ -7,13 +7,14 @@
 #+LATEX_HEADER: \renewcommand{\footnote}{\sidenote}
 #+export_file_name: index.html
 #+setupfile: ./styles/theme-readtheorg-local.setup
+***** @todo publier la nouvelle version qui prend en compte les clarifications de mirabelle:noexport:
 ***** @todo changer la figure sur arrêt d'un produit:noexport:
 ***** @todo rajouter un tableau de synthèse des coûts variabes / cf - CD / CI:noexport: 
+
 ***** @todo transformer l'exercice sur les cabinets comptables en un exercice sur les cabinets de conseil:noexport:
 @@latex:\mainmatter@@
 @@latex:\setchapterstyle{kao}@@
 @@latex:\setchapterpreamble[u]{\margintoc}@@
-***** @todo publier la nouvelle version qui prend en compte les clarifications de mirabelle
 * Introduction
 
 #+begin_kaobox
@@ -32,7 +33,7 @@ Les états financiers donnent aux parties prenantes externes une image comptable
 
 Cette image comptable et financière (ce que l'on appelle la comptabilité financière) est cependant insuffisante pour permettre la gestion d'une organisation. Les managers ont besoin d'informations complémentaires pour planifier les activités de l'organisation, les contrôler et prendre les bonnes décisions.
 
-C'est le rôle de la comptabilité de gestion a pour objectif d'organiser et d'analyser les informations de la comptabilité financière, ainsi que des informations non financières, afin de soutenir les gestionnaires dans leurs activités de management en leur donnant des informations sur les coûts, les prévisions et en mesurant la performance interne.
+C'est le rôle de la comptabilité de gestion. Celle-ci a pour objectif d'organiser et d'analyser les informations de la comptabilité financière, ainsi que des informations non financières, afin de soutenir les gestionnaires dans leurs activités de management en leur donnant des informations sur les coûts, les prévisions et en mesurant la performance interne.
 
 #+caption: Comptabilité financière et comptabilité de gestion
 #+name: comptafi
@@ -414,9 +415,7 @@ Le tableau comprend autant de colonnes que le nombre de centres de regroupement.
 *Pour simplifier, il est possible de regrouper les centres ayant des bases d'imputation identiques, avant de calculer les taux d'imputation.*
 
 #+begin_kaowarn
-Le tableau de répartition des charges indirectes est une étape *indispensable* du calcul du coût complet. Dans les situations simples, on peut être tenté de se passer de cette étape en affectant directement les charges indirectes, sans passer par cette étape intermédiaire.
-
-Cependant, en faisant cela, on multiplie les possibilités d'erreur. De plus, on ne rend pas disponible une information importante sur ce que nous coûte chacune des opérations en termes de charges indirectes.
+Le tableau de répartition des charges indirectes est une étape *indispensable* du calcul du coût complet. Dans les situations simples, on peut être tenté de se passer de cette étape en affectant directement les charges indirectes, sans passer par cette étape intermédiaire. Cependant, en faisant cela, on multiplie les possibilités d'erreur. De plus, on ne rend pas disponible une information importante sur ce que nous coûte chacune des opérations en termes de charges indirectes.
 #+end_kaowarn
 - Étape 4. Imputation des charges directes et indirectes aux objets de coût
 Les charges directes concernent souvent (mais pas seulement et pas toujours) des charges de main-d'œuvre et les charges de matière première. Elles peuvent être directement, et sans calcul, affectées aux produits.
