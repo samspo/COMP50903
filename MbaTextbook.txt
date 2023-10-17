@@ -1,5 +1,5 @@
-#+Title:Prévoir, décider et piloter à l'aide des informations comptables
-#+subtitle: Mini-manuel - COMP50900
+#+Title: Comptabilité de gestion et mesure de performance
+#+subtitle: Mini-manuel - COMP50903
 #+Author:Samuel Sponem - HEC Montréal
 #+Date:Mise à jour {{{time(%Y-%m-%d)}}}
 #+language: fr
@@ -19,13 +19,13 @@
 * Introduction
 
 #+begin_kaobox
-/Ce mini-manuel complète les diapositives du cours COMP50900 pour les séances 8 à 12. Idéalement, la section correspondant au cours doit être lue préalablement au cours./
+/Ce mini-manuel complète les diapositives du cours COMP50903. Idéalement, la section correspondant au cours doit être lue préalablement au cours./
 
 Vous trouverez dans ce mini-manuel des liens vers des vidéos(*), des exercices et des liens vers des quiz qui vous permettent de vérifier votre compréhension. Pour compléter votre apprentissage, des exercices sont aussi disponibles sur ZoneCours.
 
 /Vous pouvez trouver la version la plus récente de ce document en ligne/
-- html : https://samspo.github.io/COMP50900
-- pdf : https://samspo.github.io/COMP50900/Manuel.pdf
+- html : https://samspo.github.io/COMP50903
+- pdf : https://samspo.github.io/COMP50903/Manuel.pdf
 
 /(*)Les vidéos sont tirées de Tessier, S et Vézina, M. SC-102.5 - Décisions financières et gestion budgétaire. Edulib/
 #+end_kaobox
@@ -77,15 +77,16 @@ Ce document présente les pratiques communément acceptées en comptabilité de 
 - de maîtriser les techniques de base de calcul des coûts, de construction des budgets ;
 - de comprendre les enjeux de la mesure de la performance.
 *Pour chaque section, vous pouvez faire les exercices disponibles sur ZoneCours et vérifier vos connaissances à l'aide de quiz d’entrainement disponibles à l'adresse suivante :*
-- https://www.wooclap.com/COMP50900
+https://app.wooclap.com/COMP50903
 Ces quiz sont optionnels et non évalués. Les quiz obligatoires sont disponibles sur ZoneCours.
 #+end_kaobox
+* Coût et prise de décision
 
-* Comportement des coûts, calcul des coûts et prise de décision sur le court terme
+** Comportement des coûts et prise de décision sur le court terme
    :PROPERTIES:
    :CUSTOM_ID: coutspartiels
    :END:
-** Les rôles du calcul de coût
+*** Les rôles du calcul de coût
 
 Un coût est une somme de charges, il se différencie d'un prix que l'on peut trouver sur un marché. Le coût traduit une consommation de ressources. On considère "qu'il n'y a pas qu'une pratique correcte en matière de calcul de coûts, car celles-ci découlent de besoins variés, de situations et de problèmes différents"[fn:3]. Le calcul du coût peut en effet remplir différentes fonctions :
 - s’interroger sur le prix de vente ;
@@ -107,7 +108,7 @@ Selon les décisions à prendre, il peut être utile de calculer le coût total 
 - le *coût total* est le coût d'un ensemble de produits fabriqués ;
 - le *coût unitaire* est calculé en divisant le coût total par le nombre d'unités.
 
-** Distinguer coûts variables et coûts fixes
+*** Distinguer coûts variables et coûts fixes
     :PROPERTIES:
     :CUSTOM_ID: cvcf
     :END:
@@ -129,7 +130,7 @@ La distinction entre les coûts fixes – indépendants du niveau d'activité �
 #+end_center
 Cette fonction de coût modélise la relation entre le volume et les coûts. Elle est notamment utile pour les prévisions et les calculs de seuil de rentabilité.
 
-** Marge sur coût variable et contribution
+*** Marge sur coût variable et contribution
     :PROPERTIES:
     :CUSTOM_ID: mcv
     :END:
@@ -202,7 +203,7 @@ Les coûts partiels permettent de prendre de nombreuses décisions. Ils sont not
 #+end_kaobox
 Les coûts partiel donnent cependant une image incomplète du coût d'un produit ou d'un service et de la marge qu'il génère. Parfois, il est nécessaire de calculer un coût complet. 
 
-** Analyse coûts / volumes / profits : le calcul du seuil de rentabilité
+*** Analyse coûts / volumes / profits : le calcul du seuil de rentabilité
     :PROPERTIES:
     :CUSTOM_ID: cvp
     :END:
@@ -352,14 +353,14 @@ Le seuil de rentabilité est ainsi extrêmement utile pour faire un calcul simpl
 #+begin_kaobox
 Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
 #+end_kaobox
-- https://app.wooclap.com/COMP50900/questionnaires/5f6897932655921192ee504c
+- https://app.wooclap.com/COMP50903/questionnaires/5f6897932655921192ee504c
 
 
-* Gestion des coûts et prise de décision sur le long terme
+** Gestion des coûts et prise de décision sur le long terme
    :PROPERTIES:
    :CUSTOM_ID: coutscomplets
    :END:
-** Le concept de coût complet
+*** Le concept de coût complet
 
 Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges considérées comme incorporables (qu'elles soient variables, fixes, directes ou indirectes) pour les imputer aux objets de coût[fn:5]. 
 
@@ -368,7 +369,7 @@ Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges c
 *Coût complet = ∑ des charges directes + quote-part des charges indirectes*
 #+end_center
 Les charges indirectes sont les charges que l'on ne peut affecter sans ambiguïté à un produit. Par exemple, les coûts d'une machine utilisée par plusieurs produits, des frais de la direction générale, des coûts de transports communs à plusieurs produits sont des charges indirectes. Toute la difficulté vient de la nécessité, pour calculer un coût complet, de rattacher ces charges à un produit.
-** Les étapes de calcul du coût de revient complet
+*** Les étapes de calcul du coût de revient complet
     :PROPERTIES:
     :CUSTOM_ID: ccetapes
     :END:
@@ -493,7 +494,7 @@ Lorsque les taux d'imputation sont calculés, il est possible de calculer le co�
 Le secteur G est celui qui a le meilleur taux marge.
 -----
 
-** Conditions de validité de la méthode : Homogénéité des centres de regroupement et choix des bases d'imputation
+*** Conditions de validité de la méthode : Homogénéité des centres de regroupement et choix des bases d'imputation
     :PROPERTIES:
     :CUSTOM_ID: ccvalid
     :END:
@@ -566,7 +567,7 @@ Il est cependant important de prendre aussi en compte les activités non volumiq
 Ainsi, les bases d’imputation ne doivent pas être uniquement volumiques si les coût indirects non reliés aux volumes représentent un part importante des charges indirectes.
 #+end_kaobox
 
-** Du calcul du coût à la gestion des coûts : la méthode par activité
+*** Du calcul du coût à la gestion des coûts : la méthode par activité
     :PROPERTIES:
     :CUSTOM_ID: cccritique
     :END:
@@ -625,7 +626,7 @@ Le principal intérêt de cette méthode est de rappeler que calculer des coûts
 
 On peut ainsi gérer un coût, sans le connaître précisément, si on a une bonne représentation des inducteurs d'activité.
 
-** Quel coût pour quelle décision ?
+*** Quel coût pour quelle décision ?
    :PROPERTIES:
    :CUSTOM_ID: coutdec
    :END:
@@ -683,10 +684,10 @@ La méthode de calcul des coûts retenue doit être pertinente pour la décision
 #+begin_kaobox
 Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
 #+end_kaobox
-- https://app.wooclap.com/COMP50900/questionnaires/5f6898aee60d387141539337
+- https://app.wooclap.com/COMP50903/questionnaires/5f6898aee60d387141539337
 
 
-* Planification et animation budgétaire
+* Budget et contrôle
   :PROPERTIES:
   :CUSTOM_ID: budget
   :END:
@@ -1020,15 +1021,16 @@ La planification et le budget sont des outils au cœur du fonctionnement des gra
 #+begin_kaobox
 Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
 #+end_kaobox
-- https://app.wooclap.com/COMP50900/questionnaires/5f6898f251af0040aba9284c
+- https://app.wooclap.com/COMP50903/questionnaires/5f6898f251af0040aba9284c
 
-* Mesure de la performance financière
+* Mesure et gestion de la performance
+** Mesure de la performance financière
   :PROPERTIES:
   :CUSTOM_ID: perffi
   :END:
 Au-delà de l'aide à la décision, les données comptables peuvent être utilisées pour le contrôle des gestionnaires. Dans le cadre de ce cours, on se limitera aux mesures financières de la performance. Nous verrons quelles mesures financières peuvent être utilisées pour faciliter le contrôle de gestionnaires, mais aussi quels sont les risques liés à l'utilisation de ces mesures.
-** Mesure de performance et gestion par les résultats
-*** Gestion par les résultats et pilotage
+*** Mesure de performance et gestion par les résultats
+**** Gestion par les résultats et pilotage
 La mesure de la performance permet de « gérer par les résultats »[fn:19] en mettant en œuvre un contrôle a posteriori. Elle prend alors la forme d’un contrôle cybernétique permettant à la direction de s’assurer que les objectifs fixés vont être réalisés[fn:20]. Elle facilite ainsi le pilotage et la convergence des buts dans l’organisation.
 
 Une bonne image de ce mécanisme cybernétique est donnée par l’exemple du thermostat. Celui-ci va déceler une différence entre la température réelle d’une pièce et la température souhaitée et réagir à cette divergence en allumant ou en éteignant le chauffage pour obtenir la température désirée. La « gestion par les résultats » s’apparente également à un processus cybernétique puisqu’elle vise à identifier les différences entre les objectifs et le niveau réel de performance afin de déclencher des mesures d’ajustement lorsque des écarts sont identifiés.
@@ -1042,14 +1044,14 @@ Dans un deuxième temps (étape 2), la personne contrôlée est laissée libre d
 Les résultats obtenus font ensuite l’objet d’une mesure qui est comparée aux objectifs préalablement fixés (étape 3). La mesure peut concerner des unités physiques (nombre de produits, temps passé, etc.) les entreprises mettent souvent l’accent sur des mesures de nature comptable et financière, particulièrement lorsque cela concerne des gestionnaires.
 
 Si un écart significatif entre la norme et le résultat réel est constaté, des actions correctives sont alors engagées (étape 4). Celles-ci peuvent conduire à modifier le processus de transformation et/ou les ressources mises en œuvre dans ce processus. Dans le même temps, l’atteinte (ou non) des normes de résultats définies a priori conduit à attribuer des primes (monétaires ou autres) aux responsables ou à les sanctionner.
-*** Les avantages de la gestion par les résultats
+**** Les avantages de la gestion par les résultats
 La gestion par les résultats offre de nombreux avantages qui expliquent son rôle dans le développement des grandes organisations nord-américaines au début du XXᵉ siècle[fn:21]. Parmi eux, trois raisons majeures sont le plus souvent avancées :
 - La gestion par les résultats s’appuie sur des données comptables et financières. Elle permet par conséquent d’appliquer un langage commun à l’ensemble de l’organisation, quelles que soient la diversité des produits et des services proposés et la variété des activités réalisées. Elle facilite, de ce fait, la gestion à distance dans les grandes organisations diversifiées en permettant à la fois la déclinaison des informations centrales et la synthèse des informations locales ;
 - La gestion par les résultats permet de décentraliser la prise de décision en échange du contrôle des résultats. De nombreuses décisions peuvent ainsi être prises par les responsables sur le terrain, au plus proche des opérations, ce qui favorise une meilleure qualité de l’information et permet une réactivité accrue dans la prise de décision. En outre, cette décentralisation de la prise de décision permet à la direction de se limiter à un contrôle par exception - c’est-à-dire restreint aux déviations notables par rapport aux objectifs – et ainsi de se consacrer aux décisions importantes, plus stratégiques qu’opérationnelles ;
 - La gestion par les résultats doit permettre de responsabiliser, d’évaluer et donc de motiver des salariés à partir des objectifs qui leur ont été fixés. À ce titre, c’est un outil de gouvernement des hommes qui peut être utilisé à tous les niveaux de l’organisation pour s’assurer que chacun fait des efforts dans l’intérêt de l’organisation.
 
 Au-delà de ses avantages en termes d’efficacité et d’efficience, ce système est présenté parfois comme une avancée démocratique. En substituant "la pratique d’un contrôle gestionnaire autonome à celle qui reposait sur la domination" la gestion par les résultats permettrait, en effet, d’atteindre un "idéal" démocratique dans lequel la responsabilité de chaque individu est mesurée dans le cadre d’un contrat passé préalablement à l’action entre des individus libres et égaux[fn:22]. 
-*** Gérer par les résultats : hypothèses sur le processus contrôlé et la motivation des individus
+**** Gérer par les résultats : hypothèses sur le processus contrôlé et la motivation des individus
 La gestion par les résultats permet de piloter un processus de transformation d’inputs (ressources) en outputs (produits) en assignant à chaque responsable des objectifs et en lui offrant, en contrepartie, la maîtrise de moyens et une certaine liberté de mise en œuvre pour atteindre ses objectifs. De son côté, celui qui contrôle va pouvoir le faire par exception, c’est-à-dire en s’impliquant uniquement en cas de déviation significative par rapport aux objectifs.
 
 Cependant, ce modèle de gestion repose sur des hypothèses concernant le processus à contrôler et la manière dont les individus sont motivés.
@@ -1078,7 +1080,7 @@ Les relations complexes entre objectif, motivation, récompense et performance o
 
 Au-delà des hypothèses sur les objectifs et les motivations, la gestion par les résultats repose sur une troisième hypothèse : il est possible de découper l'organisation en plusieurs entités (que l'on appelle centres de responsabilité) dont on peut mesurer la performance.
 
-** Gestion par les résultats et centres de responsabilité
+*** Gestion par les résultats et centres de responsabilité
 Pour contrôler par les résultats, il faut découper l’organisation en centres de responsabilité et s’assurer de la convergence des buts. 
 Un centre de responsabilité est une subdivision de l’entreprise à la tête de laquelle est placé un responsable auquel sont fixés des objectifs et alloués un budget et des moyens. Le découpage de l’entreprise en centres de responsabilité est indispensable pour mettre en place un pilotage par les résultats, c’est-à-dire pour fixer des objectifs, assigner des responsabilités et clarifier l’autorité de chacun des acteurs impliqués. Divers types de centres de responsabilité existent : 
 - les centres de coût, qui rendent compte de leurs coûts, par exemple : une usine ;
@@ -1116,11 +1118,11 @@ Une entreprise décide de fixer des objectifs de restriction des coûts à tous 
 Si l’on veut que les normes soient incitatives, il est nécessaire de s’assurer que les personnes évaluées ne sont tenues responsables que d’éléments sur lesquels elles peuvent agir. Cela correspond au principe de contrôlabilité selon lequel la responsabilité d’un manager ne peut s’exercer que sur les éléments qu’il contrôle et sur lesquels il dispose de leviers d’action. Autrement dit : on ne peut tenir un manager responsable des éléments « non contrôlables » (par lui-même) qui devraient, par conséquent, être exclus de l’évaluation de ses performances. Il est facile de comprendre les raisons de ce principe. La plus importante tient au fait qu’il serait injuste, et donc démotivant, de demander à un manager de rendre des comptes sur des éléments qui ne dépendent pas de son action[fn:27].
 
 Les mesures financières de performance de chacun des centres de responsabilité devraient ainsi être adaptées au type de responsabilité de chacun de ces centres.
-** Mesurer la performance des centres de responsabilité
+*** Mesurer la performance des centres de responsabilité
    :PROPERTIES:
    :CUSTOM_ID: rentabilité
    :END:
-*** Le contrôle budgétaire et le calcul des écarts
+**** Le contrôle budgétaire et le calcul des écarts
 Le contrôle budgétaire s’appuie sur les prévisions réalisées dans le budget pour comparer l’état réel à l’état prévu. La mise en œuvre de cette méthode suppose donc de disposer des données prévisionnelles et des données réelles pour la même période.
 Après avoir été calculés, les écarts sont qualifiés de *favorables* (par exemple, si un coût est moins élevé que prévu) ou *défavorables* (par exemple, si un coût est plus élevé que prévu).
 
@@ -1144,7 +1146,7 @@ La méthode a cependant un certain nombre de limites. D’abord, elle ne permet 
 Il existe de multiples modalités de calcul des écarts. La mise en œuvre de la méthode dépend de calculs réalisés par les comptables et dépasse le cadre de ce cours.
 #+end_kaowarn
 
-*** Le calcul et l'analyse du ROI
+**** Le calcul et l'analyse du ROI
     :PROPERTIES:
     :CUSTOM_ID: roi
     :END:
@@ -1238,7 +1240,7 @@ La décomposition de la pyramide peut être poursuivie pour faire apparaître un
 En résumé, le ROI synthétise "la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"[fn:29]. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.
 
 Il peut, de plus, être relié directement aux attentes des actionnaires et à la rentabilité financière (que l'on nomme en général ROE : /Return on Equity/), par l'intermédiaire de l'effet de levier, notion que vous verrez dans le cours de finance.
-*** Les limites du ROI
+**** Les limites du ROI
     :PROPERTIES:
     :CUSTOM_ID: limitesroi
     :END:
@@ -1248,7 +1250,7 @@ En dépit de son intérêt, le ROI a un certain nombre de limites qui devraient 
 - Enfin, un directeur d'entité pourrait être incité, pour améliorer son ROI, à accepter des investissements qui pourtant détruisent de la valeur et à refuser des investissements qui pourraient en créer.
 
 L'emploi d'un ratio amplifie les effets pervers mis en évidence ci-dessus puisque cela permet de jouer sur le numérateur et le dénominateur. L'évaluation du bénéfice résiduel permet, en partie, de résoudre ces problèmes. 
-*** Bénéfice résiduel
+**** Bénéfice résiduel
     :PROPERTIES:
     :CUSTOM_ID: benefres
     :END:
@@ -1274,7 +1276,7 @@ Le bénéfice résiduel permet de calculer un bénéfice net après rémunérati
 
 On dit qu'il y a création de valeur lorsque le bénéfice résiduel est positif (il y a destruction de valeur dans le cas contraire). Une entreprise crée de la valeur si elle parvient à dégager un résultat supérieur à la rémunération minimale attendue par les apporteurs de fonds.
 
-*** Bénéfice résiduel et ROI
+**** Bénéfice résiduel et ROI
     :PROPERTIES:
     :CUSTOM_ID: benefresroi
     :END:
@@ -1355,7 +1357,7 @@ Cependant, le calcul du bénéfice résiduel pose des difficultés de mise en œ
 
 Sur un plan plus théorique, le fait de demander un bénéfice résiduel systématiquement positif pose des problèmes de soutenabilité. En effet, le coût moyen pondéré du capital représente la rentabilité attendue sur le long terme par les différents apporteurs de capitaux et il n'est pas possible sur le long terme, par construction, d'être à un niveau plus élevé de rentabilité, sauf à prendre plus de risque ou à manipuler les comptes. Le bénéfice résiduel mesure en fait un sur-profit par rapport aux attentes des actionnaires, impossible à atteindre.
 
-** Transformer des centres de coûts ou de revenus en centre de profit : le rôle des prix de cession interne
+*** Transformer des centres de coûts ou de revenus en centre de profit : le rôle des prix de cession interne
 Un centre de responsabilité peut recevoir tout ou partie de son approvisionnement en provenance de centres de responsabilités situés en amont, et céder tout ou partie de sa production à d’autres centres situés en aval. Les prix de cession interne sont les prix définis par une organisation pour valoriser les transactions internes entre différents centres de responsabilité.
 
 #+caption: Les prix de cession interne
@@ -1424,7 +1426,7 @@ Inversement, laisser une liberté d’achat et de vente en interne ou en externe
 #+begin_kaobox
 Pour vous exercer sur cette section, voir le quiz d'entrainement :
 #+end_kaobox
-- https://app.wooclap.com/COMP50900/questionnaires/5f689959ca402c5d7fde62cf
+- https://app.wooclap.com/COMP50903/questionnaires/5f689959ca402c5d7fde62cf
 
 
 * Conclusion - Mesures de la performance, gestion par les résultats et contrôle
