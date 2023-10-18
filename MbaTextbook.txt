@@ -41,7 +41,7 @@ C'est le rôle de la comptabilité de gestion. Celle-ci a pour objectif d'organi
 #+attr_latex: :placement [H] :center nil
 [[./img/comptafi.pdf]]
 
-Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en interne – des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"[fn:1].
+Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en interne – des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"[fn:1]. Elle leur fournit ainsi des informations sur les coûts, les prévisions et la performance et facilite la prise de décision et le contrôle, en lien avec la stratégie de l'organisation. C'est un outil très utile aux gestionnaires, car il permet de donner une image chiffrée de l'organisation.
 
 En organisation, la comptabilité peut remplir divers rôles[fn:2] :
 - Aider à la résolution des problèmes et à la prise de décision /(problem-solving)/ ;
@@ -63,19 +63,20 @@ Contrairement à la comptabilité financière, la comptabilité de gestion n'est
 Par exemple, il n'y a pas de coûts justes ou exacts, il n'y a que des coûts pertinents pour une décision donnée. On utilise donc des calculs de coût différents pour prendre des décisions à court terme ou à long terme. De la même manière, le choix des chiffres à inscrire dans le budget dépend de l'utilisation que l'on va faire de l'outil et les mesures de performances doivent être choisies en pensant aux impacts qu'elles vont avoir sur les comportements. 
 #+end_kaobox
 
-Les chiffres produits par la comptabilité de gestion reposent sur des hypothèses qui sont souvent discutables. Ils n'ont de valeur que parce qu'ils permettent :
+Les chiffres produits par la comptabilité de gestion reposent sur des hypothèses discutables et qui doivent être comprises pour que ces outils soient utilisés adéquatement. Ils n'ont de valeur que parce qu'ils permettent :
 - d'améliorer la prise de décision ;
 - de mieux contrôler l'organisation.
 
-La comptabilité de gestion n'est donc pas purement technique. Elle fait partie du processus de management. C'est toute sa difficulté : il faut connaître les outils, mais ne pas s'y limiter.
-
+La comptabilité de gestion n'est donc pas purement technique. Elle fait partie du processus de management. C'est toute sa difficulté : il faut connaître les outils, mais ne pas s'y limiter. Il faut aussi avoir conscience du fait que la comptabilité de gestion s'inscrit dans des jeux de pouvoir et peut avoir des effets inattendus, qui doivent être pris en compte pour assurer une gestion efficace et éthique. Enfin, la comptabilité de gestion doit être adaptée au contexte dans lequel l'organisation se situe et devrait prendre en compte les dimensions sociales et environnementales de la performance.
 
 #+begin_kaobox
-Ce document présente les pratiques communément acceptées en comptabilité de gestion, de manière simplifiée et à destination des gestionnaires, afin de vous permettre :
-- de discuter avec un comptable en organisation (maîtriser son vocabulaire et comprendre ses méthodes) ;
-- d'utiliser l’information produite par le comptable et d'exercer un regard critique sur les outils et procédures qu’il utilise ;
-- de maîtriser les techniques de base de calcul des coûts, de construction des budgets ;
-- de comprendre les enjeux de la mesure de la performance.
+Ce document propose une introduction à la comptabilité de gestion et à ses différents outils, à leurs intérêts et à leurs limites. Il présente les pratiques communément acceptées dans ce domaine, de manière simplifiée et à destination des gestionnaires, afin de vous permettre de :
+- de dialoguer avec un comptable en organisation (comptable de management, contrôleur de gestion, contrôleur financier, etc.), maîtriser son vocabulaire et comprendre ses méthodes;
+- de connaître, utiliser et questionner l’information produite par le comptable de management;
+- d'examiner de manière critique les outils de la comptabilité et du contrôle de gestion et mettre en évidence les hypothèses sur lesquelles reposent les calculs réalisés;
+- d'appliquer les techniques de base du calcul des coûts, de la construction des budgets et de la mesure de performance;
+- de comprendre les enjeux de la mesure de la performance et connaître ses effets sur les comportements.
+
 *Pour chaque section, vous pouvez faire les exercices disponibles sur ZoneCours et vérifier vos connaissances à l'aide de quiz d’entrainement disponibles à l'adresse suivante :*
 https://app.wooclap.com/COMP50903
 Ces quiz sont optionnels et non évalués. Les quiz obligatoires sont disponibles sur ZoneCours.
