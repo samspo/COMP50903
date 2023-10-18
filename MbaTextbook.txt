@@ -7,7 +7,6 @@
 #+LATEX_HEADER: \renewcommand{\footnote}{\sidenote}
 #+export_file_name: index.html
 #+setupfile: ./styles/theme-readtheorg-local.setup
-***** @todo ajouter des précisions sur les calculs d'écart pour permettre de répondre à la question du quiz
 ***** @todo rajouter un tableau de synthèse des coûts variabes / cf - CD / CI:noexport: 
 
 ***** @todo transformer l'exercice sur les cabinets comptables en un exercice sur les cabinets de conseil:noexport:
@@ -1670,9 +1669,9 @@ Ce cours a donné un aperçu des différents outils comptables de calcul des co�
 
 On a cependant vu que trouver la bonne mesure n'a rien d’évident. Les coûts reposent sur des conventions de calcul. Les prévisions ne sont que des prévisions. Les mesures de la performance, qu'elles soient financières ou non financières, ne reflètent bien souvent qu'une partie de la performance d'un individu ou d'une organisation. De plus, la mesure peut  avoir des effets pervers, particulièrement lorsqu'elle est utilisée pour gérer par les objectifs. Elle peut, certes, aider au contrôle de l'organisation, mais elle peut aussi, parfois, donner l'illusion d'une bonne gestion. 
 
-La comptabilité est un langage prédominant du domaine des affaires. Elle donne un grand pouvoir à ceux qui la maîtrisent. Elle permet d'améliorer la prise de décision et de faciliter le contrôle. Cependant, il ne faut pas forcément chercher à tout mesurer. Les effets pervers potentiels sont nombreux. De plus, la production de données comptables à un coût: le coût d’un calcul (de coût ou d'une mesure de performance) doit rester inférieur à son utilité.
+La comptabilité est un langage prédominant dans le domaine des affaires. Elle donne un grand pouvoir à ceux qui la maîtrisent. Elle permet d'améliorer la prise de décision et de faciliter le contrôle. Cependant, il ne faut pas forcément chercher à tout mesurer. Les effets pervers potentiels sont nombreux. De plus, la production de données comptables à un coût: le coût d’un calcul (de coût ou d'une mesure de performance) doit rester inférieur à son utilité.
 
-* Footnotes
+* Notes
 
 [fn:1] Bhimani, A., Horngren, C. T., Datar, S. M., & Rajan, M. V. (2019). Management and cost accounting. Pearson.
 
