@@ -7,8 +7,6 @@
 #+LATEX_HEADER: \renewcommand{\footnote}{\sidenote}
 #+export_file_name: index.html
 #+setupfile: ./styles/theme-readtheorg-local.setup
-***** @todo publier la nouvelle version qui prend en compte les clarifications de mirabelle:noexport:
-***** @todo changer la figure sur arrêt d'un produit:noexport:
 ***** @todo ajouter des précisions sur les calculs d'écart pour permettre de répondre à la question du quiz
 ***** @todo rajouter un tableau de synthèse des coûts variabes / cf - CD / CI:noexport: 
 
@@ -640,9 +638,7 @@ Un tel calcul est essentiel lors des décisions de lancement ou de retrait d'une
 -----
 *Exemple - Dans quel cas faut-il arrêter un produit ?*
 
-Prendre la décision d'arrêter un produit dont la marge sur coût complet est négative peut conduire à une détérioration du résultat global de l'entreprise. En effet, les charges indirectes imputées au produit déficitaire ne disparaissent pas lorsque l'on supprime le produit.
-
-Par exemple, une entreprise vend 3 produits.
+Une entreprise vend 3 produits.
 #+attr_latex: :align l c c c c :font \footnotesize
 |                                 |  P1 |  P2 | P3 | Total |
 |---------------------------------+-----+-----+----+-------|
@@ -662,11 +658,19 @@ Après suppression de P2, le résultat est diminué de 20 à 0 et P3 est devenu 
 | Charges indirectes (total = 90) |  45 | 45 |       |
 | Résultat                        |   5 | -5 |    0  |
 
-Les charges indirectes n'ont pas été supprimées avec la disparition de P2. Elles ont été réparties sur les autres produits ce qui a conduit à diminuer leurs marges et donc à diminuer le résultat de l'entreprise.---
+Les charges indirectes n'ont pas été supprimées avec la disparition de P2. Elles ont été réparties sur les autres produits ce qui a conduit à diminuer leurs marges et donc à diminuer le résultat de l'entreprise.
+-----
 
-Lorsque l'on supprime un produit déficitaire, on ne supprime pas les charges indirectes qui lui sont associées. Il est même parfois difficile de supprimer les charges fixes directes (aussi appelées coûts spécifiques) qui lui sont associées.
+Prendre la décision d'arrêter un produit dont la marge sur coût complet est négative peut conduire à une détérioration du résultat global de l'entreprise. En effet, les charges indirectes imputées au produit déficitaire ne disparaissent pas lorsque l'on supprime le produit. Il est aussi souvent difficile de supprimer les charges fixes directes (aussi appelées coûts spécifiques, par exemple des machines qui sont utilisées spécifiquement par ce produit) qui lui sont associées sur le court terme.
 
 En revanche, lorsque la marge sur coût variable d'un produit est négative. Alors, il est évident qu'en arrêtant la production du produit le résultat de l'entreprise s'améliore.
+
+La figure ci-dessous résume les questions à se poser pour savoir si il faut arrêter la production d'un produit.
+
+aption: Abandon d'un produit - Critères de décision
+#+attr_latex: :placement [H] :center nil
+[[./img/abandon.pdf]]
+
 
 #+begin_kaowarn
 Avant d'arrêter un produit, à partir de critères financiers, il faut s'assurer que les coûts fixes spécifiques de ce produit pourront être supprimés et que les charges fixes indirectes pourront être absorbées par les autres produits.
