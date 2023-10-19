@@ -16,7 +16,7 @@
 * Introduction
   :PROPERTIES:
   :CUSTOM_ID: intro
-:UNNUMBERED: t
+  :UNNUMBERED: t
   :END:
 
 #+begin_kaobox
@@ -30,7 +30,7 @@ Vous trouverez dans ce mini-manuel des liens vers des vidéos(*), des exercices 
 
 /(*)Les vidéos sont tirées de Tessier, S et Vézina, M. SC-102.5 - Décisions financières et gestion budgétaire. Edulib/
 #+end_kaobox
-
+\\
 Les états financiers donnent aux parties prenantes externes une image comptable et financière de l'entreprise. L'état des résultats représente la performance de l'organisation sur une année et l'état de la situation financière donne une image du patrimoine à la fin de l'exercice comptable.
 
 Cette image comptable et financière (ce que l'on appelle la comptabilité financière) est cependant insuffisante pour permettre la gestion d'une organisation. Les gestionnaires ont besoin d'informations complémentaires pour planifier les activités de l'organisation, les contrôler et prendre les bonnes décisions.
@@ -63,7 +63,7 @@ Contrairement à la comptabilité financière, la comptabilité de gestion n'est
 
 Par exemple, il n'y a pas de coûts justes ou exacts, il n'y a que des coûts pertinents pour une décision donnée. On utilise donc des calculs de coût différents pour prendre des décisions à court terme ou à long terme. De la même manière, le choix des chiffres à inscrire dans le budget dépend de l'utilisation que l'on va faire de l'outil et les mesures de performances doivent être choisies en pensant aux impacts qu'elles vont avoir sur les comportements. 
 #+end_kaobox
-
+\\
 Les chiffres produits par la comptabilité de gestion reposent sur des hypothèses discutables et qui doivent être comprises pour que ces outils soient utilisés adéquatement. Ils n'ont de valeur que parce qu'ils permettent :
 - d'améliorer la prise de décision ;
 - de mieux contrôler l'organisation.
@@ -82,6 +82,7 @@ Ce document propose une introduction à la comptabilité de gestion et à ses di
 https://app.wooclap.com/COMP50903
 Ces quiz sont optionnels et non évalués. Les quiz obligatoires sont disponibles sur ZoneCours.
 #+end_kaobox
+\\
 * Coût et prise de décision
   :PROPERTIES:
   :CUSTOM_ID: cout
@@ -106,6 +107,7 @@ Selon les décisions à prendre, divers types de calcul des coûts sont envisage
 #+begin_kaowarn
 Avant de se lancer dans un calcul de coûts, il faut se demander quel est l'objectif de ce calcul et bien choisir son /objet de coût/. 
 #+end_kaowarn
+\\
 La notion d'objet de coût correspond à tout élément pour lequel une mesure séparée du coût est nécessaire. Un objet de coût peut être un produit, un service, un client, une ligne de produits, une fonction, une activité, etc.
 
 Selon les décisions à prendre, il peut être utile de calculer le coût total ou le coût unitaire :
@@ -123,7 +125,7 @@ La plupart des calculs en coûts partiels partent de la distinction entre les ch
 
 *Un coût est dit fixe s'il n'est pas affecté par les variations d'activité (on parle aussi de coût de capacité).*
 #+end_center
-
+\\
 Par exemple, le coût des matières premières ou de l'énergie évolue en fonction des quantités produites. Inversement, le coût de la location d'un bâtiment qui abrite l'usine est stable, quelle que soit la quantité produite.
 
 Certains coûts sont difficiles à caractériser (par exemple, le coût de la main-d'œuvre)s. De plus, la distinction entre charges variables et charges fixes n'est vraie que pour un horizon de temps donné. Sur le court et le moyen terme, les charges fixes ne peuvent être modifiées, mais sur le long terme elles peuvent évoluer. Par exemple, on peut imaginer acheter une machine ou un nouveau bâtiment.
@@ -132,6 +134,7 @@ La distinction entre les coûts fixes – indépendants du niveau d'activité �
 #+begin_center
 *Coût total = Coût variable unitaire x Quantités + Coûts fixes*
 #+end_center
+\\
 Cette fonction de coût modélise la relation entre le volume et les coûts. Elle est notamment utile pour les prévisions et les calculs de seuil de rentabilité.
 
 *** Marge sur coût variable et contribution
@@ -196,7 +199,7 @@ Le calcul de la contribution permet un meilleur diagnostic de la performance des
 
 Pour une synthèse, concernant la contribution (appelée aussi marge nette), voir : https://youtu.be/ZLnidu-H6zY
 #+end_kaobox
-
+\\
 De manière générale, les calculs en coût partiel permettent d'éviter la répartition arbitraire des charges indirectes (nous y reviendrons quand nous parlerons des coûts complets). 
 #+begin_kaobox
 Les coûts partiels permettent de prendre de nombreuses décisions. Ils sont notamment utiles pour :
@@ -204,6 +207,7 @@ Les coûts partiels permettent de prendre de nombreuses décisions. Ils sont not
 - prendre des décisions lorsque le coût fixe ne change pas. (voir /Les opportunités d'affaires et la notion de pertinence/ : https://youtu.be/tLqI2vId1Sg)
 - prendre en compte les coûts d'opportunité, que l'on appelle aussi coût de renonciation (voir /Le coût de renonciation/ : https://youtu.be/1qVlwgbQAcM)
 #+end_kaobox
+\\
 Les coûts partiel donnent cependant une image incomplète du coût d'un produit ou d'un service et de la marge qu'il génère. Parfois, il est nécessaire de calculer un coût complet. 
 
 *** Analyse coûts / volumes / profits : le calcul du seuil de rentabilité
@@ -357,7 +361,7 @@ Le seuil de rentabilité est ainsi extrêmement utile pour faire un calcul simpl
 Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
 https://app.wooclap.com/COMP50903/questionnaires/5f6897932655921192ee504c
 #+end_kaobox
-
+\\
 
 ** Gestion des coûts et prise de décision sur le long terme
    :PROPERTIES:
@@ -422,6 +426,7 @@ Le tableau comprend autant de colonnes que le nombre de centres de regroupement.
 #+begin_kaowarn
 Le tableau de répartition des charges indirectes est une étape *indispensable* du calcul du coût complet. Dans les situations simples, on peut être tenté de se passer de cette étape en affectant directement les charges indirectes, sans passer par cette étape intermédiaire. Cependant, en faisant cela, on multiplie les possibilités d'erreur. De plus, on ne rend pas disponible une information importante sur ce que nous coûte chacune des opérations en termes de charges indirectes.
 #+end_kaowarn
+\\
 - Étape 4. Imputation des charges directes et indirectes aux objets de coût
 Les charges directes concernent souvent (mais pas seulement et pas toujours) des charges de main-d'œuvre et les charges de matière première. Elles peuvent être directement, et sans calcul, affectées aux produits.
 L'affectation des charges indirectes aux objets de coût se fait par l'intermédiaire des taux d'imputation. 
@@ -569,7 +574,7 @@ Il est cependant important de prendre aussi en compte les activités non volumiq
 
 Ainsi, les bases d’imputation ne doivent pas être uniquement volumiques si les coûts indirects non reliés aux volumes représentent une part importante des charges indirectes.
 #+end_kaobox
-
+\\
 *** Du calcul du coût à la gestion des coûts : la méthode par activité
     :PROPERTIES:
     :CUSTOM_ID: cccritique
@@ -610,7 +615,7 @@ Pour pouvoir calculer un coût, il faut donc mettre en évidence :
 - Exemples d'activités pour des entreprises de service : facturation des clients, réponse à un appel d’offre, vérification du crédit d’un client
 - Exemples d'activités pour des entreprises de fabrication : manipulation des matières premières, contrôle de la qualité, définition des spécifications de conception
 #+end_kaobox
-
+\\
 L'inducteur d'activité est ainsi l'unité de mesure qui rend compte du comportement du coût de l’activité. Plutôt qu'une corrélation, comme dans la méthode classique, on recherche une causalité, c'est-à-dire ce qui déclenche les activités et donc les coûts. On fait l'hypothèse qu'il y a un lien de causalité entre le coût d’une activité et sa consommation par un objet de coût. 
 
 Cet inducteur peut refléter le volume de production (heures de main-d'œuvre, heure de machine), le nombre de lots (nombre de contrôles qualité, nombre de livraisons), ou même le nombre de modèles (par exemple, pour les coûts liés à la conception).
@@ -679,7 +684,6 @@ La figure ci-dessous résume les questions à se poser pour savoir si il faut ar
 #+begin_kaowarn
 Avant d'arrêter un produit, à partir de critères financiers, il faut s'assurer que les coûts fixes spécifiques de ce produit pourront être supprimés et que les charges fixes indirectes pourront être absorbées par les autres produits.
 #+end_kaowarn
-
 \\
 Le calcul récurrent (tous les mois, par exemple) du coût complet est la plupart du temps irréaliste (son calcul est complexe) et de peu d'intérêt si aucun choix décisif n'est en jeu.
 
@@ -690,12 +694,12 @@ Cette approche, qui renonce à analyser les coûts fixes, n'est /a priori/ perti
 #+begin_kaowarn
 La méthode de calcul des coûts retenue doit être pertinente pour la décision à prendre. La pertinence des calculs de coûts dépend d'abord de l'identification des décisions auxquelles on destine les chiffres : il n'y a pas de calcul de coût indépendamment d'une utilisation donnée du résultat de ce calcul.
 #+end_kaowarn
-
+\\
 #+begin_kaobox
 Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
 https://app.wooclap.com/COMP50903/questionnaires/5f6898aee60d387141539337
 #+end_kaobox
-
+\\
 
 * Budget et contrôle
   :PROPERTIES:
@@ -727,7 +731,7 @@ Ces différents budgets sont ensuite rassemblés pour construire le budget de tr
 Le processus budgétaire est adapté au type d'activité de l'entreprise. Ici l'exemple d'une entreprise spécialisée dans la vente de détail :
 https://youtu.be/Wbqrj7UfhmI
 #+end_kaobox
-
+\\
 Si le budget de trésorerie (ou budget de caisse) fait apparaître des besoins de financement auxquels l'entreprise ne peut pas faire face ou si le compte de résultat prévisionnel fait apparaître une rentabilité trop faible, le niveau des ventes doit, dans la mesure de ce qui peut être vendu sur le marché par l'entreprise, être modifié. Le budget est donc un outil fondamental en phase de prévision puisqu'il permet de tester la faisabilité de la stratégie en ce qui concerne les besoins de trésorerie sur le court terme et d'évaluer l'impact de cette stratégie sur le résultat et la rentabilité économique de l'activité.
 
 La démarche budgétaire est initiée par les comptables. Ils sont les garants de la procédure budgétaire : ils fournissent le cadre budgétaire permettant de collecter les données, ils collectent les données primaires et organisent les réunions budgétaires permettant la confrontation des points de vue.
@@ -767,7 +771,7 @@ Dans un premier temps, il est nécessaire de définir le programme de production
 #+begin_center
 *Production = ventes + stock final désiré - stock initial*
 #+end_center
-
+\\
 Lorsque le niveau des ventes n'est pas uniforme toute l'année, il est nécessaire d'établir le niveau de production nécessaire sur une période plus courte (le trimestre, le mois, le jour, ou toute autre période adaptée aux variations de l'activité). Selon la politique retenue par l'entreprise, le niveau des stocks ou le niveau de la production (notamment si l'entreprise a une politique de production en juste à temps) devront varier en fonction du niveau des ventes.
 
 Une fois le niveau de production choisi, il est possible de préciser l'utilisation prévisionnelle des moyens concernant : les consommations prévisionnelles de matières, la main-d'œuvre productive nécessaire et le degré d'utilisation des équipements. Cette utilisation prévisionnelle des moyens doit prendre en compte les rebuts, les défauts de qualité et les temps impayés.
@@ -850,6 +854,7 @@ Le flux de trésorerie permet de calculer le niveau de trésorerie de l'entrepri
 #+begin_center
 *Trésorerie initiale + flux de trésorerie = trésorerie finale*
 #+end_center
+\\
 Si la trésorerie finale est négative, il faut prendre en compte les charges financières liées au découvert (en fonction des conditions de découvert obtenues auprès de la banque pour la marge de crédit).
 
 *** Application : Mirabel Air
@@ -875,6 +880,7 @@ L’entreprise s’apprête à établir son budget pour l’année N. Le budget 
 - le budget unitaire des coûts de production
 - le budget des coûts de production des produits vendus
 #+end_kaobox
+\\
 *Un modèle Excel est disponible pour vous guider :* https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z
 
 Les prévisions de vente et de stock de produits finis sont les suivantes :
@@ -963,7 +969,7 @@ Le compte de résultat permet de mesurer la performance de l'entreprise sur une 
 #+begin_kaobox
 La vidéo suivante détaille les différentes étapes d'un budget pour une entreprise de service: https://youtu.be/xtvSWeLm13s
 #+end_kaobox
-
+\\
 ** Participation et processus budgétaire
    :PROPERTIES:
    :CUSTOM_ID: partbudg
@@ -980,7 +986,7 @@ Avantages du budget /bottom-up/ (forte participation des opérationnels) :
 - Meilleure compréhension des objectifs budgétaires par les opérationnels (puisqu'ils participent à la définition des objectifs budgétaires).
 - Implication et motivation (participer à la définition de l'objectif budgétaire induit une plus forte implication).
 #+end_kaobox
-
+\\
 Dans les faits, lors de la construction du budget se suivent des étapes /top-down/ et des étapes /bottom-up/. De ce fait, bien souvent, ce processus budgétaire est un processus long. Par exemple, pour une entreprise dont l'annualité budgétaire est calée sur l'année civile, le processus budgétaire peut commencer début mi-juillet ou septembre. Le graphique ci-dessous permet de donner un exemple du calendrier et des différentes étapes possibles.
 
 #+caption: Un exemple de calendrier budgétaire
@@ -997,7 +1003,7 @@ Les rôles le plus souvent mis en avant s'articulent autour de quatre pôles : 
 #+begin_kaobox
 Comme l'ont souligné Barrett et Fraser[fn:13], certains rôles sont incompatibles et l'utilisation du budget pour des rôles différents peut entraîner des effets pervers. Ils mettent notamment en évidence un conflit majeur entre les fonctions de prévision, de coordination et de communication d'une part et la fonction de délégation et d'évaluation d'autre part. En effet, les budgets utilisés pour la planification et la prévision doivent être fixés à un niveau réaliste pour permettre l'allocation des ressources et la coordination alors que s'ils sont utilisés pour motiver, ils doivent être fixés de façon à être difficiles à atteindre. Il y a donc contradiction entre la volonté de prévoir l'avenir le mieux possible et celle d'amener des managers à s'engager sur des objectifs ambitieux.
 #+end_kaobox
-
+\\
 De plus, on peut penser que les intérêts des supérieurs et des subordonnés diffèrent selon le rôle qui est accordé au budget. Ainsi, si le budget est d'abord utilisé dans un but de planification, les contrôlés ont intérêt à ce qu'on leur fixe des objectifs budgétaires plus importants pour disposer de plus de ressources. Si le budget est utilisé dans un but de motivation, les contrôlés vont chercher à minimiser leurs objectifs budgétaires pour accroître leurs chances de les atteindre. C'est ce qu'on appelle le /slack ou matelas budgétaire/. 
 
 Pour réconcilier les divers objectifs du budget, plusieurs solutions peuvent être mises en œuvre. Ainsi, lors du processus de consolidation budgétaire, il est possible pour le responsable de se constituer des matelas budgétaires afin de fixer des objectifs assez difficiles à atteindre à ses subordonnés tout en donnant à ses supérieurs des objectifs budgétaires qui sont des prévisions réalistes. Une autre solution est de dissocier le système qui permet de fixer des objectifs du processus de prévision budgétaire. À vouloir faire remplir des rôles trop divers au budget, il n'en remplirait plus aucun. En dépit de son rôle central dans le processus de contrôle de gestion, le budget a ainsi fait l'objet de nombreuses critiques et ce depuis longtemps.
@@ -1029,7 +1035,7 @@ La planification et le budget sont des outils au cœur du fonctionnement des gra
 Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
 https://app.wooclap.com/COMP50903/questionnaires/5f6898f251af0040aba9284c
 #+end_kaobox
-  
+\\
 * Mesure et gestion de la performance
   :PROPERTIES:
   :CUSTOM_ID: perf
@@ -1044,7 +1050,8 @@ Au-delà de l'aide à la décision, les données de la comptabilité de manageme
  :PROPERTIES:
   :CUSTOM_ID: perfobj
   :END:
-**** Gestion par les objectifs et pilotage
+
+- Gestion par les objectifs et pilotage
 La mesure de la performance permet de « gérer par les objectifs »[fn:19], en mettant en œuvre un contrôle a posteriori (on parle aussi de gestion par les résultats). Elle prend alors la forme d’un contrôle cybernétique permettant à la direction de s’assurer que les objectifs fixés vont être réalisés[fn:20]. Elle facilite ainsi le pilotage et la convergence des buts dans l’organisation.
 
 Une bonne image de ce mécanisme cybernétique est donnée par l’exemple du thermostat. Celui-ci va déceler une différence entre la température réelle d’une pièce et la température souhaitée et réagir à cette divergence en allumant ou en éteignant le chauffage pour obtenir la température désirée. La « gestion par les objectifs » s’apparente également à un processus cybernétique puisqu’elle vise à identifier les différences entre les objectifs et le niveau réel de performance afin de déclencher des mesures d’ajustement lorsque des écarts sont identifiés.
@@ -1060,26 +1067,28 @@ Dans un deuxième temps (étape 2), la personne contrôlée est laissée libre d
 Les résultats obtenus font ensuite l’objet d’une mesure qui est comparée aux objectifs préalablement fixés (étape 3). La mesure peut concerner des unités physiques (nombre de produits, temps passé, etc.) les entreprises mettent souvent l’accent sur des mesures de nature comptable et financière, particulièrement lorsque cela concerne des gestionnaires.
 
 Si un écart significatif entre la norme et le résultat réel est constaté, des actions correctives sont alors engagées (étape 4). Celles-ci peuvent conduire à modifier le processus de transformation et/ou les ressources mises en œuvre dans ce processus. Dans le même temps, l’atteinte (ou non) des normes de résultats définies a priori conduit à attribuer des primes (monétaires ou autres) aux responsables ou à les sanctionner.
-**** Les avantages de la gestion par les objectifs
+
+- Les avantages de la gestion par les objectifs
 La gestion par les objectifs offre de nombreux avantages qui expliquent son rôle dans le développement des grandes organisations nord-américaines au début du XXᵉ siècle[fn:21]. Parmi eux, trois raisons majeures sont le plus souvent avancées :
 - La gestion par les objectifs peut s’appuyer sur des données comptables et financières. Elle permet par conséquent d’appliquer un langage commun à l’ensemble de l’organisation, quelles que soient la diversité des produits et des services proposés et la variété des activités réalisées. Elle facilite, de ce fait, la gestion à distance dans les grandes organisations diversifiées en permettant à la fois la déclinaison des informations centrales et la synthèse des informations locales ;
 - La gestion par les objectifs permet de décentraliser la prise de décision en échange du contrôle des résultats. De nombreuses décisions peuvent ainsi être prises par les responsables sur le terrain, au plus proche des opérations, ce qui favorise une meilleure qualité de l’information et permet une réactivité accrue dans la prise de décision. En outre, cette décentralisation de la prise de décision permet à la direction de se limiter à un contrôle par exception - c’est-à-dire restreint aux déviations notables par rapport aux objectifs – et ainsi de se consacrer aux décisions importantes, plus stratégiques qu’opérationnelles ;
 - La gestion par les objectifs doit permettre de responsabiliser, d’évaluer et donc de motiver des salariés à partir des objectifs qui leur ont été fixés. À ce titre, c’est un outil de gouvernement des hommes qui peut être utilisé à tous les niveaux de l’organisation pour s’assurer que chacun fait des efforts dans l’intérêt de l’organisation.
 
 Au-delà de ses avantages en termes d’efficacité et d’efficience, ce système est présenté parfois comme une avancée démocratique. En substituant "la pratique d’un contrôle gestionnaire autonome à celle qui reposait sur la domination" la gestion par les résultats permettrait, en effet, d’atteindre un "idéal" démocratique dans lequel la responsabilité de chaque individu est mesurée dans le cadre d’un contrat passé préalablement à l’action entre des individus libres et égaux[fn:22]. 
-**** Gérer par les objectifs : hypothèses sur le processus contrôlé et la motivation des individus
+
+- Gérer par les objectifs : hypothèses sur le processus contrôlé et la motivation des individus
 La gestion par les résultats permet de piloter un processus de transformation d’inputs (ressources) en outputs (produits) en assignant à chaque responsable des objectifs et en lui offrant, en contrepartie, la maîtrise de moyens et une certaine liberté de mise en œuvre pour atteindre ses objectifs. De son côté, celui qui contrôle va pouvoir le faire par exception, c’est-à-dire en s’impliquant uniquement en cas de déviation significative par rapport aux objectifs.
 
 Cependant, ce modèle de gestion repose sur des hypothèses concernant le processus à contrôler et la manière dont les individus sont motivés.
 
-*Une première hypothèse porte sur le processus contrôlé.*
+/Une première hypothèse porte sur le processus contrôlé./
 
 Mettre en œuvre une gestion par les objectifs suppose de pouvoir définir des normes, de savoir les mesurer, d’être capable de quantifier les résultats attendus et de les décliner dans le temps et dans l’espace. Il est, en effet, nécessaire de définir des objectifs au niveau des différents processus de l’organisation et mesurer l’atteinte ou non de ces objectifs (étapes 1 et 3). Pourtant, il est parfois difficile d’expliciter les objectifs d’une organisation ou d’une entité, notamment parce qu’il n’y a pas toujours accord sur l’objectif entre les différents acteurs ou parce que l’objectif n’a pas été défini explicitement (il résulte des habitudes prises par chacun dans l’organisation). Ce phénomène est particulièrement important dans les organisations publiques, mais il touche aussi les entreprises.
 
 La mise en place d’un contrôle par les objectifs suppose, une fois les objectifs définis, de les mesurer. Or, même lorsqu’il est possible de se mettre d’accord sur les objectifs, ces derniers peuvent être difficilement mesurables ou quantifiables. Ainsi, parce qu’il s’appuie d’abord sur des données financières, le contrôle par les résultats a du mal à évaluer l’impact des politiques de qualité ou d’innovation. Il est aussi difficile de le mettre en place dans les organisations publiques (institutions d’enseignement, hôpitaux, aide sociale) ou des entités qui doivent innover du fait de la difficulté à mesurer les résultats de ce type d’organisations et à lier avec certitude les inputs et les outputs. Dans ce cas, les effets d’un contrôle par les résultats sont cependant ambigus. Afin de mettre en œuvre des actions correctives (étape 4), il est en outre nécessaire d’avoir un modèle prédictif du processus contrôlé. Autrement dit, il faut être capable de savoir quelles sont les actions correctives qui doivent être mises en œuvre afin d’atteindre l’objectif préalablement fixé, c’est-à-dire être capable de modéliser les relations causes-effets. Dans le cas du thermostat, le modèle prédictif est simple : lorsque la température est trop faible, il suffit de mettre en marche le chauffage. Dans le cas de la gestion d’une organisation, ce modèle prédictif est plus rarement connu et il n’existe alors pas de méthode simple et automatique pour mettre fin aux écarts entre la norme et les résultats.
 En résumé, faire du contrôle par les objectifs suppose de pouvoir définir un objectif, de pouvoir le mesurer et de modéliser les relations entre les causes et les effets pour définir des actions correctives
 
-*Le modèle de la gestion par les objectifs fait ensuite une double hypothèse sur les individus qui composent les organisations et leurs motivations.*
+/Le modèle de la gestion par les objectifs fait ensuite une double hypothèse sur les individus qui composent les organisations et leurs motivations./
 
 D’une part, il suppose que le manager ou le contrôleur est capable de fixer des objectifs pertinents pour la performance de l’organisation, ce qui sous-entend qu'il est parfaitement rationnel et d’une loyauté sans failles vis-à-vis de l’organisation et que ses propres objectifs sont cohérents avec ceux de son organisation. Cela est loin d’être évident.
 
@@ -1093,7 +1102,7 @@ On notera que le niveau auquel doit être fixée la norme n’a rien d’éviden
 
 Les relations complexes entre objectif, motivation, récompense et performance ont été modélisées par la théorie de l’expectance[fn:25]. Cette théorie repose sur l’idée que la motivation d’un individu à faire des efforts dépend de la conjonction de trois facteurs : la probabilité perçue par cet individu que son effort le mène au succès (expectance), la probabilité que ce succès entraîne effectivement une récompense (une promotion ou une hausse de salaire par exemple), et la valeur que cet individu attache au type de récompense prévisible. Ainsi, les objectifs doivent paraître à la fois ambitieux et accessibles pour jouer pleinement leur rôle incitatif[fn:26]. 
 #+end_kaobox
-
+\\
 Au-delà des hypothèses sur les objectifs et les motivations, la gestion par les objectifs repose sur une troisième hypothèse : il est possible de découper l'organisation en plusieurs entités (que l'on appelle centres de responsabilité) dont on peut mesurer la performance.
 
 *** Gestion par les objectifs, centres de responsabilité et décentralisation
@@ -1126,7 +1135,7 @@ Elle comporte cependant un certain nombre de risques :
 - Prise de décision sur la base d’une information partielle ne couvrant pas l'ensemble de l'organisation
 - Dédoublement de certaines tâches, du fait de l'absence de coordination centrale
 #+end_kaobox
-
+\\
 La difficulté est donc de trouver les normes qui permettent de faire converger les objectifs d’un centre de responsabilité avec les objectifs du centre de responsabilité du niveau supérieur et qui ne conduisent pas à transférer l’efficience ou l’inefficience d’un centre vers un autre. En d’autres termes les objectifs doivent permettre d’assurer la convergence des intérêts individuels et de l’intérêt collectif.
 -----
 *Exemple - Optimisation locale et performance globale de l’entreprise*
@@ -1163,13 +1172,13 @@ Les avantages du contrôle budgétaire sont les suivants :
 - Il permet de trouver les causes (décomposer les écarts pour pouvoir les lier à des responsables) qui expliquent le fait que le résultat n'est pas conforme aux prévisions. Il fait ressortir les responsabilités de chaque activité ou chaque service dans la constitution du résultat global de l’entreprise. Il peut donc être utilisé pour mesurer la performance des différentes entités dans l’organisation.
 - Il incite les gestionnaires à prendre des actions correctives afin de résorber ces écarts (en changeant les moyens mis en œuvre, ou en changeant les objectifs s’il s’avère que les objectifs définis a priori n’étaient pas atteignables). Le contrôle budgétaire est donc un outil indispensable lors de la phase de pilotage du processus de contrôle.
 #+end_kaobox
-
+\\
 La méthode a cependant un certain nombre de limites. D’abord, elle ne permet de vérifier que ce qui est fait par l’entreprise est bien ce qui avait été prévu. Pourtant, si l’environnement évolue, il peut être nécessaire et efficace de ne pas faire ce qui avait été prévu. De plus, elle permet d’expliquer le passé, mais n’aide pas à anticiper l’avenir. Il faut aussi noter que la mécanique du contrôle budgétaire est lourde ; elle implique d’avoir recours à de nombreux comptables et coûte cher. Enfin, le contrôle budgétaire limite à l’appréciation de la performance aux prix et aux quantités ; rien n’est dit sur d’autres dimensions fondamentales de la performance (la qualité, la flexibilité, etc.).
 
 #+begin_kaowarn
 Il existe de multiples modalités de calcul des écarts. La mise en œuvre de la méthode dépend de calculs réalisés par les comptables et dépasse le cadre de ce cours.
 #+end_kaowarn
-
+\\
 **** Le calcul et l'analyse du ROI
     :PROPERTIES:
     :CUSTOM_ID: roi
@@ -1458,7 +1467,7 @@ Inversement, laisser une liberté d’achat et de vente en interne ou en externe
 Pour vous exercer sur cette section, voir le quiz d'entrainement :
 https://app.wooclap.com/COMP50903/questionnaires/5f689959ca402c5d7fde62cf
 #+end_kaobox
-
+\\
 
 ** Mesures non financières de la performance
   :PROPERTIES:
@@ -1656,7 +1665,7 @@ Dans certains secteurs d’activité, la conformité à des normes de résultats
 
 Différents critères doivent donc présider au choix des modes de contrôle à mettre en œuvre et notamment le niveau désiré d’innovation : un opérateur fortement encadré par des procédures et directement contrôlé par sa hiérarchie aura peu de capacité d’innovation. En indiquant aux agents ce qu’ils doivent faire et en s’assurant qu’ils le font, on limite leur capacité d’action et d’innovation. Éviter l’innovation permet souvent d’améliorer l’efficience, mais aussi de s’assurer de la qualité du produit ou du service et de la vitesse d’exécution des opérations. C’est pourquoi on laissera peu de capacité d’innovation à un employé de la restauration rapide ou à un ouvrier à la chaîne. On fait alors l’hypothèse que la hiérarchie a une meilleure connaissance de la bonne façon d’agir que les subordonnés. Pourtant, dans des environnements incertains ou en évolution constante, il faut savoir laisser une certaine capacité d’innovation et d’expérimentation aux subordonnés. Dans ce cas, il est préférable de favoriser un contrôle par les résultats à un contrôle des procédures en laissant les subordonnés libres d’envisager des manières de faire ou des produits qui n’avaient pas été pensés par la direction. Ils peuvent ainsi s’adapter à leurs marchés et à leurs clients. Des objectifs difficiles peuvent cependant rendre impossible toute recherche d’autres solutions et par la même toute innovation.
 #+end_kaobox
-
+\\
 Parce qu'ils tentent de mettre sous pression les individus dans les organisations, les systèmes de contrôle interactifs et diagnostiques peuvent de plus conduire à des comportements déviants (manipulations comptables, fraudes, concurrence interne entre les responsables, etc.). Pour limiter ces risques, des contrôles administratifs ou culturels peuvent être mis en place. En résumé, quatre leviers de contrôle peuvent être utilisés dans les organisations[fn:49]. Ces leviers de contrôle permettent de gérer des variables clés différentes (les facteurs clés de succès, les facteurs stratégiques de risque, les valeurs ou les risques à éviter). 
 
 #+caption: Les divers leviers de contrôle
@@ -1666,6 +1675,10 @@ Parce qu'ils tentent de mettre sous pression les individus dans les organisation
 Chacun de ces leviers de contrôle a des objectifs différents et permet de contrôler un élément particulier de la stratégie. Les entreprises performantes sont celles qui arrivent à articuler, en fonction de leur stratégie et des contraintes de leur environnement, les divers leviers de contrôle afin de compenser les effets pervers des uns et des autres. Cela nécessite d'avoir une bonne compréhension des différents outils qui peuvent être utilisés. 
 
 * Conclusion
+:  :PROPERTIES:
+  :CUSTOM_ID: conclu
+  :UNNUMBERED: t
+  :END:
 Ce cours a donné un aperçu des différents outils comptables de calcul des coûts, de prévision et de mesure de la performance financière ou non financière. Ces outils sont utiles aux gestionnaires. Ils les aident à fonder leurs décisions sur des faits plutôt que sur des perceptions. D'ailleurs, on dit souvent qu' "on ne gère bien que ce que l'on mesure" (/What gets measured and rewarded gets done/[fn:50]), en considérant que ce qui est mesuré compte vraiment et doit être récompensé. 
 
 On a cependant vu que trouver la bonne mesure n'a rien d’évident. Les coûts reposent sur des conventions de calcul. Les prévisions ne sont que des prévisions. Les mesures de la performance, qu'elles soient financières ou non financières, ne reflètent bien souvent qu'une partie de la performance d'un individu ou d'une organisation. De plus, la mesure peut  avoir des effets pervers, particulièrement lorsqu'elle est utilisée pour gérer par les objectifs. Elle peut, certes, aider au contrôle de l'organisation, mais elle peut aussi, parfois, donner l'illusion d'une bonne gestion. 
@@ -1673,6 +1686,10 @@ On a cependant vu que trouver la bonne mesure n'a rien d’évident. Les coûts 
 La comptabilité est un langage prédominant dans le domaine des affaires. Elle donne un grand pouvoir à ceux qui la maîtrisent. Elle permet d'améliorer la prise de décision et de faciliter le contrôle. Cependant, il ne faut pas forcément chercher à tout mesurer. Les effets pervers potentiels sont nombreux. De plus, la production de données comptables à un coût: le coût d’un calcul (de coût ou d'une mesure de performance) doit rester inférieur à son utilité.
 
 * Notes
+  :PROPERTIES:
+  :CUSTOM_ID: notes
+  :UNNUMBERED: t
+  :END:
 
 [fn:1] Bhimani, A., Horngren, C. T., Datar, S. M., & Rajan, M. V. (2019). Management and cost accounting. Pearson.
 
