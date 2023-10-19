@@ -3,13 +3,13 @@
 #+Author:Samuel Sponem - HEC Montréal
 #+Date:Mise à jour {{{time(%Y-%m-%d)}}}
 #+language: fr
+#+OPTIONS: todo:nil \n:true
 #+latex_class: kaobook
 #+LATEX_HEADER: \renewcommand{\footnote}{\sidenote}
 #+export_file_name: index.html
 #+setupfile: ./styles/theme-readtheorg-local.setup
-***** @todo rajouter un tableau de synthèse des coûts variabes / cf - CD / CI:noexport: 
-
-***** @todo transformer l'exercice sur les cabinets comptables en un exercice sur les cabinets de conseil:noexport:
+***** @todo rajouter un tableau de synthèse des coûts variabes / cf - CD / CI :noexport: 
+***** @todo transformer l'exercice sur les cabinets comptables en un exercice sur les cabinets de conseil :noexport:
 @@latex:\mainmatter@@
 @@latex:\setchapterstyle{kao}@@
 @@latex:\setchapterpreamble[u]{\margintoc}@@
@@ -164,7 +164,7 @@ Le tableau d'analyse des coûts en marge sur coût variable simple se présente 
 
 #+begin_kaobox
 Pour une synthèse en vidéo, concernant la notion de marge sur coûts variables, voir
-- https://youtu.be/ZzKu-WWayDA
+https://youtu.be/ZzKu-WWayDA
 #+end_kaobox
 
 Le calcul de la marge sur coût variable est très utile pour comparer deux propositions qui n'ont pas d'impact sur les coûts fixes. Ce calcul étant très simple, il doit être privilégié lorsque les coûts fixes sont stables. 
@@ -193,8 +193,7 @@ Le tableau d'analyse des coûts est donc le suivant :
 #+begin_kaobox
 Le calcul de la contribution permet un meilleur diagnostic de la performance des produits que la seule marge sur coût variable, puisque seule une fraction des charges fixes (les charges fixes communes) échappe à l'analyse par produit. Ainsi, les décisions d'abandon ou de maintien d'une activité à l'aide du calcul de la contribution seront plus aisées qu'en se limitant à la marge sur coût variable.
 
-Pour une synthèse, concernant la contribution (appelée aussi marge nette), voir :
-- https://youtu.be/ZLnidu-H6zY
+Pour une synthèse, concernant la contribution (appelée aussi marge nette), voir : https://youtu.be/ZLnidu-H6zY
 #+end_kaobox
 
 De manière générale, les calculs en coût partiel permettent d'éviter la répartition arbitraire des charges indirectes (nous y reviendrons quand nous parlerons des coûts complets). 
@@ -222,6 +221,7 @@ Ceci peut se représenter graphiquement de la manière suivante :
 #+caption: Chiffre d'affaires, coût total et seuil de rentabilité
 #+attr_latex: :placement [H] :center nil :font \footnotesize
 [[./img/srcact.pdf]]
+
 *La marge de sécurité* est la différence (exprimée en unités ou en unités monétaires) entre le niveau d'activité prévu et le niveau d'activité au point mort.
 
 On peut aussi dire que le seuil de rentabilité est atteint lorsque la marge sur coût variable totale permet de couvrir les coûts fixes. 
@@ -233,7 +233,6 @@ Ceci peut se représenter graphiquement de la manière suivante :
 Le seuil de rentabilité se calcule en quantités ou en chiffre d'affaires de la manière suivante :
 #+begin_center
 *Seuil de rentabilité en quantités  =  Coûts fixes ÷ (Marge sur coût variables unitaire)*
-
 *Seuil de rentabilité en chiffre d'affaires = Coûts fixes / Taux de marge sur coût variable*
 #+end_center
 
@@ -355,8 +354,8 @@ Le seuil de rentabilité est ainsi extrêmement utile pour faire un calcul simpl
 
 #+begin_kaobox
 Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
+https://app.wooclap.com/COMP50903/questionnaires/5f6897932655921192ee504c
 #+end_kaobox
-- https://app.wooclap.com/COMP50903/questionnaires/5f6897932655921192ee504c
 
 
 ** Gestion des coûts et prise de décision sur le long terme
@@ -692,8 +691,8 @@ La méthode de calcul des coûts retenue doit être pertinente pour la décision
 
 #+begin_kaobox
 Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
+https://app.wooclap.com/COMP50903/questionnaires/5f6898aee60d387141539337
 #+end_kaobox
-- https://app.wooclap.com/COMP50903/questionnaires/5f6898aee60d387141539337
 
 
 * Budget et contrôle
@@ -724,7 +723,7 @@ Ces différents budgets sont ensuite rassemblés pour construire le budget de tr
 
 #+begin_kaobox
 Le processus budgétaire est adapté au type d'activité de l'entreprise. Ici l'exemple d'une entreprise spécialisée dans la vente de détail :
-- https://youtu.be/Wbqrj7UfhmI
+https://youtu.be/Wbqrj7UfhmI
 #+end_kaobox
 
 Si le budget de trésorerie (ou budget de caisse) fait apparaître des besoins de financement auxquels l'entreprise ne peut pas faire face ou si le compte de résultat prévisionnel fait apparaître une rentabilité trop faible, le niveau des ventes doit, dans la mesure de ce qui peut être vendu sur le marché par l'entreprise, être modifié. Le budget est donc un outil fondamental en phase de prévision puisqu'il permet de tester la faisabilité de la stratégie en ce qui concerne les besoins de trésorerie sur le court terme et d'évaluer l'impact de cette stratégie sur le résultat et la rentabilité économique de l'activité.
@@ -874,8 +873,7 @@ L’entreprise s’apprête à établir son budget pour l’année N. Le budget 
 - le budget unitaire des coûts de production
 - le budget des coûts de production des produits vendus
 #+end_kaobox
-*Un modèle Excel est disponible pour vous guider :*
-- https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z
+*Un modèle Excel est disponible pour vous guider :* https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/ESUAK9oRSSFEooPU0TcIegwBriq46T5RZICUuycfWc6Vtw?e=aU1p1Z
 
 Les prévisions de vente et de stock de produits finis sont les suivantes :
 
@@ -949,8 +947,7 @@ Le tableau ci-dessous précise le montant des charges directes et indirectes hor
 | *Total des charges indirectes hors production*           | 870 000 $   |
 
 
-*Lorsque vous avez complété le tableau Excel indiqué ci-dessus, vous pouvez aller voir le corrigé et les explications ici :*
--  https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h
+*Lorsque vous avez complété le tableau Excel indiqué ci-dessus, vous pouvez aller voir le corrigé et les explications ici :* https://hecmtl-my.sharepoint.com/:x:/g/personal/samuel_sponem_hec_ca/EdRgP6OzodhOmw1Vx1xdD5QBcdACuGuABceJAsaHInp4vQ?e=I6F40h
 
 *** Le compte de résultat et le bilan prévisionnel
     :PROPERTIES:
@@ -962,8 +959,7 @@ Les différents budgets réalisés permettent de construire un état de la situa
 Le compte de résultat permet de mesurer la performance de l'entreprise sur une année donnée. Le bilan est une représentation du patrimoine à une date donnée. Le bilan prévisionnel peut être construit à partir du bilan de l'année précédente, en y ajoutant les produits, charges et décalages de trésorerie mis en évidence dans les différents budgets et en évaluant le niveau des stocks. 
 
 #+begin_kaobox
-La vidéo suivante détaille les différentes étapes d'un budget pour une entreprise de service.
-- https://youtu.be/xtvSWeLm13s
+La vidéo suivante détaille les différentes étapes d'un budget pour une entreprise de service: https://youtu.be/xtvSWeLm13s
 #+end_kaobox
 
 ** Participation et processus budgétaire
@@ -1029,8 +1025,8 @@ La planification et le budget sont des outils au cœur du fonctionnement des gra
 
 #+begin_kaobox
 Pour vous exercer sur cette section, voir les exercices sur ZoneCours et le quiz d'entrainement :
+https://app.wooclap.com/COMP50903/questionnaires/5f6898f251af0040aba9284c
 #+end_kaobox
-- https://app.wooclap.com/COMP50903/questionnaires/5f6898f251af0040aba9284c
   
 * Mesure et gestion de la performance
   :PROPERTIES:
@@ -1104,7 +1100,7 @@ Au-delà des hypothèses sur les objectifs et les motivations, la gestion par le
   :END:
 Pour contrôler par les objectifs, il faut découper l’organisation en centres de responsabilité et s’assurer de la convergence des buts. 
 Un centre de responsabilité est une subdivision de l’entreprise à la tête de laquelle est placé un responsable auquel sont fixés des objectifs et alloués un budget et des moyens. Le découpage de l’entreprise en centres de responsabilité est indispensable pour mettre en place un pilotage par les résultats, c’est-à-dire pour fixer des objectifs, assigner des responsabilités et clarifier l’autorité de chacun des acteurs impliqués. Divers types de centres de responsabilité existent : 
-- les centres de coût, qui rendent compte de leurs coûts, par exemple : une usine ;
+- les centres de coût, qui rendent compte de leurs coûts, par exemple : une usine;
 - les centres de revenus, qui sont responsables de leur chiffre d’affaires, par exemple : un agent commercial ;
 - les centres de profit, qui sont responsables à la fois de leurs coûts et de leur chiffre d’affaires et pour lesquels il est, par conséquent, possible de déterminer un résultat ;
 - les centres d’investissement, qui sont responsables de leur marge et de leurs investissements.
@@ -1294,9 +1290,10 @@ l'endettement. Le coût moyen pondéré du capital (CMPC) correspond à la moyen
 du coût de la dette et du coût des capitaux propres.
 #+begin_center
 *Coût moyen pondéré du capital*
-- *=  coût de la dette × Dettes / (dette + capitaux propres)* 
-- *+ coût des capitaux propres × capitaux propres / (dette + capitaux propres)*
+*=  coût de la dette × Dettes / (dette + capitaux propres)* 
+*+ coût des capitaux propres × capitaux propres / (dette + capitaux propres)*
 #+end_center
+
 
 Le bénéfice résiduel permet de calculer un bénéfice net après rémunération des actionnaires (on sait que les dividendes versés aux actionnaires ne correspondent pas à une charge, ils n'apparaissent donc pas dans le bénéfice comptable). Le niveau de rémunération attendu par les actionnaires dépend du niveau de risque de l'activité de l'entreprise. Plus une entreprise est risquée et plus le coût de la rémunération des capitaux investis sera donc élevé.
 
@@ -1311,8 +1308,8 @@ Si l'on repart de la définition du bénéfice résiduel, on peut constater que 
 #+begin_center
 *Bénéfice résiduel = Résultat d'exploitation après impôts - coût des
 capitaux investis*
-- *= ROI x actif - CMPC x actif*
-- *= Actif x (ROI - CMPC)*
+*= ROI x actif - CMPC x actif*
+*= Actif x (ROI - CMPC)*
 #+end_center
 
 Cette formulation montre qu'un ROI élevé ne signifie pas qu'une entité crée de la valeur : tout dépend du coût moyen pondéré du capital. Ainsi, il ne sert à rien de comparer le niveau de ROI de diverses entités : tout dépend de leur coût moyen pondéré du capital. 
@@ -1411,15 +1408,18 @@ Les prix de cession interne permettent de faire entrer le marché dans l’organ
 
 Supposons que dans l’entreprise E, l'usine achète des matières premières pour 100, engage des frais de fabrication de 50, et livre sa production au département des ventes qui revend le tout pour 200, en engageant 40 de frais de commercialisation.
 
-Le coût de production est : 100 + 50 = 150 ; le coût de complet est : 150 + 40 = 190, et le résultat est : 200 – 190 = 10.
+Autres informations:
+- Coût de production : 100 + 50 = 150
+- Coût de complet : 150 + 40 = 190
+- Résultat : 200 – 190 = 10.
 
 Si les centres production et distribution sont des centres de coût, et que leur fonctionnement est budgété, chacun des responsables se bornera au mieux à tenir son budget, et il sera très difficile d’améliorer le résultat. Si les deux centres sont érigés en centre de profit, avec par exemple un prix de cession interne de 155, et que les responsables sont jugés sur les résultats, on obtiendra un partage du résultat global entre les centres :
 
-- Résultat de l'usine
-- = Cessions internes - Coûts de production
-- = 155 - (100 + 50) = 5
-- (-) Résultat du département des ventes 
-- = 200 - (155 + 40)
+Résultat de l'usine
+= Cessions internes - Coûts de production
+= 155 - (100 + 50) = 5
+(-) Résultat du département des ventes 
+= 200 - (155 + 40)
 
 Chaque responsable sera incité à faire des économies, en évitant les gaspillages, en faisant des gains de productivité. Si, par exemple, le centre production réussit à améliorer le rendement en faisant chuter ses frais de 50 à 48, toutes choses égales par ailleurs, son résultat passera à 7, et le résultat global à 12. 
 -----
@@ -1454,9 +1454,8 @@ Inversement, laisser une liberté d’achat et de vente en interne ou en externe
 
 #+begin_kaobox
 Pour vous exercer sur cette section, voir le quiz d'entrainement :
+https://app.wooclap.com/COMP50903/questionnaires/5f689959ca402c5d7fde62cf
 #+end_kaobox
-- https://app.wooclap.com/COMP50903/questionnaires/5f689959ca402c5d7fde62cf
-
 
 
 ** Mesures non financières de la performance
