@@ -1447,7 +1447,7 @@ https://app.wooclap.com/COMP50903/questionnaires/5f689959ca402c5d7fde62cf
 
 ** Mesures non financières de la performance
   :PROPERTIES:
-  :CUSTOM_ID: perffi
+  :CUSTOM_ID: perfnonfi
   :END:
 *** Les tableaux de bord
     :PROPERTIES:
