@@ -1,4 +1,4 @@
-#+Title: Comptabilité de gestion et mesure de performance
+#+Title: Comptabilité de gestion et mesure de la performance
 #+subtitle: Mini-manuel - COMP50903
 #+Author:Samuel Sponem - HEC Montréal
 #+Date:Mise à jour {{{time(%Y-%m-%d)}}}
@@ -1454,12 +1454,8 @@ https://app.wooclap.com/COMP50903/questionnaires/5f689959ca402c5d7fde62cf
     :CUSTOM_ID: tabbord
     :END:
 
-En ce qui concerne le suivi de la performance, les informations comptables et financières peuvent s'avérer insuffisantes. Elles sont parfois longues à collecter, parlent plus du passé que de l'avenir et ne permettent pas de prendre en compte des dimensions non financières de la performance. Pour faire face aux limites des mesures financières de la performance, les organisations mettent parfois en place des tableaux de bord.
+Pour suivre et gérer la performance, les informations comptables et financières peuvent s'avérer insuffisantes. Elles sont parfois longues à collecter, parlent plus du passé que de l'avenir et ne permettent pas de prendre en compte des dimensions non financières de la performance. Pour faire face aux limites des mesures financières de la performance, les organisations mettent parfois en place des tableaux de bord.
 
-**** Tableaux de bord de pilotage et tableaux de bord de reporting
-    :PROPERTIES:
-    :CUSTOM_ID: tabpilotage
-    :END:
 Un tableau de bord est un ensemble organisé et synthétique d’indicateurs financiers et non financiers qui doivent permettre au responsable de piloter (décider, coordonner, contrôler) l’entité qu’il dirige. Il est courant de différencier le tableau de bord de pilotage du tableau de bord de « reporting » qui regroupe le même type d’informations, mais dont l’objectif est d’informer la hiérarchie.
 
 Selon le responsable auquel il s’adresse, son niveau dans l’organisation ou la mission qui lui est assignée, le tableau de bord et les indicateurs retenus doivent être différents. Il n’y a donc pas un tableau de bord unique adaptable à toutes les organisations.
@@ -1469,7 +1465,7 @@ Différents types d'indicateurs peuvent se retrouver dans les tableaux de bord:
 - Les indicateurs de moyens s’intéressent à la productivité et mettent en regard les résultats obtenus avec les moyens engagés. Ils se présentent souvent sous forme de ratios (ex. : tonne de matière première consommée/unités produites, nombre de contrats émis/nombre de représentants). Il faut se méfier des ratios, car leur amélioration peut s’obtenir en jouant sur le numérateur ou sur le dénominateur. Par exemple, l’amélioration d’une rentabilité peut s’expliquer par l’amélioration du résultat ou par la diminution des investissements qui permet, certes, de donner l’impression d’une meilleure rentabilité sur le court terme, mais ceci au détriment des investissements sur le long terme.
 - Les indicateurs de pilotage permettent de suivre les plans d’action à mettre en œuvre pour atteindre les objectifs fixés.
 - Les indicateurs d’environnement permettent au responsable d’un service de disposer d’informations clés sur son environnement afin d’orienter correctement son action (ex. : cours d’une matière première, taux de change).
-
+\\
 La construction d'un tableau de bord passe par 4 étapes: 
 1. Définir les objectifs, qui doivent être liés à la stratégie, afin  de prendre en compte les facteurs clés de succès et les facteurs stratégiques de risque.
 2. Choisir des indicateurs.
