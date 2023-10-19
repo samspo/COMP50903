@@ -26,7 +26,7 @@ Vous trouverez dans ce mini-manuel des liens vers des vidéos(*), des exercices 
 
 /Vous pouvez trouver en ligne la version la plus récente de ce document/
 - html : https://samspo.github.io/COMP50903
-- pdf : https://samspo.github.io/COMP50903/Manuel.pdf
+- pdf : https://samspo.github.io/COMP50903/Textbook50903.pdf
 
 /(*)Les vidéos sont tirées de Tessier, S et Vézina, M. SC-102.5 - Décisions financières et gestion budgétaire. Edulib/
 #+end_kaobox
@@ -92,7 +92,9 @@ Ces quiz sont optionnels et non évalués. Les quiz obligatoires sont disponible
    :CUSTOM_ID: coutspartiels
    :END:
 *** Les rôles du calcul de coût
-
+    :PROPERTIES:
+    :CUSTOM_ID: rolecout
+    :END:
 Un coût est une somme de charges, il se différencie d'un prix que l'on peut trouver sur un marché. Le coût traduit une consommation de ressources. On considère "qu'il n'y a pas qu'une pratique correcte en matière de calcul de coûts, car celles-ci découlent de besoins variés, de situations et de problèmes différents"[fn:3]. Le calcul du coût peut en effet remplir différentes fonctions :
 - s’interroger sur le prix de vente ;
 - abandonner / développer un produit (ou un client) ;
@@ -134,7 +136,7 @@ La distinction entre les coûts fixes – indépendants du niveau d'activité �
 #+begin_center
 *Coût total = Coût variable unitaire x Quantités + Coûts fixes*
 #+end_center
-\\
+
 Cette fonction de coût modélise la relation entre le volume et les coûts. Elle est notamment utile pour les prévisions et les calculs de seuil de rentabilité.
 
 *** Marge sur coût variable et contribution
@@ -170,7 +172,7 @@ Le tableau d'analyse des coûts en marge sur coût variable simple se présente 
 Pour une synthèse en vidéo, concernant la notion de marge sur coûts variables, voir
 https://youtu.be/ZzKu-WWayDA
 #+end_kaobox
-
+\\
 Le calcul de la marge sur coût variable est très utile pour comparer deux propositions qui n'ont pas d'impact sur les coûts fixes. Ce calcul étant très simple, il doit être privilégié lorsque les coûts fixes sont stables. 
 
 Dans la plupart des entreprises, les coûts fixes représentent une part importante des coûts. Leur maîtrise est donc cruciale. *La contribution* (aussi appelé marge sur coûts spécifiques ou marge nette) mesure la contribution apportée par chaque produit ou service, en prenant en compte une partie de ces coûts fixes.
@@ -219,7 +221,6 @@ L'une des applications courantes de la distinction entre coûts variables et co�
 Par définition, le seuil de rentabilité est atteint lorsque le résultat est égal à 0, ce qui signifie que le chiffre d'affaires est équivalent aux coûts :
 #+begin_center
 Lorsque l'on est au seuil de rentabilité, alors le chiffre d'affaires est égal aux coûts totaux, ce qui signifie que:
-
 *Chiffre d'affaires = Coût variable unitaire x Quantités + Coûts fixes*
 #+end_center
 Ceci peut se représenter graphiquement de la manière suivante :
@@ -368,7 +369,9 @@ https://app.wooclap.com/COMP50903/questionnaires/5f6897932655921192ee504c
    :CUSTOM_ID: coutscomplets
    :END:
 *** Le concept de coût complet
-
+    :PROPERTIES:
+    :CUSTOM_ID: ccconcept
+    :END:
 Un calcul de coût est dit complet s'il prend en compte l'ensemble des charges considérées comme incorporables (qu'elles soient variables, fixes, directes ou indirectes) pour les imputer aux objets de coût[fn:5]. 
 
 Établir le coût complet d'un produit consiste à chercher à valoriser l'ensemble des ressources consommées par ce produit. Un coût complet se calcule donc de la manière suivante :
@@ -746,7 +749,7 @@ La construction du budget est donc souvent un long processus qui implique de nom
 Les différentes fonctions rencontrent des enjeux différents dans la construction de leurs budgets.
 *** Budget des ventes et des coûts commerciaux
     :PROPERTIES:
-    :CUSTOM_ID: ventes
+    :CUSTOM_ID: budventes
     :END:
 
 Le budget des ventes est en général le premier budget qui doit être construit. Sa construction implique de faire des choix sur les quantités vendues pour chaque produit ainsi que sur les prix de vente. Si l'entreprise réalise des ventes à l'international, cette prévision suppose de faire aussi des hypothèses sur le taux de change. Ceci implique de prendre en compte les facteurs macro-économiques, l'évolution de la réglementation, le comportement des concurrents et l'évolution de la demande des consommateurs.
@@ -759,6 +762,9 @@ Pour les entreprises qui ont une activité avec peu de clients (par exemple, les
 À partir de ce budget des ventes, il est possible de faire le budget des coûts commerciaux. Le budget des coûts commerciaux peut être divisé par type d'activités : administration de la vente (gestion des clients, facturation), marketing (études commerciales, publicité, promotion), vente (salaires et coût des représentants), livraisons (emballages, expéditions), service après-vente.
 
 *** Programme de production et budget des coûts de production
+    :PROPERTIES:
+    :CUSTOM_ID: budprod
+    :END:
 
 Cette étape peut se décomposer en quatre temps :
 1. définition du programme de production ;
@@ -785,6 +791,9 @@ Ceci permet de calculer le budget des coûts de production.
 Le budget de production complet nécessite de connaître le montant des approvisionnements, il doit donc être fait parallèlement au budget des approvisionnements.
 
 *** Programme et budget des approvisionnements
+    :PROPERTIES:
+    :CUSTOM_ID: budappro
+    :END:
 
 Le programme d'approvisionnement résulte du programme de production. Ce programme d'approvisionnement définit les quantités qui devront être commandées et les dates de commande. Il doit prendre en compte 4 éléments : les commandes, les livraisons, les consommations et le stock (fin de mois).
 
@@ -800,6 +809,9 @@ Le budget des coûts d'approvisionnement comprend :
 - les coûts d'approvisionnement (de passation de commande) et de stockage.
 
 *** Budgets des centres de coûts discrétionnaires et des centres d'investissement
+    :PROPERTIES:
+    :CUSTOM_ID: budinvst
+    :END:
 
 On parle de centre de coût discrétionnaire pour les centres de responsabilité dont le niveau de dépense n'a pas de rapport direct avec le niveau d'activité. Ceci concerne essentiellement l'administration (siège, direction générale, direction financière, service des ressources humaines, etc.) et la recherche et développement.
 
@@ -824,7 +836,7 @@ Les autres méthodes seront étudiées dans le cours de finance. Dans le cadre d
 
 *** Budget de trésorerie (encaisse)
     :PROPERTIES:
-    :CUSTOM_ID: trésorerie
+    :CUSTOM_ID: budtreso
     :END:
 
 Le budget de trésorerie recense les encaissements et les décaissements relatifs à l'exploitation et aux investissements. Il est ainsi nécessaire de connaître les délais et dates de paiement pour les divers produits et charges pour l'établir :
@@ -1045,7 +1057,6 @@ Au-delà de l'aide à la décision, les données de la comptabilité de manageme
   :PROPERTIES:
   :CUSTOM_ID: perffi
   :END:
-
 *** Mesure de performance et gestion par les objectifs
  :PROPERTIES:
   :CUSTOM_ID: perfobj
@@ -1117,11 +1128,10 @@ Une entreprise décide de fixer des objectifs de restriction des coûts à tous 
 Si l’on veut que les normes soient incitatives, il est nécessaire de s’assurer que les personnes évaluées ne sont tenues responsables que d’éléments sur lesquels elles peuvent agir. Cela correspond au principe de contrôlabilité selon lequel la responsabilité d’un manager ne peut s’exercer que sur les éléments qu’il contrôle et sur lesquels il dispose de leviers d’action. Autrement dit : on ne peut tenir un manager responsable des éléments « non contrôlables » (par lui-même) qui devraient, par conséquent, être exclus de l’évaluation de ses performances. Il est facile de comprendre les raisons de ce principe. La plus importante tient au fait qu’il serait injuste, et donc démotivant, de demander à un manager de rendre des comptes sur des éléments qui ne dépendent pas de son action[fn:27].
 
 Les mesures financières de performance de chacun des centres de responsabilité devraient ainsi être adaptées au type de responsabilité de chacun de ces centres.
-*** Mesurer la performance des centres de responsabilité
+*** Mesurer la performance des centres de coûts: contrôle budgétaire et calcul des écarts
    :PROPERTIES:
-   :CUSTOM_ID: perfcentres
+   :CUSTOM_ID: perfcout
    :END:
-**** Le contrôle budgétaire et le calcul des écarts
 Le contrôle budgétaire s’appuie sur les prévisions réalisées dans le budget pour comparer l’état réel à l’état prévu. La mise en œuvre de cette méthode suppose donc de disposer des données prévisionnelles et des données réelles pour la même période.
 
 Après avoir été calculés, les écarts sont qualifiés de *favorables* (par exemple, si un coût est moins élevé que prévu ou si des revenus sont plus élevés que prévu) ou *défavorables* (par exemple, si un coût est plus élevé que prévu ou si des revenus sont moins élevés que prévu).
@@ -1150,10 +1160,12 @@ La méthode a cependant un certain nombre de limites. D’abord, elle ne permet 
 Il existe de multiples modalités de calcul des écarts. La mise en œuvre de la méthode dépend de calculs réalisés par les comptables et dépasse le cadre de ce cours.
 #+end_kaowarn
 \\
-**** Le calcul et l'analyse du ROI
-    :PROPERTIES:
-    :CUSTOM_ID: roi
-    :END:
+
+*** Mesurer la performance des centres d'investissement: retour sur investissement et bénéfice résiduel
+   :PROPERTIES:
+   :CUSTOM_ID: perfinvst
+   :END:
+   /Le calcul et l'analyse du ROI/
 Pour les centres d'investissement (qui sont responsables à la fois de leurs revenus, de leurs coûts et de leurs investissements), il est logique d'évaluer la performance financière par la rentabilité.
 
 Le ROI (/Return on Investment/) est un ratio de rentabilité économique qui mesure un retour un investissement. Cette mesure est très largement utilisées dans les entreprises [fn:28]. Ce ratio est assez proche du ROCE (/Return on Capital Employed/) et du ROA (/Return on Assets/), qui sont aussi largement utilisés dans les organisations. Cette mesure de la performance est uniquement financière, mais elle permet, grâce à sa décomposition pyramidale, d'évaluer de nombreux aspects de la gestion d'une division. Elle présente l'avantage, contrairement à un simple résultat comptable, de permettre de comparer des entités de taille différente. De plus, elle peut être calculée directement à partir du bilan comptable, elle est donc simple à calculer et à comprendre.
@@ -1244,20 +1256,15 @@ La décomposition de la pyramide peut être poursuivie pour faire apparaître un
 En résumé, le ROI synthétise "la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"[fn:29]. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.
 
 Il peut, de plus, être relié directement aux attentes des actionnaires et à la rentabilité financière (que l'on nomme en général ROE : /Return on Equity/), par l'intermédiaire de l'effet de levier, notion que vous verrez dans le cours de finance.
-**** Les limites du ROI
-    :PROPERTIES:
-    :CUSTOM_ID: limitesroi
-    :END:
+
+/Les limites du ROI/
 En dépit de son intérêt, le ROI a un certain nombre de limites qui devraient inciter à l'utiliser avec précaution : 
 - D'abord, le ROI est calculé à partir de données comptables qui sont le résultat de choix et de conventions comptables et fiscales. Ainsi, l'évaluation des stocks ou des provisions a une incidence sur le bénéfice et sur le montant des actifs et donc sur le ROI. La principale difficulté vient ainsi de l'évaluation des actifs. En effet, si ces actifs sont évalués à la valeur comptable, il est possible d'améliorer mécaniquement le ROI par la simple dépréciation comptable des actifs due aux amortissements.
 - Ensuite, l'utilisation du ROI peut conduire à limiter les investissements et cela se fait au détriment du long terme. En effet, pour améliorer le ROI, deux tactiques sont possibles : soit améliorer le bénéfice, soit diminuer les actifs. L'amélioration des bénéfices n'est pas forcément aisée. Il semble finalement plus simple de diminuer les actifs. Un arrêt des investissements aura mécaniquement un effet sur le montant des actifs. L'impact du vieillissement des actifs n'aura pas forcément de conséquences sur le court terme, il permettra d'améliorer le ROI, mais sur le long terme, un outil de production vieillissant conduira certainement à une détérioration du résultat.
 - Enfin, un directeur d'entité pourrait être incité, pour améliorer son ROI, à accepter des investissements qui pourtant détruisent de la valeur et à refuser des investissements qui pourraient en créer.
 
-L'emploi d'un ratio amplifie les effets pervers mis en évidence ci-dessus puisque cela permet de jouer sur le numérateur et le dénominateur. L'évaluation du bénéfice résiduel permet, en partie, de résoudre ces problèmes. 
-**** Bénéfice résiduel
-    :PROPERTIES:
-    :CUSTOM_ID: benefres
-    :END:
+L'emploi d'un ratio amplifie les effets pervers mis en évidence ci-dessus puisque cela permet de jouer sur le numérateur et le dénominateur. L'évaluation du bénéfice résiduel permet, en partie, de résoudre ces problèmes.
+/Le calcul du bénéfice résiduel/
 Le bénéfice résiduel est un indicateur de performance mesurant la création de valeur d'une entreprise ou d'une partie d'une entreprise après rémunération des capitaux investis au coût moyen pondéré du capital[fn:30]. 
 
 On peut calculer le bénéfice résiduel de la manière suivante :
@@ -1281,10 +1288,8 @@ Le bénéfice résiduel permet de calculer un bénéfice net après rémunérati
 
 On dit qu'il y a création de valeur lorsque le bénéfice résiduel est positif (il y a destruction de valeur dans le cas contraire). Une entreprise crée de la valeur si elle parvient à dégager un résultat supérieur à la rémunération minimale attendue par les apporteurs de fonds.
 
-**** Bénéfice résiduel et ROI
-    :PROPERTIES:
-    :CUSTOM_ID: benefresroi
-    :END:
+/Bénéfice résiduel et ROI/
+
 Si l'on repart de la définition du bénéfice résiduel, on peut constater que celui-ci est égal à la différence entre le ROI et le coût moyen pondéré du capital multiplié par les actifs investis. 
 
 #+begin_center
@@ -1444,11 +1449,17 @@ https://app.wooclap.com/COMP50903/questionnaires/5f689959ca402c5d7fde62cf
   :PROPERTIES:
   :CUSTOM_ID: perffi
   :END:
-
 *** Les tableaux de bord
+    :PROPERTIES:
+    :CUSTOM_ID: tabbord
+    :END:
+
 En ce qui concerne le suivi de la performance, les informations comptables et financières peuvent s'avérer insuffisantes. Elles sont parfois longues à collecter, parlent plus du passé que de l'avenir et ne permettent pas de prendre en compte des dimensions non financières de la performance. Pour faire face aux limites des mesures financières de la performance, les organisations mettent parfois en place des tableaux de bord.
 
 **** Tableaux de bord de pilotage et tableaux de bord de reporting
+    :PROPERTIES:
+    :CUSTOM_ID: tabpilotage
+    :END:
 Un tableau de bord est un ensemble organisé et synthétique d’indicateurs financiers et non financiers qui doivent permettre au responsable de piloter (décider, coordonner, contrôler) l’entité qu’il dirige. Il est courant de différencier le tableau de bord de pilotage du tableau de bord de « reporting » qui regroupe le même type d’informations, mais dont l’objectif est d’informer la hiérarchie.
 
 Selon le responsable auquel il s’adresse, son niveau dans l’organisation ou la mission qui lui est assignée, le tableau de bord et les indicateurs retenus doivent être différents. Il n’y a donc pas un tableau de bord unique adaptable à toutes les organisations.
@@ -1466,7 +1477,9 @@ La construction d'un tableau de bord passe par 4 étapes:
 4. Définir les modalités de mise en œuvre (fréquence d’actualisation et provenance des informations) et déployer le tableau de bord dans l’organisation.
 
 *** Tableaux de bord équilibrés et cartes stratégiques
-
+    :PROPERTIES:
+    :CUSTOM_ID: tabbsc
+    :END:
 Le Balanced Scorecard (BSC ou tableau de bord prospectif) est un type particulier de tableau de bord qui a été proposé au cours des années 1990 aux États-Unis par Kaplan et Norton[fn:34]. Il doit traduire la mission et la stratégie de l’entreprise en un ensemble d’indicateurs de performance qui constitue la base d’un système de pilotage de la stratégie. Ce système combine des indicateurs financiers et non financiers en nombre restreint et doit permettre aux responsables de disposer d’indicateurs prospectifs (c’est-à-dire, qui sont plus tournés vers le futur que vers le passé) et de faire le lien entre la stratégie et les opérations.
 
 Les indicateurs sont groupés autour de quatre perspectives : financière, client, interne et apprentissage:
@@ -1488,6 +1501,9 @@ En reliant les quatre perspectives entre elles, Kaplan et Norton identifient une
 Ce modèle causal de performance permet de lier entre elles les différentes perspectives : la réussite sur l’axe financier dépend de la satisfaction des clients qui dépend elle-même de l’efficience des processus internes et de la capacité d’apprentissage. La carte stratégique doit être adaptée à la spécificité de chaque entreprise. Elle peut servir de support de discussion au sein de la hiérarchie et incite à trouver des relations de cause à effet entre les différents axes. Ce faisant, elle permet de mieux comprendre le modèle économique de l’entreprise. En revanche, sa construction peut s’avérer compliquée.
 
 *** Les effets pervers de la gestion par les objectifs
+    :PROPERTIES:
+    :CUSTOM_ID: gpoperv
+    :END:
 Les mesures financières et non financières de la performance jouent un rôle important dans la conduite des organisations et la mise en œuvre de leurs stratégies. Elles peuvent être utilisées pour inciter les individus dans l’organisation à poursuivre un objectif cohérent avec celui de l’entreprise et les responsabiliser. Dans certains cas, ce mode de gestion peut cependant avoir des effets pervers. Ainsi, dès les années 1950, de nombreux auteurs, et notamment Argyris[fn:36], ont mis en évidence les effets psychologiques potentiellement dévastateurs d’une « pression » des objectifs financiers sur les gestionnaires et les employés. Les individus ainsi contrôlés peuvent ainsi éprouver des sentiments de frustration, développer des pathologies psychosomatiques ou dépressives ou encore faire preuve d’agressivité dans leurs relations de travail. Outre leurs conséquences individuelles et humaines, ces phénomènes nuiraient à l’efficacité professionnelle des individus.
 
 Ainsi, la gestion par les objectifs repose sur des hypothèses qui ne sont pas toujours réunies, et peut avoir des conséquences organisationnelles néfastes, en focalisant les acteurs sur leurs objectifs de manière parfois excessive et en les poussant à des manipulations et jeux comptables[fn:37].
@@ -1574,7 +1590,6 @@ Ainsi, une gestion forte par les résultats peut induire des jeux comptables. Au
 Évidemment, plus le système de contrôle par les résultats est strict et plus ses effets incitatifs sont forts, mais, dans le même temps, plus ses effets pervers sont exacerbés.
 
 Lorsqu’aucune défaillance n’est acceptable, par exemple un lancement de fusées par Ariane Espace ou par la NASA ou la gestion d’une centrale nucléaire, il n’est pas possible de se satisfaire uniquement d’un contrôle par les résultats. Il faut alors contrôler par les procédures et s’assurer, par supervision directe, de la bonne réalisation des tâches.
-
 
 *** La diversité des usages des mesures de performance
     :PROPERTIES:
