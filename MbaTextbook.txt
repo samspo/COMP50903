@@ -6,10 +6,9 @@
 #+OPTIONS: todo:nil \n:true
 #+latex_class: kaobook
 #+LATEX_HEADER: \renewcommand{\footnote}{\sidenote}
-#+export_file_name: index.html
+#+export_file_name: Textbook50903.pdf 
 #+setupfile: ../../../Workflow/Templates/Org-Html/org-html-themes/org/theme-readtheorg.setup
-***** @todo rajouter un tableau de synthèse des coûts variabes / cf - CD / CI :noexport: 
-***** @todo transformer l'exercice sur les cabinets comptables en un exercice sur les cabinets de conseil :noexport:
+
 @@latex:\mainmatter@@
 @@latex:\setchapterstyle{kao}@@
 @@latex:\setchapterpreamble[u]{\margintoc}@@
@@ -40,7 +39,7 @@ C'est le rôle de la comptabilité de gestion. Celle-ci a pour objectif d'organi
 #+caption: Comptabilité financière et comptabilité de gestion
 #+name: comptafi
 #+attr_latex: :placement [H] :center nil
-[[./img/comptafi.png]]
+[[./img/comptafi.pdf]]
 
 Ainsi, la comptabilité de gestion "mesure et diffuse – essentiellement en interne – des informations financières et non financières qui ont pour objectif d'aider les gestionnaires à atteindre les buts de l’organisation"[fn:1]. Elle leur fournit ainsi des informations sur les coûts, les prévisions et la performance et facilite la prise de décision et le contrôle, en lien avec la stratégie de l'organisation. C'est un outil très utile aux gestionnaires, car il permet de donner une image chiffrée de l'organisation.
 
@@ -54,7 +53,7 @@ Le comptable est généralement responsable de la production de l'information co
 #+caption: Utiliser la comptabilité de gestion pour planifier, contrôler et ajuster
 #+name: pdca
 #+attr_latex: :placement [H] :center nil
-[[./img/pdca.png]]
+[[./img/pdca.pdf]]
 
 Pour planifier, il est nécessaire de calculer et analyser les coûts permettant de faire les choix pertinents qui se matérialisent dans les plans stratégiques et de connaître les coûts à inscrire dans les budgets. Le contrôle budgétaire et les tableaux de bord permettent de suivre les réalisations. Grâce aux mesures de performance, il est possible d'analyser les résultats et de faire les ajustements nécessaires au bon fonctionnement de l'organisation.
 
@@ -226,7 +225,7 @@ Lorsque l'on est au seuil de rentabilité, alors le chiffre d'affaires est égal
 Ceci peut se représenter graphiquement de la manière suivante :
 #+caption: Chiffre d'affaires, coût total et seuil de rentabilité
 #+attr_latex: :placement [H] :center nil :font \footnotesize
-[[./img/srcact.png]]
+[[./img/srcact.pdf]]
 
 *La marge de sécurité* est la différence (exprimée en unités ou en unités monétaires) entre le niveau d'activité prévu et le niveau d'activité au point mort.
 
@@ -234,7 +233,7 @@ On peut aussi dire que le seuil de rentabilité est atteint lorsque la marge sur
 Ceci peut se représenter graphiquement de la manière suivante :
 #+caption: Coût fixe, marge sur coûts variable et seuil de rentabilité
 #+attr_latex: :placement [H] :center nil :font \footnotesize
-[[./img/srmcvcf.png]]
+[[./img/srmcvcf.pdf]]
 
 Le seuil de rentabilité se calcule en quantités ou en chiffre d'affaires de la manière suivante :
 #+begin_center
@@ -387,7 +386,7 @@ Les charges indirectes sont les charges que l'on ne peut affecter sans ambiguït
 Une fois qu'un objet de coût est défini, on peut synthétiser le calcul du coût complet en 4 étapes :
 #+caption: Étapes de calcul du coût complet
 #+attr_latex: :placement [H] :center nil
-[[./img/cc.png]]
+[[./img/cc.pdf]]
 
 - Étape 1. Classement des charges en charges directes et indirectes
 L'ensemble des charges de la comptabilité financière doit être pris en compte à l'exception des charges qui ne reflètent pas les conditions normales d'une exploitation régulière de l'entreprise (par exemple, les charges ou pertes exceptionnelles). Le total des charges incorporables est classé en charges directes (affectables sans ambiguïté à un produit) et charges indirectes.
@@ -599,7 +598,7 @@ La méthode de calcul des coûts par activité s'appuie sur la chaîne de valeur
 
 #+caption: La chaîne de valeur (Porter, 1985)
 #+attr_latex: :placement [H] :center nil
-[[./img/chaine.png]]
+[[./img/chaine.pdf]]
 
 La mise en œuvre des calculs du coût par activité n'est pas fondamentalement différente de la méthode classique des calculs de coût complet examinée plus haut. Elle repose cependant, une logique différente, un vocabulaire spécifique (activités à la place de centres de regroupement, inducteurs à la place de base d'imputation) et une représentation processuelle de l’entreprise plutôt que hiérarchique.
 
@@ -607,7 +606,7 @@ Dans la méthode des coûts par activités, on considère que les produits décl
 
 #+caption: Calcul des coûts complets - Méthode traditionnelle vs coût par activité
 #+attr_latex: :placement [H] :center nil
-[[./img/abc.png]]
+[[./img/abc.pdf]]
 
 Pour pouvoir calculer un coût, il faut donc mettre en évidence :
 - les activités, que l'on peut définir comme un ensemble de travaux, tâches ou opérations à accomplir pour mener à bien le processus ;
@@ -681,7 +680,7 @@ La figure ci-dessous résume les questions à se poser pour savoir si il faut ar
 
 #+caption: Abandon d'un produit - Critères de décision
 #+attr_latex: :placement [H] :center nil
-[[./img/abandon.png]]
+[[./img/abandon.pdf]]
 
 
 #+begin_kaowarn
@@ -722,7 +721,7 @@ Dans une économie de l'offre (par exemple, aujourd'hui dans quelques entreprise
 
 #+caption: Les étapes du processus budgétaire
 #+attr_latex: :placement [H] :center nil :width 1.2\textwidth
-[[./img/budget.png]]
+[[./img/budget.pdf]]
 
 Le schéma ci-dessus synthétise les différentes étapes du processus budgétaire dans le cas classique d'abondance de l'offre. Le premier budget qui doit être réalisé est le budget des ventes (étape 1), qui dépend notamment de la stratégie et du plan (étape 0), mais qui doit être ajusté en fonction des évolutions récentes du marché.
 
@@ -786,9 +785,7 @@ Pour chaque facteur de production, il est nécessaire de vérifier que les capac
 
 Le budget de production est la valorisation du programme de production. Cette valorisation repose sur les calculs de coût complet effectués à l'aide des méthodes de comptabilité de gestion. Elle suppose la prise en compte des coûts variables (matières premières, fournitures, énergies, etc.) et fixes (amortissement des machines, main-d'œuvre, etc.) qu'ils soient directs ou indirects. Les frais indirects de production sont inscrits dans les budgets en fonction de la base d'imputation retenue (critère utilisé pour répartir les frais généraux, par exemple le nombre de produits, le volume de travail, etc.) et du taux d'imputation calculé (= charges indirectes de production ÷ volume de la base d'imputation).
 
-Ceci permet de calculer le budget des coûts de production.
-
-Le budget de production complet nécessite de connaître le montant des approvisionnements, il doit donc être fait parallèlement au budget des approvisionnements.
+Ceci permet de calculer le budget des coûts de production. Le budget de production complet nécessite de connaître le montant des approvisionnements, il doit donc être fait parallèlement au budget des approvisionnements.
 
 *** Programme et budget des approvisionnements
     :PROPERTIES:
@@ -1003,7 +1000,7 @@ Dans les faits, lors de la construction du budget se suivent des étapes /top-do
 
 #+caption: Un exemple de calendrier budgétaire
 #+attr_latex: :placement [H] :center nil
-[[./img/budgetcal.png]]
+[[./img/budgetcal.pdf]]
 
 ** Le budget : des rôles divers
    :PROPERTIES:
@@ -1069,7 +1066,7 @@ Une bonne image de ce mécanisme cybernétique est donnée par l’exemple du th
 
 #+caption: La gestion par les objectifs : un processus cybernétique
 #+attr_latex: :placement [H] :center nil
-[[./img/gestionobj.png]]
+[[./img/gestionobj.pdf]]
 
 La gestion par les objectifs repose, dans un premier temps, sur la fixation d’une norme chiffrée (étape 1). La définition de cette norme n’a bien sûr rien d’évident. Elle peut s’appuyer sur une prévision (effectuée dans le cadre du processus budgétaire, par exemple) ou traduire un objectif volontariste de la direction (infléchissement de tendance). Parfois, la définition de cette norme est réalisée en se comparant aux concurrents (analyse comparative) ou en faisant participer ceux qui sont contrôlés afin d’améliorer la prévision qui est faite (puisqu’on suppose que la personne contrôlée connaît souvent mieux l’activité et son évolution que la personne qui la contrôle) et son appropriation par la personne qui est chargée de la mise en œuvre. On parle alors de direction participative par objectifs. Cette participation à la définition des objectifs pose cependant un problème : lors de la discussion de ses objectifs, la personne contrôlée a intérêt à minimiser la difficulté des objectifs qui lui sont assignés afin de s’assurer qu’elle pourra les atteindre. Dans le cadre du processus budgétaire, ce phénomène est qualifié de /slack/ budgétaire.
 
@@ -1101,7 +1098,7 @@ Dans les organisations, ces divers types de centres de responsabilité s’embo�
 
 #+caption: Les types de centres de responsabilité
 #+attr_latex: :placement [H] :center nil
-[[./img/centres.png]]
+[[./img/centres.pdf]]
 Le découpage de l’organisation en centres de responsabilité qui en découle permet de clarifier l’organisation, d’amoindrir sa complexité, d’attribuer des responsabilités à chacun et donc de décentraliser.
 
 La décentralisation est le processus par lequel la prise de décision est déléguée aux responsables des unités d'affaires.
@@ -1222,7 +1219,7 @@ La pyramide du ROI permet d'expliquer la formation du retour sur investissement 
 
 #+caption: La pyramide du ROI
 #+attr_latex: :placement [H] :center nil
-[[./img/roi.png]]
+[[./img/roi.pdf]]
 
 Deux entreprises peuvent ainsi avoir un même ROI, mais en l'obtenant de manière très différente. Par exemple, les activités de luxe ou de construction exigent de forts investissements (faible rotation des actifs), mais permettent de forts taux de marge. Inversement, les activités de distribution vont avoir un fort taux de rotation des actifs (puisqu'elles payent leurs fournisseurs avec d'importants délais alors que leurs clients payent au comptant) et un taux de marge peu élevé.
 -----
@@ -1251,7 +1248,7 @@ La décomposition de la pyramide peut être poursuivie pour faire apparaître un
 
 #+caption: La décomposition du ROI
 #+attr_latex: :placement [H] :center nil
-[[./img/roidetail.png]]
+[[./img/roidetail.pdf]]
 
 En résumé, le ROI synthétise "la performance financière des managers ayant la charge de faire face au marché, et maîtrisant pour cela les paramètres qui déterminent les ventes, les coûts et l'actif du bilan"[fn:29]. Il permet aussi de transformer l'entreprise en un vaste marché financier interne permettant à la direction d'allouer des ressources aux projets dont les ambitions et la logique financière leur conviennent ; il permet aux dirigeants de garder le contrôle par la logique financière. Il est, en outre, un langage commun assez compréhensible pour l'ensemble de la hiérarchie.
 
@@ -1375,7 +1372,7 @@ Un centre de responsabilité peut recevoir tout ou partie de son approvisionneme
 
 #+caption: Les prix de cession interne
 #+attr_latex: :placement [H] :center nil
-[[./img/pci.png]]
+[[./img/pci.pdf]]
 Ces prix sont fictifs, car ils ne correspondent pas à un échange sur un marché ni à une transaction enregistrée en comptabilité financière.
 
 On parle parfois de *prix de transfert*, notamment lorsque les cessions sont réalisées entre des entités juridiques distinctes appartenant à un même groupe[fn:31].
@@ -1384,7 +1381,7 @@ La détermination du profit au niveau de chaque centre suppose une valorisation 
 
 #+caption: Les prix de cession interne
 #+attr_latex: :placement [H] :center nil
-[[./img/pciresult.png]]
+[[./img/pciresult.pdf]]
 
 On voit ici que (tant qu’il n’influence pas les décisions d’achat des centres), le niveau du prix de cession interne n’a pas d’incidence sur le résultat total de l’entreprise puisqu’il constitue à la fois un produit et une charge[fn:32].
 
@@ -1486,13 +1483,13 @@ Les indicateurs sont groupés autour de quatre perspectives : financière, clien
 
 #+caption: Le tableau de bord équilibré
 #+attr_latex: :placement [H] :center nil
-[[./img/bsc.png]]
+[[./img/bsc.pdf]]
   
 En reliant les quatre perspectives entre elles, Kaplan et Norton identifient une "carte stratégique" [fn:35]qui peut être considérée comme un modèle causal de création de valeur. Ils proposent ainsi un modèle de performance « équilibré » entre les indicateurs financiers et non financiers.
 
 #+caption: Le tableau de bord équilibré
 #+attr_latex: :placement [H] :center nil
-[[./img/map.png]]
+[[./img/map.pdf]]
 
 Ce modèle causal de performance permet de lier entre elles les différentes perspectives : la réussite sur l’axe financier dépend de la satisfaction des clients qui dépend elle-même de l’efficience des processus internes et de la capacité d’apprentissage. La carte stratégique doit être adaptée à la spécificité de chaque entreprise. Elle peut servir de support de discussion au sein de la hiérarchie et incite à trouver des relations de cause à effet entre les différents axes. Ce faisant, elle permet de mieux comprendre le modèle économique de l’entreprise. En revanche, sa construction peut s’avérer compliquée.
 
@@ -1607,7 +1604,7 @@ La figure ci-dessous permet de représenter graphiquement ces quatre étapes.
 
 #+caption: Le contrôle interactif
 #+attr_latex: :placement [H] :center nil
-[[./img/inter.png]]
+[[./img/inter.pdf]]
 
 Tous les systèmes de contrôle et de mesure de la performance peuvent être utilisés de manière interactive : les budgets, les tableaux de bord, les indicateurs marketing, les outils de contrôle de gestion des projets, les indicateurs sur les ressources humaines, etc. Ce n'est donc pas l'outil en tant que tel qui compte pour comprendre l'impact du contrôle sur la stratégie, mais la manière de l'utiliser. En revanche, il ne peut y avoir trop de systèmes de contrôle et de mesure de la performance utilisés simultanément de manière interactive. En effet, ce type de contrôle a un coût économique et cognitif (les individus ne peuvent prêter attention à tout, ils ont une rationalité et une attention limitée). Se concentrer sur trop de systèmes de contrôle en même temps risque de conduire à un surplus d'informations, des analyses superficielles et une paralysie.
 
@@ -1680,7 +1677,7 @@ Parce qu'ils tentent de mettre sous pression les individus dans les organisation
 
 #+caption: Les divers leviers de contrôle
 #+attr_latex: :placement [H] :center nil
-[[./img/levers.png]]
+[[./img/levers.pdf]]
 
 Chacun de ces leviers de contrôle a des objectifs différents et permet de contrôler un élément particulier de la stratégie. Les entreprises performantes sont celles qui arrivent à articuler, en fonction de leur stratégie et des contraintes de leur environnement, les divers leviers de contrôle afin de compenser les effets pervers des uns et des autres. Cela nécessite d'avoir une bonne compréhension des différents outils qui peuvent être utilisés. 
 
@@ -1699,6 +1696,7 @@ La comptabilité est un langage prédominant dans le domaine des affaires. Elle 
   :PROPERTIES:
   :CUSTOM_ID: notes
   :UNNUMBERED: t
+  :NOEXPORT:
   :END:
 
 [fn:1] Bhimani, A., Horngren, C. T., Datar, S. M., & Rajan, M. V. (2019). Management and cost accounting. Pearson.
